@@ -1,0 +1,31 @@
+{
+ "start": "20260907_160637",
+ "account": "1351",
+ "server": "S5",
+ "steps": [
+  {
+   "tag": "LOGIN",
+   "note": "进主城 ready=True"
+  },
+  {
+   "tag": "MAIN_TEXTS",
+   "note": "命中关键词文本 3 条: ['复访任务', '特权卡', '基金']"
+  },
+  {
+   "tag": "TRY_基金",
+   "note": "clicked=False openUI树命中={}"
+  },
+  {
+   "tag": "TRY_特权",
+   "note": "clicked=False openUI树命中={}"
+  },
+  {
+   "tag": "TRY_战令",
+   "note": "clicked=False openUI树命中={}"
+  },
+  {
+   "tag": "OPENUI",
+   "note": "可打开且含基金关键词的UI: ['UIPrivilegeMain', 'UIPrivPanel', 'UIPrivCard', 'UIFund', 'UIFundMain', 'UIFundPanel', 'UIPrivilegeFund', 'UIFundPrivilege', 'UIChongzhi', 'UIRecharge', 'UIWarOrder', 'UIFirstCharge', 'UIYxActWuyiFund', 'UIChargeFund', 'UIJijin', 'UIFundList']"
+  }
+ ]
+}

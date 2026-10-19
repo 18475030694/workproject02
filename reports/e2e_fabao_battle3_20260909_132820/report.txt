@@ -1,0 +1,8 @@
+==== 汇总 ====
+[PASS] B000 登录进主城
+[FAIL] B010 GM发6001+有效英雄uuid一键穿戴 — wear={"err": "无可用英雄(编队+heroMap均空)", "owned": 1} ringMap={"owned": 1, "equipped": 0} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个
+[PASS] B030 进入战斗测试(BATTLE_TEST) — UITestFight激活, play={"ok": true, "key": "战斗", "node": "BtnFight_"}, 快照变化=False, 文本n=24/24
+[PASS] TC024-note 战斗内无『灵力/年份』残留 — 灵力=[] 年份=[] 关键词样本=[]
+[PASS] TC065-note 战斗运行阶段无新增崩溃级报错 — 战斗期间新增JS错误=0条, 分类见B040（D11漫画页空引用为已知全局问题）
+[PASS] TC063 GM面板打开/关闭(GMBTN toggle) — open: visible=True active=False; close后 visible=False
+[PASS] B040 战斗流程JS错误收集 — 共40条, 分类={'D10_jump_id': 7, 'D9_bone': 30}

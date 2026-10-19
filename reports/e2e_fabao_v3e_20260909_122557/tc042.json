@@ -1,0 +1,36 @@
+{
+ "state": {
+  "owned": 1,
+  "equipped": 0
+ },
+ "data": {
+  "ring": {
+   "gift_id": 6001,
+   "name": "[凡]御剑符",
+   "ring_level": 1,
+   "buddy_id": 5009,
+   "rindLevel": 1,
+   "addLv": 0,
+   "addition": 0.6
+  },
+  "expect_fmt": [
+   18,
+   18,
+   225
+  ],
+  "attrs": [
+   "common_icon08_attack",
+   "common_icon08_defense",
+   "common_icon08_health"
+  ]
+ },
+ "panel": {
+  "panelVisible": true,
+  "attrVals": [
+   "+18",
+   "+18",
+   "+225"
+  ],
+  "name": "[凡]御剑符"
+ }
+}

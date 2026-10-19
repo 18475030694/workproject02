@@ -1,0 +1,51 @@
+{
+  "case_id": "TC_LOGIN_001",
+  "title": "登录流程-选服s5服-账号1351",
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "server": "s5服",
+  "headless": true,
+  "start_time": "2026-09-01T14:46:11",
+  "steps": [
+    {
+      "name": "输入账号",
+      "status": "done",
+      "start": "2026-09-01T14:46:13",
+      "end": "2026-09-01T14:46:13"
+    },
+    {
+      "name": "打开游戏",
+      "status": "done",
+      "start": "2026-09-01T14:46:13",
+      "end": "2026-09-01T14:46:16"
+    },
+    {
+      "name": "选服",
+      "status": "done",
+      "start": "2026-09-01T14:46:16",
+      "end": "2026-09-01T14:46:17",
+      "note": "未出现选服 UI（按当前配置服登录）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-01T14:46:17",
+      "end": "2026-09-01T14:46:21"
+    },
+    {
+      "name": "等待进主城",
+      "status": "done",
+      "start": "2026-09-01T14:46:21",
+      "end": "2026-09-01T14:46:26"
+    }
+  ],
+  "passed": true,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_login_20260901_144611\\screenshots\\01_opened.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_login_20260901_144611\\screenshots\\02_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_login_20260901_144611\\screenshots\\03_login_clicked.png",
+    "in_main_city": "E:\\workproject\\reports\\e2e_login_20260901_144611\\screenshots\\04_in_main_city.png"
+  },
+  "server_matched": null,
+  "end_time": "2026-09-01T14:46:26"
+}

@@ -1,0 +1,516 @@
+{
+ "title": "秘宝回退E2E(旧UITreasureBox) ⑤⑥⑦⑧",
+ "start": "2026-09-28T16:46:07",
+ "server": "5/S5",
+ "cases": [
+  {
+   "case_id": "PREP",
+   "title": "登录+高级号就绪",
+   "passed": true,
+   "note": "uuid=8589939326 lv=1",
+   "time": "2026-09-28T16:47:26"
+  },
+  {
+   "case_id": "P0",
+   "title": "运行时句柄探针",
+   "passed": true,
+   "note": "handles={'net': True, 'g': True, 'share': True, 'sm': True} patch=True",
+   "time": "2026-09-28T16:47:27"
+  },
+  {
+   "case_id": "T5-1",
+   "title": "秘宝界面打开",
+   "passed": true,
+   "note": "via=showUI",
+   "time": "2026-09-28T16:47:28",
+   "screenshot": "screenshots/T5_ui_main.png"
+  },
+  {
+   "case_id": "T5-2",
+   "title": "赌博话术禁词扫描(界面文本)",
+   "passed": true,
+   "note": "命中=无 文本22条",
+   "time": "2026-09-28T16:47:28"
+  },
+  {
+   "case_id": "T5-3",
+   "title": "五档矿石名齐全",
+   "passed": false,
+   "note": "cfg=['绿莹砂石', '蓝翡精石', '紫罗矿晶', '玄黄矿玉', '绯红灵玉'] 缺失=['绿莹砂石', '蓝翡精石', '玄黄矿玉', '绯红灵玉']",
+   "time": "2026-09-28T16:47:28"
+  },
+  {
+   "case_id": "T5-4",
+   "title": "按钮节点齐全",
+   "passed": true,
+   "note": "节点数={'open': 1, 'skip': 1, 'exchange': 1, 'detail': 1, 'close': 3}",
+   "time": "2026-09-28T16:47:28"
+  },
+  {
+   "case_id": "T5-5",
+   "title": "开启按钮文案(秘宝语义)",
+   "passed": true,
+   "note": "文案=开启10个",
+   "time": "2026-09-28T16:47:28",
+   "screenshot": "screenshots/T5_btn_label.png"
+  },
+  {
+   "case_id": "T6-1",
+   "title": "开启→结算UI出现",
+   "passed": true,
+   "note": "click=OpenBtn_ dt=1.0s",
+   "time": "2026-09-28T16:47:34",
+   "detail": {
+    "resp": {},
+    "emit": []
+   }
+  },
+  {
+   "case_id": "T6-2",
+   "title": "双通道互证(resp==eventEmit载荷)",
+   "passed": false,
+   "note": "resp#0 emit#0",
+   "time": "2026-09-28T16:47:34"
+  },
+  {
+   "case_id": "T6-4",
+   "title": "入账与服务器一致",
+   "passed": true,
+   "note": "全部一致 id数=0",
+   "time": "2026-09-28T16:47:34"
+  },
+  {
+   "case_id": "T6-5",
+   "title": "积分增量=cfg.score×times",
+   "passed": true,
+   "note": "Δscore=20 期望=1×20",
+   "time": "2026-09-28T16:47:34",
+   "detail": {
+    "cfg_score": 1
+   }
+  },
+  {
+   "case_id": "T6-6",
+   "title": "结算UI展示数量与实际有交集",
+   "passed": true,
+   "note": "展示数字=[1, 50, 100, 150, 200] 入账数=[]",
+   "time": "2026-09-28T16:47:34"
+  },
+  {
+   "case_id": "T6-7",
+   "title": "箱子6001单开+首开奖励",
+   "passed": true,
+   "note": "rate=None first_reward配置=[] 命中=[]",
+   "time": "2026-09-28T16:47:40",
+   "detail": {
+    "resp": {},
+    "inv_diff": {
+     "1002": -3
+    },
+    "score": [
+     20,
+     50
+    ]
+   }
+  },
+  {
+   "case_id": "T6-8",
+   "title": "箱子6002单开+首开奖励",
+   "passed": true,
+   "note": "rate=None first_reward配置=[] 命中=[]",
+   "time": "2026-09-28T16:47:45",
+   "detail": {
+    "resp": {},
+    "inv_diff": {
+     "1003": -3
+    },
+    "score": [
+     50,
+     110
+    ]
+   }
+  },
+  {
+   "case_id": "T6-9",
+   "title": "箱子6003单开+首开奖励",
+   "passed": true,
+   "note": "rate=None first_reward配置=[] 命中=[]",
+   "time": "2026-09-28T16:47:51",
+   "detail": {
+    "resp": {},
+    "inv_diff": {
+     "1004": -3
+    },
+    "score": [
+     110,
+     200
+    ]
+   }
+  },
+  {
+   "case_id": "T6-10",
+   "title": "箱子6004单开+首开奖励",
+   "passed": true,
+   "note": "rate=None first_reward配置=[] 命中=[]",
+   "time": "2026-09-28T16:47:57",
+   "detail": {
+    "resp": {},
+    "inv_diff": {
+     "1005": -3
+    },
+    "score": [
+     200,
+     200
+    ]
+   }
+  },
+  {
+   "case_id": "T7-1",
+   "title": "rate取值域=配置档位",
+   "passed": true,
+   "note": "n_batch=30 取值=[1, 2, 3, 4, 10] 配置档=[] 耗时6.3s",
+   "time": "2026-09-28T16:48:04"
+  },
+  {
+   "case_id": "T7-3",
+   "title": "掉落id全部在section奖励池内",
+   "passed": null,
+   "note": "运行时未取到cfg_section_reward结构，转静态对比",
+   "time": "2026-09-28T16:48:04"
+  },
+  {
+   "case_id": "T7-4",
+   "title": "批量积分线性",
+   "passed": true,
+   "note": "Δscore=300 期望=1×300=300",
+   "time": "2026-09-28T16:48:04"
+  },
+  {
+   "case_id": "T7-5",
+   "title": "批量成本线性(货币1)",
+   "passed": true,
+   "note": "批量前=5 批量后=50 入账1001=0 净差=45 期望≈-n_open+入账=-300",
+   "time": "2026-09-28T16:48:04"
+  },
+  {
+   "case_id": "T7-6",
+   "title": "采样规模说明",
+   "passed": null,
+   "note": "受限采样：300抽（协议直发×10批量）。大样本分布检验与3σ判定按 game-prob-verify 口径需>5000抽，本结果为方向性验证",
+   "time": "2026-09-28T16:48:04"
+  },
+  {
+   "case_id": "T8-1",
+   "title": "积分兑换",
+   "passed": true,
+   "note": "idx 1→17 物品差={1003: 5, 1002: 9, 1004: 2} score 500→0",
+   "time": "2026-09-28T16:48:06",
+   "screenshot": "screenshots/T8_exchange.png"
+  },
+  {
+   "case_id": "T8-2",
+   "title": "跳过动画开关+持久化",
+   "passed": true,
+   "note": "切换→False localStorage变化=False 键=['UITREASUREBOX_SkipAni__5_8589939326']",
+   "time": "2026-09-28T16:48:07"
+  },
+  {
+   "case_id": "T8-3",
+   "title": "货币不足拦截",
+   "passed": true,
+   "note": "无新请求=True 无结算弹窗=True",
+   "time": "2026-09-28T16:48:09",
+   "screenshot": "screenshots/T8_no_currency.png"
+  },
+  {
+   "case_id": "T8-4",
+   "title": "关闭重开",
+   "passed": true,
+   "note": "重开后界面正常",
+   "time": "2026-09-28T16:48:11"
+  },
+  {
+   "case_id": "T8-5",
+   "title": "红点节点存在",
+   "passed": true,
+   "note": "RedPoint节点=24",
+   "time": "2026-09-28T16:48:11",
+   "screenshot": "screenshots/T8_redpoint.png"
+  },
+  {
+   "case_id": "T8-6",
+   "title": "结算页再开按钮",
+   "passed": true,
+   "note": "再开命中=BtnSingle2_ 结算仍在=True",
+   "time": "2026-09-28T16:48:14",
+   "screenshot": "screenshots/T8_again.png"
+  }
+ ],
+ "probe": {
+  "handles": {
+   "net": true,
+   "g": true,
+   "share": true,
+   "sm": true
+  },
+  "ui_texts": "<color=#a39f9b>还差<color=#ffd145>26</color>矿精值领取<color=#6cc656>翡冷翠石</color></color> | 还差 | 26 | 矿精值领取 | 翡冷翠石 | 秘宝值： | 704/100 | 领取奖励 | 领取奖励 | <color=#6cc656>翡冷翠石</color> | 翡冷翠石 | <color=#c4c4c4>开出紫色仙友概率为5%，橙色仙友概率为5%</color> | 开出紫色仙友概率为5%，橙色仙友概率为5% | 200 | 50 | 10 | 5 | 2 | 开启10个 | 跳过动画 | 次数(1/2) | 紫罗矿晶*2",
+  "ui_node_paths": [
+   "UIRootCamera/System/UITreasureBox",
+   "UIRootCamera/System/UITreasureBox/Bg",
+   "UIRootCamera/System/UITreasureBox/Bg",
+   "UIRootCamera/System/UITreasureBox/BgSp_",
+   "UIRootCamera/System/UITreasureBox/Exchange",
+   "UIRootCamera/System/UITreasureBox/Exchange/SuoLian",
+   "UIRootCamera/System/UITreasureBox/Exchange/SuoLian-001",
+   "UIRootCamera/System/UITreasureBox/Exchange/TreasureIcon_",
+   "UIRootCamera/System/UITreasureBox/Exchange/GapTipTxt_",
+   "UIRootCamera/System/UITreasureBox/Exchange/GapTipTxt_/RICHTEXT_CHILD",
+   "UIRootCamera/System/UITreasureBox/Exchange/GapTipTxt_/RICHTEXT_CHILD",
+   "UIRootCamera/System/UITreasureBox/Exchange/GapTipTxt_/RICHTEXT_CHILD",
+   "UIRootCamera/System/UITreasureBox/Exchange/GapTipTxt_/RICHTEXT_CHILD",
+   "UIRootCamera/System/UITreasureBox/Exchange/Progress",
+   "UIRootCamera/System/UITreasureBox/Exchange/Progress/Bar_",
+   "UIRootCamera/System/UITreasureBox/Exchange/Progress/Bar_/Eff",
+   "UIRootCamera/System/UITreasureBox/Exchange/Progress/Bar_/Mask",
+   "UIRootCamera/System/UITreasureBox/Exchange/Progress/Bar_/Mask/EffLoop",
+   "UIRootCamera/System/UITreasureBox/Exchange/Label",
+   "UIRootCamera/System/UITreasureBox/Exchange/Label/ScoreValueTxt_",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ItemIcon_",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeBtn_",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeBtn_/Label",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeBtn_/RedPoint",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeBtn_/RedPoint/Red1",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeBtn_/RedPoint/Red2",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeBtn_/RedPoint/Red2/RedCount",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeGrayBtn_",
+   "UIRootCamera/System/UITreasureBox/Exchange/Exchange/ExchangeGrayBtn_/Label",
+   "UIRootCamera/System/UITreasureBox/Exchange/BtnDetail_",
+   "UIRootCamera/System/UITreasureBox/Options",
+   "UIRootCamera/System/UITreasureBox/Options/BoxName_",
+   "UIRootCamera/System/UITreasureBox/Options/BoxName_/RICHTEXT_CHILD",
+   "UIRootCamera/System/UITreasureBox/Options/ItemDesc_",
+   "UIRootCamera/System/UITreasureBox/Options/ItemDesc_/RICHTEXT_CHILD",
+   "UIRootCamera/System/UITreasureBox/Bottom",
+   "UIRootCamera/System/UITreasureBox/Bottom/Figure_",
+   "UIRootCamera/System/UITreasureBox/Bottom/Spark_",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1/CheckEff",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1/Icon",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1/NumTxt",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1/RedPoint",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1/RedPoint/Red1",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1/RedPoint/Red2",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box1/RedPoint/Red2/RedCount",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2/CheckEff",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2/Icon",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2/NumTxt",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2/RedPoint",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2/RedPoint/Red1",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2/RedPoint/Red2",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box2/RedPoint/Red2/RedCount",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3/CheckEff",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3/Icon",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3/NumTxt",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3/RedPoint",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3/RedPoint/Red1",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3/RedPoint/Red2",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box3/RedPoint/Red2/RedCount",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4/CheckEff",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4/Icon",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4/NumTxt",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4/RedPoint",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4/RedPoint/Red1",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4/RedPoint/Red2",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box4/RedPoint/Red2/RedCount",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5/CheckEff",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5/Icon",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5/NumTxt",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5/RedPoint",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5/RedPoint/Red1",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5/RedPoint/Red2",
+   "UIRootCamera/System/UITreasureBox/Bottom/BoxLayout_/Box5/RedPoint/Red2/RedCount",
+   "UIRootCamera/System/UITreasureBox/Bottom/OpenBtn_",
+   "UIRootCamera/System/UITreasureBox/Bottom/OpenBtn_/BtnName_",
+   "UIRootCamera/System/UITreasureBox/Bottom/SkipTog_",
+   "UIRootCamera/System/UITreasureBox/Bottom/SkipTog_/Checkmark",
+   "UIRootCamera/System/UITreasureBox/Bottom/SkipTog_/Label",
+   "UIRootCamera/System/UITreasureBox/Bottom/BtnAdd_",
+   "UIRootCamera/System/UITreasureBox/Bottom/BtnAdd_/NumTxt_",
+   "UIRootCamera/System/UITreasureBox/Bottom/BtnAdd_/Label",
+   "UIRootCamera/System/UITreasureBox/Fly_",
+   "UIRootCamera/System/UITreasureBox/Fly_/Icon",
+   "UIRootCamera/System/UITreasureBox/BtnClose_"
+  ],
+  "cfg_keys": {
+   "cfg_box_base": [
+    "6000",
+    "6001",
+    "6002",
+    "6003",
+    "6004"
+   ],
+   "cfg_box_exchange": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cfg_section_reward": null,
+   "cfg_box_pack": null
+  }
+ },
+ "sample": {
+  "settle_texts": [
+   {
+    "tag": "first6000",
+    "texts": [
+     "150",
+     "100",
+     "100",
+     "100",
+     "50",
+     "50",
+     "200",
+     "150",
+     "1",
+     "再开1个",
+     "再开5个",
+     "点击空白处关闭"
+    ]
+   },
+   {
+    "tag": "box6001",
+    "texts": [
+     "5",
+     "10",
+     "5",
+     "1",
+     "点击空白处关闭"
+    ]
+   },
+   {
+    "tag": "box6002",
+    "texts": [
+     "10",
+     "5",
+     "1",
+     "点击空白处关闭"
+    ]
+   },
+   {
+    "tag": "box6003",
+    "texts": [
+     "5",
+     "5",
+     "1",
+     "点击空白处关闭"
+    ]
+   },
+   {
+    "tag": "box6004",
+    "texts": [
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "40",
+     "点击空白处关闭"
+    ]
+   }
+  ],
+  "first_open": {
+   "resp": {},
+   "emit": [],
+   "inv_diff": {
+    "1001": -20
+   },
+   "score": [
+    null,
+    20
+   ]
+  },
+  "batch": {
+   "n_batch": 30,
+   "times": 10,
+   "n_open": 300,
+   "dt": 6.3,
+   "rates": [
+    2,
+    2,
+    1,
+    1,
+    10,
+    2,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    3,
+    1,
+    1,
+    4,
+    1
+   ],
+   "item_counts": {
+    "2": 28800
+   }
+  }
+ },
+ "account": "3768",
+ "prep": {
+  "gm_account_ok": true,
+  "after": {
+   "uuid": 8589939175,
+   "name": "边嘉豪",
+   "lv": 9173,
+   "advance": 50,
+   "buddy_count": 45
+  },
+  "uuid": 8589939326,
+  "role": {
+   "uuid": 8589939326,
+   "name": "顾谷",
+   "lv": 1,
+   "advance": 0,
+   "buddy_count": 0
+  }
+ },
+ "end": "2026-09-28T16:48:15",
+ "summary": {
+  "pass": 23,
+  "fail": 2,
+  "na": 2
+ }
+}

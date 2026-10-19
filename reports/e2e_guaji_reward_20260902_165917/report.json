@@ -1,0 +1,99 @@
+{
+  "case_id": "TC_GUAJI_001",
+  "title": "挂机奖励功能全流程测试（红点+领取+重置）",
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "server": "s5服",
+  "create_mode": false,
+  "headless": false,
+  "start_time": "2026-09-02T16:59:17",
+  "steps": [
+    {
+      "name": "清空缓存并打开游戏",
+      "status": "done",
+      "start": "2026-09-02T16:59:17",
+      "end": "2026-09-02T16:59:28"
+    },
+    {
+      "name": "切换账号",
+      "status": "done",
+      "start": "2026-09-02T16:59:28",
+      "end": "2026-09-02T16:59:32",
+      "note": "账号已切换为 1351"
+    },
+    {
+      "name": "选服",
+      "status": "done",
+      "start": "2026-09-02T16:59:32",
+      "end": "2026-09-02T16:59:39",
+      "note": "兜底注入选服 svr_id=5（svr_name=s5）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-02T16:59:39",
+      "end": "2026-09-02T16:59:40"
+    },
+    {
+      "name": "校验plat_login响应",
+      "status": "done",
+      "start": "2026-09-02T16:59:40",
+      "end": "2026-09-02T16:59:41",
+      "note": "plat_login 成功 (errcode=0, serverId=5, serverName=S5)"
+    },
+    {
+      "name": "等待进主城并校验",
+      "status": "done",
+      "start": "2026-09-02T16:59:41",
+      "end": "2026-09-02T16:59:45",
+      "note": "已进入主城"
+    },
+    {
+      "name": "检查挂机系统开放状态",
+      "status": "failed",
+      "start": "2026-09-02T16:59:45",
+      "end": "2026-09-02T16:59:45",
+      "note": "挂机奖励系统未开放（SysId=10），当前账号等级或推关不足"
+    }
+  ],
+  "selection_method": "injection",
+  "passed": false,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165917\\screenshots\\01_opened.png",
+    "account_switched": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165917\\screenshots\\02_account_switched.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165917\\screenshots\\03_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165917\\screenshots\\04_login_clicked.png",
+    "in_main_city": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165917\\screenshots\\05_in_main_city.png",
+    "error": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165917\\screenshots\\99_error.png"
+  },
+  "checkpoints": [
+    {
+      "name": "挂机系统开放",
+      "passed": false,
+      "note": "未开放",
+      "time": "2026-09-02T16:59:45"
+    }
+  ],
+  "target_server": {
+    "found": false,
+    "svr_id": 5,
+    "svr_name": "s5",
+    "source": "命名约定推断(未在列表中匹配)"
+  },
+  "plat_login_response": {
+    "serverId": 5,
+    "serverName": "S5",
+    "ip": "192.168.*.*",
+    "port": "11021",
+    "roleIdx": 1,
+    "isBack": false,
+    "isNew": null
+  },
+  "login_state": {
+    "player_session": {
+      "has": true,
+      "uuid": null
+    }
+  },
+  "error": "挂机奖励系统未开放"
+}

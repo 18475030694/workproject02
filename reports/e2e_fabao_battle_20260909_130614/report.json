@@ -1,0 +1,95 @@
+{
+ "title": "法宝战斗表现回归",
+ "account": "1353",
+ "start_time": "2026-09-09T13:06:14",
+ "cases": [
+  {
+   "case_id": "B000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "B010",
+   "title": "GM发6001+sendWearOneKey装配",
+   "passed": false,
+   "note": "ringMap={\"owned\": 1, \"equipped\": 0} wearRet={\"err\": \"TypeError: Cannot read properties of undefined (reading 'skill_list')\"} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个"
+  },
+  {
+   "case_id": "B030",
+   "title": "进入主线战斗",
+   "passed": false,
+   "note": "未检测到fight节点（编队/跳转链路未打通，见dump json，建议人工走一遍）"
+  },
+  {
+   "case_id": "TC063",
+   "title": "GM面板打开(重试)",
+   "passed": false,
+   "note": "openUI={r1:True, r2:False} 节点=[]"
+  },
+  {
+   "case_id": "B040",
+   "title": "战斗流程JS错误收集",
+   "passed": true,
+   "note": "共3474条, 分类={'D10_jump_id': 25, 'pageerror_null_x': 1708}"
+  }
+ ],
+ "gm": {
+  "award": "OK: ERR<0, OK> REPLY: <br/>实际发放1个",
+  "wear": {
+   "err": "TypeError: Cannot read properties of undefined (reading 'skill_list')"
+  },
+  "ringMap": {
+   "owned": 1,
+   "equipped": 0
+  }
+ },
+ "js_errors": [
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')"
+ ],
+ "js_errors_classified": {
+  "D10_jump_id": 25,
+  "pageerror_null_x": 1708
+ },
+ "end_time": "2026-09-09T13:07:13",
+ "out_dir": "E:\\workproject\\reports\\e2e_fabao_battle_20260909_130614"
+}

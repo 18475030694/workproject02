@@ -1,0 +1,89 @@
+{
+  "case_id": "TC_LOGIN_001",
+  "title": "登录流程-选服s1服-账号1352",
+  "base_url": "http://localhost:7456",
+  "account": "1352",
+  "created_account": null,
+  "server": "s1服",
+  "create_mode": false,
+  "headless": true,
+  "start_time": "2026-09-01T15:23:27",
+  "steps": [
+    {
+      "name": "输入账号并预设选服",
+      "status": "done",
+      "start": "2026-09-01T15:23:28",
+      "end": "2026-09-01T15:23:28"
+    },
+    {
+      "name": "打开游戏",
+      "status": "done",
+      "start": "2026-09-01T15:23:28",
+      "end": "2026-09-01T15:23:40"
+    },
+    {
+      "name": "选服(强制)",
+      "status": "done",
+      "start": "2026-09-01T15:23:40",
+      "end": "2026-09-01T15:23:43",
+      "note": "已强制选服 svr_id=1 svr_name=s1（servers_in_page/page_all 响应）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-01T15:23:43",
+      "end": "2026-09-01T15:23:47"
+    },
+    {
+      "name": "校验plat_login响应",
+      "status": "done",
+      "start": "2026-09-01T15:23:47",
+      "end": "2026-09-01T15:23:48",
+      "note": "plat_login 成功 (errcode=0, serverId=1, 实际响应 serverId=1 serverName=s1 ip=192.168.*.*:12021)"
+    },
+    {
+      "name": "等待进主城并校验",
+      "status": "done",
+      "start": "2026-09-01T15:23:48",
+      "end": "2026-09-01T15:23:53",
+      "note": "未能确认真实角色 uuid（playerMgr 字段不可读，已降级）"
+    }
+  ],
+  "passed": true,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_login_20260901_152327_A\\screenshots\\01_opened.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_login_20260901_152327_A\\screenshots\\02_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_login_20260901_152327_A\\screenshots\\03_login_clicked.png",
+    "in_main_city": "E:\\workproject\\reports\\e2e_login_20260901_152327_A\\screenshots\\04_in_main_city.png"
+  },
+  "target_server": {
+    "found": true,
+    "svr_id": 1,
+    "svr_name": "s1",
+    "source": "servers_in_page/page_all 响应"
+  },
+  "plat_login_response": {
+    "serverId": 1,
+    "serverName": "s1",
+    "ip": "192.168.*.*",
+    "port": "12021",
+    "roleIdx": 1,
+    "isBack": false,
+    "isNew": null
+  },
+  "login_state": {
+    "ui_server_texts": [
+      "客服",
+      "[S1]柏熙然：",
+      "客服",
+      "区        服：",
+      "[S1]xxx"
+    ],
+    "ui_has_target_server": true,
+    "player_session": {
+      "has": true,
+      "uuid": null
+    }
+  },
+  "end_time": "2026-09-01T15:23:53"
+}

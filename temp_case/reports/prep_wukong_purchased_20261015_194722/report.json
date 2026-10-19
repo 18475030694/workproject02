@@ -1,0 +1,198 @@
+{
+  "time": "20261015_194722",
+  "server": "5/S5",
+  "purpose": "大圣礼包(530001)改版前已购账号",
+  "accounts": [
+    {
+      "idx": 1,
+      "account": "8017",
+      "server": "5/S5",
+      "start": "2026-10-15T19:47:23",
+      "ok": false,
+      "before": {
+        "uuid": 8589935690,
+        "name": "谈铭",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "after_upgrade": {
+        "uuid": 8589935690,
+        "name": "谈铭",
+        "lv": 9540,
+        "advance": 52,
+        "buddy_count": 0
+      },
+      "uuid": 8589935690,
+      "popup": {
+        "popped": true,
+        "via": "openUI"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:59:54"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": true,
+        "node": "BtnBuy_",
+        "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_"
+      },
+      "purchase_state": {
+        "has_gift": true,
+        "gift": {
+          "goods_id": 530001,
+          "end_time": 1792353696,
+          "start_time": null
+        },
+        "map_size": 1
+      },
+      "server_time": 1792267336,
+      "error": "购买未完成（giftData 未清空）: {'has_gift': True, 'gift': {'goods_id': 530001, 'end_time': 1792353696, 'start_time': None}, 'map_size': 1}",
+      "note": "FAIL",
+      "end": "2026-10-15T19:48:26"
+    },
+    {
+      "idx": 2,
+      "account": "5697",
+      "server": "5/S5",
+      "start": "2026-10-15T19:48:26",
+      "ok": false,
+      "before": {
+        "uuid": 8589935631,
+        "name": "闾丘杰",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "after_upgrade": {
+        "uuid": 8589935631,
+        "name": "闾丘杰",
+        "lv": 9654,
+        "advance": 53,
+        "buddy_count": 0
+      },
+      "uuid": 8589935631,
+      "popup": {
+        "popped": true,
+        "via": "openUI"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:59:54"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": true,
+        "node": "BtnBuy_",
+        "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_"
+      },
+      "purchase_state": {
+        "has_gift": true,
+        "gift": {
+          "goods_id": 530001,
+          "end_time": 1792353757,
+          "start_time": null
+        },
+        "map_size": 1
+      },
+      "server_time": 1792267396,
+      "error": "购买未完成（giftData 未清空）: {'has_gift': True, 'gift': {'goods_id': 530001, 'end_time': 1792353757, 'start_time': None}, 'map_size': 1}",
+      "note": "FAIL",
+      "end": "2026-10-15T19:49:28"
+    },
+    {
+      "idx": 3,
+      "account": "2526",
+      "server": "5/S5",
+      "start": "2026-10-15T19:49:28",
+      "ok": false,
+      "before": {
+        "uuid": 8589935636,
+        "name": "于仁",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "after_upgrade": {
+        "uuid": 8589935636,
+        "name": "于仁",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "uuid": 8589935636,
+      "error": "一键高级号未生效 lv=1",
+      "note": "FAIL",
+      "end": "2026-10-15T19:49:50"
+    }
+  ],
+  "ok_count": 0,
+  "partial_count": 0
+}

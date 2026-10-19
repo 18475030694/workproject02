@@ -1,0 +1,6 @@
+==== 汇总 ====
+[PASS] B000 登录进主城
+[FAIL] B010 GM发6001+sendWearOneKey装配 — ringMap={"owned": 1, "equipped": 0} wearRet={"err": "TypeError: Cannot read properties of undefined (reading 'skill_list')"} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个
+[FAIL] B030 进入主线战斗 — 未检测到fight节点（编队/跳转链路未打通，见dump json，建议人工走一遍）
+[FAIL] TC063 GM面板打开(重试) — openUI={r1:True, r2:False} 节点=[]
+[PASS] B040 战斗流程JS错误收集 — 共3474条, 分类={'D10_jump_id': 25, 'pageerror_null_x': 1708}

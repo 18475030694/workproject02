@@ -1,0 +1,42 @@
+{
+  "case_id": "TC_GUAJI_001",
+  "title": "挂机奖励功能全流程测试（红点+领取+重置）",
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "created_account": null,
+  "server": "s5服",
+  "create_mode": false,
+  "headless": false,
+  "start_time": "2026-09-02T16:50:18",
+  "steps": [
+    {
+      "name": "清空缓存并打开游戏",
+      "status": "done",
+      "start": "2026-09-02T16:50:18",
+      "end": "2026-09-02T16:50:30"
+    },
+    {
+      "name": "切换账号",
+      "status": "done",
+      "start": "2026-09-02T16:50:30",
+      "end": "2026-09-02T16:50:34",
+      "note": "已通过UI切换账号为 1351"
+    },
+    {
+      "name": "选服(换区)",
+      "status": "failed",
+      "start": "2026-09-02T16:50:34",
+      "end": "2026-09-02T16:50:34",
+      "note": "UI选服失败: 弹窗内未找到区页签(AreaItem_tog)"
+    }
+  ],
+  "selection_method": null,
+  "passed": false,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165018\\screenshots\\01_opened.png",
+    "account_switched": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165018\\screenshots\\02_account_switched.png",
+    "error": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_165018\\screenshots\\99_error.png"
+  },
+  "checkpoints": [],
+  "error": "UI选服失败: 弹窗内未找到区页签(AreaItem_tog)"
+}

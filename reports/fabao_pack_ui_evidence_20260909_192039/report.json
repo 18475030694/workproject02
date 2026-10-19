@@ -1,0 +1,528 @@
+{
+  "time": "20260909_192039",
+  "account": "4451",
+  "uis": {
+    "main_city": {
+      "hits": {
+        "法宝": [
+          "特惠法宝",
+          "大圣法宝"
+        ],
+        "礼包": [
+          "超值礼包",
+          "限时礼包",
+          "新手礼包"
+        ],
+        "仙星": [],
+        "限时": [
+          "限时礼包"
+        ],
+        "特惠": [
+          "特惠法宝"
+        ]
+      },
+      "n_labels": 76
+    },
+    "push_gift_pack": {
+      "labels": [
+        "68:29:02",
+        "后礼包消失",
+        "1",
+        "10",
+        "￥30",
+        "08:29:02",
+        "50",
+        "300",
+        "点击空白处关闭"
+      ],
+      "rich": [],
+      "toggles": [
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "50",
+          "checked": true
+        },
+        {
+          "label": "50",
+          "checked": true
+        },
+        {
+          "label": "50",
+          "checked": true
+        },
+        {
+          "label": "50",
+          "checked": true
+        },
+        {
+          "label": "50",
+          "checked": true
+        },
+        {
+          "label": "50",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "10",
+          "checked": true
+        },
+        {
+          "label": "300",
+          "checked": true
+        },
+        {
+          "label": "300",
+          "checked": true
+        }
+      ],
+      "hits": {
+        "法宝": [],
+        "千年": [],
+        "万年": [],
+        "礼包": [
+          "后礼包消失"
+        ],
+        "￥": [
+          "￥30"
+        ],
+        "元": [],
+        "阶": []
+      },
+      "open": {
+        "ok": true,
+        "name": "UIPushGiftPack"
+      },
+      "active": [
+        "UIPushGiftPack"
+      ]
+    },
+    "god_star_gift": {
+      "labels": [
+        "点击空白处关闭"
+      ],
+      "rich": [],
+      "toggles": [],
+      "hits": {
+        "仙星礼包": [],
+        "九尾天狐": [],
+        "女娲": [],
+        "孙悟空": [],
+        "嫦娥": [],
+        "观音": [],
+        "法宝": [],
+        "￥": []
+      },
+      "open": {
+        "ok": true,
+        "name": "UIGodStarGift"
+      },
+      "active": [
+        "UIGodStarGift"
+      ]
+    },
+    "wukong_gift": {
+      "labels": [
+        "1",
+        "120",
+        "￥12",
+        "20:28:53",
+        "后礼包消失"
+      ],
+      "rich": [],
+      "toggles": [
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "120",
+          "checked": true
+        }
+      ],
+      "hits": {
+        "法宝": [],
+        "灵力": [],
+        "礼包": [
+          "后礼包消失"
+        ],
+        "￥": [
+          "￥12"
+        ],
+        "元": []
+      },
+      "open": {
+        "ok": true,
+        "name": "UIWuKongGift"
+      },
+      "active": [
+        "UIWuKongGift"
+      ]
+    },
+    "recharge_soulring": {
+      "labels": [
+        "点击空白处关闭",
+        "￥98",
+        "购买即可获得法宝",
+        "08:28:46",
+        "后礼包消失",
+        "1",
+        "980",
+        "100",
+        "[圣]无始钟",
+        "[圣]昆吾人皇剑",
+        "[圣]番天印",
+        "[圣]创世鼎"
+      ],
+      "rich": [],
+      "toggles": [
+        {
+          "label": "1",
+          "checked": true
+        },
+        {
+          "label": "980",
+          "checked": true
+        },
+        {
+          "label": "100",
+          "checked": true
+        },
+        {
+          "label": "[圣]无始钟",
+          "checked": true
+        },
+        {
+          "label": "[圣]昆吾人皇剑",
+          "checked": false
+        },
+        {
+          "label": "[圣]番天印",
+          "checked": false
+        },
+        {
+          "label": "[圣]创世鼎",
+          "checked": false
+        }
+      ],
+      "hits": {
+        "圣": [
+          "[圣]无始钟",
+          "[圣]昆吾人皇剑",
+          "[圣]番天印",
+          "[圣]创世鼎"
+        ],
+        "法宝": [
+          "购买即可获得法宝"
+        ],
+        "￥": [
+          "￥98"
+        ],
+        "阶": [],
+        "消失": [
+          "后礼包消失"
+        ]
+      },
+      "open": {
+        "ok": true,
+        "name": "UIRechargeSoulRing"
+      },
+      "active": [
+        "UIRechargeSoulRing"
+      ]
+    }
+  },
+  "role": {
+    "uuid": 8589937644,
+    "name": "戚北",
+    "lv": 9463,
+    "advance": 52,
+    "buddy_count": 45
+  }
+}

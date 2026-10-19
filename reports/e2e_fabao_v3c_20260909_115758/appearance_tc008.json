@@ -1,0 +1,221 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang01",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]落宝金钱",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]落宝金钱",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang01",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]落宝金钱",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]落宝金钱",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang01",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[良]落宝金钱",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[良]落宝金钱",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang01",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[良]打神鞭",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[良]打神鞭",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang01",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[良]桃木剑",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[良]桃木剑",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang01",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[良]五光石",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[良]五光石",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]济公扇",
+     "color": "#519f3e"
+    },
+    {
+     "ring": "[良]小绿瓶",
+     "color": "#519f3e"
+    }
+   ]
+  }
+ ],
+ "count": 12
+}

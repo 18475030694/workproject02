@@ -1,0 +1,44 @@
+{
+ "基金": {
+  "clicked": false,
+  "active_uis": [],
+  "kw_hit": [
+   "任务"
+  ]
+ },
+ "特权": {
+  "clicked": false,
+  "active_uis": [],
+  "kw_hit": [
+   "任务"
+  ]
+ },
+ "特权卡": {
+  "clicked": false,
+  "active_uis": [],
+  "kw_hit": [
+   "任务"
+  ]
+ },
+ "战令": {
+  "clicked": false,
+  "active_uis": [],
+  "kw_hit": [
+   "任务"
+  ]
+ },
+ "基金特权": {
+  "clicked": false,
+  "active_uis": [],
+  "kw_hit": [
+   "任务"
+  ]
+ },
+ "特权·基金": {
+  "clicked": false,
+  "active_uis": [],
+  "kw_hit": [
+   "任务"
+  ]
+ }
+}

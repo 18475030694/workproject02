@@ -1,0 +1,117 @@
+{
+ "start": "2026-09-11T14:05:48",
+ "console": [
+  "[error] [2026/9/11 14:06:05 896] [344] server error: 前后台资源版本号不匹配错误, 2024/07/01 15:37:24(client) != 2023/08/09 21:02:14(server) []",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7201",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7202",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7203",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7204",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7205",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7206",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7207",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7208",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7209",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7210",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7211",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7212",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7213",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7214",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7215",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7216",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7217",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7218",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7219",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7220",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7221",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7222",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7223",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7224",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7225",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7226",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7227",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7228",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7229",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7230",
+  "[error] 表中找不到此索引，表名为：cfg_guanka 索引为：0",
+  "[error] [2026/9/11 14:06:06 117] [355] 没有注册协议回调函数, proto.  [gs2c_tournament_buy_list]",
+  "[error] [2026/9/11 14:11:55 948] [15753] ani name不存在, 检测下技能动画表 [effect_5108<Skeleton>, skill1_fly, Node.8226]"
+ ],
+ "steps": {
+  "sil_t0": {
+   "sil": {
+    "isRunning": false,
+    "isPrepare": false
+   },
+   "hbs": {
+    "realTime": 23.97530000001192
+   }
+  },
+  "open_t0": {
+   "click": true,
+   "rewards_in": 0.73,
+   "d1001": -1,
+   "log_ok": true,
+   "log_rate": 2
+  },
+  "sil_t1": {
+   "sil": {
+    "isRunning": false,
+    "isPrepare": false
+   },
+   "hbs": {
+    "realTime": 28.556900000035764
+   }
+  },
+  "sil_t2": {
+   "sil": {
+    "isRunning": false,
+    "isPrepare": false
+   },
+   "hbs": {
+    "realTime": 178.59240000003575
+   }
+  },
+  "open_t2_150s": {
+   "click": true,
+   "rewards_in": 0.38,
+   "d1001": -1,
+   "log_ok": true,
+   "log_rate": 2
+  },
+  "sil_t3": {
+   "sil": {
+    "isRunning": false,
+    "isPrepare": false
+   },
+   "hbs": {
+    "realTime": 182.82780000001193
+   }
+  },
+  "sil_t4": {
+   "sil": {
+    "isRunning": false,
+    "isPrepare": false
+   },
+   "hbs": {
+    "realTime": 362.85
+   }
+  },
+  "open_t4_330s": {
+   "click": true,
+   "rewards_in": 0.39,
+   "d1001": -1,
+   "log_ok": true,
+   "log_rate": 2
+  },
+  "sil_t5": {
+   "sil": {
+    "isRunning": false,
+    "isPrepare": false
+   },
+   "hbs": {
+    "realTime": 367.13590000003575
+   }
+  }
+ },
+ "end": "2026-09-11T14:12:04"
+}

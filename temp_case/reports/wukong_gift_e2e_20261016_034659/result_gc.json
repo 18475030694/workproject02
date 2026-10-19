@@ -1,0 +1,37 @@
+{
+  "group": "gc",
+  "time": "2026-10-16T03:48:36",
+  "server_time": "2026-10-26 00:14:27",
+  "results": [
+    {
+      "tc": "TC-005(D3跨日解锁)",
+      "pass": true,
+      "note": "server=2026-10-26 00:13:21 recv=[{\"day\": 1, \"status\": true}, {\"day\": 2, \"status\": true}, {\"day\": 3, \"status\": false}]",
+      "evidence": []
+    },
+    {
+      "tc": "TC-005b(D3领取)",
+      "pass": true,
+      "note": "diff={\"1007\": [10019, 10029], \"1\": [1000239, 1000359], \"1000\": [9999, 10009]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-009a(全领完礼包清除)",
+      "pass": true,
+      "note": "map=0 gift=None",
+      "evidence": []
+    },
+    {
+      "tc": "TC-009b(主界面入口消失)",
+      "pass": true,
+      "note": "entrance={\"found\": true, \"name\": \"BtnWuKong_\", \"path\": \"UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnWuKong_\", ",
+      "evidence": []
+    },
+    {
+      "tc": "TC-009c(重登不再弹/入口)",
+      "pass": true,
+      "note": "popped=False state={\"has_gift\": false, \"map_size\": 0}",
+      "evidence": []
+    }
+  ]
+}

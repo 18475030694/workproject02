@@ -1,0 +1,126 @@
+{
+ "title": "cfg_sys_jump 29/43/46/181/182 跳转关闭修复验收",
+ "account": "4451",
+ "server": "S5",
+ "start_time": "2026-09-21T18:27:02",
+ "prep": {
+  "uuid": 8589937644,
+  "runtime_cfg": {
+   "fixed": [
+    {
+     "itemId": [
+      5,
+      4,
+      "每日特惠"
+     ],
+     "idx": [
+      1000,
+      4,
+      "每日特惠"
+     ],
+     "title": [
+      1006,
+      5,
+      "每日特惠"
+     ],
+     "goWin": "NO_ENTRY"
+    }
+   ],
+   "jumps": {
+    "29": "UIRechargeDailyGift",
+    "43": "UISevenDaySign",
+    "46": "UISevenDailyTaskMain",
+    "181": "UIZeroPricePurchase",
+    "182": "UIMicroPayment"
+   },
+   "item5_sources": [
+    {
+     "title": "仙机-紫霄灵币",
+     "goWin": 30003
+    },
+    {
+     "title": "主线关卡",
+     "goWin": 14
+    },
+    {
+     "title": "挂机奖励",
+     "goWin": 10
+    },
+    {
+     "title": "每日特惠",
+     "goWin": null
+    }
+   ]
+  },
+  "award_30005": "OK: ERR<0, OK> REPLY: <br/>实际发放1个",
+  "items": {
+   "5": 1485151,
+   "30005": 1
+  }
+ },
+ "cases": [
+  {
+   "case_id": "P0",
+   "title": "运行时配置确认(修复已在测试客户端生效)",
+   "passed": false,
+   "note": "fixed goWin全空=False; jumps={'29': 'UIRechargeDailyGift', '43': 'UISevenDaySign', '46': 'UISevenDailyTaskMain', '181': 'UIZeroPricePurchase', '182': 'UIMicroPayment'}",
+   "time": "2026-09-21T18:27:37",
+   "detail": {
+    "fixed": [
+     {
+      "itemId": [
+       5,
+       4,
+       "每日特惠"
+      ],
+      "idx": [
+       1000,
+       4,
+       "每日特惠"
+      ],
+      "title": [
+       1006,
+       5,
+       "每日特惠"
+      ],
+      "goWin": "NO_ENTRY"
+     }
+    ],
+    "jumps": {
+     "29": "UIRechargeDailyGift",
+     "43": "UISevenDaySign",
+     "46": "UISevenDailyTaskMain",
+     "181": "UIZeroPricePurchase",
+     "182": "UIMicroPayment"
+    },
+    "item5_sources": [
+     {
+      "title": "仙机-紫霄灵币",
+      "goWin": 30003
+     },
+     {
+      "title": "主线关卡",
+      "goWin": 14
+     },
+     {
+      "title": "挂机奖励",
+      "goWin": 10
+     },
+     {
+      "title": "每日特惠",
+      "goWin": null
+     }
+    ]
+   }
+  },
+  {
+   "case_id": "P0",
+   "title": "配置确认失败，中止",
+   "passed": false,
+   "note": "运行时配置与修复预期不符",
+   "time": "2026-09-21T18:27:40"
+  }
+ ],
+ "out_dir": "E:\\workproject\\temp_case\\reports\\e2e_jump_close_20260921_182702",
+ "end_time": "2026-09-21T18:27:41"
+}

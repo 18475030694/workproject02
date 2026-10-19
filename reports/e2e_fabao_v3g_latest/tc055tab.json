@@ -1,0 +1,14 @@
+{
+ "sw1": {
+  "ok": true,
+  "label": "法宝总览",
+  "nToggles": 2
+ },
+ "atlas_in_tab": 1,
+ "sw2": {
+  "ok": true,
+  "label": "炼宝",
+  "nToggles": 2
+ },
+ "draw_in_tab": 1
+}

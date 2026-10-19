@@ -1,0 +1,1930 @@
+{
+ "title": "招募保底机制专项探针(哪吒必出+200抽神卡保底)",
+ "server": "5/S5",
+ "start_time": "2026-09-24T16:25:04",
+ "static_evidence": "mod_recruit.lua r10649/79/80; cfg_recruit_must r10655: [200] 5203杨戬→5207哪吒, [300] 5204后羿→5201九尾天狐; cfg_recruit_global must_count2=200; stageCfg2 池12-16→卡包14/24/34/44/54 全quality=7",
+ "draws": [
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 2,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 3,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5113,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 4,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5114,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 5,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 6,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5113,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 7,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 8,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 9,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5225,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 10,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 11,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 12,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 13,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 14,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 15,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 16,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 17,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 18,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 19,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5215,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 20,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 21,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5110,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 22,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 23,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 24,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5111,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 25,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 26,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5106,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 27,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 28,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 29,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5220,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 30,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5223,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 31,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 32,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 33,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 34,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 35,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 36,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 37,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 38,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 39,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5225,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 40,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 41,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 42,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 43,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 44,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 45,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 46,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 47,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 48,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5223,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 49,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5208,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 50,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 51,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 52,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5109,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 53,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 54,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 55,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 56,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5110,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 57,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5102,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 58,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 59,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5218,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 60,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 61,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5110,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 62,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 63,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 64,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5102,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 65,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 66,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 67,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 68,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 69,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5212,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 70,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5112,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 71,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5111,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 72,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 73,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 74,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 75,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 76,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5111,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 77,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 78,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 79,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5208,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 80,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 81,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5112,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 82,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5112,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 83,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 84,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 85,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 86,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 87,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 88,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 89,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5216,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 90,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 91,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 92,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 93,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 94,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5109,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 95,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 96,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 97,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 98,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5108,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 99,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5211,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 100,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 101,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5111,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 102,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 103,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 104,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 105,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 106,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 107,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5102,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 108,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 109,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5225,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 110,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 111,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5111,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 112,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5102,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 113,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5223,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 114,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 115,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 116,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 117,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5109,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 118,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 119,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5217,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 120,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 121,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5106,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 122,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 123,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 124,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 125,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 126,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 127,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 128,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 129,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5218,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 130,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 131,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5108,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 132,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5109,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 133,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 134,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5111,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 135,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 136,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 137,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 138,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 139,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5217,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 140,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5109,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 141,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 142,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 143,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 144,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 145,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 146,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 147,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 148,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 149,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5212,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 150,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 151,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 152,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 153,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 154,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5102,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 155,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 156,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 157,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 158,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 159,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5220,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 160,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5112,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 161,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 162,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 163,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5109,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 164,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 165,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 166,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 167,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5102,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 168,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 169,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5214,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 170,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 171,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 172,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 173,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 174,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5223,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 175,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 176,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5110,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 177,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5109,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 178,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 179,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5221,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 180,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 181,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 182,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 183,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5112,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 184,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 185,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 186,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 187,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 188,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5106,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 189,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5214,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 190,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 191,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 192,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 193,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 194,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 195,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 196,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 197,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 198,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 199,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5207,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 200,
+   "m2": null
+  }
+ ],
+ "out_dir": "E:\\workproject\\reports\\probe_recruit_pity_20260924_162504",
+ "account": "4751",
+ "uuid": 8589938721,
+ "checks": [
+  {
+   "key": "LOGIN",
+   "passed": true,
+   "note": "uuid=8589938721 account=4751",
+   "time": "2026-09-24T16:26:38"
+  },
+  {
+   "key": "CFG_LIVE",
+   "passed": null,
+   "note": "客户端 cfg_recruit_global 下发={'must_count': None, 'must_count2': None, 'cost': 1000}（客户端可能不含该表, 以服务端为准）",
+   "time": "2026-09-24T16:26:38"
+  },
+  {
+   "key": "PREP_TICKET",
+   "passed": true,
+   "note": "凡灵召符 持有=9999 (需≥900, 1券/抽)",
+   "time": "2026-09-24T16:26:38"
+  },
+  {
+   "key": "ENV_CANARY",
+   "passed": false,
+   "note": "响应缺失 must_count2 字段(sproto tag4, mc字段正常) → S5 服务端未部署/未重启今日提交 r10649~r10680, 当前为旧版逻辑 → 切换金丝雀模式: 仅验证至第200抽并预期旧版出杨戬5203",
+   "time": "2026-09-24T16:26:39"
+  },
+  {
+   "key": "DRAW200_CANARY_OLD",
+   "passed": false,
+   "note": "金丝雀: 第200抽 id=5207 期望=5203杨戬(旧版逻辑) → 坐实S5未部署今日提交",
+   "time": "2026-09-24T16:27:02"
+  },
+  {
+   "key": "MUST_1_10_SEQ",
+   "passed": false,
+   "note": "1-10抽序列=[5101, 5009, 5113, 5114, 5009, 5113, 5013, 5009, 5225, 5009] 期望=[5222, 5101, 5009, 5113, 5114, 5009, 5113, 5013, 5009, 5225]",
+   "time": "2026-09-24T16:27:02"
+  },
+  {
+   "key": "COUNTER_DYNAMICS",
+   "passed": null,
+   "note": "金丝雀模式(旧服务端无m2字段), 跳过动力学校验",
+   "time": "2026-09-24T16:27:02"
+  },
+  {
+   "key": "EARLY_GOLD_1_199",
+   "passed": null,
+   "note": "1-199抽随机金卡=无（小保底池pack3金卡权重20/1340≈1.5%/次 → 首次金卡可能早于200抽且50%为九尾天狐, 口径分歧实证）",
+   "time": "2026-09-24T16:27:02",
+   "detail": []
+  },
+  {
+   "key": "PITY_TRIGGER_OBS",
+   "passed": null,
+   "note": "isMust2触发点(计数满200)=本次运行未观察到(提前出金持续清零计数时不会触发, 属机制正常)",
+   "time": "2026-09-24T16:27:02",
+   "detail": []
+  },
+  {
+   "key": "COST_CHECK",
+   "passed": null,
+   "note": "抽卡199次, 券消耗=199 (理论≈199, 差值=每日免费抽等)",
+   "time": "2026-09-24T16:27:02"
+  },
+  {
+   "key": "GOLD_COUNT",
+   "passed": null,
+   "note": "总金卡数=1/199",
+   "time": "2026-09-24T16:27:02"
+  },
+  {
+   "key": "MUST_COUNT_FIELD",
+   "passed": true,
+   "note": "末抽 must_count=10 期望=10 (10抽小保底剩余) total=200",
+   "time": "2026-09-24T16:27:02"
+  }
+ ],
+ "tickets_before": 9999,
+ "canary_first": {
+  "ok": true,
+  "id": 5222,
+  "count": 1,
+  "new": null,
+  "mc": 9,
+  "total": 1,
+  "m2": null
+ },
+ "draw200": {
+  "ok": true,
+  "id": 5207,
+  "count": 1,
+  "new": null,
+  "mc": 10,
+  "total": 200,
+  "m2": null
+ },
+ "id_stats": {
+  "5101": 6,
+  "5009": 30,
+  "5113": 2,
+  "5114": 1,
+  "5013": 30,
+  "5225": 3,
+  "5222": 12,
+  "5011": 23,
+  "5215": 1,
+  "5012": 16,
+  "5110": 4,
+  "5111": 6,
+  "5002": 22,
+  "5106": 3,
+  "5220": 2,
+  "5223": 4,
+  "5208": 2,
+  "5109": 7,
+  "5102": 6,
+  "5218": 2,
+  "5212": 2,
+  "5112": 5,
+  "5216": 1,
+  "5108": 2,
+  "5211": 1,
+  "5217": 2,
+  "5214": 2,
+  "5221": 1,
+  "5207": 1
+ },
+ "gold_total": 1,
+ "end_time": "2026-09-24T16:27:02"
+}

@@ -1,0 +1,48 @@
+{
+ "cases": [
+  {
+   "id": "LOGIN",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "id": "TC063",
+   "title": "GM面板打开(节点名探测)",
+   "passed": true,
+   "note": "{\"UIGM\": 0, \"uiGM\": 0, \"uigm\": 1}"
+  },
+  {
+   "id": "TC055",
+   "title": "炼宝页签打开(路径含UISoulRingDraw)",
+   "passed": false,
+   "note": "nodes=0"
+  },
+  {
+   "id": "TC056",
+   "title": "图鉴页签打开(点页签『法宝总览』)",
+   "passed": true,
+   "note": "clicked=True nodes=262"
+  },
+  {
+   "id": "TC044",
+   "title": "图鉴分类按钮数量(节点计数)",
+   "passed": true,
+   "note": "TogTemp=0 TogItem_=3（当前固定7品质档）"
+  },
+  {
+   "id": "TC046",
+   "title": "未达标分类点击提示",
+   "passed": false,
+   "note": "未捕获提示（可能全部达标或点击未生效）"
+  },
+  {
+   "id": "TC024",
+   "title": "『灵力/年』文案证据归档（应改『阶』）",
+   "passed": true,
+   "note": "1条，样例: ['80万年']"
+  }
+ ],
+ "start": "20260907_112803",
+ "end": "2026-09-07T11:28:32"
+}

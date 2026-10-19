@@ -1,0 +1,19 @@
+{
+  "group": "gb",
+  "time": "2026-10-15T21:59:17",
+  "server_time": "2026-10-23 23:12:12",
+  "results": [
+    {
+      "tc": "TC-010a(跨日前状态)",
+      "pass": true,
+      "note": "{\"goods_id\": 530001, \"end_time\": -1, \"recv_record_list\": [{\"day\": 1, \"status\": true}]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-004(D2跨日解锁)",
+      "pass": false,
+      "note": "server=2026-10-23 23:12:11 recv=[{\"day\": 1, \"status\": true}]",
+      "evidence": []
+    }
+  ]
+}

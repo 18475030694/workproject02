@@ -1,0 +1,40 @@
+{
+  "suite": "登录验证流程",
+  "executed_at": "2026-09-01T15:24:47",
+  "total": 3,
+  "passed": 3,
+  "failed": 0,
+  "all_passed": true,
+  "scenarios": [
+    {
+      "key": "A",
+      "name": "1352 登录 1服",
+      "account": "1352",
+      "created_account": null,
+      "server": "s1服",
+      "passed": true,
+      "error": null,
+      "report_dir": "E:\\workproject\\reports\\e2e_login_20260901_152327_A"
+    },
+    {
+      "key": "B",
+      "name": "1352 登录 5服",
+      "account": "1352",
+      "created_account": null,
+      "server": "s5服",
+      "passed": true,
+      "error": null,
+      "report_dir": "E:\\workproject\\reports\\e2e_login_20260901_152327_B"
+    },
+    {
+      "key": "C",
+      "name": "6服 创建新账号并登录",
+      "account": "7405",
+      "created_account": "7405",
+      "server": "s6服",
+      "passed": true,
+      "error": null,
+      "report_dir": "E:\\workproject\\reports\\e2e_login_20260901_152327_C"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+ "click": true,
+ "check": {
+  "visible": true,
+  "uiGM_nodes": 0,
+  "uiGM_active": false,
+  "gm_dump": [
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel",
+    "name": "GMPanel",
+    "active": true,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList",
+    "name": "CommoandList",
+    "active": true,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view",
+    "name": "view",
+    "active": true,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_",
+    "name": "ItemContnet_",
+    "active": true,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_",
+    "name": "ItemBtn_",
+    "active": false,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+    "name": "Text",
+    "active": false,
+    "text": "系统"
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_",
+    "name": "ItemBtn_",
+    "active": true,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+    "name": "Text",
+    "active": true,
+    "text": "Test"
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_",
+    "name": "ItemBtn_",
+    "active": true,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+    "name": "Text",
+    "active": true,
+    "text": "Common"
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_",
+    "name": "ItemBtn_",
+    "active": true,
+    "text": null
+   },
+   {
+    "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+    "name": "Text",
+    "active": true,
+    "text": "???"
+   }
+  ]
+ }
+}

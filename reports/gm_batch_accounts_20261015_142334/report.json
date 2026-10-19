@@ -1,0 +1,40 @@
+{
+  "time": "20261015_142334",
+  "plan": "计划：[5] x 3",
+  "summary": "0/3 成功",
+  "results": [
+    {
+      "server": "S5",
+      "seq": 1,
+      "name": "5006",
+      "account": "5006",
+      "uuid": 8589935501,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "server": "S5",
+      "seq": 2,
+      "name": "5004",
+      "account": "5004",
+      "uuid": 8589935646,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "server": "S5",
+      "seq": 3,
+      "name": "5005",
+      "account": "5005",
+      "uuid": 8589935582,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "<urlopen error timed out>"
+    }
+  ]
+}

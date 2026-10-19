@@ -1,0 +1,19 @@
+{
+  "group": "expiry",
+  "time": "2026-10-15T22:03:40",
+  "server_time": "2026-10-23 23:16:35",
+  "results": [
+    {
+      "tc": "TC-E05a#2402(过期未购出现领取入口)",
+      "pass": true,
+      "note": "state={\"goods_id\": 530001, \"end_time\": -1, \"recv_record_list\": [{\"day\": 1, \"status\": false}]}（部署版预期=会出现=资损口子）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-E05b#2402(直发领取是否到账)",
+      "pass": true,
+      "note": "claimed=True diff={}（有diff=白嫖成功=资损实锤）",
+      "evidence": []
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+ "jump": {
+  "ok": false
+ },
+ "jump_cfg": {
+  "ui": "{\"id\":14,\"sys_id\":14,\"param\":[null,null,null]}",
+  "keys": [
+   "id",
+   "sys_id",
+   "param"
+  ]
+ },
+ "buttons": {
+  "buttons": [
+   {
+    "node": "BtnHead_",
+    "text": "894"
+   },
+   {
+    "node": "Gold_",
+    "text": "0"
+   },
+   {
+    "node": "ExpItem_",
+    "text": "0"
+   },
+   {
+    "node": "LFoldBtn_",
+    "text": "999"
+   },
+   {
+    "node": "MailBtn_",
+    "text": "999"
+   },
+   {
+    "node": "Friend_",
+    "text": "999"
+   },
+   {
+    "node": "SavePower_",
+    "text": null
+   },
+   {
+    "node": "Rank_",
+    "text": null
+   },
+   {
+    "node": "Shop_",
+    "text": "999"
+   },
+   {
+    "node": "Knapsack_",
+    "text": "999"
+   },
+   {
+    "node": "TaskTip_",
+    "text": "临地府：遇猫妖"
+   },
+   {
+    "node": "RFoldBtn_",
+    "text": null
+   },
+   {
+    "node": "Btn_",
+    "text": "999"
+   },
+   {
+    "node": "Btn_",
+    "text": "999"
+   },
+   {
+    "node": "Btn_",
+    "text": "999"
+   },
+   {
+    "node": "Btn_",
+    "text": "999"
+   },
+   {
+    "node": "GuaJiReward_",
+    "text": "999"
+   },
+   {
+    "node": "GodSoulRingDraw_",
+    "text": "999"
+   },
+   {
+    "node": "MainlineOneKeyBtn_",
+    "text": "999"
+   },
+   {
+    "node": "BtnSpeed_",
+    "text": "2倍速"
+   },
+   {
+    "node": "WxGameClub_",
+    "text": "社区"
+   },
+   {
+    "node": "BtnCustomer_",
+    "text": "客服"
+   },
+   {
+    "node": "WarOrder_",
+    "text": "基金"
+   },
+   {
+    "node": "FirstChargeNew_",
+    "text": "新手礼包"
+   },
+   {
+    "node": "ChatBottom_",
+    "text": "999"
+   },
+   {
+    "node": "Buzhen_",
+    "text": "999"
+   },
+   {
+    "node": "Lead_",
+    "text": "999"
+   },
+   {
+    "node": "Heros_",
+    "text": "999"
+   },
+   {
+    "node": "Raise_",
+    "text": "999"
+   },
+   {
+    "node": "Home_",
+    "text": "999"
+   },
+   {
+    "node": "Games_",
+    "text": "999"
+   },
+   {
+    "node": "Guild_",
+    "text": "999"
+   },
+   {
+    "node": "Bg",
+    "text": null
+   },
+   {
+    "node": "BtnClose_",
+    "text": null
+   },
+   {
+    "node": "Type_",
+    "text": null
+   },
+   {
+    "node": "BtnSoul_",
+    "text": null
+   },
+   {
+    "node": "DayTemp_",
+    "text": "第1天"
+   },
+   {
+    "node": "UIItem",
+    "text": "1"
+   },
+   {
+    "node": "UIItem-001",
+    "text": "1"
+   },
+   {
+    "node": "UIItem",
+    "text": "1"
+   },
+   {
+    "node": "UIItem-001",
+    "text": "3000"
+   },
+   {
+    "node": "DayTemp_",
+    "text": "第2天"
+   },
+   {
+    "node": "UIItem",
+    "text": "1"
+   },
+   {
+    "node": "UIItem-001",
+    "text": "300"
+   },
+   {
+    "node": "UIItem",
+    "text": "20"
+   },
+   {
+    "node": "DayTemp_",
+    "text": "第3天"
+   },
+   {
+    "node": "UIItem",
+    "text": "20"
+   },
+   {
+    "node": "UIItem-001",
+    "text": "300"
+   },
+   {
+    "node": "UIItem",
+    "text": "20"
+   },
+   {
+    "node": "BtnFightTest_",
+    "text": "战斗试用"
+   },
+   {
+    "node": "BtnCharge1_",
+    "text": "￥6"
+   },
+   {
+    "node": "Toggle1",
+    "text": "6元礼包"
+   },
+   {
+    "node": "Toggle2",
+    "text": "大圣基金"
+   },
+   {
+    "node": "BtnBg_",
+    "text": null
+   },
+   {
+    "node": "BtnSoul_",
+    "text": null
+   },
+   {
+    "node": "BtnJob_",
+    "text": null
+   },
+   {
+    "node": "SkillTemp_",
+    "text": "主"
+   },
+   {
+    "node": "SkillTemp_",
+    "text": "被"
+   },
+   {
+    "node": "SkillTemp_",
+    "text": "被"
+   },
+   {
+    "node": "BtnBg_",
+    "text": null
+   },
+   {
+    "node": "SingleTemp_",
+    "text": "1阶"
+   },
+   {
+    "node": "UISoulRing",
+    "text": "1阶"
+   },
+   {
+    "node": "BtnClose_",
+    "text": null
+   },
+   {
+    "node": "CloseBtn_",
+    "text": null
+   },
+   {
+    "node": "UIRing_",
+    "text": null
+   },
+   {
+    "node": "GMBTN",
+    "text": "GM"
+   },
+   {
+    "node": "BATTLE_TEST",
+    "text": "战斗测试"
+   },
+   {
+    "node": "MAIN_BATTLE_TEST",
+    "text": "主线测试"
+   },
+   {
+    "node": "SOUNDTEST",
+    "text": "战斗音效"
+   }
+  ]
+ }
+}

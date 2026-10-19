@@ -1,0 +1,109 @@
+{
+  "group": "ga",
+  "time": "2026-10-15T21:34:29",
+  "server_time": "2026-10-23 00:22:16",
+  "results": [
+    {
+      "tc": "TC-025(部分)",
+      "pass": true,
+      "note": "礼包UI打开 via=openUI（auto=自动弹出）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-011(UI条目)",
+      "pass": true,
+      "note": "文本15条: ['￥12', '23:59:19', '后礼包消失', '第1天', '1', '1', '120', '第2天', '1', '10', '120', '第3天']",
+      "evidence": [
+        "ga_01_gift_popup.png"
+      ]
+    },
+    {
+      "tc": "TC-014(价格展示)",
+      "pass": true,
+      "note": "购买按钮文本=None",
+      "evidence": []
+    },
+    {
+      "tc": "TC-029(文本dump)",
+      "pass": true,
+      "note": "[\"￥12\", \"23:59:19\", \"后礼包消失\", \"第1天\", \"1\", \"1\", \"120\", \"第2天\", \"1\", \"10\", \"120\", \"第3天\", \"10\", \"10\", \"120\"]",
+      "evidence": []
+    },
+    {
+      "tc": "TC-028(在架未购状态)",
+      "pass": true,
+      "note": "end_time=1792772476（倒计时态）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-001(购买→已购待领取)",
+      "pass": true,
+      "note": "{\"goods_id\": 530001, \"end_time\": -1, \"recv_record_list\": [{\"day\": 1, \"status\": false}]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-015(内网直购)",
+      "pass": true,
+      "note": "c2gs_execute_instruct 链路，跳过SDK",
+      "evidence": []
+    },
+    {
+      "tc": "TC-016a(购买按钮隐藏)",
+      "pass": true,
+      "note": "已购态 BtnBuy 不应显示",
+      "evidence": []
+    },
+    {
+      "tc": "TC-016b(重复购买拦截)",
+      "pass": true,
+      "note": "re-buy后recv=[{\"day\": 1, \"status\": false}]（不重置不重复）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-002(D1领取到账)",
+      "pass": true,
+      "note": "recv=[{\"day\": 1, \"status\": true}] itemdiff={} rings=[6049, 6112]",
+      "evidence": [
+        "ga_03_day1_claimed.png"
+      ]
+    },
+    {
+      "tc": "TC-012a(D1数量)",
+      "pass": true,
+      "note": "法宝6049/6112到账 rings=[6049, 6112]；diff={}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-003(重复领取拦截)",
+      "pass": true,
+      "note": "重复sendRecv后 diff={} recv=[{\"day\": 1, \"status\": true}]",
+      "evidence": []
+    },
+    {
+      "tc": "TC-016c(领取后重复购买)",
+      "pass": true,
+      "note": "领取后re-buy recv=[{\"day\": 1, \"status\": true}]（被重置为未领=可白嫖=资损）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-031(关闭/重开)",
+      "pass": true,
+      "note": "closed=True reopen=True",
+      "evidence": []
+    },
+    {
+      "tc": "TC-027(入口·已购未领完)",
+      "pass": true,
+      "note": "entrance={\"found\": true, \"name\": \"BtnWuKong_\", \"path\": \"UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnWuKong_\", \"active\": [null]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-035(系统消息)",
+      "pass": true,
+      "note": "[\"chatMgr:msg=<color=#685745>恭喜<color=#b3833e>柯安安</color>购买大圣法宝礼包，获得<color=#ff5c5c>法宝：筋斗云、紧箍</color>，技能大增强！！</color>\"]",
+      "evidence": []
+    }
+  ],
+  "account": "9731",
+  "uuid": 8589936447
+}

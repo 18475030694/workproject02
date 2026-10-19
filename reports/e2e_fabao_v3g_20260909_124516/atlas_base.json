@@ -1,0 +1,355 @@
+{
+ "meta": {
+  "reset": {
+   "nToggles": 11,
+   "sfs": [
+    "common_icon04_shaixuan_all",
+    "common_icon04_shaixuan02_fanpin",
+    "common_icon04_shaixuan02_liangpin",
+    "common_icon04_shaixuan02_jinpin",
+    "common_icon04_shaixuan02_zhenpin",
+    "common_icon04_shaixuan02_lingpin",
+    "common_icon04_shaixuan02_xuanpin",
+    "common_icon04_shaixuan02_jipin",
+    "common_icon04_shaixuan02_shenpin",
+    "common_icon04_shaixuan02_shengpin",
+    "common_icon04_shaixuan02_xianpin"
+   ],
+   "clicked": true,
+   "node": "TogTemp_"
+  },
+  "scroll": {
+   "scrolled": true,
+   "n": 7
+  },
+  "count": 20,
+  "visCount": 6,
+  "err": null
+ },
+ "appearance": {
+  "items": [
+   {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "x": 192,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[凡]御剑符",
+      "color": "#8999a1"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "x": 524,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[凡]天罡反震符",
+      "color": "#8999a1"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "x": 856,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[凡]烈火符",
+      "color": "#8999a1"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang01",
+    "x": 192,
+    "y": 304,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[良]济公扇",
+      "color": "#519f3e"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang01",
+    "x": 524,
+    "y": 304,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[良]小绿瓶",
+      "color": "#519f3e"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang01",
+    "x": 856,
+    "y": 304,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[良]落宝金钱",
+      "color": "#519f3e"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang01",
+    "x": 192,
+    "y": -115,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[良]打神鞭",
+      "color": "#519f3e"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang01",
+    "x": 524,
+    "y": -115,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[良]桃木剑",
+      "color": "#519f3e"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang01",
+    "x": 856,
+    "y": -115,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[良]五光石",
+      "color": "#519f3e"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang02",
+    "x": 192,
+    "y": -626,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[精]天蛇杖",
+      "color": "#4c8dbe"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang02",
+    "x": 524,
+    "y": -626,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[精]紫金铃",
+      "color": "#4c8dbe"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang02",
+    "x": 856,
+    "y": -626,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[精]阴阳镜",
+      "color": "#4c8dbe"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang02",
+    "x": 192,
+    "y": -1045,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[精]玲珑宝塔",
+      "color": "#4c8dbe"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang02",
+    "x": 524,
+    "y": -1045,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[精]锦兰袈裟",
+      "color": "#4c8dbe"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang02",
+    "x": 856,
+    "y": -1045,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[精]紫金葫芦",
+      "color": "#4c8dbe"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang09",
+    "x": 192,
+    "y": -1556,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[珍]五火七禽扇",
+      "color": "#7660d2"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang09",
+    "x": 524,
+    "y": -1556,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[珍]焚界古伞",
+      "color": "#7660d2"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang09",
+    "x": 856,
+    "y": -1556,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[珍]照妖镜",
+      "color": "#7660d2"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang09",
+    "x": 192,
+    "y": -1975,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[珍]芭蕉扇",
+      "color": "#7660d2"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang09",
+    "x": 524,
+    "y": -1975,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[珍]风云玉笛",
+      "color": "#7660d2"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   }
+  ],
+  "count": 20,
+  "visCount": 6
+ }
+}

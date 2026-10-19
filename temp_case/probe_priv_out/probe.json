@@ -1,0 +1,119 @@
+{
+  "uuid_info": {
+    "game_uuid": 8589934707
+  },
+  "uuid": 8589934707,
+  "sys_before": {
+    "sys87": true,
+    "sys39": true,
+    "sys88": true
+  },
+  "cards_before": [
+    {
+      "card_id": 1,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 2,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 3,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 4,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 5,
+      "buy_time": 1786464000,
+      "expire_time": 1789055999,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 6,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 7,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 8,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 9,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 10,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 11,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 12,
+      "buy_time": 0,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    },
+    {
+      "card_id": 0,
+      "buy_time": 1788941942,
+      "expire_time": 0,
+      "buy_times": null,
+      "daily_reward_state": 0
+    }
+  ],
+  "gm_set_stage": {
+    "status": 200,
+    "body": "OK: ERR<0, OK> REPLY: nil"
+  },
+  "sys_after": {
+    "sys87": true,
+    "sys39": true,
+    "sys88": true
+  },
+  "popup_after_unlock": {
+    "UIPrivCard": false,
+    "UIForeverCardOpenAlert": false,
+    "UIPrivCardOpenAlert": false
+  },
+  "page_errors": []
+}

@@ -1,0 +1,33 @@
+{
+ "res": {
+  "enumKey": "http://localhost:7456/scripting/x/chunks/27/27675897e01898e330e66bf3e470015e6ebd2512.js",
+  "srKey": "http://localhost:7456/scripting/x/chunks/59/59fb63f6fa73aeefd3ca0bee71294ac4a288298d.js",
+  "utilKey": "http://localhost:7456/scripting/x/chunks/b5/b56114f188b98b270aa77ab860d79ab2523e32cb.js",
+  "pool_level": 1
+ },
+ "atlas_open": true,
+ "toggles": {
+  "err": "TypeError: n.children is not iterable"
+ },
+ "appearance": {
+  "items": [],
+  "err": "TypeError: n.children is not iterable"
+ },
+ "tc046": {
+  "click": {
+   "err": "TypeError: n.children is not iterable"
+  },
+  "tips": []
+ },
+ "click_lbl": {
+  "found": true,
+  "node": "Label",
+  "parent": null
+ },
+ "desc_open": 0,
+ "prob": {
+  "root": 1,
+  "sprites": [],
+  "err": "TypeError: n.children is not iterable"
+ }
+}

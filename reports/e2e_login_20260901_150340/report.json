@@ -1,0 +1,64 @@
+{
+  "case_id": "TC_LOGIN_001",
+  "title": "登录流程-选服s5服-账号1351",
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "server": "s5服",
+  "headless": true,
+  "start_time": "2026-09-01T15:03:40",
+  "steps": [
+    {
+      "name": "输入账号并预设选服",
+      "status": "done",
+      "start": "2026-09-01T15:03:41",
+      "end": "2026-09-01T15:03:41"
+    },
+    {
+      "name": "打开游戏",
+      "status": "done",
+      "start": "2026-09-01T15:03:41",
+      "end": "2026-09-01T15:03:53"
+    },
+    {
+      "name": "选服(强制s5)",
+      "status": "done",
+      "start": "2026-09-01T15:03:53",
+      "end": "2026-09-01T15:03:56",
+      "note": "已强制选服 svr_id=5 svr_name=s5（命名约定推断(未在列表中匹配)）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-01T15:03:56",
+      "end": "2026-09-01T15:04:01"
+    },
+    {
+      "name": "校验plat_login响应",
+      "status": "done",
+      "start": "2026-09-01T15:04:01",
+      "end": "2026-09-01T15:04:01",
+      "note": "plat_login 成功 (errcode=0, serverId=5)"
+    },
+    {
+      "name": "等待进主城并校验",
+      "status": "failed",
+      "start": "2026-09-01T15:04:01",
+      "end": "2026-09-01T15:07:01",
+      "note": "登录未完成/未进入主城。界面提示: 客服 | 区        服： | [S1]xxx | <color=#685745>网络波动，与服务器连接中断，请重新登录！！！！</color> | 网络波动，与服务器连接中断，请重新登"
+    }
+  ],
+  "passed": false,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_login_20260901_150340\\screenshots\\01_opened.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_login_20260901_150340\\screenshots\\02_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_login_20260901_150340\\screenshots\\03_login_clicked.png",
+    "error": "E:\\workproject\\reports\\e2e_login_20260901_150340\\screenshots\\99_error.png"
+  },
+  "target_server": {
+    "found": false,
+    "svr_id": 5,
+    "svr_name": "s5",
+    "source": "命名约定推断(未在列表中匹配)"
+  },
+  "error": "登录未完成/未进入主城。界面提示: 客服 | 区        服： | [S1]xxx | <color=#685745>网络波动，与服务器连接中断，请重新登录！！！！</color> | 网络波动，与服务器连接中断，请重新登（s5 服务器可能未启动或登录链路异常）"
+}

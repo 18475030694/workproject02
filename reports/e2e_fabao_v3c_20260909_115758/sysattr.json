@@ -1,0 +1,20 @@
+{
+ "equip_click": {
+  "found": true,
+  "node": "BtnEquip_",
+  "active": true
+ },
+ "sysattr": {
+  "soulRingAttr": [
+   {
+    "showVal": "0.2%"
+   },
+   {
+    "showVal": "0.2%"
+   },
+   {
+    "showVal": "0.2%"
+   }
+  ]
+ }
+}

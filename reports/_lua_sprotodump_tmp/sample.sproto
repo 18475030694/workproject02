@@ -1,0 +1,5 @@
+.person {
+	name 0 : string
+	age 1 : integer
+	id 2 : integer
+}

@@ -1,0 +1,27 @@
+法宝第二轮运行时报告(v3)
+时间: 2026-09-08T23:57:42  账号: 1353  服: s5服
+登录: PASS  解锁: PASS  用例: 12/23
+
+[PASS] TC000 登录进主城(1353@S5) — 账号1353
+[PASS] TC000-unlock GM主线40关解锁法宝(8)/炼宝(9) — uuid=8589937568 is8=True is9=True
+[PASS] TC054 法宝主界面打开(UISoulRingDraw)
+[PASS] TC024 主界面无『灵力/万灵力』残留(处理2) — 未见灵力文案
+[PASS] TC040 概率信息弹窗打开(UISoulRingDrawLvDesc)
+[FAIL] TC037 概率行底图=probability_res(处理6,19:15改动) — hero_panel08底图=[] 品质名文本=['凡人', '每日仙宗', '决战圣虚', '大圣法宝', '<color=#8a3904>购买基金即可获大量<color=#ff73f7>神话</color>-大圣</color>', '-大圣']
+[FAIL] TC055 炼宝页签打开(UISoulRingDrawTabView) — openUI直开失败
+[PASS] TC056 图鉴打开(UISoulRingAtlas)
+[FAIL] TC020 图鉴item阶数无年份残留(处理2) — 年份样例=['300年', '80万年']
+[FAIL] TC044 图鉴分类按钮数量与图标(处理8) — toggle数=None 图标=[]
+[FAIL] TC045 分类栏ToggleContainer+可滚动(处理8,17:10增量) — 容器=None
+[FAIL] TC046 卡池未达标点仙品分类→提示+回弹(处理8/R2,cond=11) — pool_level=0 提示=[]
+[FAIL] TC014 图鉴详情『初始阶数：X阶』(处理2,D1复核) — 点击={'found': True, 'node': None} 文本=[未见]
+[PASS] TC009 改quality外观应不变(解耦验证) — 外观未随quality变化(新代码?)
+[PASS] TC007 同quality不同group外观应不同(解耦验证) — 同quality不同group外观已不同
+[PASS] TC008 同group不同quality外观应相同(解耦验证) — 同group不同quality外观相同(新代码?)
+[FAIL] TC000-restore cfg内存patch已恢复(外观与基线一致) — {"base": null, "restored": null}
+[PASS] TC057 法宝装配界面打开(UIHeroSoulRing)
+[PASS] TC041 法宝列表显示基础属性(处理7) — 见攻防血
+[FAIL] TC042 装配面板属性与公式一致(处理7) — 无法完成校验: err=None 需人工或GM造已装配数据
+[FAIL] TC043 长名不遮挡(布局检查) — patch失败: {}
+[FAIL] TC042-note 角色面板SOUL_RING系统加成读取 — {}
+[PASS] EX06 全程JS错误收集(基线) — 共4329条, 分类={'D9_pool_idx0': 2, 'D9_quality_idx-1': 51, 'D10_jump_id': 25, 'D9_bone': 30}

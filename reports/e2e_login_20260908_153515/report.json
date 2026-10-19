@@ -1,0 +1,90 @@
+{
+  "case_id": "TC_LOGIN_001",
+  "title": "登录流程-选服s5服-账号1353",
+  "base_url": "http://localhost:7456",
+  "account": "1353",
+  "created_account": null,
+  "server": "s5服",
+  "create_mode": false,
+  "headless": true,
+  "start_time": "2026-09-08T15:35:15",
+  "steps": [
+    {
+      "name": "输入账号",
+      "status": "done",
+      "start": "2026-09-08T15:35:18",
+      "end": "2026-09-08T15:35:18"
+    },
+    {
+      "name": "打开游戏",
+      "status": "done",
+      "start": "2026-09-08T15:35:18",
+      "end": "2026-09-08T15:35:32"
+    },
+    {
+      "name": "选服(真实UI/兜底)",
+      "status": "done",
+      "start": "2026-09-08T15:35:32",
+      "end": "2026-09-08T15:35:39",
+      "note": "选服方式=injection; 已兜底注入选服 svr_id=5（UI路径: 遍历所有区页签均未找到目标服(可能未开放/不在可见区)）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-08T15:35:39",
+      "end": "2026-09-08T15:35:41"
+    },
+    {
+      "name": "校验plat_login响应",
+      "status": "done",
+      "start": "2026-09-08T15:35:41",
+      "end": "2026-09-08T15:35:41",
+      "note": "plat_login 成功 (errcode=0, serverId=5, 实际响应 serverId=5 serverName=S5 ip=192.168.*.*:11021)"
+    },
+    {
+      "name": "等待进主城并校验",
+      "status": "done",
+      "start": "2026-09-08T15:35:41",
+      "end": "2026-09-08T15:35:46",
+      "note": "界面未直接显示目标服名（UI文本: ['客服', '[S1]玩家名字：', '客服', '区        服：', '[S1]xxx']）；未能确认真实角色 uuid（playerMgr 字段不可读，已降级）"
+    }
+  ],
+  "selection_method": "injection",
+  "passed": true,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_login_20260908_153515\\screenshots\\01_opened.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_login_20260908_153515\\screenshots\\02_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_login_20260908_153515\\screenshots\\03_login_clicked.png",
+    "in_main_city": "E:\\workproject\\reports\\e2e_login_20260908_153515\\screenshots\\04_in_main_city.png"
+  },
+  "target_server": {
+    "found": true,
+    "svr_id": 5,
+    "svr_name": "S5",
+    "source": "servers_in_page/page_all 响应"
+  },
+  "plat_login_response": {
+    "serverId": 5,
+    "serverName": "S5",
+    "ip": "192.168.*.*",
+    "port": "11021",
+    "roleIdx": 1,
+    "isBack": false,
+    "isNew": null
+  },
+  "login_state": {
+    "ui_server_texts": [
+      "客服",
+      "[S1]玩家名字：",
+      "客服",
+      "区        服：",
+      "[S1]xxx"
+    ],
+    "ui_has_target_server": false,
+    "player_session": {
+      "has": true,
+      "uuid": null
+    }
+  },
+  "end_time": "2026-09-08T15:35:46"
+}

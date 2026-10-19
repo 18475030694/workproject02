@@ -1,0 +1,172 @@
+{
+ "meta": {
+  "reset": {
+   "nToggles": 0,
+   "sfs": []
+  },
+  "scroll": {
+   "scrolled": true,
+   "n": 4
+  },
+  "appearance": {
+   "count": 10,
+   "err": null,
+   "open": null
+  }
+ },
+ "appearance": {
+  "items": [
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 192,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[神]镇魂铃",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 524,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[神]凤翅紫金冠",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 856,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[神]九环锡杖",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 192,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[神]化血神刀",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 524,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[神]幌金绳",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 856,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[神]玄重尺",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 192,
+    "y": -23,
+    "labels": [
+     {
+      "text": "[神]玄火鉴",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 524,
+    "y": -23,
+    "labels": [
+     {
+      "text": "[神]如来金钵盂",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 856,
+    "y": -23,
+    "labels": [
+     {
+      "text": "[神]三宝玉如意",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang10",
+    "x": 192,
+    "y": -442,
+    "labels": [
+     {
+      "text": "[神]混元锤",
+      "color": "#de74cc"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   }
+  ],
+  "count": 10
+ }
+}

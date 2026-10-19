@@ -1,0 +1,221 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang04",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]水火琵琶",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]水火琵琶",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang04",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]水火琵琶",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]水火琵琶",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang04",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[玄]水火琵琶",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[玄]水火琵琶",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang04",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[玄]纯阳斩妖剑",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[玄]纯阳斩妖剑",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang04",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[玄]伏羲琴",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[玄]伏羲琴",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang04",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[玄]筋斗云",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[玄]筋斗云",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]弑神枪",
+     "color": "#c3a04c"
+    },
+    {
+     "ring": "[玄]避水佩",
+     "color": "#c3a04c"
+    }
+   ]
+  }
+ ],
+ "count": 12
+}

@@ -1,0 +1,80 @@
+{
+  "uuid": 8589938206,
+  "before": {
+    "smKeys": [
+      "mainLevelMgr",
+      "sysOpenMgr",
+      "sysPredictMgr",
+      "mainIconMgr",
+      "soulSpiritMgr",
+      "domainMgr",
+      "yxActDomainLotteryMgr",
+      "yxActSoulElfLotteryMgr",
+      "yxActDomainRebateMgr"
+    ],
+    "sysOpen": {
+      "id116": false,
+      "id118": false,
+      "id39": false
+    },
+    "sysOpenProps": [
+      "_msgHandles",
+      "_updateCd",
+      "_cdUpdateTime",
+      "_enableCdUpdate",
+      "opendSysMap",
+      "newSysMap",
+      "noticeList",
+      "integrationSysList",
+      "integrationActList"
+    ],
+    "elfCount": 0,
+    "mainline": {
+      "lastPassId": null,
+      "nowGuankaId": 1,
+      "newPassId": 0,
+      "oneKeyPassData": null,
+      "isMaxGuanKaId": false,
+      "maxGuanKaId": 30000
+    }
+  },
+  "onekey": "OK: ERR<0, OK> REPLY: nil",
+  "after": {
+    "smKeys": [
+      "mainLevelMgr",
+      "sysOpenMgr",
+      "sysPredictMgr",
+      "mainIconMgr",
+      "soulSpiritMgr",
+      "domainMgr",
+      "yxActDomainLotteryMgr",
+      "yxActSoulElfLotteryMgr",
+      "yxActDomainRebateMgr"
+    ],
+    "sysOpen": {
+      "id116": false,
+      "id118": false,
+      "id39": false
+    },
+    "sysOpenProps": [
+      "_msgHandles",
+      "_updateCd",
+      "_cdUpdateTime",
+      "_enableCdUpdate",
+      "opendSysMap",
+      "newSysMap",
+      "noticeList",
+      "integrationSysList",
+      "integrationActList"
+    ],
+    "elfCount": 0,
+    "mainline": {
+      "lastPassId": null,
+      "nowGuankaId": 1,
+      "newPassId": 0,
+      "oneKeyPassData": null,
+      "isMaxGuanKaId": false,
+      "maxGuanKaId": 30000
+    }
+  }
+}

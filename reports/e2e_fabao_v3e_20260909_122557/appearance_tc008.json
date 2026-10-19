@@ -1,0 +1,93 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang02",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[精]天蛇杖",
+     "color": "#4c8dbe"
+    },
+    {
+     "ring": "[精]紫金铃",
+     "color": "#4c8dbe"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang02",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[精]紫金铃",
+     "color": "#4c8dbe"
+    },
+    {
+     "ring": "[精]天蛇杖",
+     "color": "#4c8dbe"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang02",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[精]阴阳镜",
+     "color": "#4c8dbe"
+    },
+    {
+     "ring": "[精]天蛇杖",
+     "color": "#4c8dbe"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang02",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[精]玲珑宝塔",
+     "color": "#4c8dbe"
+    },
+    {
+     "ring": "[精]天蛇杖",
+     "color": "#4c8dbe"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang02",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[精]锦兰袈裟",
+     "color": "#4c8dbe"
+    },
+    {
+     "ring": "[精]天蛇杖",
+     "color": "#4c8dbe"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang02",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[精]紫金葫芦",
+     "color": "#4c8dbe"
+    },
+    {
+     "ring": "[精]天蛇杖",
+     "color": "#4c8dbe"
+    }
+   ]
+  }
+ ],
+ "count": 6,
+ "reset": {
+  "scrolled": true,
+  "nToggles": 0
+ }
+}

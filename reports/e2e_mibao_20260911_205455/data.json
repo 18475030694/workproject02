@@ -1,0 +1,376 @@
+{
+ "title": "新秘宝(仙机)-E2E执行(v2)",
+ "account": "4451",
+ "server": "S5",
+ "start_time": "2026-09-11T20:54:55",
+ "prep": {
+  "uuid": 8589937644,
+  "after_zero": {
+   "1001": 200,
+   "1002": 23626,
+   "1003": 24313,
+   "1004": 22200,
+   "1005": 1810788
+  },
+  "gm": {
+   "1001": "trim-to-200",
+   "1002": "already-enough",
+   "1003": "already-enough",
+   "1004": "already-enough",
+   "1005": "already-enough"
+  },
+  "items": {
+   "1001": 200,
+   "1002": 23626,
+   "1003": 24313,
+   "1004": 22200,
+   "1005": 1810788
+  }
+ },
+ "cases": [
+  {
+   "case_id": "LOGIN",
+   "title": "登录4451@S5",
+   "passed": true,
+   "note": "uuid待取",
+   "time": "2026-09-11T20:55:28"
+  },
+  {
+   "case_id": "PREP",
+   "title": "GM铺数据(货币1裁剪到200+协议补丁)",
+   "passed": true,
+   "note": "items={1001: 200, 1002: 23626, 1003: 24313, 1004: 22200, 1005: 1810788} patch=True",
+   "time": "2026-09-11T20:55:30"
+  },
+  {
+   "case_id": "OPENUI",
+   "title": "打开仙机界面+安装协议捕获",
+   "passed": true,
+   "note": "",
+   "time": "2026-09-11T20:55:31"
+  },
+  {
+   "case_id": "MIB-F1",
+   "title": "持有=200 档位状态",
+   "passed": true,
+   "note": "label=开启200个（期望默认选中200档）",
+   "time": "2026-09-11T20:55:31",
+   "screenshot": "screenshots/F1_count200.png"
+  },
+  {
+   "case_id": "MIB-C1",
+   "title": "货币1单开消耗1",
+   "passed": false,
+   "note": "diff1001=None rate=2 logLen=2",
+   "time": "2026-09-11T20:55:42"
+  },
+  {
+   "case_id": "MIB-F2",
+   "title": "持有=199 档位状态",
+   "passed": false,
+   "note": "label=开启200个（200档置灰默认50）",
+   "time": "2026-09-11T20:55:44"
+  },
+  {
+   "case_id": "MIB-F2b",
+   "title": "199持有下200档点击无效",
+   "passed": false,
+   "note": "label=开启200个",
+   "time": "2026-09-11T20:55:44"
+  },
+  {
+   "case_id": "MIB-F3",
+   "title": "持有=50 档位状态",
+   "passed": true,
+   "note": "label=开启50个",
+   "time": "2026-09-11T20:55:47"
+  },
+  {
+   "case_id": "MIB-F4",
+   "title": "持有=49 档位状态",
+   "passed": false,
+   "note": "label=开启3个 diff=-49",
+   "time": "2026-09-11T20:55:57"
+  },
+  {
+   "case_id": "MIB-F5",
+   "title": "持有=10 档位状态",
+   "passed": false,
+   "note": "label=开启3个",
+   "time": "2026-09-11T20:56:00"
+  },
+  {
+   "case_id": "MIB-F6",
+   "title": "持有=9 档位状态",
+   "passed": false,
+   "note": "label=暂无仙机",
+   "time": "2026-09-11T20:56:11"
+  },
+  {
+   "case_id": "MIB-F7",
+   "title": "持有=5 档位状态",
+   "passed": false,
+   "note": "label=暂无仙机",
+   "time": "2026-09-11T20:56:13"
+  },
+  {
+   "case_id": "MIB-F11",
+   "title": "不足档位拦截(5点10档)",
+   "passed": false,
+   "note": "10档探针label=暂无仙机, 开启后diff=None（扣5=当前档生效）",
+   "time": "2026-09-11T20:56:32"
+  },
+  {
+   "case_id": "MIB-F8",
+   "title": "持有=4 档位状态",
+   "passed": false,
+   "note": "label=开启3个",
+   "time": "2026-09-11T20:56:34"
+  },
+  {
+   "case_id": "MIB-H2",
+   "title": "持有=3 默认档位1",
+   "passed": true,
+   "note": "label=开启1个",
+   "time": "2026-09-11T20:56:45"
+  },
+  {
+   "case_id": "MIB-F9",
+   "title": "持有=1 仅1档可选",
+   "passed": false,
+   "note": "label=暂无仙机",
+   "time": "2026-09-11T20:57:14"
+  },
+  {
+   "case_id": "MIB-F10",
+   "title": "持有=0 全置灰+暂无仙机",
+   "passed": true,
+   "note": "label=暂无仙机",
+   "time": "2026-09-11T20:57:34",
+   "screenshot": "screenshots/F10_count0.png"
+  },
+  {
+   "case_id": "MIB-C7",
+   "title": "货币不足拦截(界面置灰+协议拦截)",
+   "passed": true,
+   "note": "协议resp={\"errcode\": 1027}",
+   "time": "2026-09-11T20:57:34"
+  },
+  {
+   "case_id": "MIB-F13",
+   "title": "批量扣除核对5/10/50/200",
+   "passed": false,
+   "note": "5档扣-3 10档扣-10 50档扣-50 200档扣-200",
+   "time": "2026-09-11T20:58:13"
+  },
+  {
+   "case_id": "MIB-J6",
+   "title": "批量×5档背包核对",
+   "passed": false,
+   "note": "与F13同步验证（货币差值=档位）",
+   "time": "2026-09-11T20:58:13"
+  },
+  {
+   "case_id": "MIB-F14",
+   "title": "档位切换交互",
+   "passed": true,
+   "note": "快速切换15次后label=开启200个",
+   "time": "2026-09-11T20:58:15"
+  },
+  {
+   "case_id": "MIB-H3",
+   "title": "玩家选择档位保持",
+   "passed": false,
+   "note": "ItemUpdate后label=开启200个",
+   "time": "2026-09-11T20:58:16"
+  },
+  {
+   "case_id": "MIB-H1",
+   "title": "首次进入默认态",
+   "passed": true,
+   "note": "label=开启200个",
+   "time": "2026-09-11T20:58:18",
+   "screenshot": "screenshots/H1_default.png"
+  },
+  {
+   "case_id": "MIB-H4",
+   "title": "入口/返回反复进出",
+   "passed": true,
+   "note": "3次开合无异常",
+   "time": "2026-09-11T20:58:23"
+  },
+  {
+   "case_id": "MIB-M7",
+   "title": "红点节点存在",
+   "passed": true,
+   "note": "RedPoint节点数=55",
+   "time": "2026-09-11T20:58:23",
+   "screenshot": "screenshots/M7_redpoint.png"
+  },
+  {
+   "case_id": "MIB-A1",
+   "title": "货币图标一致性",
+   "passed": null,
+   "note": "截图留证，图标与道具栏比对转人工复核",
+   "time": "2026-09-11T20:58:23",
+   "screenshot": "screenshots/A1_ui_overview.png"
+  },
+  {
+   "case_id": "MIB-C1",
+   "title": "货币1单开消耗",
+   "passed": true,
+   "note": "diff=-1 rate=1",
+   "time": "2026-09-11T20:58:33"
+  },
+  {
+   "case_id": "MIB-J1",
+   "title": "单次核对-货币1",
+   "passed": false,
+   "note": "公式核对FAIL 额外产出=无",
+   "time": "2026-09-11T20:58:33"
+  },
+  {
+   "case_id": "MIB-I1",
+   "title": "货币1结算界面",
+   "passed": true,
+   "note": "rate=1 结算文本数=4 dt=5.17s",
+   "time": "2026-09-11T20:58:33"
+  },
+  {
+   "case_id": "MIB-M1",
+   "title": "宝鉴值累积(货币1)",
+   "passed": true,
+   "note": "Δscore=1 cfg.score=1",
+   "time": "2026-09-11T20:58:33"
+  },
+  {
+   "case_id": "MIB-C2",
+   "title": "货币2单开消耗",
+   "passed": true,
+   "note": "diff=-1 rate=10",
+   "time": "2026-09-11T20:58:43"
+  },
+  {
+   "case_id": "MIB-J2",
+   "title": "单次核对-货币2",
+   "passed": false,
+   "note": "公式核对FAIL 额外产出=无",
+   "time": "2026-09-11T20:58:43"
+  },
+  {
+   "case_id": "MIB-I2",
+   "title": "货币2结算界面",
+   "passed": true,
+   "note": "rate=10 结算文本数=4 dt=5.24s",
+   "time": "2026-09-11T20:58:43"
+  },
+  {
+   "case_id": "MIB-M1",
+   "title": "宝鉴值累积(货币2)",
+   "passed": true,
+   "note": "Δscore=10 cfg.score=10",
+   "time": "2026-09-11T20:58:43"
+  },
+  {
+   "case_id": "MIB-C3",
+   "title": "货币3单开消耗",
+   "passed": true,
+   "note": "diff=-1 rate=1",
+   "time": "2026-09-11T20:58:52"
+  },
+  {
+   "case_id": "MIB-J3",
+   "title": "单次核对-货币3",
+   "passed": false,
+   "note": "公式核对FAIL 额外产出=无",
+   "time": "2026-09-11T20:58:52"
+  },
+  {
+   "case_id": "MIB-I3",
+   "title": "货币3结算界面",
+   "passed": true,
+   "note": "rate=1 结算文本数=4 dt=5.12s",
+   "time": "2026-09-11T20:58:52"
+  },
+  {
+   "case_id": "MIB-M1",
+   "title": "宝鉴值累积(货币3)",
+   "passed": true,
+   "note": "Δscore=20 cfg.score=20",
+   "time": "2026-09-11T20:58:52"
+  },
+  {
+   "case_id": "MIB-C4",
+   "title": "货币4单开消耗",
+   "passed": true,
+   "note": "diff=-1 rate=1",
+   "time": "2026-09-11T20:59:02"
+  },
+  {
+   "case_id": "MIB-J4",
+   "title": "单次核对-货币4",
+   "passed": false,
+   "note": "公式核对FAIL 额外产出=无",
+   "time": "2026-09-11T20:59:02"
+  },
+  {
+   "case_id": "MIB-I4",
+   "title": "货币4结算界面",
+   "passed": true,
+   "note": "rate=1 结算文本数=4 dt=5.31s",
+   "time": "2026-09-11T20:59:02"
+  },
+  {
+   "case_id": "MIB-M1",
+   "title": "宝鉴值累积(货币4)",
+   "passed": true,
+   "note": "Δscore=30 cfg.score=30",
+   "time": "2026-09-11T20:59:02"
+  },
+  {
+   "case_id": "MIB-C5",
+   "title": "货币5单开消耗",
+   "passed": true,
+   "note": "diff=-1 rate=1",
+   "time": "2026-09-11T20:59:12"
+  },
+  {
+   "case_id": "MIB-J5",
+   "title": "单次核对-货币5",
+   "passed": false,
+   "note": "公式核对FAIL 额外产出=无",
+   "time": "2026-09-11T20:59:12"
+  },
+  {
+   "case_id": "MIB-I5",
+   "title": "货币5结算界面",
+   "passed": true,
+   "note": "rate=1 结算文本数=4 dt=5.24s",
+   "time": "2026-09-11T20:59:12"
+  },
+  {
+   "case_id": "MIB-M1",
+   "title": "宝鉴值累积(货币5)",
+   "passed": true,
+   "note": "Δscore=0 cfg.score=0",
+   "time": "2026-09-11T20:59:12"
+  },
+  {
+   "case_id": "MIB-C6",
+   "title": "消耗后数量即时同步",
+   "passed": true,
+   "note": "背包={1001: 251, 1002: 23626, 1003: 24312, 1004: 22199, 1005: 1810787} 界面数字节点=['251', '23626', '24312', '22199']（人工比对截图）",
+   "time": "2026-09-11T20:59:12",
+   "screenshot": "screenshots/C6_sync.png"
+  },
+  {
+   "case_id": "MIB-A3",
+   "title": "结算倍率图资源",
+   "passed": true,
+   "note": "静态已核对 img03_{1,2,3,4,10}beijiangli 齐全；差异：3倍图配置不可达→见MIB-E6",
+   "time": "2026-09-11T20:59:12",
+   "screenshot": "screenshots/A3_rate_img.png"
+  }
+ ],
+ "out_dir": "E:\\workproject\\reports\\e2e_mibao_20260911_205455"
+}

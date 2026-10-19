@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "reset": {
+   "nToggles": 0,
+   "sfs": []
+  },
+  "scroll": {
+   "scrolled": true,
+   "n": 4
+  },
+  "appearance": {
+   "count": 6,
+   "err": null,
+   "open": null
+  }
+ },
+ "appearance": {
+  "items": [
+   {
+    "sf": "soul_ring_atlas_panel01_kuang04",
+    "x": 192,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[玄]弑神枪",
+      "color": "#c3a04c"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang04",
+    "x": 524,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[玄]避水佩",
+      "color": "#c3a04c"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang04",
+    "x": 856,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[玄]水火琵琶",
+      "color": "#c3a04c"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang04",
+    "x": 192,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[玄]纯阳斩妖剑",
+      "color": "#c3a04c"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang04",
+    "x": 524,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[玄]伏羲琴",
+      "color": "#c3a04c"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang04",
+    "x": 856,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[玄]筋斗云",
+      "color": "#c3a04c"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   }
+  ],
+  "count": 6
+ }
+}

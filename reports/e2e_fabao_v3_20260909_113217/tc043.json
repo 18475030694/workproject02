@@ -1,0 +1,13 @@
+{
+ "patch": {
+  "ok": true,
+  "detail": {
+   "6001.name": "[凡]御剑符->[极]超长名称测试一二三四五六七八"
+  }
+ },
+ "overlap": {
+  "pairs": [],
+  "nameCount": 0,
+  "iconCount": 0
+ }
+}

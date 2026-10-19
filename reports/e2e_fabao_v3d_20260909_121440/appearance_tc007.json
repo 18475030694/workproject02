@@ -1,0 +1,75 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang09",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[珍]五火七禽扇",
+     "color": "#7660d2"
+    },
+    {
+     "ring": "[珍]焚界古伞",
+     "color": "#7660d2"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang09",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[珍]焚界古伞",
+     "color": "#7660d2"
+    },
+    {
+     "ring": "[珍]五火七禽扇",
+     "color": "#7660d2"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang09",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[珍]照妖镜",
+     "color": "#7660d2"
+    },
+    {
+     "ring": "[珍]五火七禽扇",
+     "color": "#7660d2"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang09",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[珍]芭蕉扇",
+     "color": "#7660d2"
+    },
+    {
+     "ring": "[珍]五火七禽扇",
+     "color": "#7660d2"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang09",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[珍]风云玉笛",
+     "color": "#7660d2"
+    },
+    {
+     "ring": "[珍]五火七禽扇",
+     "color": "#7660d2"
+    }
+   ]
+  }
+ ],
+ "count": 5
+}

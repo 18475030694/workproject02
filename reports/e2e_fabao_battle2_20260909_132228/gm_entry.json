@@ -1,0 +1,24 @@
+{
+ "global": true,
+ "gmRoot": {
+  "active": true,
+  "children": [
+   "GM",
+   "TESTFight",
+   "MAINTESTFight",
+   "SOUNDTEST"
+  ]
+ },
+ "GMBTN": {
+  "found": 1,
+  "note": "UIRootCamera/GMRoot/GM/GMBTN"
+ },
+ "BATTLE_TEST": {
+  "found": 1,
+  "note": "UIRootCamera/GMRoot/TESTFight/BATTLE_TEST"
+ },
+ "MAIN_BATTLE_TEST": {
+  "found": 1,
+  "note": "UIRootCamera/GMRoot/MAINTESTFight/MAIN_BATTLE_TEST"
+ }
+}

@@ -1,0 +1,12 @@
+=== 运行环境探测 2026-09-28T15:32:56 ===
+[preview_root] http://localhost:7456/ -> {'ok': True, 'status': 200, 'head': '<html>\r\n\r\n<head>\r\n    <link rel="icon" href="./favicon.ico" />\r\n    <meta charset="utf-8" />\r\n    <title>Cocos Creator - client</title>\r\n    <meta name="viewport"\r\n        content="width=device-width,'}
+    body_head: '<html>\r\n\r\n<head>\r\n    <link rel="icon" href="./favicon.ico" />\r\n    <meta charset="utf-8" />\r\n    <title>Cocos Creator - client</title>\r\n    <meta name="viewpor'
+[preview_scene] http://localhost:7456/?debug=1 -> {'ok': True, 'status': 200, 'head': '<html>\r\n\r\n<head>\r\n    <link rel="icon" href="./favicon.ico" />\r\n    <meta charset="utf-8" />\r\n    <title>Cocos Creator - client</title>\r\n    <meta name="viewport"\r\n        content="width=device-width,'}
+    body_head: '<html>\r\n\r\n<head>\r\n    <link rel="icon" href="./favicon.ico" />\r\n    <meta charset="utf-8" />\r\n    <title>Cocos Creator - client</title>\r\n    <meta name="viewpor'
+[gm_index] http://192.168.*.*:6011/index -> {'ok': True, 'status': 200, 'head': "Unknown Path: '/index'<br>Use '/index/help' for help"}
+    body_head: "Unknown Path: '/index'<br>Use '/index/help' for help"
+[gm_root] http://192.168.*.*:6011/ -> {'ok': True, 'status': 200, 'head': "Unknown Path: '/'<br>Use '/index/help' for help"}
+    body_head: "Unknown Path: '/'<br>Use '/index/help' for help"
+[gm/role_info?uuid=4451] {'ok': True, 'status': 200, 'head': "Unknown Path: '/role_info'<br>Use '/index/help' for help"}
+[gm/get_role?uuid=4451] {'ok': True, 'status': 200, 'head': "Unknown Path: '/get_role'<br>Use '/index/help' for help"}
+[gm/query_role?uuid=4451] {'ok': True, 'status': 200, 'head': "Unknown Path: '/query_role'<br>Use '/index/help' for help"}

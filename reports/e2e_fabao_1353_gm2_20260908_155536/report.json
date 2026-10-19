@@ -1,0 +1,113 @@
+{
+ "ts": "20260908_155536",
+ "steps": [
+  {
+   "step": "after_login",
+   "state": {
+    "is8": false,
+    "is9": false,
+    "is174": true,
+    "openMap": [
+     11,
+     14,
+     40,
+     57,
+     58,
+     60,
+     69,
+     82,
+     93,
+     106,
+     128,
+     144,
+     174,
+     187,
+     188
+    ],
+    "mainKeys": [
+     "newPassId",
+     "lastPassId",
+     "chapterMaps",
+     "oneKeyPassData"
+    ],
+    "uuid": 8589937491
+   }
+  },
+  {
+   "step": "gm",
+   "uuid": 8589937491,
+   "resp": "OK: ERR<0, OK> REPLY: nil"
+  },
+  {
+   "step": "after_gm",
+   "state": {
+    "is8": true,
+    "is9": true,
+    "is174": true,
+    "openMap": [
+     11,
+     14,
+     40,
+     57,
+     58,
+     60,
+     69,
+     82,
+     93,
+     106,
+     128,
+     144,
+     174,
+     187,
+     188,
+     50,
+     23,
+     51,
+     34,
+     28,
+     88,
+     84,
+     68,
+     21,
+     31,
+     8,
+     92,
+     131,
+     151,
+     171,
+     99,
+     29,
+     86,
+     72,
+     94,
+     41,
+     44,
+     35,
+     2,
+     30,
+     18,
+     115,
+     45,
+     75,
+     9,
+     53,
+     87,
+     49,
+     85,
+     73,
+     77,
+     96,
+     59,
+     4
+    ],
+    "mainKeys": [
+     "newPassId",
+     "lastPassId",
+     "chapterMaps",
+     "oneKeyPassData"
+    ],
+    "uuid": 8589937491
+   }
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+==== 汇总 ====
+[PASS] TC000 登录进主城
+[PASS] TC055-tab 炼宝/法宝总览页签切换(UICommonTabView容器) — 点总览={'ok': True, 'label': '法宝总览', 'nToggles': 2} atlas激活=1 点炼宝={'ok': True, 'label': '炼宝', 'nToggles': 2} draw激活=1
+[FAIL] TC000-ctrl 对照补丁生效性(quality表atlas_res改后外观应变化) — {"base": null, "ctrl": null, "detail": {"quality.1.atlas_res": "soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03"}}
+[FAIL] TC009 改quality外观应不变(解耦验证) — 对照组未生效 patch链路存疑 readback={'q': 7, 'g': 1}
+[FAIL] TC007 同quality不同group外观应不同(解耦验证) — 同quality不同group外观已不同 {"6001": null, "6002g5": null}
+[FAIL] TC008 同group不同quality外观应相同(解耦验证) — 同group不同quality外观相同(解耦成立) {"6002before": null, "6002q7": null}
+[FAIL] TC000-restore cfg内存patch已恢复(外观与基线一致) — {"base": null, "restored": null}
+[PASS] EX06 全程JS错误收集(含pageerror源定位) — console错误5743条, 分类={'D9_pool': 2, 'D9_quality_idx-1': 37, 'D10_jump_id': 25, 'D9_bone': 30, 'pageerror_null_x': 2823}, 阶段分布={'main_city': 0, 'draw_open': 113, 'after_atlas': 400}, pageerror_stack样本=["TypeError: Cannot read properties of null (reading 'x')\n    at Vec3.copy (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:142388:21)\n    at Node.setPosition (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:53954:18)\n    at Node.set (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:54631:18)\n    at SceneMap.playSceneEff (http://localhost:7456/scripting/x/chunks/46/46697d83f93f2874f752cf63cead6e452e3e04d8.js:3800:31)\n    at UIManHuaPage1.hideCallBack (http://localhost:7456/scripting/x/chunks/a3/a38de4c42ea57d376358495913f5e67e91276cbf.js:264:63)\n    at http://localhost:7456/scripting/x/chunks/47/47288066d34505505a04ad05396611d8b110551e.js:229:39\n    at CallFunc.execute (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:279344:28)\n    at CallFunc.update (http://localhost:"]
+报告: E:\workproject\reports\e2e_fabao_v3g_20260909_124516\report.txt

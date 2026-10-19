@@ -1,0 +1,138 @@
+{
+ "title": "仙机倍率概率专项探针",
+ "account": "4451",
+ "server": "S5",
+ "start_time": "2026-09-11T15:45:56",
+ "cfg_rate": {
+  "1": 5000,
+  "2": 3700,
+  "4": 900,
+  "10": 400
+ },
+ "static_evidence": "mod_open_box.lua L117-122 仅读 boxCfg.rate, Utils.RandGet 按权重每请求抽1个倍率, 整批共用; 3倍不在任何 cfg 行 rate 中",
+ "out_dir": "E:\\workproject\\reports\\probe_mibao_rate_20260911_154556",
+ "uuid": 8589937644,
+ "cfg_live": {
+  "6000": {
+   "rate": null,
+   "is_section": null,
+   "cost": 1001
+  },
+  "6001": {
+   "rate": null,
+   "is_section": null,
+   "cost": 1002
+  },
+  "6002": {
+   "rate": null,
+   "is_section": null,
+   "cost": 1003
+  },
+  "6003": {
+   "rate": null,
+   "is_section": null,
+   "cost": 1004
+  },
+  "6004": {
+   "rate": null,
+   "is_section": null,
+   "cost": 1005
+  }
+ },
+ "checks": [
+  {
+   "key": "CFG_FIELD",
+   "passed": false,
+   "note": "客户端 ShareRes.cfg_box_base[6000~6004].rate 下发={'6000': {'rate': None, 'is_section': None, 'cost': 1001}, '6001': {'rate': None, 'is_section': None, 'cost': 1002}, '6002': {'rate': None, 'is_section': None, 'cost': 1003}, '6003': {'rate': None, 'is_section': None, 'cost': 1004}, '6004': {'rate': None, 'is_section': None, 'cost': 1005}}",
+   "time": "2026-09-11T15:46:27"
+  },
+  {
+   "key": "PREP_1001",
+   "passed": true,
+   "note": "货币1持有=20550",
+   "time": "2026-09-11T15:46:30"
+  },
+  {
+   "key": "RATE_FIELD_EFFECTIVE_box6000",
+   "passed": true,
+   "note": "n=15929 fails=4071 实测={1: 0.5015, 2: 0.3722, 4: 0.0865, 10: 0.0398} 期望={1: 0.5, 2: 0.37, 4: 0.09, 10: 0.04} z={1: 0.37, 2: 0.58, 4: -1.54, 10: -0.13}",
+   "time": "2026-09-11T16:32:21",
+   "detail": {
+    "n": 15929,
+    "per_rate": {
+     "1": {
+      "count": 7988,
+      "freq": 0.5015,
+      "expect": 0.5,
+      "abs_dev": 0.0015,
+      "z": 0.37,
+      "tol3sd": 0.0119
+     },
+     "2": {
+      "count": 5929,
+      "freq": 0.3722,
+      "expect": 0.37,
+      "abs_dev": 0.0022,
+      "z": 0.58,
+      "tol3sd": 0.0115
+     },
+     "4": {
+      "count": 1378,
+      "freq": 0.0865,
+      "expect": 0.09,
+      "abs_dev": 0.0035,
+      "z": -1.54,
+      "tol3sd": 0.0068
+     },
+     "10": {
+      "count": 634,
+      "freq": 0.0398,
+      "expect": 0.04,
+      "abs_dev": 0.0002,
+      "z": -0.13,
+      "tol3sd": 0.0047
+     }
+    },
+    "others": {}
+   }
+  }
+ ],
+ "sample_box6000": {
+  "n": 15929,
+  "per_rate": {
+   "1": {
+    "count": 7988,
+    "freq": 0.5015,
+    "expect": 0.5,
+    "abs_dev": 0.0015,
+    "z": 0.37,
+    "tol3sd": 0.0119
+   },
+   "2": {
+    "count": 5929,
+    "freq": 0.3722,
+    "expect": 0.37,
+    "abs_dev": 0.0022,
+    "z": 0.58,
+    "tol3sd": 0.0115
+   },
+   "4": {
+    "count": 1378,
+    "freq": 0.0865,
+    "expect": 0.09,
+    "abs_dev": 0.0035,
+    "z": -1.54,
+    "tol3sd": 0.0068
+   },
+   "10": {
+    "count": 634,
+    "freq": 0.0398,
+    "expect": 0.04,
+    "abs_dev": 0.0002,
+    "z": -0.13,
+    "tol3sd": 0.0047
+   }
+  },
+  "others": {}
+ }
+}

@@ -1,0 +1,202 @@
+{
+  "time": "20260915_152147",
+  "plan": {
+    "servers": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "per_server": 3
+  },
+  "summary": "7/15 成功",
+  "results": [
+    {
+      "server": "S3",
+      "seq": 1,
+      "name": "S3_001",
+      "account": "9213",
+      "uuid": 8589938293,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "one_key_help_u 后 40s 未达 lv>=8000（当前 lv=1）"
+    },
+    {
+      "server": "S4",
+      "seq": 1,
+      "name": "S4_001",
+      "account": "2383",
+      "uuid": 8589938366,
+      "lv": 9037,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": false
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 1,
+      "name": "S5_001",
+      "account": "4003",
+      "uuid": 8589938285,
+      "lv": 8162,
+      "renamed": null,
+      "ok": false,
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "server": "S6",
+      "seq": 1,
+      "name": "S6_001",
+      "account": "8359",
+      "uuid": 8589938455,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "timed out"
+    },
+    {
+      "server": "S7",
+      "seq": 1,
+      "name": "S7_001",
+      "account": "5147",
+      "uuid": 8589938446,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "one_key_help_u 后 40s 未达 lv>=8000（当前 lv=1）"
+    },
+    {
+      "server": "S3",
+      "seq": 2,
+      "name": "S3_002",
+      "account": "7689",
+      "uuid": 8589938523,
+      "lv": 8348,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": false
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S4",
+      "seq": 2,
+      "name": "S4_002",
+      "account": "8859",
+      "uuid": 8589938303,
+      "lv": 8978,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": false
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 2,
+      "name": "S5_002",
+      "account": "6982",
+      "uuid": 8589938459,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "timed out"
+    },
+    {
+      "server": "S6",
+      "seq": 2,
+      "name": "S6_002",
+      "account": "5848",
+      "uuid": 8589938304,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "one_key_help_u 后 40s 未达 lv>=8000（当前 lv=1）"
+    },
+    {
+      "server": "S7",
+      "seq": 2,
+      "name": "S7_002",
+      "account": "8910",
+      "uuid": 8589938530,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "one_key_help_u 后 40s 未达 lv>=8000（当前 lv=1）"
+    },
+    {
+      "server": "S3",
+      "seq": 3,
+      "name": "S3_003",
+      "account": "2404",
+      "uuid": 8589938541,
+      "lv": 8978,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": false
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S4",
+      "seq": 3,
+      "name": "S4_003",
+      "account": "2114",
+      "uuid": 8589938375,
+      "lv": 8506,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": false
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 3,
+      "name": "S5_003",
+      "account": null,
+      "uuid": null,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "登录失败：界面提示 '网络波动'（['客服', '区        服：', '[S1]xxx']）"
+    },
+    {
+      "server": "S6",
+      "seq": 3,
+      "name": "S6_003",
+      "account": "9266",
+      "uuid": 8589938314,
+      "lv": 8082,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S7",
+      "seq": 3,
+      "name": "S7_003",
+      "account": "7614",
+      "uuid": 8589938377,
+      "lv": 8121,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": false
+      },
+      "ok": true,
+      "error": null
+    }
+  ]
+}

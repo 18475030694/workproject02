@@ -1,0 +1,231 @@
+{
+  "engine": "RapidOCR (rapidocr_onnxruntime)",
+  "summary": {
+    "positive_total": 6,
+    "positive_pass": 6,
+    "negative_total": 6,
+    "negative_pass": 6,
+    "avg_cost_pos_scale1": 0.39,
+    "avg_cost_pos_scale2": 0.22
+  },
+  "rows": [
+    {
+      "file": "mainview/mainview_btn01_box.png",
+      "scale": 1,
+      "note": "主界面入口按钮（正面样本）",
+      "h": 169,
+      "w": 162,
+      "texts": [
+        [
+          "秘宝",
+          1.0
+        ]
+      ],
+      "joined": "秘宝",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.38
+    },
+    {
+      "file": "mainview/mainview_btn01_box.png",
+      "scale": 2,
+      "note": "主界面入口按钮（正面样本）",
+      "h": 338,
+      "w": 324,
+      "texts": [
+        [
+          "秘宝",
+          1.0
+        ]
+      ],
+      "joined": "秘宝",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.22
+    },
+    {
+      "file": "mainview/mainview_btn01_box_grey.png",
+      "scale": 1,
+      "note": "主界面入口按钮-置灰（正面样本）",
+      "h": 169,
+      "w": 162,
+      "texts": [
+        [
+          "秘宝",
+          1.0
+        ]
+      ],
+      "joined": "秘宝",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.36
+    },
+    {
+      "file": "mainview/mainview_btn01_box_grey.png",
+      "scale": 2,
+      "note": "主界面入口按钮-置灰（正面样本）",
+      "h": 338,
+      "w": 324,
+      "texts": [
+        [
+          "秘宝",
+          1.0
+        ]
+      ],
+      "joined": "秘宝",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.22
+    },
+    {
+      "file": "battle/battleresult/battle_btn03_box.png",
+      "scale": 1,
+      "note": "战斗结算按钮（正面样本）",
+      "h": 143,
+      "w": 141,
+      "texts": [
+        [
+          "秘宝",
+          1.0
+        ]
+      ],
+      "joined": "秘宝",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.42
+    },
+    {
+      "file": "battle/battleresult/battle_btn03_box.png",
+      "scale": 2,
+      "note": "战斗结算按钮（正面样本）",
+      "h": 286,
+      "w": 282,
+      "texts": [
+        [
+          "秘宝",
+          1.0
+        ]
+      ],
+      "joined": "秘宝",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.21
+    },
+    {
+      "file": "mainview/mainview_btn03_bag.png",
+      "scale": 1,
+      "note": "背包图标（负样本）",
+      "h": 129,
+      "w": 132,
+      "texts": [
+        [
+          "背包",
+          1.0
+        ]
+      ],
+      "joined": "背包",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.24
+    },
+    {
+      "file": "mainview/mainview_btn03_bag.png",
+      "scale": 2,
+      "note": "背包图标（负样本）",
+      "h": 258,
+      "w": 264,
+      "texts": [
+        [
+          "背包",
+          1.0
+        ]
+      ],
+      "joined": "背包",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.2
+    },
+    {
+      "file": "mainview/mainview_btn02_mail.png",
+      "scale": 1,
+      "note": "邮件图标（负样本）",
+      "h": 112,
+      "w": 98,
+      "texts": [
+        [
+          "邮件",
+          0.999
+        ]
+      ],
+      "joined": "邮件",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.44
+    },
+    {
+      "file": "mainview/mainview_btn02_mail.png",
+      "scale": 2,
+      "note": "邮件图标（负样本）",
+      "h": 224,
+      "w": 196,
+      "texts": [
+        [
+          "邮件",
+          0.999
+        ]
+      ],
+      "joined": "邮件",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.27
+    },
+    {
+      "file": "mainview/mainview_btn04_kaifukuanhuan.png",
+      "scale": 1,
+      "note": "开服兑换按钮（负样本，含其他烙字）",
+      "h": 134,
+      "w": 134,
+      "texts": [],
+      "joined": "",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.25
+    },
+    {
+      "file": "mainview/mainview_btn04_kaifukuanhuan.png",
+      "scale": 2,
+      "note": "开服兑换按钮（负样本，含其他烙字）",
+      "h": 268,
+      "w": 268,
+      "texts": [],
+      "joined": "",
+      "expect_hit_ok": true,
+      "miss": [],
+      "no_false_hit": true,
+      "false_hit": [],
+      "cost_sec": 0.22
+    }
+  ]
+}

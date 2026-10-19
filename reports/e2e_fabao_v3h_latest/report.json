@@ -1,0 +1,185 @@
+{
+ "title": "法宝第二轮v3h外观解耦终版取证",
+ "account": "1353",
+ "start_time": "2026-09-09T12:51:59",
+ "cases": [
+  {
+   "case_id": "TC000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC000-ctrl",
+   "title": "对照补丁生效性(quality表atlas_res改后外观源应变化)",
+   "passed": true,
+   "note": "组件级qcfg_6001.atlas_res: soul_ring_atlas_panel01_kuang07 -> soul_ring_atlas_panel01_kuang03 (detail={'quality.1.atlas_res': 'soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03'}) UI级=False"
+  },
+  {
+   "case_id": "TC009",
+   "title": "改quality外观应不变(解耦验证)",
+   "passed": false,
+   "note": "缺陷复现(组件级): qcfg_6001.atlas_res soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang08 外观数据源跟随quality变化; UI级未捕捉(分组重排, 组件级已足够)"
+  },
+  {
+   "case_id": "TC007",
+   "title": "同quality不同group外观应不同(解耦验证)",
+   "passed": false,
+   "note": "缺陷复现(组件级): ring_group 1→5 后 qcfg_6002 完全不变({\"atlas_res\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\", \"bg\": \"common_item02_wupinkuang01\", \"title_bg\": \"common_item05_shen\", \"skill_res\": \"hero_img05_white\"}) = 外观源只认quality不认group；UI级={\"before\": null, \"after\": null}"
+  },
+  {
+   "case_id": "TC008",
+   "title": "同group不同quality外观应相同(解耦验证)",
+   "passed": false,
+   "note": "缺陷复现(组件级): 同group(1)下 quality 1→7 后 qcfg_6002.atlas_res soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang08 = 外观随quality变化"
+  },
+  {
+   "case_id": "TC000-restore",
+   "title": "cfg内存patch已恢复(外观源与基线一致)",
+   "passed": true,
+   "note": "{\"base\": {\"atlas_res\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\", \"bg\": \"common_item02_wupinkuang01\", \"title_bg\": \"common_item05_shen\", \"skill_res\": \"hero_img05_white\"}, \"restored\": {\"atlas_res\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\", \"bg\": \"common_item02_wupinkuang01\", \"title_bg\": \"common_item05_shen\", \"skill_res\": \"hero_img05_white\"}}"
+  },
+  {
+   "case_id": "EX06",
+   "title": "全程JS错误收集",
+   "passed": true,
+   "note": "共77条, 分类={'D9_pool': 1, 'D9_quality_idx-1': 36, 'D10_jump_id': 7, 'D9_bone': 30}"
+  }
+ ],
+ "js_errors_classified": {
+  "D9_pool": 1,
+  "D9_quality_idx-1": 36,
+  "D10_jump_id": 7,
+  "D9_bone": 30
+ },
+ "err_stacks": [],
+ "base": {
+  "qcfg": {
+   "ih_found": true,
+   "q1_row": {
+    "atlas_res": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1",
+    "bg": "common_item02_wupinkuang01",
+    "title_bg": "common_item05_shen",
+    "skill_res": "hero_img05_white"
+   },
+   "q7_row": {
+    "atlas_res": "soul_ring_atlas_panel01_kuang08",
+    "color": "#ee8545",
+    "bg": "common_item02_wupinkuang09",
+    "title_bg": "common_item05_shen",
+    "skill_res": "hero_img05_orange"
+   },
+   "qcfg_6001": {
+    "atlas_res": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1",
+    "bg": "common_item02_wupinkuang01",
+    "title_bg": "common_item05_shen",
+    "skill_res": "hero_img05_white"
+   },
+   "qcfg_6002": {
+    "atlas_res": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1",
+    "bg": "common_item02_wupinkuang01",
+    "title_bg": "common_item05_shen",
+    "skill_res": "hero_img05_white"
+   },
+   "read_base": {
+    "q1": 1,
+    "g1": 1,
+    "q2": 1,
+    "g2": 1
+   }
+  },
+  "ui_6001": null,
+  "ui_6002": null,
+  "vis": [
+   [
+    "kuang01",
+    [
+     "[良]济公扇",
+     "80万年"
+    ]
+   ],
+   [
+    "kuang01",
+    [
+     "[良]小绿瓶",
+     "80万年"
+    ]
+   ],
+   [
+    "kuang01",
+    [
+     "[良]落宝金钱",
+     "80万年"
+    ]
+   ],
+   [
+    "kuang01",
+    [
+     "[良]打神鞭",
+     "80万年"
+    ]
+   ],
+   [
+    "kuang01",
+    [
+     "[良]桃木剑",
+     "80万年"
+    ]
+   ],
+   [
+    "kuang01",
+    [
+     "[良]五光石",
+     "80万年"
+    ]
+   ]
+  ]
+ },
+ "js_errors": [
+  "[2026/9/9 12:52:17 805] [297] 跳转配置读取失败，请检查jump_id=144 []",
+  "[2026/9/9 12:52:17 806] [297] 跳转配置读取失败，请检查jump_id=174 []",
+  "表中找不到此索引，表名为：cfg_role_title 索引为：0",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_pool 索引为：0",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1",
+  "表中找不到此索引，表名为：cfg_soul_ring_quality 索引为：-1"
+ ],
+ "end_time": "2026-09-09T12:52:55",
+ "out_dir": "E:\\workproject\\reports\\e2e_fabao_v3h_20260909_125159"
+}

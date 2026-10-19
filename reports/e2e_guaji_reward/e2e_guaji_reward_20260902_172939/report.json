@@ -1,0 +1,235 @@
+{
+  "case_id": "TC_GUAJI_001",
+  "title": "挂机奖励功能全流程测试（红点+领取+重置）",
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "server": "s5服",
+  "create_mode": false,
+  "headless": false,
+  "start_time": "2026-09-02T17:29:39",
+  "steps": [
+    {
+      "name": "清空缓存并打开游戏",
+      "status": "done",
+      "start": "2026-09-02T17:29:40",
+      "end": "2026-09-02T17:29:51"
+    },
+    {
+      "name": "切换账号",
+      "status": "done",
+      "start": "2026-09-02T17:29:51",
+      "end": "2026-09-02T17:29:56",
+      "note": "账号已切换为 1351"
+    },
+    {
+      "name": "选服（真实UI优先）",
+      "status": "done",
+      "start": "2026-09-02T17:29:56",
+      "end": "2026-09-02T17:30:03",
+      "note": "兜底注入选服 svr_id=5（svr_name=s5）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-02T17:30:03",
+      "end": "2026-09-02T17:30:04"
+    },
+    {
+      "name": "校验plat_login响应",
+      "status": "done",
+      "start": "2026-09-02T17:30:04",
+      "end": "2026-09-02T17:30:04",
+      "note": "plat_login 成功 (errcode=0, serverId=5, serverName=S5)"
+    },
+    {
+      "name": "等待进主城并校验",
+      "status": "done",
+      "start": "2026-09-02T17:30:04",
+      "end": "2026-09-02T17:30:08",
+      "note": "已进入主城"
+    },
+    {
+      "name": "检查挂机系统开放状态",
+      "status": "done",
+      "start": "2026-09-02T17:30:08",
+      "end": "2026-09-02T17:30:09"
+    },
+    {
+      "name": "打开挂机奖励界面",
+      "status": "done",
+      "start": "2026-09-02T17:30:09",
+      "end": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "获取初始状态记录",
+      "status": "done",
+      "start": "2026-09-02T17:30:11",
+      "end": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "验证红点触发逻辑",
+      "status": "done",
+      "start": "2026-09-02T17:30:11",
+      "end": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "验证领取按钮状态",
+      "status": "done",
+      "start": "2026-09-02T17:30:11",
+      "end": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "执行领取测试",
+      "status": "doing",
+      "start": "2026-09-02T17:30:11"
+    }
+  ],
+  "checkpoints": [
+    {
+      "name": "挂机系统开放",
+      "passed": true,
+      "note": "已开放",
+      "time": "2026-09-02T17:30:08"
+    },
+    {
+      "name": "打开界面",
+      "passed": true,
+      "note": "UIGuaJi 已打开",
+      "time": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "初始状态获取",
+      "passed": true,
+      "note": "",
+      "time": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "红点触发",
+      "passed": true,
+      "note": "elapsed=482s, maxTime=14400, 主红点=False, 奖励红点=False",
+      "time": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "按钮状态",
+      "passed": true,
+      "note": "found=True, sprite=common_btn01_big_yellow",
+      "time": "2026-09-02T17:30:11"
+    },
+    {
+      "name": "领取后关闭界面",
+      "passed": true,
+      "note": "界面已自动关闭",
+      "time": "2026-09-02T17:30:16"
+    },
+    {
+      "name": "领取后红点重置",
+      "passed": true,
+      "note": "已重新累计 6s，红点状态正确",
+      "time": "2026-09-02T17:30:17"
+    },
+    {
+      "name": "领取流程",
+      "passed": true,
+      "note": "成功领取，界面关闭",
+      "time": "2026-09-02T17:30:17"
+    }
+  ],
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\01_opened.png",
+    "account_switched": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\02_account_switched.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\03_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\04_login_clicked.png",
+    "in_main_city": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\05_in_main_city.png",
+    "sys_open": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\06_sys_open.png",
+    "uiguaji_opened": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\07_uiguaji_opened.png"
+  },
+  "login_result": {
+    "ok": true,
+    "error": "",
+    "target_server": {
+      "found": false,
+      "svr_id": 5,
+      "svr_name": "s5",
+      "source": "命名约定推断(未在列表中匹配)"
+    },
+    "selection_method": "injection",
+    "plat_login_response": {
+      "serverId": 5,
+      "serverName": "S5",
+      "ip": "192.168.*.*",
+      "port": "13021",
+      "roleIdx": 0,
+      "isBack": false,
+      "isNew": null
+    },
+    "screenshots": {
+      "opened": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\01_opened.png",
+      "account_switched": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\02_account_switched.png",
+      "server_selected": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\03_server_selected.png",
+      "login_clicked": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\04_login_clicked.png",
+      "in_main_city": "E:\\workproject\\reports\\e2e_guaji_reward\\e2e_guaji_reward_20260902_172939\\screenshots\\05_in_main_city.png"
+    },
+    "steps": [
+      {
+        "name": "清空缓存并打开游戏",
+        "status": "done",
+        "start": "2026-09-02T17:29:40",
+        "end": "2026-09-02T17:29:51"
+      },
+      {
+        "name": "切换账号",
+        "status": "done",
+        "start": "2026-09-02T17:29:51",
+        "end": "2026-09-02T17:29:56",
+        "note": "账号已切换为 1351"
+      },
+      {
+        "name": "选服（真实UI优先）",
+        "status": "done",
+        "start": "2026-09-02T17:29:56",
+        "end": "2026-09-02T17:30:03",
+        "note": "兜底注入选服 svr_id=5（svr_name=s5）"
+      },
+      {
+        "name": "点击登录",
+        "status": "done",
+        "start": "2026-09-02T17:30:03",
+        "end": "2026-09-02T17:30:04"
+      },
+      {
+        "name": "校验plat_login响应",
+        "status": "done",
+        "start": "2026-09-02T17:30:04",
+        "end": "2026-09-02T17:30:04",
+        "note": "plat_login 成功 (errcode=0, serverId=5, serverName=S5)"
+      },
+      {
+        "name": "等待进主城并校验",
+        "status": "done",
+        "start": "2026-09-02T17:30:04",
+        "end": "2026-09-02T17:30:08",
+        "note": "已进入主城"
+      }
+    ],
+    "account": "1351",
+    "server": "s5服"
+  },
+  "passed": true,
+  "guaji_initial_state": {
+    "server_time": 1787977941,
+    "last_receive_time": 1787977459,
+    "elapsed": 482,
+    "red_main": false,
+    "red_reward": false,
+    "reward_count": 5
+  },
+  "guaji_final_state": {
+    "server_time": 1787977947,
+    "last_receive_time": 1787977941,
+    "elapsed_after": 6,
+    "red_main": false,
+    "reward_count": 0
+  },
+  "branch_taken": "claim_reward",
+  "end_time": "2026-09-02T17:30:17"
+}

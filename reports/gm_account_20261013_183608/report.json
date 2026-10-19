@@ -1,0 +1,29 @@
+{
+  "time": "20261013_183608",
+  "account": "4135",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589934817
+    }
+  },
+  "before": {
+    "uuid": 8589934817,
+    "name": "梦川",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589934817,
+    "name": "梦川",
+    "lv": 9492,
+    "advance": 52,
+    "buddy_count": 45
+  }
+}

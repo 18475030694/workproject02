@@ -1,0 +1,61 @@
+{
+ "year_samples": [
+  "80万年"
+ ],
+ "probe": {
+  "src": "http://localhost:7456/scripting/x/chunks/c0/c0da227e78f86844ee9b5927edd93ddbc1dd0782.js",
+  "updateItem_head": "updateItem(index, data, atlasView) {\n          if (!data) {\n            return;\n          }\n\n          this.data = data;\n          this.atlasView = atlasView;\n          var ringData = (_crd && SystemModules === void 0 ? (_reportPossibleCrUseOfSystemModules({\n            error: Error()\n          }), SystemModules) : SystemModules).soulRingMgr.ringMap[data.gift_id];\n          var lv = (_crd && SystemModules === void 0 ? (_reportPossibleCrUseOfSystemModules({\n            error: Error()\n          }), SystemModules) : SystemModules).soulRingMgr.calcRingFinalLV(data.gift_id);\n          this.ringName.string = this.data.name;\n          this.ringName.color = new Color((_crd && ShareRes === void 0 ? (",
+  "samples": [
+   {
+    "name": null,
+    "activeVisible": true,
+    "year": "5阶"
+   },
+   {
+    "name": null,
+    "activeVisible": true,
+    "year": "5阶"
+   },
+   {
+    "name": null,
+    "activeVisible": true,
+    "year": "1阶"
+   },
+   {
+    "name": null,
+    "activeVisible": true,
+    "year": "1阶"
+   },
+   {
+    "name": null,
+    "activeVisible": true,
+    "year": "1阶"
+   },
+   {
+    "name": null,
+    "activeVisible": false,
+    "year": "80万年"
+   },
+   {
+    "name": null,
+    "activeVisible": false,
+    "year": "80万年"
+   },
+   {
+    "name": null,
+    "activeVisible": false,
+    "year": "80万年"
+   },
+   {
+    "name": null,
+    "activeVisible": false,
+    "year": "80万年"
+   },
+   {
+    "name": null,
+    "activeVisible": false,
+    "year": "80万年"
+   }
+  ]
+ }
+}

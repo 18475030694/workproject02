@@ -1,0 +1,29 @@
+{
+  "time": "20261013_184300",
+  "account": "7832",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589934720
+    }
+  },
+  "before": {
+    "uuid": 8589934720,
+    "name": "许泽",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589934720,
+    "name": "许泽",
+    "lv": 9137,
+    "advance": 50,
+    "buddy_count": 45
+  }
+}

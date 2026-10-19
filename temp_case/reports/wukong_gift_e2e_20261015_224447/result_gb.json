@@ -1,0 +1,37 @@
+{
+  "group": "gb",
+  "time": "2026-10-15T22:48:20",
+  "server_time": "2026-10-24 00:00:51",
+  "results": [
+    {
+      "tc": "TC-010a(跨日前状态)",
+      "pass": true,
+      "note": "{\"goods_id\": 530001, \"end_time\": -1, \"recv_record_list\": [{\"day\": 1, \"status\": true}]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-004(D2跨日解锁)",
+      "pass": true,
+      "note": "server=2026-10-24 00:00:05 recv=[{\"day\": 1, \"status\": true}, {\"day\": 2, \"status\": false}]",
+      "evidence": []
+    },
+    {
+      "tc": "TC-010(重登状态保持)",
+      "pass": true,
+      "note": "recv_days=[(1, True), (2, False)]",
+      "evidence": []
+    },
+    {
+      "tc": "TC-004b(D2领取)",
+      "pass": true,
+      "note": "diff={} rings=[6049, 6112]",
+      "evidence": []
+    },
+    {
+      "tc": "TC-012b(D2数量:20109x1+1007x10+货币x120)",
+      "pass": false,
+      "note": "diff={}",
+      "evidence": []
+    }
+  ]
+}

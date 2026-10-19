@@ -1,0 +1,66 @@
+[
+ {
+  "text": "复访任务",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/AliPayReturnVisit_/LbName"
+ },
+ {
+  "text": "侧栏好礼",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/SideBarSign_/LbName"
+ },
+ {
+  "text": "%s关卡领取",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/HandselLottery_/LbTarget"
+ },
+ {
+  "text": "特权卡",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/PrivCard_/LbName"
+ },
+ {
+  "text": "新手礼包",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstCharge_/LbName"
+ },
+ {
+  "text": "基金",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/WarOrder_/LbName"
+ },
+ {
+  "text": "决战圣虚",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnLeagueWar_/LbName"
+ },
+ {
+  "text": "首充礼包",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeGift_/LbName"
+ },
+ {
+  "text": "登录有礼",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnPC_/LbName"
+ },
+ {
+  "text": "新手礼包",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/LbName"
+ },
+ {
+  "text": "XXX关后可领取",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/FirstChargeNewBubble_/Label/RICHTEXT_CHILD"
+ },
+ {
+  "text": "重新挑战",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Boss/ChallangeBtn_/ChallangeTxt_"
+ },
+ {
+  "text": "暂无消息",
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/ChatBottom_/NoneTxt_"
+ },
+ {
+  "text": "战斗测试",
+  "path": "UIRootCamera/GMRoot/TESTFight/BATTLE_TEST/txt"
+ },
+ {
+  "text": "战斗音效",
+  "path": "UIRootCamera/GMRoot/SOUNDTEST/SOUNDTEST/txt"
+ },
+ {
+  "text": "取消",
+  "path": "UINotice/SafeArea/AniContent/Content/OperateBtns_/CancleBtn_/CancleLabel_"
+ }
+]

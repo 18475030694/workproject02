@@ -1,0 +1,191 @@
+{
+  "time": "20260909_170125",
+  "account": "4451",
+  "steps": {
+    "state0": {
+      "role": {
+        "uuid": 8589937644,
+        "name": "戚北",
+        "lv": 9463,
+        "advance": 52,
+        "buddy_count": 45
+      },
+      "serverDay": 19,
+      "pool_level": 12,
+      "draw_times": 27490,
+      "rings": 0
+    },
+    "open_atlas": {
+      "open": {
+        "ok": true,
+        "name": "UISoulRingDrawTabView"
+      },
+      "tab": {
+        "ok": true,
+        "label": "法宝总览",
+        "mode": "btn",
+        "n": 2
+      }
+    },
+    "tc044_tabs": {
+      "count": 11,
+      "tabs": [
+        {
+          "label": null,
+          "checked": true
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        },
+        {
+          "label": null,
+          "checked": false
+        }
+      ]
+    },
+    "tc047_filter": [],
+    "tc048_scroll": {
+      "top": {
+        "ok": true,
+        "to": "top",
+        "n": 1
+      },
+      "top_items": 20,
+      "bottom": {
+        "ok": true,
+        "to": "bottom",
+        "n": 1
+      },
+      "bottom_items": 35
+    },
+    "r3_day19_draw": [
+      {
+        "i": 0,
+        "click": {
+          "found": false
+        },
+        "bulletin": [
+          "ScrollView",
+          "ToggleScrollView_"
+        ],
+        "kw": [
+          "成仙之路",
+          "成仙之路",
+          "特惠法宝",
+          "大圣法宝",
+          "神话",
+          "-大圣"
+        ],
+        "rings": 0
+      }
+    ],
+    "set_day_1": {
+      "status": 200,
+      "body": "OK: ERR<0, OK> REPLY: table: 0x7d129dcbec40"
+    },
+    "day1_check": {
+      "serverDay": 1,
+      "pool_level": 12,
+      "draw_times": 27490,
+      "rings": 0
+    },
+    "r3_day1_draw": [
+      {
+        "i": 0,
+        "click": {
+          "found": false
+        },
+        "bulletin": [
+          "ToggleScrollView_"
+        ],
+        "kw": [
+          "法宝总览"
+        ]
+      }
+    ],
+    "tc051_recharge_soulring": {
+      "opened": {
+        "ok": true,
+        "name": "UIRechargeSoulRing"
+      },
+      "texts": [
+        "1.57亿",
+        "戚北",
+        "凡人",
+        "99.99万",
+        "10509",
+        "炼宝次数：",
+        "27490/21000",
+        "12",
+        "新加入奖池的法宝",
+        "炼宝",
+        "炼宝10次",
+        "次数(1/1)",
+        "免费炼宝1次",
+        "1",
+        "10",
+        "跳过动画",
+        "法宝总览",
+        "点击空白处关闭",
+        "￥98",
+        "购买即可获得法宝",
+        "10:46:39",
+        "后礼包消失",
+        "980",
+        "100",
+        "[圣]无始钟",
+        "[圣]创世鼎",
+        "[圣]番天印",
+        "[圣]昆吾人皇剑",
+        "GM",
+        "战斗测试",
+        "主线测试",
+        "战斗音效"
+      ]
+    },
+    "restore_day": {
+      "status": 200,
+      "body": "OK: ERR<0, OK> REPLY: table: 0x7d128197f300",
+      "baseline": 101
+    },
+    "restore_check": {
+      "serverDay": 101,
+      "pool_level": 12,
+      "draw_times": 27490,
+      "rings": 0
+    }
+  }
+}

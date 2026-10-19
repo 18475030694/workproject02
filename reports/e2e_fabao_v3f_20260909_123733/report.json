@@ -1,0 +1,141 @@
+{
+ "title": "法宝第二轮v3f收尾复测",
+ "account": "1353",
+ "start_time": "2026-09-09T12:37:33",
+ "cases": [
+  {
+   "case_id": "TC000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC055-tab",
+   "title": "炼宝/法宝总览页签切换(UICommonTabView容器)",
+   "passed": false,
+   "note": "点总览={'err': 'TypeError: (path || \"\").split is not a function'} atlas激活=0 点炼宝={'err': 'TypeError: (path || \"\").split is not a function'} draw激活=1"
+  },
+  {
+   "case_id": "TC000-ctrl",
+   "title": "对照补丁生效性(quality表atlas_res改后外观应变化)",
+   "passed": false,
+   "note": "{\"base\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\", \"y\": 815}, \"ctrl\": null, \"detail\": {\"quality.1.atlas_res\": \"soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03\"}}"
+  },
+  {
+   "case_id": "TC009",
+   "title": "改quality外观应不变(解耦验证)",
+   "passed": false,
+   "note": "对照组未生效 patch链路存疑 readback={'q': 7, 'g': 1}"
+  },
+  {
+   "case_id": "TC007",
+   "title": "同quality不同group外观应不同(解耦验证)",
+   "passed": false,
+   "note": "同quality不同group外观已不同 {\"6001\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\", \"y\": 815}, \"6002g5\": null}"
+  },
+  {
+   "case_id": "TC008",
+   "title": "同group不同quality外观应相同(解耦验证)",
+   "passed": false,
+   "note": "同group不同quality外观相同(解耦成立) {\"6002before\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\", \"y\": 815}, \"6002q7\": null}"
+  },
+  {
+   "case_id": "TC000-restore",
+   "title": "cfg内存patch已恢复(外观与基线一致)",
+   "passed": false,
+   "note": "{\"base\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\", \"y\": 815}, \"restored\": null}"
+  }
+ ],
+ "gm": {},
+ "err_phases": {
+  "main_city": 0,
+  "draw_open": 123,
+  "after_atlas": 400
+ },
+ "err_stacks": [],
+ "patches": {
+  "base": {
+   "6001": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1",
+    "y": 815
+   },
+   "6002": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1",
+    "y": 815
+   },
+   "visible_sf": [
+    "soul_ring_atlas_panel01_kuang01",
+    "soul_ring_atlas_panel01_kuang02",
+    "soul_ring_atlas_panel01_kuang07",
+    "soul_ring_atlas_panel01_kuang09"
+   ]
+  }
+ },
+ "js_errors": [
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent",
+  "ErrorEvent"
+ ],
+ "error": "'js_errors_classified'",
+ "end_time": "2026-09-09T12:38:48",
+ "out_dir": "E:\\workproject\\reports\\e2e_fabao_v3f_20260909_123733"
+}

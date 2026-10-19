@@ -1,0 +1,408 @@
+{
+  "time": "20261015_195607",
+  "server": "5/S5",
+  "purpose": "大圣礼包(530001)改版前已购账号",
+  "accounts": [
+    {
+      "idx": 1,
+      "server": "5/S5",
+      "start": "2026-10-15T19:56:07",
+      "ok": true,
+      "account": "8017",
+      "uuid": "8589935690",
+      "reused": true,
+      "after_upgrade": {
+        "uuid": 8589935690,
+        "name": "谈铭",
+        "lv": 9540,
+        "advance": 52,
+        "buddy_count": 45
+      },
+      "popup": {
+        "popped": true,
+        "via": "openUI"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:51:14"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": true,
+        "node": "BtnBuy_",
+        "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_"
+      },
+      "purchase_state": {
+        "has_gift": false,
+        "gift": null,
+        "map_size": 0
+      },
+      "server_time": 1792267825,
+      "rewards_probe": {
+        "found": [
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6049
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6112
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "0",
+            "val": 6112
+          }
+        ]
+      },
+      "relogin": {
+        "gift_popped_again": false,
+        "state": {
+          "has_gift": false,
+          "gift": null,
+          "map_size": 0
+        }
+      },
+      "note": "PREP_OK",
+      "end": "2026-10-15T19:57:43"
+    },
+    {
+      "idx": 2,
+      "server": "5/S5",
+      "start": "2026-10-15T19:57:43",
+      "ok": true,
+      "account": "5697",
+      "uuid": "8589935631",
+      "reused": true,
+      "after_upgrade": {
+        "uuid": 8589935631,
+        "name": "闾丘杰",
+        "lv": 9654,
+        "advance": 53,
+        "buddy_count": 45
+      },
+      "popup": {
+        "popped": true,
+        "via": "openUI"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:50:39"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": true,
+        "node": "BtnBuy_",
+        "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_"
+      },
+      "purchase_state": {
+        "has_gift": false,
+        "gift": null,
+        "map_size": 0
+      },
+      "server_time": 1792267921,
+      "rewards_probe": {
+        "found": [
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6049
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6112
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "0",
+            "val": 6112
+          }
+        ]
+      },
+      "relogin": {
+        "gift_popped_again": false,
+        "state": {
+          "has_gift": false,
+          "gift": null,
+          "map_size": 0
+        }
+      },
+      "note": "PREP_OK",
+      "end": "2026-10-15T19:59:19"
+    },
+    {
+      "idx": 3,
+      "server": "5/S5",
+      "start": "2026-10-15T19:59:19",
+      "ok": true,
+      "account": "2526",
+      "uuid": "8589935636",
+      "reused": true,
+      "after_upgrade": {
+        "uuid": 8589935636,
+        "name": "于仁",
+        "lv": 9082,
+        "advance": 50,
+        "buddy_count": 45
+      },
+      "popup": {
+        "popped": true,
+        "via": "openUI"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:50:06"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": true,
+        "node": "BtnBuy_",
+        "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_"
+      },
+      "purchase_state": {
+        "has_gift": false,
+        "gift": null,
+        "map_size": 0
+      },
+      "server_time": 1792268016,
+      "rewards_probe": {
+        "found": [
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6049
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6112
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "0",
+            "val": 6112
+          }
+        ]
+      },
+      "relogin": {
+        "gift_popped_again": false,
+        "state": {
+          "has_gift": false,
+          "gift": null,
+          "map_size": 0
+        }
+      },
+      "note": "PREP_OK",
+      "end": "2026-10-15T20:00:54"
+    },
+    {
+      "idx": 4,
+      "server": "5/S5",
+      "start": "2026-10-15T20:00:54",
+      "ok": true,
+      "account": "3168",
+      "before": {
+        "uuid": 8589935811,
+        "name": "巫展展",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "after_upgrade": {
+        "uuid": 8589935811,
+        "name": "巫展展",
+        "lv": 9341,
+        "advance": 51,
+        "buddy_count": 45
+      },
+      "kicks": 1,
+      "uuid": 8589935811,
+      "popup": {
+        "popped": true,
+        "via": "openUI"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:59:11"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": true,
+        "node": "BtnBuy_",
+        "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_"
+      },
+      "purchase_state": {
+        "has_gift": false,
+        "gift": null,
+        "map_size": 0
+      },
+      "server_time": 1792268158,
+      "rewards_probe": {
+        "found": [
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6049
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "ring_id",
+            "val": 6112
+          },
+          {
+            "tag": "soulRingMgr",
+            "key": "0",
+            "val": 6112
+          }
+        ]
+      },
+      "relogin": {
+        "gift_popped_again": false,
+        "state": {
+          "has_gift": false,
+          "gift": null,
+          "map_size": 0
+        }
+      },
+      "note": "PREP_OK",
+      "end": "2026-10-15T20:03:16"
+    }
+  ],
+  "ok_count": 4,
+  "partial_count": 0
+}

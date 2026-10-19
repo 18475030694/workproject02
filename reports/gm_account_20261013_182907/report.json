@@ -1,0 +1,29 @@
+{
+  "time": "20261013_182907",
+  "account": "6518",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589934705
+    }
+  },
+  "before": {
+    "uuid": 8589934705,
+    "name": "燕子涵",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589934705,
+    "name": "燕子涵",
+    "lv": 8830,
+    "advance": 49,
+    "buddy_count": 45
+  }
+}

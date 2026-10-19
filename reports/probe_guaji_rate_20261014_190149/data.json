@@ -1,0 +1,94 @@
+{
+ "title": "挂机奖励30%翻倍概率专项探针",
+ "static_evidence": "mod_guaji_reward.lua L248-271: 每掷点每条目 r=math.random(0,10000), r<=w 掉落; 命中后 r2<=nDoubleWeight 翻倍(*2); nDoubleWeight=GetPrivilege(GUAJI_MUL=10)(tier1)/GUAJI_MUL2(=22)(tier2); 无离线卡时额外部分进 privilege_reward_map 待补发; cfg_guaji_reward.lua 156行, 档位由主线 mainline_pass_id 二分; cfg_guaji_global.max_time=14400",
+ "tag": "smoke",
+ "account": "4451",
+ "server": "S5",
+ "cycles_plan": 3,
+ "dt_step": 13000,
+ "start_time": "2026-10-14T19:01:49",
+ "out_dir": "E:\\workproject\\reports\\probe_guaji_rate_20261014_190149",
+ "p_require": 0.3,
+ "priv_snapshot": {
+  "mul": 0,
+  "mul2": 0,
+  "card_valid": false,
+  "card_mul": null
+ },
+ "passid_probe": null,
+ "p_source": "runtime_getPrivilegeVal",
+ "checks": [
+  {
+   "key": "PRIV_SNAPSHOT",
+   "passed": null,
+   "note": "GUAJI_MUL=0 GUAJI_MUL2=0 离线卡=False 卡特权值=None → tier1 期望 p=0.0, tier2 p=0.0 (口径30%=不吻合, 以读数为准)",
+   "time": "2026-10-14T19:02:20"
+  },
+  {
+   "key": "PASSID_PROBE",
+   "passed": null,
+   "note": "主线进度读取: None",
+   "time": "2026-10-14T19:02:20"
+  },
+  {
+   "key": "CFG_ROW_EST",
+   "passed": null,
+   "note": "passId=None → 预估档位 id=None (interval1=5, interval2=None); 采样后按产出拟合校准",
+   "time": "2026-10-14T19:02:20"
+  },
+  {
+   "key": "EXCEPTION",
+   "passed": false,
+   "note": "RuntimeError: 清零领取失败: {'ok': False, 'resp': {'errcode': 1813}}",
+   "time": "2026-10-14T19:02:35"
+  },
+  {
+   "key": "TIME_RESTORE",
+   "passed": null,
+   "note": "还原应答=ERR <urlopen error timed out> 服务器时间=None 本地=1791975777 漂移=Nones (无法读服务器时间, 请人工核对)",
+   "time": "2026-10-14T19:02:57"
+  }
+ ],
+ "cfg_max_time": 14400,
+ "est_row_id": null,
+ "fitted_row": {
+  "id": 156,
+  "mainline_pass_id": 30000,
+  "interval1": 5,
+  "reward1": [
+   [
+    2,
+    31695,
+    10000
+   ],
+   [
+    2,
+    2,
+    10000
+   ],
+   [
+    3,
+    1,
+    10000
+   ],
+   [
+    3,
+    3,
+    10000
+   ],
+   [
+    5,
+    1,
+    10000
+   ],
+   [
+    5,
+    2,
+    10000
+   ]
+  ],
+  "interval2": null,
+  "reward2": null
+ },
+ "end_time": "2026-10-14T19:02:57"
+}

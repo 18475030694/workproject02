@@ -1,0 +1,519 @@
+{
+  "ts": "20260910_153902",
+  "account": "4451",
+  "uuid": 8589938059,
+  "gm_1058": {
+    "status": 200,
+    "body": "OK: ERR<0, OK> REPLY: <br/>实际发放200000个"
+  },
+  "gm_1057": {
+    "status": 200,
+    "body": "OK: ERR<0, OK> REPLY: <br/>实际发放5000个"
+  },
+  "item_1058": 0,
+  "quality_map": {
+    "54000": 5,
+    "54001": 5,
+    "54002": 5,
+    "54003": 5,
+    "54004": 5,
+    "54005": 5,
+    "54006": 5,
+    "54007": 5,
+    "54008": 5,
+    "54009": 5,
+    "54010": 5,
+    "54011": 5,
+    "54200": 6,
+    "54201": 6,
+    "54202": 6,
+    "54203": 6,
+    "54204": 6,
+    "54205": 6,
+    "54206": 6,
+    "54207": 6,
+    "54208": 6,
+    "54209": 6,
+    "54400": 7,
+    "54401": 7,
+    "54402": 7,
+    "54403": 7,
+    "54404": 7,
+    "54405": 7,
+    "54406": 7,
+    "54407": 7,
+    "54408": 7,
+    "54409": 7,
+    "54410": 7,
+    "54411": 7,
+    "54412": 7
+  },
+  "draws": [
+    {
+      "i": 0,
+      "ok": true,
+      "before": 0,
+      "after": 2,
+      "new_elves": 2,
+      "reward_count": 10,
+      "elf_count": 2
+    },
+    {
+      "i": 1,
+      "ok": true,
+      "before": 2,
+      "after": 2,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 2
+    },
+    {
+      "i": 2,
+      "ok": true,
+      "before": 2,
+      "after": 3,
+      "new_elves": 1,
+      "reward_count": 10,
+      "elf_count": 3
+    },
+    {
+      "i": 3,
+      "ok": true,
+      "before": 3,
+      "after": 3,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 3
+    },
+    {
+      "i": 4,
+      "ok": true,
+      "before": 3,
+      "after": 3,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 3
+    },
+    {
+      "i": 5,
+      "ok": true,
+      "before": 3,
+      "after": 4,
+      "new_elves": 1,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 6,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 7,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 8,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 9,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 10,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 11,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 12,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 13,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 14,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 15,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 16,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 17,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 18,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 19,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 20,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 21,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 22,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 23,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 24,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 25,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 26,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 27,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 28,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 29,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 30,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 31,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 32,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 33,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 34,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 35,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 36,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 37,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 38,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    },
+    {
+      "i": 39,
+      "ok": true,
+      "before": 4,
+      "after": 4,
+      "new_elves": 0,
+      "reward_count": 10,
+      "elf_count": 4
+    }
+  ],
+  "elves_raw": [
+    {
+      "uuid": 1,
+      "id": 54000,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 5
+    },
+    {
+      "uuid": 2,
+      "id": 54008,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 5
+    },
+    {
+      "uuid": 3,
+      "id": 54206,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 6
+    },
+    {
+      "uuid": 4,
+      "id": 54407,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 7
+    }
+  ],
+  "plans": [
+    {
+      "uuid": 2,
+      "id": 54008,
+      "q": 5,
+      "target": [
+        30,
+        2
+      ]
+    }
+  ],
+  "levelup_results": [
+    {
+      "uuid": 2,
+      "id": 54008,
+      "q": 5,
+      "target": [
+        30,
+        2
+      ],
+      "final": {
+        "lv": 1,
+        "ph": 0
+      },
+      "log": [
+        "ph0: up=False phase=False {'errcode': 1606}",
+        "phase fail stop {'errcode': 1606}"
+      ]
+    }
+  ],
+  "elves_final": [
+    {
+      "uuid": 1,
+      "id": 54000,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 5
+    },
+    {
+      "uuid": 2,
+      "id": 54008,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 5
+    },
+    {
+      "uuid": 3,
+      "id": 54206,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 6
+    },
+    {
+      "uuid": 4,
+      "id": 54407,
+      "level": 1,
+      "phase": 0,
+      "star": 0,
+      "buddy": 0,
+      "quality": 7
+    }
+  ]
+}

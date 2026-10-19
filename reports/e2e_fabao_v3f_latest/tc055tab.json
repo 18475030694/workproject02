@@ -1,0 +1,10 @@
+{
+ "sw1": {
+  "err": "TypeError: (path || \"\").split is not a function"
+ },
+ "atlas_in_tab": 0,
+ "sw2": {
+  "err": "TypeError: (path || \"\").split is not a function"
+ },
+ "draw_in_tab": 1
+}

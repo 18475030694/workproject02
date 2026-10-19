@@ -1,0 +1,125 @@
+{
+  "time": "20260909_165626",
+  "account": "4451",
+  "steps": {
+    "baseline": {
+      "role": {
+        "uuid": 8589937644,
+        "name": "戚北",
+        "lv": 9463,
+        "advance": 52,
+        "buddy_count": 45
+      },
+      "serverDay": 101,
+      "pool_level": 1,
+      "draw_times": 0,
+      "rings": 0
+    },
+    "set_day_19": {
+      "status": 200,
+      "body": "OK: ERR<0, OK> REPLY: table: 0x7d1281812280"
+    },
+    "day19_check": {
+      "serverDay": 19,
+      "pool_level": 1,
+      "draw_times": 0,
+      "rings": 0
+    },
+    "open_atlas_lowpool": {
+      "open": {
+        "ok": true,
+        "name": "UISoulRingDrawTabView"
+      },
+      "tab": {
+        "found": false,
+        "labels": [
+          "跳过动画",
+          "炼宝",
+          "法宝总览"
+        ]
+      }
+    },
+    "tabs_pool1": {
+      "err": "no atlas"
+    },
+    "gm_draw_times": {
+      "status": 200,
+      "body": "OK: ERR<0, OK> REPLY: nil"
+    },
+    "pool_upgrades": [
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 2
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 3
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 4
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 5
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 6
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 7
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 8
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 9
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 10
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 11
+      },
+      {
+        "ok": null,
+        "resp": "undefined",
+        "pool": 12
+      }
+    ],
+    "pool_check": {
+      "serverDay": 19,
+      "pool_level": 12,
+      "draw_times": 0,
+      "rings": 0
+    },
+    "tabs_pool11": {
+      "err": "no atlas"
+    },
+    "tc047_filter": [],
+    "pool11_groups": {
+      "pool11_groups": []
+    },
+    "award_tickets": {
+      "status": 200,
+      "body": "OK: ERR<0, OK> REPLY: <br/>实际发放500个"
+    }
+  },
+  "error": "Page.evaluate: TypeError: tg.emit is not a function\n    at eval (eval at evaluate (:302:30), <anonymous>:16:65)\n    at UtilityScript.evaluate (<anonymous>:309:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}

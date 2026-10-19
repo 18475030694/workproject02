@@ -1,0 +1,646 @@
+{
+  "time": "20260909_191601",
+  "account": "4451",
+  "phases": {
+    "day2": {
+      "day": 2,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x780d60331440"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok",
+          "items": "ok",
+          "award": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 2,
+        "pool_level": 14,
+        "draw_times": 41510
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放25000个"
+      },
+      "first_draw": {
+        "ok": true,
+        "err": null
+      },
+      "stop": "enough @call11 (draws=1200)",
+      "draws_total": 1200,
+      "drawn_q": {
+        "神": 41,
+        "圣": 6,
+        "仙": 1
+      },
+      "bulletins": [
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]化血神刀</color></color>\",\"uuid\":334}]}",
+          "src": "bulletin",
+          "t": 1788952622129
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]凤翅紫金冠</color></color>\",\"uuid\":335}]}",
+          "src": "bulletin",
+          "t": 1788952622130
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]七宝妙树</color></color>\",\"uuid\":336}]}",
+          "src": "bulletin",
+          "t": 1788952622131
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]九环锡杖</color></color>\",\"uuid\":337}]}",
+          "src": "bulletin",
+          "t": 1788952622132
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]化血神刀</color></color>\",\"uuid\":338}]}",
+          "src": "bulletin",
+          "t": 1788952622133
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]九环锡杖</color></color>\",\"uuid\":339}]}",
+          "src": "bulletin",
+          "t": 1788952622156
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]九环锡杖</color></color>\",\"uuid\":340}]}",
+          "src": "bulletin",
+          "t": 1788952622275
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]昆仑镜</color></color>\",\"uuid\":341}]}",
+          "src": "bulletin",
+          "t": 1788952622276
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]化血神刀</color></color>\",\"uuid\":342}]}",
+          "src": "bulletin",
+          "t": 1788952622276
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]镇魂铃</color></color>\",\"uuid\":343}]}",
+          "src": "bulletin",
+          "t": 1788952622277
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]混元锤</color></color>\",\"uuid\":344}]}",
+          "src": "bulletin",
+          "t": 1788952622302
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]幌金绳</color></color>\",\"uuid\":345}]}",
+          "src": "bulletin",
+          "t": 1788952622426
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]幌金绳</color></color>\",\"uuid\":346}]}",
+          "src": "bulletin",
+          "t": 1788952622427
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]九环锡杖</color></color>\",\"uuid\":347}]}",
+          "src": "bulletin",
+          "t": 1788952622427
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]化血神刀</color></color>\",\"uuid\":348}]}",
+          "src": "bulletin",
+          "t": 1788952622427
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]创世鼎</color></color>\",\"uuid\":349}]}",
+          "src": "bulletin",
+          "t": 1788952622428
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]幌金绳</color></color>\",\"uuid\":350}]}",
+          "src": "bulletin",
+          "t": 1788952622576
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]幌金绳</color></color>\",\"uuid\":351}]}",
+          "src": "bulletin",
+          "t": 1788952622576
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]混元锤</color></color>\",\"uuid\":352}]}",
+          "src": "bulletin",
+          "t": 1788952622611
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]化血神刀</color></color>\",\"uuid\":353}]}",
+          "src": "bulletin",
+          "t": 1788952622764
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]镇魂铃</color></color>\",\"uuid\":354}]}",
+          "src": "bulletin",
+          "t": 1788952622792
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]如来金钵盂</color></color>\",\"uuid\":355}]}",
+          "src": "bulletin",
+          "t": 1788952622792
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de74cc>法宝-[神]玄火鉴</color></color>\",\"uuid\":356}]}",
+          "src": "bulletin",
+          "t": 1788952622899
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952622,\"end_time\":1788952802,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]番天印</color></color>\",\"uuid\":357}]}",
+          "src": "bulletin",
+          "t": 1788952622900
+        }
+      ],
+      "bulletin_q": {
+        "神": 48,
+        "圣": 6,
+        "仙": 1
+      },
+      "chat_hits": 55,
+      "verdict": {
+        "神": "PASS(应公告且已公告)",
+        "圣": "PASS(应公告且已公告)",
+        "仙": "PASS(应公告且已公告)"
+      },
+      "color_check": [
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        },
+        {
+          "q": "神",
+          "color": "#de74cc",
+          "expect": "#de74cc",
+          "ok": true
+        }
+      ]
+    },
+    "day5": {
+      "day": 5,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x780d5d452840"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok",
+          "items": "ok",
+          "award": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 5,
+        "pool_level": 14,
+        "draw_times": 42710
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放25000个"
+      },
+      "first_draw": {
+        "ok": true,
+        "err": null
+      },
+      "stop": "enough @call43 (draws=4400)",
+      "draws_total": 4400,
+      "drawn_q": {
+        "神": 135,
+        "圣": 20,
+        "仙": 1
+      },
+      "bulletins": [
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "start_time\":1788952652,\"end_time\":1788952832,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]昆吾人皇剑</color></color>\",\"uuid\":389}]}",
+          "src": "bulletin",
+          "t": 1788952652478
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "\"start_time\":1788952652,\"end_time\":1788952832,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]七宝妙树</color></color>\",\"uuid\":390}]}",
+          "src": "bulletin",
+          "t": 1788952652837
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952652,\"end_time\":1788952832,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]崆峒印</color></color>\",\"uuid\":391}]}",
+          "src": "bulletin",
+          "t": 1788952652965
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952652,\"end_time\":1788952832,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]创世鼎</color></color>\",\"uuid\":392}]}",
+          "src": "bulletin",
+          "t": 1788952652966
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952653,\"end_time\":1788952833,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]番天印</color></color>\",\"uuid\":393}]}",
+          "src": "bulletin",
+          "t": 1788952653236
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "\"start_time\":1788952653,\"end_time\":1788952833,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]七宝妙树</color></color>\",\"uuid\":394}]}",
+          "src": "bulletin",
+          "t": 1788952653847
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952653,\"end_time\":1788952833,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]无始钟</color></color>\",\"uuid\":395}]}",
+          "src": "bulletin",
+          "t": 1788952653848
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952653,\"end_time\":1788952833,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]补天石</color></color>\",\"uuid\":396}]}",
+          "src": "bulletin",
+          "t": 1788952653878
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952654,\"end_time\":1788952834,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]补天石</color></color>\",\"uuid\":397}]}",
+          "src": "bulletin",
+          "t": 1788952654461
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "\"start_time\":1788952654,\"end_time\":1788952834,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]斩仙飞刀</color></color>\",\"uuid\":398}]}",
+          "src": "bulletin",
+          "t": 1788952654461
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "start_time\":1788952654,\"end_time\":1788952834,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]昆吾人皇剑</color></color>\",\"uuid\":399}]}",
+          "src": "bulletin",
+          "t": 1788952654716
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "start_time\":1788952654,\"end_time\":1788952834,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]昆吾人皇剑</color></color>\",\"uuid\":400}]}",
+          "src": "bulletin",
+          "t": 1788952654741
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "\"start_time\":1788952654,\"end_time\":1788952834,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]斩仙飞刀</color></color>\",\"uuid\":401}]}",
+          "src": "bulletin",
+          "t": 1788952654742
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952654,\"end_time\":1788952834,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]番天印</color></color>\",\"uuid\":402}]}",
+          "src": "bulletin",
+          "t": 1788952654872
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952655,\"end_time\":1788952835,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]番天印</color></color>\",\"uuid\":403}]}",
+          "src": "bulletin",
+          "t": 1788952655803
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952655,\"end_time\":1788952835,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]崆峒印</color></color>\",\"uuid\":404}]}",
+          "src": "bulletin",
+          "t": 1788952655907
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952656,\"end_time\":1788952836,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]创世鼎</color></color>\",\"uuid\":405}]}",
+          "src": "bulletin",
+          "t": 1788952656117
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952656,\"end_time\":1788952836,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]无始钟</color></color>\",\"uuid\":406}]}",
+          "src": "bulletin",
+          "t": 1788952656826
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "\"start_time\":1788952657,\"end_time\":1788952837,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]斩仙飞刀</color></color>\",\"uuid\":407}]}",
+          "src": "bulletin",
+          "t": 1788952657040
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952657,\"end_time\":1788952837,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]虚天鼎</color></color>\",\"uuid\":408}]}",
+          "src": "bulletin",
+          "t": 1788952657246
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "snippet": "{\"start_time\":1788952657,\"end_time\":1788952837,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#de645d>法宝-[圣]无始钟</color></color>\",\"uuid\":409}]}",
+          "src": "bulletin",
+          "t": 1788952657345
+        },
+        {
+          "q": "仙",
+          "color": "#7c8dd7",
+          "snippet": "{\"start_time\":1788952657,\"end_time\":1788952837,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#7c8dd7>法宝-[仙]掌天瓶</color></color>\",\"uuid\":410}]}",
+          "src": "bulletin",
+          "t": 1788952657687
+        }
+      ],
+      "bulletin_q": {
+        "圣": 21,
+        "仙": 1
+      },
+      "chat_hits": 22,
+      "verdict": {
+        "神": "PASS(应静默且无公告, 抽中135次)",
+        "圣": "PASS(应公告且已公告)",
+        "仙": "PASS(应公告且已公告)"
+      },
+      "color_check": [
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        },
+        {
+          "q": "圣",
+          "color": "#de645d",
+          "expect": "#de645d",
+          "ok": true
+        }
+      ]
+    },
+    "day19": {
+      "day": 19,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x780d68bdd640"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok",
+          "items": "ok",
+          "award": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 19,
+        "pool_level": 14,
+        "draw_times": 47110
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放25000个"
+      },
+      "first_draw": {
+        "ok": true,
+        "err": null
+      },
+      "stop": "enough @call33 (draws=3400)",
+      "draws_total": 3400,
+      "drawn_q": {
+        "神": 89,
+        "圣": 20,
+        "仙": 1
+      },
+      "bulletins": [
+        {
+          "q": "仙",
+          "color": "#7c8dd7",
+          "snippet": "{\"start_time\":1788952695,\"end_time\":1788952875,\"is_cycle\":false,\"content\":\"<color=#fff6bc>恭喜<color=#ffd145>戚北</color>在【炼宝】获得：<color=#7c8dd7>法宝-[仙]掌天瓶</color></color>\",\"uuid\":411}]}",
+          "src": "bulletin",
+          "t": 1788952695144
+        }
+      ],
+      "bulletin_q": {
+        "仙": 1
+      },
+      "chat_hits": 1,
+      "verdict": {
+        "神": "PASS(应静默且无公告, 抽中89次)",
+        "圣": "PASS(应静默且无公告, 抽中20次)",
+        "仙": "PASS(应公告且已公告)"
+      },
+      "color_check": [
+        {
+          "q": "仙",
+          "color": "#7c8dd7",
+          "expect": "#7c8dd7",
+          "ok": true
+        }
+      ]
+    }
+  },
+  "role": {
+    "uuid": 8589937644,
+    "name": "戚北",
+    "lv": 9463,
+    "advance": 52,
+    "buddy_count": 45
+  },
+  "pool_upgrade": {
+    "ok": true,
+    "before": 13,
+    "ups": [
+      {
+        "ok": true,
+        "new_level": 14,
+        "err": null
+      }
+    ],
+    "pool_level": 14
+  },
+  "restore": {
+    "status": 200,
+    "body": "OK: ERR<0, OK> REPLY: table: 0x780d659281c0",
+    "baseline": 101
+  },
+  "restore_check": {
+    "serverDay": 101,
+    "pool_level": 14,
+    "draw_times": 50510
+  }
+}

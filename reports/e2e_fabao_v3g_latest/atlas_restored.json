@@ -1,0 +1,101 @@
+{
+ "meta": {
+  "reset": {
+   "nToggles": 0,
+   "sfs": []
+  },
+  "scroll": {
+   "scrolled": true,
+   "n": 4
+  },
+  "count": 5,
+  "visCount": 2,
+  "err": null
+ },
+ "appearance": {
+  "items": [
+   {
+    "sf": "soul_ring_atlas_panel01_kuang03",
+    "x": 192,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[灵]定海珠",
+      "color": "#9875b3"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang03",
+    "x": 524,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[灵]人种袋",
+      "color": "#9875b3"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang03",
+    "x": 856,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[灵]困龙桩",
+      "color": "#9875b3"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang03",
+    "x": 192,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[灵]离地焰光旗",
+      "color": "#9875b3"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang03",
+    "x": 524,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[灵]混元莲花",
+      "color": "#9875b3"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   }
+  ],
+  "count": 5,
+  "visCount": 2
+ }
+}

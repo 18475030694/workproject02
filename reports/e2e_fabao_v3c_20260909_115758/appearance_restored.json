@@ -1,0 +1,81 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang07",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[凡]御剑符",
+     "color": "#8999a1"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[凡]御剑符",
+     "color": "#8999a1"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang07",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[凡]天罡反震符",
+     "color": "#8999a1"
+    },
+    {
+     "ring": "[凡]烈火符",
+     "color": "#8999a1"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[凡]天罡反震符",
+     "color": "#8999a1"
+    },
+    {
+     "ring": "[凡]烈火符",
+     "color": "#8999a1"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang07",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[凡]烈火符",
+     "color": "#8999a1"
+    },
+    {
+     "ring": "[凡]天罡反震符",
+     "color": "#8999a1"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[凡]烈火符",
+     "color": "#8999a1"
+    },
+    {
+     "ring": "[凡]天罡反震符",
+     "color": "#8999a1"
+    }
+   ]
+  }
+ ],
+ "count": 6
+}

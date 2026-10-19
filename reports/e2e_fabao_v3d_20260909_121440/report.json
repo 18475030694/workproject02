@@ -1,0 +1,184 @@
+{
+ "title": "法宝第二轮v3d最终聚焦复测",
+ "account": "1353",
+ "start_time": "2026-09-09T12:14:40",
+ "cases": [
+  {
+   "case_id": "TC000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC057",
+   "title": "法宝装配界面打开(UIHeroSoulRing)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC042",
+   "title": "装配面板属性与公式一致(处理7)",
+   "passed": false,
+   "note": "前置不足: data_err=无已穿戴法宝 owned=0 panelVisible=False (需已穿戴法宝)"
+  },
+  {
+   "case_id": "TC043",
+   "title": "长名不遮挡(名称在icon上方,布局检查)",
+   "passed": false,
+   "note": "可视项4 检测4项(长名项1), 相交1项: [{\"item\": \"0\", \"name\": \"[极]超长名称测试一二三四五六七八\", \"nameR\": {\"x\": 53, \"y\": 838, \"w\": 128, \"h\": 60}, \"iconR\": {\"x\": 53, \"y\": 838, \"w\": 208, \"h\": 208}, \"overlap\": true}] (截图人工复核)"
+  },
+  {
+   "case_id": "TC055-tab",
+   "title": "炼宝/图鉴页签切换(UISoulRingDrawTabView容器)",
+   "passed": false,
+   "note": "{\"sw_atlas\": {\"found\": false}, \"atlas_active\": 0, \"sw_draw\": {\"ok\": true, \"node\": \"TogItem_\"}, \"draw_active\": 1}"
+  },
+  {
+   "case_id": "TC055",
+   "title": "炼宝抽奖1次(跳过动画开,扣费验证)",
+   "passed": true,
+   "note": "cost={'cost_item': 1007, 'have': 20} 点击={'ok': True, 'node': 'BtnDrawOne_', 'path': 'System/UISoulRingDraw/SafeArea/Middle_/BtnDrawOne_'} skip=True 扣后=19 新UI=['UISoulRingDrawSkipAniBg', 'UISoulRingDrawRewards', 'UISoulRing_']"
+  },
+  {
+   "case_id": "TC055-ten",
+   "title": "炼宝抽奖10次(扣费验证)",
+   "passed": true,
+   "note": "点击={'ok': True, 'node': 'BtnDrawTen_', 'path': 'System/UISoulRingDraw/SafeArea/Middle_/BtnDrawTen_'} 抽1次后=19 抽10次后=9"
+  },
+  {
+   "case_id": "TC020",
+   "title": "图鉴item阶数无年份残留(处理2)",
+   "passed": false,
+   "note": "图鉴内年份样例=['80万年']"
+  },
+  {
+   "case_id": "TC020-probe",
+   "title": "RingAtlasItem运行时代码探针(80万年来源定性)",
+   "passed": false,
+   "note": "src=http://localhost:7456/scripting/x/chunks/c0/c0da227e78f86844ee9b5927edd93ddbc1dd0782.js updateItem=updateItem(index, data, atlasView) {\n          if (!data) {\n            return;\n          }\n\n          this.data = data;\n          this.atlasView = atlasView;\n          var ringData = (_crd && SystemModules === void 0 ? (_reportPossibleCrUseOfSystemModules({\n  samples=[{\"name\": null, \"activeVisible\": true, \"year\": \"5阶\"}, {\"name\": null, \"activeVisible\": true, \"year\": \"5阶\"}, {\"name\": null, \"activeVisible\": true, \"year\": \"1阶\"}, {\"name\": null, \"activeVisible\": true, \"year\": \"1阶\"}]"
+  },
+  {
+   "case_id": "TC000-ctrl",
+   "title": "对照补丁生效性(quality表atlas_res改后外观应变化)",
+   "passed": false,
+   "note": "{\"base\": null, \"ctrl\": null, \"detail\": {\"quality.1.atlas_res\": \"soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03\"}}"
+  },
+  {
+   "case_id": "TC009",
+   "title": "改quality外观应不变(解耦验证)",
+   "passed": false,
+   "note": "对照组未生效 patch链路存疑 readback={'q': 7}"
+  },
+  {
+   "case_id": "TC007",
+   "title": "同quality不同group外观应不同(解耦验证)",
+   "passed": false,
+   "note": "同quality不同group外观已不同 {\"6001\": null, \"6002g9\": null}"
+  },
+  {
+   "case_id": "TC008",
+   "title": "同group不同quality外观应相同(解耦验证)",
+   "passed": false,
+   "note": "同group不同quality外观相同(解耦成立) {\"6001\": null, \"6002q7\": null}"
+  },
+  {
+   "case_id": "TC000-restore",
+   "title": "cfg内存patch已恢复(外观与基线一致)",
+   "passed": false,
+   "note": "{\"base\": null, \"restored\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\"}}"
+  },
+  {
+   "case_id": "EX06",
+   "title": "全程JS错误收集",
+   "passed": true,
+   "note": "共9335条, 分类={'D9_pool': 1, 'D9_quality_idx-1': 46, 'D10_jump_id': 25, 'D9_bone': 30, 'pageerror_null_x': 4615}"
+  }
+ ],
+ "gm": {
+  "onekey_wear": {
+   "ok": true,
+   "node": "BtnEquip_",
+   "path": "System/UIHeroSoulRing/SafeArea/Bottom/BtnEquip_"
+  },
+  "award_1007": "OK: ERR<0, OK> REPLY: <br/>实际发放20个",
+  "draw10_have": 9
+ },
+ "js_errors": [
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')"
+ ],
+ "js_errors_classified": {
+  "D9_pool": 1,
+  "D9_quality_idx-1": 46,
+  "D10_jump_id": 25,
+  "D9_bone": 30,
+  "pageerror_null_x": 4615
+ },
+ "patches": {
+  "base": {
+   "6001": null,
+   "6002": null
+  }
+ },
+ "end_time": "2026-09-09T12:16:29",
+ "passed_count": 5,
+ "total_count": 15
+}

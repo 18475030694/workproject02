@@ -1,0 +1,33 @@
+{
+  "group": "a2",
+  "time": "2026-10-16T14:48:58",
+  "server_time": "2026-10-29 00:01:20",
+  "results": [
+    {
+      "tc": "A2-buy(购买不领)",
+      "pass": true,
+      "note": "{\"goods_id\": 530001, \"end_time\": -1, \"recv_record_list\": [{\"day\": 1, \"status\": false}]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-008(未领入口保留)",
+      "pass": true,
+      "note": "state={\"has_gift\": true, \"map_size\": 1}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-007(漏领累积可领)",
+      "pass": true,
+      "note": "recv_days=[(1, False), (2, False), (3, False)] d2_unlock=True now=2026-10-29 00:00:34",
+      "evidence": []
+    },
+    {
+      "tc": "TC-006(领任意即全领)",
+      "pass": true,
+      "note": "一次点击领取3天份额 diff={\"1007\": [10009, 10029], \"1\": [999999, 1000359], \"1000\": [9999, 10009]}",
+      "evidence": []
+    }
+  ],
+  "account": "2209",
+  "uuid": 8589936682
+}

@@ -1,0 +1,21 @@
+{
+ "time": "2026-09-15T16:43:41",
+ "account": "5004",
+ "server": "S5",
+ "target": 14,
+ "ok": false,
+ "final_pass": null,
+ "lv": null,
+ "stages": [
+  {
+   "stage": 1,
+   "ok": false,
+   "attempts": null,
+   "used_sec": 6.2,
+   "lv": 1,
+   "pass": 0,
+   "error": "连续 3 次尝试未推进关卡 1"
+  }
+ ],
+ "error": "连续 3 次尝试未推进关卡 1"
+}

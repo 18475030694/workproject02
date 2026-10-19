@@ -1,0 +1,37 @@
+Index: UITreasureBox.prefab
+===================================================================
+--- UITreasureBox.prefab	(.../tags/2026-08-10/client/assets/resources/ui/prefab/treasurebox/UITreasureBox.prefab)	(?? 10884)
++++ UITreasureBox.prefab	(.../trunk/client/assets/resources/ui/prefab/treasurebox/UITreasureBox.prefab)	(?? 10884)
+@@ -329,12 +329,12 @@
+       "a": 255
+     },
+     "_spriteFrame": {
+-      "__uuid__": "2af48e9b-b1f4-4635-83d5-669966e9f395@f9941",
++      "__uuid__": "d73572c3-9394-4846-9d0f-9dc1bcd38862@f9941",
+       "__expectedType__": "cc.SpriteFrame"
+     },
+     "_type": 0,
+     "_fillType": 0,
+-    "_sizeMode": 2,
++    "_sizeMode": 0,
+     "_fillCenter": {
+       "__type__": "cc.Vec2",
+       "x": 0,
+@@ -979,7 +979,7 @@
+     },
+     "_type": 0,
+     "_fillType": 0,
+-    "_sizeMode": 2,
++    "_sizeMode": 0,
+     "_fillCenter": {
+       "__type__": "cc.Vec2",
+       "x": 0,
+@@ -1604,7 +1604,7 @@
+     },
+     "_contentSize": {
+       "__type__": "cc.Size",
+-      "width": 473.6,
++      "width": 482,
+       "height": 32
+     },
+     "_anchorPoint": {

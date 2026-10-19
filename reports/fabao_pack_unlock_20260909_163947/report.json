@@ -1,0 +1,437 @@
+{
+  "time": "20260909_163947",
+  "account": "4451",
+  "packs": {
+    "140001": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架成功\",\"code\":0}",
+      "ok": true
+    },
+    "140003": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架成功\",\"code\":0}",
+      "ok": true
+    },
+    "140005": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架成功\",\"code\":0}",
+      "ok": true
+    },
+    "140007": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架成功\",\"code\":0}",
+      "ok": true
+    },
+    "140023": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架成功\",\"code\":0}",
+      "ok": true
+    },
+    "140024": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架成功\",\"code\":0}",
+      "ok": true
+    },
+    "390001": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390002": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390003": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390004": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390005": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390006": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390007": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390008": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390009": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390010": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390011": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390012": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390013": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390014": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390015": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390016": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390017": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390018": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390019": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390020": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390021": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390022": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390023": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "390024": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    },
+    "530001": {
+      "status": 200,
+      "body": "{\"errmsg\":\"GM推送礼包上架失败\",\"code\":1678}",
+      "ok": false
+    }
+  },
+  "steps": {
+    "ui_registry": {
+      "names": []
+    },
+    "push_gift": {
+      "opened": {
+        "err": "uiMgr无打开方法",
+        "keys": [
+          "rootCamera",
+          "vCameraVisibility",
+          "rootObj",
+          "vGroupObjs",
+          "uis",
+          "vHighUpdateUis",
+          "vNormalUpdateUis",
+          "vMarkDestroy",
+          "vUIReturnStack",
+          "showingUI",
+          "pushingUI",
+          "widget",
+          "fullUIStack",
+          "sleepTime",
+          "vInSaving",
+          "saveInterval",
+          "saveSysOpen",
+          "uiStack",
+          "uiQueue",
+          "uiConditionalOpenList",
+          "groupRestrictSize",
+          "fullScreenSize",
+          "safeAreaOffset",
+          "touchEffSignal",
+          "touchPos",
+          "soundSlot",
+          "lastBgmId"
+        ]
+      },
+      "kw_texts": [],
+      "texts": [
+        "1.57亿",
+        "戚北",
+        "凡人",
+        "99.99万",
+        "正在连接平行世界",
+        "GM",
+        "战斗测试",
+        "主线测试",
+        "战斗音效"
+      ]
+    },
+    "god_star_gift": {
+      "opened": {
+        "err": "uiMgr无打开方法",
+        "keys": [
+          "rootCamera",
+          "vCameraVisibility",
+          "rootObj",
+          "vGroupObjs",
+          "uis",
+          "vHighUpdateUis",
+          "vNormalUpdateUis",
+          "vMarkDestroy",
+          "vUIReturnStack",
+          "showingUI",
+          "pushingUI",
+          "widget",
+          "fullUIStack",
+          "sleepTime",
+          "vInSaving",
+          "saveInterval",
+          "saveSysOpen",
+          "uiStack",
+          "uiQueue",
+          "uiConditionalOpenList",
+          "groupRestrictSize",
+          "fullScreenSize",
+          "safeAreaOffset",
+          "touchEffSignal",
+          "touchPos",
+          "soundSlot",
+          "lastBgmId"
+        ]
+      },
+      "kw_texts": [
+        "超值礼包",
+        "限时礼包",
+        "新手礼包"
+      ],
+      "texts": [
+        "93.94万",
+        "110.37万",
+        "暴144.01万",
+        "103.4万",
+        "86.36万",
+        "1.57亿",
+        "戚北",
+        "凡人",
+        "99.99万",
+        "主角升到1600级",
+        "(1600/1600)",
+        "10",
+        "功能预告",
+        "活动日历",
+        "福利",
+        "开服狂欢",
+        "7天7时",
+        "冲榜",
+        "2天5时",
+        "超值活动",
+        "超值礼包",
+        "11时09分",
+        "万宝商盟",
+        "4天7时",
+        "成仙之路",
+        "限时礼包",
+        "03时59分",
+        "白絮逐风",
+        "5天23时",
+        "特惠法宝",
+        "进度:2/5",
+        "5001-昆仑雪山",
+        "飞速",
+        "2倍速",
+        "社区",
+        "客服",
+        "推关送千抽",
+        "50关领取",
+        "特权卡",
+        "基金",
+        "大圣法宝",
+        "23时09分",
+        "新手礼包",
+        "购买基金即可获大量",
+        "神话",
+        "-大圣",
+        "暂无消息",
+        "正在连接平行世界",
+        "GM",
+        "战斗测试",
+        "主线测试",
+        "战斗音效"
+      ]
+    },
+    "growth_gift": {
+      "opened": {
+        "err": "uiMgr无打开方法",
+        "keys": [
+          "rootCamera",
+          "vCameraVisibility",
+          "rootObj",
+          "vGroupObjs",
+          "uis",
+          "vHighUpdateUis",
+          "vNormalUpdateUis",
+          "vMarkDestroy",
+          "vUIReturnStack",
+          "showingUI",
+          "pushingUI",
+          "widget",
+          "fullUIStack",
+          "sleepTime",
+          "vInSaving",
+          "saveInterval",
+          "saveSysOpen",
+          "uiStack",
+          "uiQueue",
+          "uiConditionalOpenList",
+          "groupRestrictSize",
+          "fullScreenSize",
+          "safeAreaOffset",
+          "touchEffSignal",
+          "touchPos",
+          "soundSlot",
+          "lastBgmId"
+        ]
+      },
+      "kw_texts": [
+        "超值礼包",
+        "限时礼包",
+        "新手礼包",
+        "灵力X4"
+      ],
+      "texts": [
+        "86.3万",
+        "1.57亿",
+        "戚北",
+        "凡人",
+        "99.99万",
+        "主角升到1600级",
+        "(1600/1600)",
+        "10",
+        "功能预告",
+        "活动日历",
+        "福利",
+        "开服狂欢",
+        "7天7时",
+        "冲榜",
+        "2天5时",
+        "超值活动",
+        "超值礼包",
+        "11时09分",
+        "万宝商盟",
+        "4天7时",
+        "成仙之路",
+        "限时礼包",
+        "03时59分",
+        "白絮逐风",
+        "5天23时",
+        "特惠法宝",
+        "进度:2/5",
+        "5002-昆仑雪山",
+        "飞速",
+        "2倍速",
+        "社区",
+        "客服",
+        "推关送千抽",
+        "50关领取",
+        "特权卡",
+        "基金",
+        "大圣法宝",
+        "23时09分",
+        "新手礼包",
+        "购买基金即可获大量",
+        "神话",
+        "-大圣",
+        "暂无消息",
+        "正在连接平行世界",
+        "获得",
+        "灵力X4",
+        "GM",
+        "战斗测试",
+        "主线测试",
+        "战斗音效"
+      ]
+    }
+  },
+  "enum_pack_ids": {
+    "530001": "F-法宝礼包",
+    "390001": "S-神星限时礼包",
+    "390002": "S-神星限时礼包",
+    "390003": "S-神星限时礼包",
+    "390004": "S-神星限时礼包",
+    "390005": "S-神星限时礼包",
+    "390006": "S-神星限时礼包",
+    "390007": "S-神星限时礼包",
+    "390008": "S-神星限时礼包",
+    "390009": "S-神星限时礼包",
+    "390010": "S-神星限时礼包",
+    "390011": "S-神星限时礼包",
+    "390012": "S-神星限时礼包",
+    "390013": "S-神星限时礼包",
+    "390014": "S-神星限时礼包",
+    "390015": "S-神星限时礼包",
+    "390016": "S-神星限时礼包",
+    "390017": "S-神星限时礼包",
+    "390018": "S-神星限时礼包",
+    "390019": "S-神星限时礼包",
+    "390020": "S-神星限时礼包",
+    "390021": "S-神星限时礼包",
+    "390022": "S-神星限时礼包",
+    "390023": "S-神星限时礼包",
+    "390024": "S-神星限时礼包",
+    "140001": "T-推送礼包",
+    "140003": "T-推送礼包",
+    "140005": "T-推送礼包",
+    "140007": "T-推送礼包",
+    "140023": "T-推送礼包",
+    "140024": "T-推送礼包"
+  },
+  "role": {
+    "uuid": 8589937644,
+    "name": "戚北",
+    "lv": 9463,
+    "advance": 52,
+    "buddy_count": 45
+  }
+}

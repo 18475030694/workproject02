@@ -1,0 +1,29 @@
+{
+  "time": "20260928_164607",
+  "account": "7205",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589939175
+    }
+  },
+  "before": {
+    "uuid": 8589939175,
+    "name": "边嘉豪",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589939175,
+    "name": "边嘉豪",
+    "lv": 9173,
+    "advance": 50,
+    "buddy_count": 45
+  }
+}

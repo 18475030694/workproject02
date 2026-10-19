@@ -1,0 +1,30 @@
+{
+  "case_id": "TC_LOGIN_001",
+  "title": "登录流程-选服s5服-账号1351",
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "server": "s5服",
+  "headless": true,
+  "start_time": "2026-09-01T14:58:49",
+  "steps": [
+    {
+      "name": "输入账号",
+      "status": "done",
+      "start": "2026-09-01T14:58:50",
+      "end": "2026-09-01T14:58:50"
+    },
+    {
+      "name": "打开游戏",
+      "status": "failed",
+      "start": "2026-09-01T14:58:50",
+      "end": "2026-09-01T14:58:54",
+      "note": "Page.wait_for_function: ReferenceError: Global is not defined\n    at eval (eval at predicate (eval at evaluate (:311:30)), <anonymous>:1:36)\n    at predicate (eval at evaluate (:311:30), <anonymous>:13:29)\n    at next (eval at evaluate (:311:30), <anonymous>:29:33)\n    at eval (eval at evaluate (:311:30), <anonymous>:42:13)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    }
+  ],
+  "passed": false,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_login_20260901_145849\\screenshots\\01_opened.png",
+    "error": "E:\\workproject\\reports\\e2e_login_20260901_145849\\screenshots\\99_error.png"
+  },
+  "error": "Page.wait_for_function: ReferenceError: Global is not defined\n    at eval (eval at predicate (eval at evaluate (:311:30)), <anonymous>:1:36)\n    at predicate (eval at evaluate (:311:30), <anonymous>:13:29)\n    at next (eval at evaluate (:311:30), <anonymous>:29:33)\n    at eval (eval at evaluate (:311:30), <anonymous>:42:13)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}

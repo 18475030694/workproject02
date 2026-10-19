@@ -1,0 +1,41 @@
+{
+ "start": "2026-09-11T14:03:46",
+ "steps": {
+  "open_main": true,
+  "click_openbtn": {
+   "ret": "UIRootCamera/System/UITreasureBoxNew/Bottom/OpenBtn_",
+   "rewards_in": 0.69
+  },
+  "settle_texts": [
+   "1166",
+   "1",
+   "600",
+   "点击空白处关闭"
+  ],
+  "close_btmbg": {
+   "ret": "UIRootCamera/Tip/UITreasureBoxRewardsNew/BtnBg_",
+   "closed": true
+  },
+  "skiptog": {
+   "mgr": true,
+   "ui": true
+  },
+  "btndetail": {
+   "UISystemHelp": true
+  },
+  "exchange": {
+   "gray_ret": "UIRootCamera/System/UITreasureBoxNew/Exchange/Exchange/ExchangeGrayBtn_",
+   "btn_ret": "UIRootCamera/System/UITreasureBoxNew/Exchange/Exchange/ExchangeBtn_",
+   "score": 168449,
+   "req": 20
+  },
+  "ui_open_box_full": {
+   "settle": false,
+   "dt": 10.06,
+   "diff1001": null,
+   "rate": 2,
+   "stexts_n": 0
+  }
+ },
+ "end": "2026-09-11T14:04:39"
+}

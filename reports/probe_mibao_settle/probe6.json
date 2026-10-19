@@ -1,0 +1,92 @@
+{
+ "start": "2026-09-11T14:13:51",
+ "console": [
+  "[error] [2026/9/11 14:14:09 159] [344] server error: 前后台资源版本号不匹配错误, 2024/07/01 15:37:24(client) != 2023/08/09 21:02:14(server) []",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7201",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7202",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7203",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7204",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7205",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7206",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7207",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7208",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7209",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7210",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7211",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7212",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7213",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7214",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7215",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7216",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7217",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7218",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7219",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7220",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7221",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7222",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7223",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7224",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7225",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7226",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7227",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7228",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7229",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7230",
+  "[error] 表中找不到此索引，表名为：cfg_guanka 索引为：0",
+  "[error] [2026/9/11 14:14:09 382] [356] 没有注册协议回调函数, proto.  [gs2c_tournament_buy_list]"
+ ],
+ "steps": {
+  "diag_base": {
+   "latency": 0.03,
+   "nodes": 1778,
+   "hits": 0,
+   "broken": [],
+   "walkErr": null
+  },
+  "open_tier200_clean": {
+   "click": true,
+   "rewards_in": 1.05
+  },
+  "diag_open_tier200_clean_after_open": {
+   "latency": 0.01,
+   "nodes": 1888,
+   "hits": 8,
+   "broken": [],
+   "walkErr": null
+  },
+  "pre": {
+   "score": 212,
+   "req": 20
+  },
+  "diag_after_pre": {
+   "latency": 0.01,
+   "nodes": 2032,
+   "hits": 8,
+   "broken": [],
+   "walkErr": null
+  },
+  "open_tier200_after_pre": {
+   "click": true,
+   "rewards_in": 0.39
+  },
+  "diag_open_tier200_after_pre_after_open": {
+   "latency": 0.03,
+   "nodes": 2036,
+   "hits": 8,
+   "broken": [],
+   "walkErr": null
+  },
+  "open_tier1_after_pre": {
+   "click": true,
+   "rewards_in": 0.38
+  },
+  "diag_open_tier1_after_pre_after_open": {
+   "latency": 0.03,
+   "nodes": 1936,
+   "hits": 8,
+   "broken": [],
+   "walkErr": null
+  }
+ },
+ "end": "2026-09-11T14:14:42"
+}

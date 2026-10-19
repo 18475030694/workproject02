@@ -1,0 +1,130 @@
+{
+  "time": "20260915_155948",
+  "plan": "计划：[3, 4, 5] x 3",
+  "summary": "8/9 成功",
+  "results": [
+    {
+      "server": "S3",
+      "seq": 1,
+      "name": "3001",
+      "account": "3001",
+      "uuid": 8589938545,
+      "lv": 9394,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S4",
+      "seq": 1,
+      "name": null,
+      "account": null,
+      "uuid": null,
+      "lv": null,
+      "renamed": null,
+      "ok": false,
+      "error": "Page.reload: Timeout 60000ms exceeded.\nCall log:\n  - waiting for navigation until \"domcontentloaded\"\n    - navigated to \"http://localhost:7456/?qa=1\"\n"
+    },
+    {
+      "server": "S5",
+      "seq": 1,
+      "name": "5001",
+      "account": "5001",
+      "uuid": 8589938321,
+      "lv": 9998,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S3",
+      "seq": 2,
+      "name": "3002",
+      "account": "3002",
+      "uuid": 8589938395,
+      "lv": 9903,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S4",
+      "seq": 2,
+      "name": "4002",
+      "account": "4002",
+      "uuid": 8589938473,
+      "lv": 8746,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 2,
+      "name": "5002",
+      "account": "5002",
+      "uuid": 8589938332,
+      "lv": 8032,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S3",
+      "seq": 3,
+      "name": "3003",
+      "account": "3003",
+      "uuid": 8589938557,
+      "lv": 8306,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S4",
+      "seq": 3,
+      "name": "4004",
+      "account": "4004",
+      "uuid": 8589938402,
+      "lv": 8716,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 3,
+      "name": "5003",
+      "account": "5003",
+      "uuid": 8589938563,
+      "lv": 9320,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    }
+  ]
+}

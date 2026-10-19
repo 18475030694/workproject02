@@ -1,0 +1,29 @@
+{
+  "time": "20261014_191450",
+  "account": "2250",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589935561
+    }
+  },
+  "before": {
+    "uuid": 8589935561,
+    "name": "林幺",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589935561,
+    "name": "林幺",
+    "lv": 9147,
+    "advance": 50,
+    "buddy_count": 45
+  }
+}

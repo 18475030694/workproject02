@@ -1,0 +1,15 @@
+{
+ "account": "1353",
+ "server": "s5服",
+ "ts": "20260908_154437",
+ "gm": {
+  "set_mainline_stage": "OK: ERR<0, OK> REPLY: nil"
+ },
+ "verify": {
+  "UISoulRing": false,
+  "UISoulRingDrawTabView": false,
+  "UISoulRingAtlas": true,
+  "UIGM": false
+ },
+ "uuid": 8589937422
+}

@@ -1,0 +1,216 @@
+{
+ "rebuild": {
+  "path": "UIRootCamera/System/UISoulRingAtlas",
+  "c1": {
+   "ok": false,
+   "err": "component not found: UISoulRingAtlas"
+  },
+  "c0": {
+   "ok": false,
+   "err": "component not found: UISoulRingAtlas"
+  }
+ },
+ "qcfg": {
+  "ih_found": true,
+  "q1_row": {
+   "atlas_res": "soul_ring_atlas_panel01_kuang03",
+   "color": "#8999a1",
+   "bg": "common_item02_wupinkuang01",
+   "title_bg": "common_item05_shen",
+   "skill_res": "hero_img05_white"
+  },
+  "q7_row": {
+   "atlas_res": "soul_ring_atlas_panel01_kuang08",
+   "color": "#ee8545",
+   "bg": "common_item02_wupinkuang09",
+   "title_bg": "common_item05_shen",
+   "skill_res": "hero_img05_orange"
+  },
+  "qcfg_6001": {
+   "atlas_res": "soul_ring_atlas_panel01_kuang03",
+   "color": "#8999a1",
+   "bg": "common_item02_wupinkuang01",
+   "title_bg": "common_item05_shen",
+   "skill_res": "hero_img05_white"
+  },
+  "qcfg_6002": {
+   "atlas_res": "soul_ring_atlas_panel01_kuang03",
+   "color": "#8999a1",
+   "bg": "common_item02_wupinkuang01",
+   "title_bg": "common_item05_shen",
+   "skill_res": "hero_img05_white"
+  },
+  "read_base": {
+   "q1": 1,
+   "g1": 1,
+   "q2": 1,
+   "g2": 1
+  }
+ },
+ "appearance": {
+  "items": [
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[圣]七宝妙树",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 524,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[圣]番天印",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 856,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[圣]补天石",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[圣]虚天鼎",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 524,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[圣]斩仙飞刀",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 856,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[圣]崆峒印",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": -23,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[圣]昆吾人皇剑",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 524,
+    "y": -23,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[圣]昆仑镜",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 856,
+    "y": -23,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[圣]无始钟",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": -442,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[圣]创世鼎",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   }
+  ],
+  "count": 10,
+  "visCount": 6
+ }
+}

@@ -1,0 +1,119 @@
+{
+  "time": "20260915_154351",
+  "plan": "补跑自 report.json（失败项 8 个）",
+  "summary": "8/8 成功",
+  "results": [
+    {
+      "server": "S3",
+      "seq": 1,
+      "name": "S3_001",
+      "account": "9213",
+      "uuid": 8589938293,
+      "lv": 9707,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 1,
+      "name": "S5_001",
+      "account": "4003",
+      "uuid": 8589938285,
+      "lv": 8162,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S6",
+      "seq": 1,
+      "name": "S6_001",
+      "account": "8359",
+      "uuid": 8589938455,
+      "lv": 9924,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S7",
+      "seq": 1,
+      "name": "S7_001",
+      "account": "5147",
+      "uuid": 8589938446,
+      "lv": 9103,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 2,
+      "name": "S5_002",
+      "account": "6982",
+      "uuid": 8589938459,
+      "lv": 9590,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S6",
+      "seq": 2,
+      "name": "S6_002",
+      "account": "5848",
+      "uuid": 8589938304,
+      "lv": 9540,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S7",
+      "seq": 2,
+      "name": "S7_002",
+      "account": "8910",
+      "uuid": 8589938530,
+      "lv": 8013,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "server": "S5",
+      "seq": 3,
+      "name": "S5_003",
+      "account": "5453",
+      "uuid": 8589938387,
+      "lv": 9385,
+      "renamed": {
+        "resp": "{\"errmsg\":\"OK\"}",
+        "client_sync": true
+      },
+      "ok": true,
+      "error": null
+    }
+  ]
+}

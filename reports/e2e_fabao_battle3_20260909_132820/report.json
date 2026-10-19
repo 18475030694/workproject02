@@ -1,0 +1,108 @@
+{
+ "title": "法宝战斗表现回归v3",
+ "account": "1353",
+ "start_time": "2026-09-09T13:28:20",
+ "cases": [
+  {
+   "case_id": "B000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "B010",
+   "title": "GM发6001+有效英雄uuid一键穿戴",
+   "passed": false,
+   "note": "wear={\"err\": \"无可用英雄(编队+heroMap均空)\", \"owned\": 1} ringMap={\"owned\": 1, \"equipped\": 0} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个"
+  },
+  {
+   "case_id": "B030",
+   "title": "进入战斗测试(BATTLE_TEST)",
+   "passed": true,
+   "note": "UITestFight激活, play={\"ok\": true, \"key\": \"战斗\", \"node\": \"BtnFight_\"}, 快照变化=False, 文本n=24/24"
+  },
+  {
+   "case_id": "TC024-note",
+   "title": "战斗内无『灵力/年份』残留",
+   "passed": true,
+   "note": "灵力=[] 年份=[] 关键词样本=[]"
+  },
+  {
+   "case_id": "TC065-note",
+   "title": "战斗运行阶段无新增崩溃级报错",
+   "passed": true,
+   "note": "战斗期间新增JS错误=0条, 分类见B040（D11漫画页空引用为已知全局问题）"
+  },
+  {
+   "case_id": "TC063",
+   "title": "GM面板打开/关闭(GMBTN toggle)",
+   "passed": true,
+   "note": "open: visible=True active=False; close后 visible=False"
+  },
+  {
+   "case_id": "B040",
+   "title": "战斗流程JS错误收集",
+   "passed": true,
+   "note": "共40条, 分类={'D10_jump_id': 7, 'D9_bone': 30}"
+  }
+ ],
+ "gm": {
+  "award": "OK: ERR<0, OK> REPLY: <br/>实际发放1个",
+  "wear": {
+   "err": "无可用英雄(编队+heroMap均空)",
+   "owned": 1
+  },
+  "ringMap": {
+   "owned": 1,
+   "equipped": 0
+  }
+ },
+ "js_errors": [
+  "[2026/9/9 13:28:39 97] [301] server error: 前后台资源版本号不匹配错误, 2024/07/01 15:37:24(client) != 2023/08/09 21:02:14(server) []",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7201",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7202",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7203",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7204",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7205",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7206",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7207",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7208",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7209",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7210",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7211",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7212",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7213",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7214",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7215",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7216",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7217",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7218",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7219",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7220",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7221",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7222",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7223",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7224",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7225",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7226",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7227",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7228",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7229",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7230",
+  "表中找不到此索引，表名为：cfg_guanka 索引为：0",
+  "[2026/9/9 13:28:39 299] [312] 跳转配置读取失败，请检查jump_id=40 []",
+  "[2026/9/9 13:28:39 300] [312] 跳转配置读取失败，请检查jump_id=57 []",
+  "[2026/9/9 13:28:39 300] [312] 跳转配置读取失败，请检查jump_id=58 []",
+  "[2026/9/9 13:28:39 300] [312] 跳转配置读取失败，请检查jump_id=69 []",
+  "[2026/9/9 13:28:39 301] [312] 跳转配置读取失败，请检查jump_id=106 []",
+  "[2026/9/9 13:28:39 301] [312] 跳转配置读取失败，请检查jump_id=144 []",
+  "[2026/9/9 13:28:39 302] [312] 跳转配置读取失败，请检查jump_id=174 []",
+  "表中找不到此索引，表名为：cfg_role_title 索引为：0"
+ ],
+ "js_errors_classified": {
+  "D10_jump_id": 7,
+  "D9_bone": 30
+ },
+ "end_time": "2026-09-09T13:29:26",
+ "out_dir": "E:\\workproject\\reports\\e2e_fabao_battle3_20260909_132820"
+}

@@ -1,0 +1,79 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang03",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[灵]定海珠",
+     "color": "#9875b3"
+    },
+    {
+     "ring": "[灵]人种袋",
+     "color": "#9875b3"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang03",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[灵]人种袋",
+     "color": "#9875b3"
+    },
+    {
+     "ring": "[灵]定海珠",
+     "color": "#9875b3"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang03",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[灵]困龙桩",
+     "color": "#9875b3"
+    },
+    {
+     "ring": "[灵]定海珠",
+     "color": "#9875b3"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang03",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[灵]离地焰光旗",
+     "color": "#9875b3"
+    },
+    {
+     "ring": "[灵]定海珠",
+     "color": "#9875b3"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang03",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[灵]混元莲花",
+     "color": "#9875b3"
+    },
+    {
+     "ring": "[灵]定海珠",
+     "color": "#9875b3"
+    }
+   ]
+  }
+ ],
+ "count": 5,
+ "reset": {
+  "scrolled": true,
+  "nToggles": 0
+ }
+}

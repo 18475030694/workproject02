@@ -1,0 +1,675 @@
+{
+ "title": "挂机奖励30%翻倍概率专项探针v2(广告通道)",
+ "static_evidence": "mod_guaji_reward.lua L248-271: 每掷点每条目 r=math.random(0,10000) vs 权重掉落 → 命中后 r2 vs nDoubleWeight 翻倍(*2); nDoubleWeight=GetPrivilege(GUAJI_MUL=10)(tier1)/GUAJI_MUL2(=22)(tier2); 无离线卡时溢出部分进 privilege_reward_map; 广告: c2gs_advert_finish(ad_type=1) → OnAdvertCallback → CalcReward(7200s) 直接 RewardList 进背包; 档位[103](主线19400) tier1 全必中 w=10000",
+ "tag": "baseline",
+ "accounts": [
+  "2250",
+  "6716",
+  "8246"
+ ],
+ "start_time": "2026-10-15T03:20:49",
+ "out_dir": "E:\\workproject\\reports\\probe_guaji_rate_20261015_032049",
+ "p_require": 0.3,
+ "mainline_stage": 19400,
+ "ad_calc_sec": 7200,
+ "checks": [
+  {
+   "key": "PREP",
+   "passed": null,
+   "note": "2250: uuid=8589935561 sys10=True last_recv=1792178944 priv={'mul': 0, 'mul2': 0, 'card_valid': False} gm=ERR <urlopen error timed out>",
+   "time": "2026-10-15T03:21:33",
+   "detail": {
+    "account": "2250",
+    "uuid": 8589935561,
+    "gm_resp": "ERR <urlopen error timed out>",
+    "guaji_last_recv": 1792178944,
+    "sys10_open": true,
+    "priv": {
+     "mul": 0,
+     "mul2": 0,
+     "card_valid": false
+    },
+    "time": "2026-10-15T03:21:33"
+   }
+  },
+  {
+   "key": "PREP",
+   "passed": null,
+   "note": "6716: uuid=8589935492 sys10=True last_recv=1792179016 priv={'mul': 0, 'mul2': 0, 'card_valid': False} gm=ERR <urlopen error timed out>",
+   "time": "2026-10-15T03:22:16",
+   "detail": {
+    "account": "6716",
+    "uuid": 8589935492,
+    "gm_resp": "ERR <urlopen error timed out>",
+    "guaji_last_recv": 1792179016,
+    "sys10_open": true,
+    "priv": {
+     "mul": 0,
+     "mul2": 0,
+     "card_valid": false
+    },
+    "time": "2026-10-15T03:22:16"
+   }
+  },
+  {
+   "key": "PREP",
+   "passed": null,
+   "note": "8246: uuid=8589935575 sys10=True last_recv=1792179075 priv={'mul': 0, 'mul2': 0, 'card_valid': False} gm=ERR <urlopen error timed out>",
+   "time": "2026-10-15T03:22:58",
+   "detail": {
+    "account": "8246",
+    "uuid": 8589935575,
+    "gm_resp": "ERR <urlopen error timed out>",
+    "guaji_last_recv": 1792179075,
+    "sys10_open": true,
+    "priv": {
+     "mul": 0,
+     "mul2": 0,
+     "card_valid": false
+    },
+    "time": "2026-10-15T03:22:58"
+   }
+  },
+  {
+   "key": "PRIV_REF",
+   "passed": null,
+   "note": "期望翻倍率来源: {'mul': 0, 'mul2': 0, 'card_valid': False} (读数缺失则按口径30%兜底)",
+   "time": "2026-10-15T03:22:58"
+  },
+  {
+   "key": "AD_2250_R1",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53280, '3': 1005, '5': 693, '1001': 16, '1002': 6, '1003': 3}",
+   "time": "2026-10-15T03:23:24",
+   "detail": {
+    "account": "2250",
+    "round": 1,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53280,
+     "3": 1005,
+     "5": 693,
+     "1001": 16,
+     "1002": 6,
+     "1003": 3
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:23:24"
+   }
+  },
+  {
+   "key": "AD_2250_R2",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53280, '3': 992, '5': 644, '1001': 16, '1002': 6, '1003': 1}",
+   "time": "2026-10-15T03:23:27",
+   "detail": {
+    "account": "2250",
+    "round": 2,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53280,
+     "3": 992,
+     "5": 644,
+     "1001": 16,
+     "1002": 6,
+     "1003": 1
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:23:27"
+   }
+  },
+  {
+   "key": "AD_2250_R3",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53280, '3': 991, '5': 701, '1001': 13, '1002': 6, '1003': 2}",
+   "time": "2026-10-15T03:23:31",
+   "detail": {
+    "account": "2250",
+    "round": 3,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53280,
+     "3": 991,
+     "5": 701,
+     "1001": 13,
+     "1002": 6,
+     "1003": 2
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:23:31"
+   }
+  },
+  {
+   "key": "AD_6716_R1",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53280, '3': 991, '5': 676, '1001': 16, '1002': 6, '1003': 5}",
+   "time": "2026-10-15T03:23:57",
+   "detail": {
+    "account": "6716",
+    "round": 1,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53280,
+     "3": 991,
+     "5": 676,
+     "1001": 16,
+     "1002": 6,
+     "1003": 5
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:23:57"
+   }
+  },
+  {
+   "key": "AD_6716_R2",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53280, '3': 975, '5': 655, '1001': 21, '1002': 6, '1003': 3}",
+   "time": "2026-10-15T03:24:01",
+   "detail": {
+    "account": "6716",
+    "round": 2,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53280,
+     "3": 975,
+     "5": 655,
+     "1001": 21,
+     "1002": 6,
+     "1003": 3
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:24:01"
+   }
+  },
+  {
+   "key": "AD_6716_R3",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53282, '3': 982, '5': 696, '1001': 17, '1002': 2, '1003': 3}",
+   "time": "2026-10-15T03:24:04",
+   "detail": {
+    "account": "6716",
+    "round": 3,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53282,
+     "3": 982,
+     "5": 696,
+     "1001": 17,
+     "1002": 2,
+     "1003": 3
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:24:04"
+   }
+  },
+  {
+   "key": "AD_8246_R1",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53280, '3': 978, '5': 645, '1001': 13, '1002': 4, '1003': 3}",
+   "time": "2026-10-15T03:24:30",
+   "detail": {
+    "account": "8246",
+    "round": 1,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53280,
+     "3": 978,
+     "5": 645,
+     "1001": 13,
+     "1002": 4,
+     "1003": 3
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:24:30"
+   }
+  },
+  {
+   "key": "AD_8246_R2",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53315, '3': 975, '5': 675, '1001': 18, '1002': 6, '1003': 4}",
+   "time": "2026-10-15T03:24:34",
+   "detail": {
+    "account": "8246",
+    "round": 2,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53315,
+     "3": 975,
+     "5": 675,
+     "1001": 18,
+     "1002": 6,
+     "1003": 4
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:24:34"
+   }
+  },
+  {
+   "key": "AD_8246_R3",
+   "passed": true,
+   "note": "errcode=0 diff={'2': 53315, '3': 1005, '5': 662, '1001': 18, '1002': 2, '1003': 2}",
+   "time": "2026-10-15T03:24:37",
+   "detail": {
+    "account": "8246",
+    "round": 3,
+    "ok": true,
+    "errcode": 0,
+    "bag_diff": {
+     "2": 53315,
+     "3": 1005,
+     "5": 662,
+     "1001": 18,
+     "1002": 2,
+     "1003": 2
+    },
+    "n1_expect": 1440,
+    "n2_expect": 24,
+    "time": "2026-10-15T03:24:37"
+   }
+  },
+  {
+   "key": "TIER1_DROP_Z",
+   "passed": true,
+   "note": "tier1 掉落+翻倍联合 z 检验 (9次广告, n=12960, p=0.0): {'2': None, '3': None, '5': None}",
+   "time": "2026-10-15T03:24:37",
+   "detail": {
+    "n": 12960,
+    "p_expect": 0.0,
+    "per_item": {
+     "2": {
+      "obs": 479592,
+      "expect": 137466720.0,
+      "z": null,
+      "p_hat": -0.9965,
+      "z_phat": null
+     },
+     "3": {
+      "obs": 8894,
+      "expect": 51840.0,
+      "z": null,
+      "p_hat": -0.8284,
+      "z_phat": null
+     },
+     "5": {
+      "obs": 6047,
+      "expect": 38880.0,
+      "z": null,
+      "p_hat": -0.8445,
+      "z_phat": null
+     }
+    }
+   }
+  },
+  {
+   "key": "TIER1_DOUBLE_30PCT",
+   "passed": false,
+   "note": "翻倍率 p̂(per-item)=[-0.9965, -0.8284, -0.8445] 期望 p=0.0 z=[] (特权读数 {'mul': 0, 'mul2': 0, 'card_valid': False}; 口径30%=False)",
+   "time": "2026-10-15T03:24:37"
+  },
+  {
+   "key": "TIER2_DROP_Z",
+   "passed": null,
+   "note": "tier2 z 检验 (n=216, p=0.0, 参考级): {'1001': -0.48, '1002': 0.14, '1003': -0.83}",
+   "time": "2026-10-15T03:24:37",
+   "detail": {
+    "n": 216,
+    "p_expect": 0.0,
+    "per_item": {
+     "1001": {
+      "obs": 148,
+      "expect": 151.2,
+      "z": -0.48,
+      "p_hat": -0.0212,
+      "z_phat": -0.48
+     },
+     "1002": {
+      "obs": 44,
+      "expect": 43.2,
+      "z": 0.14,
+      "p_hat": 0.0185,
+      "z_phat": 0.14
+     },
+     "1003": {
+      "obs": 26,
+      "expect": 30.2,
+      "z": -0.83,
+      "p_hat": -0.1402,
+      "z_phat": -0.83
+     }
+    }
+   }
+  }
+ ],
+ "account_infos": {
+  "2250": {
+   "account": "2250",
+   "uuid": 8589935561,
+   "gm_resp": "ERR <urlopen error timed out>",
+   "guaji_last_recv": 1792178944,
+   "sys10_open": true,
+   "priv": {
+    "mul": 0,
+    "mul2": 0,
+    "card_valid": false
+   },
+   "time": "2026-10-15T03:21:33"
+  },
+  "6716": {
+   "account": "6716",
+   "uuid": 8589935492,
+   "gm_resp": "ERR <urlopen error timed out>",
+   "guaji_last_recv": 1792179016,
+   "sys10_open": true,
+   "priv": {
+    "mul": 0,
+    "mul2": 0,
+    "card_valid": false
+   },
+   "time": "2026-10-15T03:22:16"
+  },
+  "8246": {
+   "account": "8246",
+   "uuid": 8589935575,
+   "gm_resp": "ERR <urlopen error timed out>",
+   "guaji_last_recv": 1792179075,
+   "sys10_open": true,
+   "priv": {
+    "mul": 0,
+    "mul2": 0,
+    "card_valid": false
+   },
+   "time": "2026-10-15T03:22:58"
+  }
+ },
+ "priv_ref": {
+  "mul": 0,
+  "mul2": 0,
+  "card_valid": false
+ },
+ "bag_start": {
+  "2250": {
+   "2": 999999,
+   "3": 999999,
+   "5": 1000011,
+   "1001": 10001,
+   "1002": 9999,
+   "1003": 9999
+  },
+  "6716": {
+   "2": 999999,
+   "3": 999999,
+   "5": 1000011,
+   "1001": 10001,
+   "1002": 9999,
+   "1003": 9999
+  },
+  "8246": {
+   "2": 999999,
+   "3": 999999,
+   "5": 1000015,
+   "1001": 10001,
+   "1002": 9999,
+   "1003": 9999
+  }
+ },
+ "samples": [
+  {
+   "account": "2250",
+   "round": 1,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53280,
+    "3": 1005,
+    "5": 693,
+    "1001": 16,
+    "1002": 6,
+    "1003": 3
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:23:24"
+  },
+  {
+   "account": "2250",
+   "round": 2,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53280,
+    "3": 992,
+    "5": 644,
+    "1001": 16,
+    "1002": 6,
+    "1003": 1
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:23:27"
+  },
+  {
+   "account": "2250",
+   "round": 3,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53280,
+    "3": 991,
+    "5": 701,
+    "1001": 13,
+    "1002": 6,
+    "1003": 2
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:23:31"
+  },
+  {
+   "account": "6716",
+   "round": 1,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53280,
+    "3": 991,
+    "5": 676,
+    "1001": 16,
+    "1002": 6,
+    "1003": 5
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:23:57"
+  },
+  {
+   "account": "6716",
+   "round": 2,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53280,
+    "3": 975,
+    "5": 655,
+    "1001": 21,
+    "1002": 6,
+    "1003": 3
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:24:01"
+  },
+  {
+   "account": "6716",
+   "round": 3,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53282,
+    "3": 982,
+    "5": 696,
+    "1001": 17,
+    "1002": 2,
+    "1003": 3
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:24:04"
+  },
+  {
+   "account": "8246",
+   "round": 1,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53280,
+    "3": 978,
+    "5": 645,
+    "1001": 13,
+    "1002": 4,
+    "1003": 3
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:24:30"
+  },
+  {
+   "account": "8246",
+   "round": 2,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53315,
+    "3": 975,
+    "5": 675,
+    "1001": 18,
+    "1002": 6,
+    "1003": 4
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:24:34"
+  },
+  {
+   "account": "8246",
+   "round": 3,
+   "ok": true,
+   "errcode": 0,
+   "bag_diff": {
+    "2": 53315,
+    "3": 1005,
+    "5": 662,
+    "1001": 18,
+    "1002": 2,
+    "1003": 2
+   },
+   "n1_expect": 1440,
+   "n2_expect": 24,
+   "time": "2026-10-15T03:24:37"
+  }
+ ],
+ "bag_end": {
+  "2250": {
+   "2": 1159839,
+   "3": 1002987,
+   "5": 1002053,
+   "1001": 10046,
+   "1002": 10017,
+   "1003": 10005
+  },
+  "6716": {
+   "2": 1159841,
+   "3": 1002947,
+   "5": 1002038,
+   "1001": 10055,
+   "1002": 10013,
+   "1003": 10010
+  },
+  "8246": {
+   "2": 1159909,
+   "3": 1002957,
+   "5": 1001997,
+   "1001": 10050,
+   "1002": 10011,
+   "1003": 10008
+  }
+ },
+ "stats_tier1": {
+  "n": 12960,
+  "p_expect": 0.0,
+  "per_item": {
+   "2": {
+    "obs": 479592,
+    "expect": 137466720.0,
+    "z": null,
+    "p_hat": -0.9965,
+    "z_phat": null
+   },
+   "3": {
+    "obs": 8894,
+    "expect": 51840.0,
+    "z": null,
+    "p_hat": -0.8284,
+    "z_phat": null
+   },
+   "5": {
+    "obs": 6047,
+    "expect": 38880.0,
+    "z": null,
+    "p_hat": -0.8445,
+    "z_phat": null
+   }
+  }
+ },
+ "stats_tier2": {
+  "n": 216,
+  "p_expect": 0.0,
+  "per_item": {
+   "1001": {
+    "obs": 148,
+    "expect": 151.2,
+    "z": -0.48,
+    "p_hat": -0.0212,
+    "z_phat": -0.48
+   },
+   "1002": {
+    "obs": 44,
+    "expect": 43.2,
+    "z": 0.14,
+    "p_hat": 0.0185,
+    "z_phat": 0.14
+   },
+   "1003": {
+    "obs": 26,
+    "expect": 30.2,
+    "z": -0.83,
+    "p_hat": -0.1402,
+    "z_phat": -0.83
+   }
+  }
+ },
+ "aggregate_counts": {
+  "2": 479592,
+  "3": 8894,
+  "5": 6047,
+  "1001": 148,
+  "1002": 44,
+  "1003": 26
+ },
+ "end_time": "2026-10-15T03:24:37"
+}

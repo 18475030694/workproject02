@@ -1,0 +1,9 @@
+==== 汇总 ====
+[PASS] TC000 登录进主城
+[PASS] TC000-ctrl 对照补丁生效性(quality表atlas_res改后外观源应变化) — 组件级qcfg_6001.atlas_res: soul_ring_atlas_panel01_kuang07 -> soul_ring_atlas_panel01_kuang03 (detail={'quality.1.atlas_res': 'soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03'}) UI级=False
+[FAIL] TC009 改quality外观应不变(解耦验证) — 缺陷复现(组件级): qcfg_6001.atlas_res soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang08 外观数据源跟随quality变化; UI级未捕捉(分组重排, 组件级已足够)
+[FAIL] TC007 同quality不同group外观应不同(解耦验证) — 缺陷复现(组件级): ring_group 1→5 后 qcfg_6002 完全不变({"atlas_res": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1", "bg": "common_item02_wupinkuang01", "title_bg": "common_item05_shen", "skill_res": "hero_img05_white"}) = 外观源只认quality不认group；UI级={"before": null, "after": null}
+[FAIL] TC008 同group不同quality外观应相同(解耦验证) — 缺陷复现(组件级): 同group(1)下 quality 1→7 后 qcfg_6002.atlas_res soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang08 = 外观随quality变化
+[PASS] TC000-restore cfg内存patch已恢复(外观源与基线一致) — {"base": {"atlas_res": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1", "bg": "common_item02_wupinkuang01", "title_bg": "common_item05_shen", "skill_res": "hero_img05_white"}, "restored": {"atlas_res": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1", "bg": "common_item02_wupinkuang01", "title_bg": "common_item05_shen", "skill_res": "hero_img05_white"}}
+[PASS] EX06 全程JS错误收集 — 共77条, 分类={'D9_pool': 1, 'D9_quality_idx-1': 36, 'D10_jump_id': 7, 'D9_bone': 30}
+报告: E:\workproject\reports\e2e_fabao_v3h_20260909_125159\report.txt

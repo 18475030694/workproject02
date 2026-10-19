@@ -1,0 +1,357 @@
+{
+ "title": "灵宠年份改等级-运行时测试(v3)",
+ "account": "4451",
+ "server": "S5",
+ "start_time": "2026-09-10T16:55:28",
+ "prep": {
+  "uuid": 8589937644,
+  "set_mainline": "OK: ERR<0, OK> REPLY: nil",
+  "award_1058": "OK: ERR<0, OK> REPLY: <br/>实际发放3000000个",
+  "award_1059": "OK: ERR<0, OK> REPLY: <br/>实际发放100000个",
+  "award_1057": "OK: ERR<0, OK> REPLY: <br/>实际发放100000个",
+  "item_1058": 5254480,
+  "item_1059": 195437,
+  "draw_times": 30,
+  "elves": [
+   {
+    "uuid": 46,
+    "id": 54009,
+    "level": 1,
+    "phase": 0,
+    "star": 0,
+    "buddy": 1,
+    "main": 0,
+    "quality": 5
+   },
+   {
+    "uuid": 47,
+    "id": 54001,
+    "level": 30,
+    "phase": 2,
+    "star": 0,
+    "buddy": 0,
+    "main": 0,
+    "quality": 5
+   },
+   {
+    "uuid": 48,
+    "id": 54206,
+    "level": 2000,
+    "phase": 199,
+    "star": 0,
+    "buddy": 0,
+    "main": 0,
+    "quality": 6
+   },
+   {
+    "uuid": 49,
+    "id": 54400,
+    "level": 55,
+    "phase": 5,
+    "star": 0,
+    "buddy": 0,
+    "main": 0,
+    "quality": 7
+   }
+  ],
+  "plans": [
+   {
+    "uuid": 47,
+    "target": [
+     30,
+     2
+    ],
+    "final": {
+     "lv": 30,
+     "ph": 2
+    },
+    "ok": true
+   },
+   {
+    "uuid": 48,
+    "target": [
+     2000,
+     199
+    ],
+    "final": {
+     "lv": 2000,
+     "ph": 199
+    },
+    "ok": true
+   },
+   {
+    "uuid": 49,
+    "target": [
+     55,
+     5
+    ],
+    "final": {
+     "lv": 55,
+     "ph": 5
+    },
+    "ok": true
+   }
+  ],
+  "level_log": [],
+  "mark": {
+   "q5_fresh": 46,
+   "q5_adv": 47,
+   "q6_max": 48,
+   "reset": 49
+  }
+ },
+ "cases": [
+  {
+   "case_id": "TC-01",
+   "title": "灵宠主界面-选中态等级显示",
+   "passed": false,
+   "note": "逐个选中4只: ==1级/10级?False; ==30级/30级?False; ==2000级/2000级?False; ==55级/60级?False",
+   "time": "2026-09-10T16:56:40",
+   "screenshot": "screenshots/TC01_selected.png",
+   "detail": {
+    "checked": [
+     {
+      "sel": 46,
+      "label": "",
+      "want": "1级/10级",
+      "match": false
+     },
+     {
+      "sel": 47,
+      "label": "",
+      "want": "30级/30级",
+      "match": false
+     },
+     {
+      "sel": 48,
+      "label": "",
+      "want": "2000级/2000级",
+      "match": false
+     },
+     {
+      "sel": 49,
+      "label": "",
+      "want": "55级/60级",
+      "match": false
+     }
+    ],
+    "bad": {}
+   }
+  },
+  {
+   "case_id": "TC-02",
+   "title": "灵宠列表Item等级角标",
+   "passed": false,
+   "note": "角标[] vs 实际[1, 30, 55, 2000]",
+   "time": "2026-09-10T16:56:41",
+   "screenshot": "screenshots/TC02_items.png",
+   "detail": {
+    "got": [],
+    "want": [
+     1,
+     30,
+     55,
+     2000
+    ]
+   }
+  },
+  {
+   "case_id": "TC-08",
+   "title": "全品质最大等级显示",
+   "passed": false,
+   "note": "st={'lv': 2000, 'ph': 199} YearLbl=(期望2000级/2000级) 升阶按钮文案=",
+   "time": "2026-09-10T16:56:43",
+   "screenshot": "screenshots/TC08_max.png",
+   "detail": {
+    "label": "",
+    "phase_btn": ""
+   }
+  },
+  {
+   "case_id": "TC-03",
+   "title": "灵宠进阶-前后等级对比",
+   "passed": false,
+   "note": "进阶界面未打开 st={'lv': 30, 'ph': 2} btns=[]",
+   "time": "2026-09-10T16:56:44"
+  },
+  {
+   "case_id": "TC-04",
+   "title": "进阶成功结果弹窗",
+   "passed": null,
+   "note": "进阶界面未保持，跳过",
+   "time": "2026-09-10T16:56:45"
+  },
+  {
+   "case_id": "TC-11",
+   "title": "灵宠升级/降级边界",
+   "passed": true,
+   "note": "{'lv': 1, 'ph': 0}->lv10/10限 YearLbl= 再升err=2312 重置->{'lv': 1, 'ph': 0}",
+   "time": "2026-09-10T16:56:48",
+   "screenshot": "screenshots/TC11_boundary.png",
+   "detail": {
+    "st1": {
+     "lv": 10,
+     "ph": 0
+    },
+    "err2": 2312,
+    "st2": {
+     "lv": 1,
+     "ph": 0
+    }
+   }
+  },
+  {
+   "case_id": "TC-05",
+   "title": "灵宠重置",
+   "passed": false,
+   "note": "重置弹窗未打开 st={'lv': 55, 'ph': 5}",
+   "time": "2026-09-10T16:56:49"
+  },
+  {
+   "case_id": "TC-06",
+   "title": "灵宠图鉴",
+   "passed": false,
+   "note": "图鉴等级[] 命中拥有[](拥有[1, 30, 55, 2000])",
+   "time": "2026-09-10T16:56:53",
+   "screenshot": "screenshots/TC06_atlas.png",
+   "detail": {
+    "levels": [],
+    "owned": [
+     1,
+     30,
+     55,
+     2000
+    ]
+   }
+  },
+  {
+   "case_id": "TC-07",
+   "title": "获得新灵宠弹窗",
+   "passed": true,
+   "note": "标题含「1级」=True",
+   "time": "2026-09-10T16:56:55",
+   "screenshot": "screenshots/TC07_newget.png",
+   "detail": {
+    "sample": "点击空白处关闭 1级  毕方 攻击加成  101.2% 防御加成  101.1% 生命加成  101.1% 最终攻击  0.0% 最终防御  0.0% 最终生命  0.0% <color=#b3833e>核心技能(1级):</color><"
+   }
+  },
+  {
+   "case_id": "TC-09",
+   "title": "共鸣排序",
+   "passed": false,
+   "note": "共鸣界面未打开",
+   "time": "2026-09-10T16:56:57"
+  },
+  {
+   "case_id": "TC-15",
+   "title": "灵宠装备/装备魂师弹窗",
+   "passed": false,
+   "note": "装备弹窗未打开",
+   "time": "2026-09-10T16:56:58"
+  },
+  {
+   "case_id": "TC-12",
+   "title": "魂师养成-灵宠位",
+   "passed": true,
+   "note": "打开成功 uuid=1 等级样本['1级', '1级']",
+   "time": "2026-09-10T16:57:04",
+   "screenshot": "screenshots/TC12_heroDevelop.png"
+  },
+  {
+   "case_id": "TC-13",
+   "title": "魂师查看",
+   "passed": null,
+   "note": "onShow 需 RoleSnapInfo 快照参数，运行时不便构造；复用同一 UISoulSpiritItem 组件（与 TC-12 同源）",
+   "time": "2026-09-10T16:57:04"
+  },
+  {
+   "case_id": "TC-14",
+   "title": "阵容编辑-灵宠槽",
+   "passed": null,
+   "note": "UILineUpEditFormation.showUI(1) 未激活（需真实入口）",
+   "time": "2026-09-10T16:57:16"
+  },
+  {
+   "case_id": "TC-16",
+   "title": "传灵塔孵化",
+   "passed": true,
+   "note": "界面无年份=True 抽卡=True 新增0 新获得弹窗=未出现(重复卡)",
+   "time": "2026-09-10T16:57:25",
+   "screenshot": "screenshots/TC16_lottery.png",
+   "detail": {
+    "bad": {},
+    "new": 0
+   }
+  },
+  {
+   "case_id": "TC-18",
+   "title": "灵宠图鉴评分/加成",
+   "passed": false,
+   "note": "book_score err=2322 new_score=None; book_level_up err=2324(0=成功/2324=积分不足正确拦截)",
+   "time": "2026-09-10T16:57:26"
+  },
+  {
+   "case_id": "TC-22",
+   "title": "灵宠玩法说明",
+   "passed": false,
+   "note": "DescBtn 点击后 UISystemHelp 未弹出 btns=[]",
+   "time": "2026-09-10T16:57:27"
+  },
+  {
+   "case_id": "TC-23",
+   "title": "灵宠详情-满级预览",
+   "passed": false,
+   "note": "满级页签(+199)=False 初始页签(+0)=False",
+   "time": "2026-09-10T16:57:32",
+   "screenshot": "screenshots/TC23_descpop.png",
+   "detail": {
+    "max_phase": 199
+   }
+  },
+  {
+   "case_id": "TC-24",
+   "title": "I18N_LEVEL 共享回归",
+   "passed": false,
+   "note": "formatStr(I18N_LEVEL,5)=5级 好友界面=未开(仅key验证)",
+   "time": "2026-09-10T16:57:36"
+  },
+  {
+   "case_id": "TC-21",
+   "title": "灵宠特权卡",
+   "passed": null,
+   "note": "特权界面打不开（入口受限），静态清单已复核",
+   "time": "2026-09-10T16:57:40"
+  },
+  {
+   "case_id": "TC-19",
+   "title": "灵宠追击基金",
+   "passed": null,
+   "note": "战令界面打不开（未开放），静态清单已复核",
+   "time": "2026-09-10T16:57:44"
+  },
+  {
+   "case_id": "TC-20",
+   "title": "灵宠礼包朱厌",
+   "passed": null,
+   "note": "充值推送礼包需充值触发，运行时不验证（清单已复核 cfg_charge_push_gift_pack L1623）",
+   "time": "2026-09-10T16:57:44"
+  },
+  {
+   "case_id": "TC-17",
+   "title": "yxact 灵宠抽奖活动",
+   "passed": null,
+   "note": "限时活动未开放，运行时不可验证（清单已复核）",
+   "time": "2026-09-10T16:57:57"
+  },
+  {
+   "case_id": "TC-27",
+   "title": "战斗回归",
+   "passed": true,
+   "note": "wear_errcode=0 battle_btn=True battle_ui=False 客户端存活=True",
+   "time": "2026-09-10T16:58:20",
+   "screenshot": "screenshots/TC27_battle.png"
+  }
+ ],
+ "prep_ok": true,
+ "end_time": "2026-09-10T16:58:21"
+}

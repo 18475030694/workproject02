@@ -1,0 +1,102 @@
+{
+ "title": "法宝战斗表现回归v2",
+ "account": "1353",
+ "start_time": "2026-09-09T13:22:28",
+ "cases": [
+  {
+   "case_id": "B000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "B010",
+   "title": "GM发6001+UIHeroSoulRing一键穿戴",
+   "passed": false,
+   "note": "ringMap={\"owned\": 1, \"equipped\": 0, \"sys\": true} wear={\"err\": \"TypeError: Cannot read properties of undefined (reading 'skill_list')\"} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个"
+  },
+  {
+   "case_id": "B020",
+   "title": "GMRoot入口自检(GMBTN/BATTLE_TEST/MAIN_BATTLE_TEST)",
+   "passed": true,
+   "note": "{\"gmRoot\": {\"active\": true, \"children\": [\"GM\", \"TESTFight\", \"MAINTESTFight\", \"SOUNDTEST\"]}, \"GMBTN\": {\"found\": 1, \"note\": \"UIRootCamera/GMRoot/GM/GMBTN\"}, \"BATTLE_TEST\": {\"found\": 1, \"note\": \"UIRootCa"
+  },
+  {
+   "case_id": "B030",
+   "title": "进入战斗测试(BATTLE_TEST)",
+   "passed": false,
+   "note": "UIMainView仍在, tops=[\"Camera\", \"MapRoot\", \"SceneMap_10001\", \"SceneCamera\", \"SceneRoot\", \"Camera\", \"PureColor\", \"MainViewDown\", \"UIMainView\", \"UIMainView_Top\", \"UIMainView_Middle\", \"UIGuideDialog\", \"UIGuideEnvelope\", \"Mai（建议人工点战斗测试验证）"
+  },
+  {
+   "case_id": "TC063",
+   "title": "GM面板打开/关闭(GMBTN toggle)",
+   "passed": true,
+   "note": "open: visible=True active=False nodes=0; close后 visible=False"
+  },
+  {
+   "case_id": "B040",
+   "title": "战斗流程JS错误收集",
+   "passed": true,
+   "note": "共40条, 分类={'D10_jump_id': 7, 'D9_bone': 30}"
+  }
+ ],
+ "gm": {
+  "award": "OK: ERR<0, OK> REPLY: <br/>实际发放1个",
+  "wear": {
+   "err": "TypeError: Cannot read properties of undefined (reading 'skill_list')"
+  },
+  "ringMap": {
+   "owned": 1,
+   "equipped": 0,
+   "sys": true
+  }
+ },
+ "js_errors": [
+  "[2026/9/9 13:22:46 361] [283] server error: 前后台资源版本号不匹配错误, 2024/07/01 15:37:24(client) != 2023/08/09 21:02:14(server) []",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7201",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7202",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7203",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7204",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7205",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7206",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7207",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7208",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7209",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7210",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7211",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7212",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7213",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7214",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7215",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7216",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7217",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7218",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7219",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7220",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7221",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7222",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7223",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7224",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7225",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7226",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7227",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7228",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7229",
+  "表中找不到此索引，表名为：cfg_soul_bone 索引为：7230",
+  "表中找不到此索引，表名为：cfg_guanka 索引为：0",
+  "[2026/9/9 13:22:46 563] [294] 跳转配置读取失败，请检查jump_id=40 []",
+  "[2026/9/9 13:22:46 563] [294] 跳转配置读取失败，请检查jump_id=57 []",
+  "[2026/9/9 13:22:46 563] [294] 跳转配置读取失败，请检查jump_id=58 []",
+  "[2026/9/9 13:22:46 564] [294] 跳转配置读取失败，请检查jump_id=69 []",
+  "[2026/9/9 13:22:46 564] [294] 跳转配置读取失败，请检查jump_id=106 []",
+  "[2026/9/9 13:22:46 565] [294] 跳转配置读取失败，请检查jump_id=144 []",
+  "[2026/9/9 13:22:46 565] [294] 跳转配置读取失败，请检查jump_id=174 []",
+  "表中找不到此索引，表名为：cfg_role_title 索引为：0"
+ ],
+ "js_errors_classified": {
+  "D10_jump_id": 7,
+  "D9_bone": 30
+ },
+ "end_time": "2026-09-09T13:23:24",
+ "out_dir": "E:\\workproject\\reports\\e2e_fabao_battle2_20260909_132228"
+}

@@ -1,0 +1,52 @@
+{
+ "time": "2026-09-15T16:52:07",
+ "account": "5004",
+ "server": "S5",
+ "target": 14,
+ "ok": false,
+ "final_pass": null,
+ "lv": null,
+ "stages": [
+  {
+   "stage": 2,
+   "ok": true,
+   "attempts": 1,
+   "via": "skip",
+   "used_sec": 0.0,
+   "lv": 1,
+   "pass": 2,
+   "error": null
+  },
+  {
+   "stage": 3,
+   "ok": true,
+   "attempts": 1,
+   "via": "battle",
+   "used_sec": 25.3,
+   "lv": 1,
+   "pass": 3,
+   "error": null
+  },
+  {
+   "stage": 4,
+   "ok": true,
+   "attempts": 1,
+   "via": "skip",
+   "used_sec": 0.1,
+   "lv": 1,
+   "pass": 4,
+   "error": null
+  },
+  {
+   "stage": 5,
+   "ok": false,
+   "attempts": 3,
+   "via": "battle",
+   "used_sec": 94.1,
+   "lv": 1,
+   "pass": 4,
+   "error": "关卡 5 连续 3 次尝试未推进"
+  }
+ ],
+ "error": "关卡 5 连续 3 次尝试未推进"
+}

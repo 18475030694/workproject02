@@ -1,0 +1,258 @@
+{
+ "title": "挂机奖励30%翻倍概率专项探针",
+ "static_evidence": "mod_guaji_reward.lua L248-271: 每掷点每条目 r=math.random(0,10000), r<=w 掉落; 命中后 r2<=nDoubleWeight 翻倍(*2); nDoubleWeight=GetPrivilege(GUAJI_MUL=10)(tier1)/GUAJI_MUL2(=22)(tier2); 无离线卡时额外部分进 privilege_reward_map 待补发; cfg_guaji_reward.lua 156行, 档位由主线 mainline_pass_id 二分; cfg_guaji_global.max_time=14400",
+ "tag": "smoke",
+ "account": "4451",
+ "server": "S5",
+ "cycles_plan": 3,
+ "dt_step": 13000,
+ "start_time": "2026-10-14T19:04:22",
+ "out_dir": "E:\\workproject\\reports\\probe_guaji_rate_20261014_190422",
+ "p_require": 0.3,
+ "priv_snapshot": {
+  "mul": 0,
+  "mul2": 0,
+  "card_valid": false,
+  "card_mul": null
+ },
+ "passid_probe": null,
+ "p_source": "runtime_getPrivilegeVal",
+ "checks": [
+  {
+   "key": "PRIV_SNAPSHOT",
+   "passed": null,
+   "note": "GUAJI_MUL=0 GUAJI_MUL2=0 离线卡=False 卡特权值=None → tier1 期望 p=0.0, tier2 p=0.0 (口径30%=不吻合, 以读数为准)",
+   "time": "2026-10-14T19:04:47"
+  },
+  {
+   "key": "PASSID_PROBE",
+   "passed": null,
+   "note": "主线进度读取: None",
+   "time": "2026-10-14T19:04:47"
+  },
+  {
+   "key": "CFG_ROW_EST",
+   "passed": null,
+   "note": "passId=None → 预估档位 id=None (interval1=5, interval2=None); 采样后按产出拟合校准",
+   "time": "2026-10-14T19:04:47"
+  },
+  {
+   "key": "LASTRECV_AHEAD",
+   "passed": null,
+   "note": "lastReceiveTime=-1 服务器时间=1792178316 → 超前=0s",
+   "time": "2026-10-14T19:04:47"
+  },
+  {
+   "key": "CYCLE0_RESET",
+   "passed": true,
+   "note": "清零成功 last_recv=1792178491, 丢弃产出=[{'id': 1001, 'count': 1}, {'id': 1002, 'count': 1}, {'id': 2, 'count': 320}, {'id': 3, 'count': 11}, {'id': 5, 'count': 8}] (dt_base=85000)",
+   "time": "2026-10-14T19:07:42"
+  },
+  {
+   "key": "CFG_ROW_FITTED",
+   "passed": null,
+   "note": "产出拟合档位 id=1 (|z|均分=3.39, n1=49) vs passId预估=None → 不一致/预估缺失, 以拟合为准",
+   "time": "2026-10-14T19:09:48"
+  },
+  {
+   "key": "TIER1_DROP_Z",
+   "passed": false,
+   "note": "tier1 掉落+翻倍联合 z 检验 (n=49, p=0.0): {'2': -6.43, '3': -2.18, '5': -1.57}",
+   "time": "2026-10-14T19:09:48",
+   "detail": {
+    "n": 49,
+    "p_expect": 0.0,
+    "p_snapshot_source": "runtime_getPrivilegeVal",
+    "per_item": {
+     "2": {
+      "obs": 113,
+      "expect": 225.4,
+      "z": -6.43,
+      "p_hat": -0.5339,
+      "z_phat": -7.4
+     },
+     "3": {
+      "obs": 4,
+      "expect": 10.2,
+      "z": -2.18,
+      "p_hat": -0.9835,
+      "z_phat": -83.65
+     },
+     "5": {
+      "obs": 3,
+      "expect": 6.8,
+      "z": -1.57,
+      "p_hat": -0.9876,
+      "z_phat": -98.77
+     }
+    }
+   }
+  },
+  {
+   "key": "TIER1_DOUBLE_30PCT",
+   "passed": false,
+   "note": "翻倍率反推 p̂(per-item)=[-0.5339, -0.9835, -0.9876] 期望 p=0.0 → z=[-7.4, -83.65, -98.77] 判定见z",
+   "time": "2026-10-14T19:09:48"
+  },
+  {
+   "key": "TIME_RESTORE",
+   "passed": null,
+   "note": "还原应答=ERR <urlopen error timed out> 服务器时间=None 本地=1791976210 漂移=Nones (无法读服务器时间, 请人工核对)",
+   "time": "2026-10-14T19:10:10"
+  }
+ ],
+ "cfg_max_time": 14400,
+ "est_row_id": null,
+ "fitted_row": {
+  "id": 1,
+  "mainline_pass_id": 1,
+  "interval1": 5,
+  "reward1": [
+   [
+    2,
+    5,
+    5200
+   ],
+   [
+    2,
+    2,
+    10000
+   ],
+   [
+    3,
+    1,
+    2083
+   ],
+   [
+    3,
+    3,
+    0
+   ],
+   [
+    5,
+    1,
+    1388
+   ],
+   [
+    5,
+    2,
+    0
+   ]
+  ],
+  "interval2": null,
+  "reward2": null
+ },
+ "guaji_ahead_sec": 0,
+ "cycles": [
+  {
+   "k": 0,
+   "dt": 85000,
+   "last_recv": 1792178491,
+   "discarded": true
+  },
+  {
+   "k": 1,
+   "dt": 98000,
+   "gm_resp": "ERR <urlopen error timed out>",
+   "last_recv": 1792178533,
+   "elapsed": 42,
+   "n1": 8,
+   "n2": 0,
+   "award_list": [
+    {
+     "id": 3,
+     "count": 1
+    },
+    {
+     "id": 2,
+     "count": 36
+    },
+    {
+     "id": 5,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "k": 2,
+   "dt": 111000,
+   "gm_resp": "ERR <urlopen error timed out>",
+   "last_recv": 1792178575,
+   "elapsed": 84,
+   "n1": 16,
+   "n2": 0,
+   "award_list": [
+    {
+     "id": 2,
+     "count": 36
+    },
+    {
+     "id": 3,
+     "count": 2
+    },
+    {
+     "id": 5,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "k": 3,
+   "dt": 124000,
+   "gm_resp": "ERR <urlopen error timed out>",
+   "last_recv": 1792178618,
+   "elapsed": 127,
+   "n1": 25,
+   "n2": 0,
+   "award_list": [
+    {
+     "id": 3,
+     "count": 1
+    },
+    {
+     "id": 5,
+     "count": 1
+    },
+    {
+     "id": 2,
+     "count": 41
+    }
+   ]
+  }
+ ],
+ "fitted_row_id": "1",
+ "stats_tier1": {
+  "n": 49,
+  "p_expect": 0.0,
+  "p_snapshot_source": "runtime_getPrivilegeVal",
+  "per_item": {
+   "2": {
+    "obs": 113,
+    "expect": 225.4,
+    "z": -6.43,
+    "p_hat": -0.5339,
+    "z_phat": -7.4
+   },
+   "3": {
+    "obs": 4,
+    "expect": 10.2,
+    "z": -2.18,
+    "p_hat": -0.9835,
+    "z_phat": -83.65
+   },
+   "5": {
+    "obs": 3,
+    "expect": 6.8,
+    "z": -1.57,
+    "p_hat": -0.9876,
+    "z_phat": -98.77
+   }
+  }
+ },
+ "aggregate_counts": {
+  "2": 113,
+  "3": 4,
+  "5": 3
+ },
+ "end_time": "2026-10-14T19:10:10"
+}

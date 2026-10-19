@@ -1,0 +1,33 @@
+{
+  "uuid": 8589938086,
+  "chapter_keys": [],
+  "onekey": "OK: ERR<0, OK> REPLY: nil",
+  "sys116_open": false,
+  "award": [
+    "OK: ERR<0, OK> REPLY: <br/>实际发放200000个",
+    "OK: ERR<0, OK> REPLY: <br/>实际发放5000个"
+  ],
+  "draw1": true,
+  "elf0": {
+    "uuid": 4,
+    "lv": 1,
+    "ph": 0
+  },
+  "levelup": {
+    "resp_ok": true,
+    "errcode": 0,
+    "after": {
+      "lv": 1,
+      "ph": 0
+    }
+  },
+  "phaseup": {
+    "resp_ok": true,
+    "errcode": 0,
+    "after": {
+      "lv": 1,
+      "ph": 0
+    }
+  },
+  "main_ui_open": true
+}

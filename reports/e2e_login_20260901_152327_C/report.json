@@ -1,0 +1,89 @@
+{
+  "case_id": "TC_LOGIN_001",
+  "title": "登录流程-选服s6服-账号7405(新建)",
+  "base_url": "http://localhost:7456",
+  "account": "7405",
+  "created_account": "7405",
+  "server": "s6服",
+  "create_mode": true,
+  "headless": true,
+  "start_time": "2026-09-01T15:24:20",
+  "steps": [
+    {
+      "name": "输入账号并预设选服",
+      "status": "done",
+      "start": "2026-09-01T15:24:21",
+      "end": "2026-09-01T15:24:21"
+    },
+    {
+      "name": "打开游戏",
+      "status": "done",
+      "start": "2026-09-01T15:24:21",
+      "end": "2026-09-01T15:24:33"
+    },
+    {
+      "name": "选服(强制)",
+      "status": "done",
+      "start": "2026-09-01T15:24:33",
+      "end": "2026-09-01T15:24:37",
+      "note": "已强制选服 svr_id=6 svr_name=test6（servers_in_page/page_all 响应）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-01T15:24:37",
+      "end": "2026-09-01T15:24:41"
+    },
+    {
+      "name": "校验plat_login响应",
+      "status": "done",
+      "start": "2026-09-01T15:24:41",
+      "end": "2026-09-01T15:24:41",
+      "note": "plat_login 成功 (errcode=0, serverId=6, 实际响应 serverId=6 serverName=test6 ip=192.168.*.*:13021)"
+    },
+    {
+      "name": "等待进主城并校验",
+      "status": "done",
+      "start": "2026-09-01T15:24:41",
+      "end": "2026-09-01T15:24:46",
+      "note": "界面未直接显示目标服名（UI文本: ['客服', '[S1]玩家名字：', '客服', '区        服：', '[S1]xxx']）；未能确认真实角色 uuid（playerMgr 字段不可读，已降级）"
+    }
+  ],
+  "passed": true,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_login_20260901_152327_C\\screenshots\\01_opened.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_login_20260901_152327_C\\screenshots\\02_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_login_20260901_152327_C\\screenshots\\03_login_clicked.png",
+    "in_main_city": "E:\\workproject\\reports\\e2e_login_20260901_152327_C\\screenshots\\04_in_main_city.png"
+  },
+  "target_server": {
+    "found": true,
+    "svr_id": 6,
+    "svr_name": "test6",
+    "source": "servers_in_page/page_all 响应"
+  },
+  "plat_login_response": {
+    "serverId": 6,
+    "serverName": "test6",
+    "ip": "192.168.*.*",
+    "port": "13021",
+    "roleIdx": 1,
+    "isBack": false,
+    "isNew": null
+  },
+  "login_state": {
+    "ui_server_texts": [
+      "客服",
+      "[S1]玩家名字：",
+      "客服",
+      "区        服：",
+      "[S1]xxx"
+    ],
+    "ui_has_target_server": false,
+    "player_session": {
+      "has": true,
+      "uuid": null
+    }
+  },
+  "end_time": "2026-09-01T15:24:46"
+}

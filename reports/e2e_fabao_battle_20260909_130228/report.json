@@ -1,0 +1,104 @@
+{
+ "title": "法宝战斗表现回归",
+ "account": "1353",
+ "start_time": "2026-09-09T13:02:28",
+ "cases": [
+  {
+   "case_id": "B000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "B010",
+   "title": "GM发6001+sendWearOneKey装配",
+   "passed": false,
+   "note": "owned=None sysattr={} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个"
+  },
+  {
+   "case_id": "B020",
+   "title": "打开主线关卡界面",
+   "passed": true,
+   "note": "jump={\"ok\": false} 按钮69个"
+  },
+  {
+   "case_id": "B030",
+   "title": "进入主线战斗",
+   "passed": true,
+   "note": "fight节点=['TESTFight', 'MAINTESTFight'] 关键文案=[\"特惠法宝\", \"法宝特性\", \"<color=#c4c4c4>20阶解锁：攻击加成<color=#ffd145>\", \"20阶解锁：攻击加成\", \"法宝基础属性\", \"1阶\"]"
+  },
+  {
+   "case_id": "TC024-note",
+   "title": "战斗内无『灵力』残留",
+   "passed": true,
+   "note": "灵力命中=[]"
+  },
+  {
+   "case_id": "TC063",
+   "title": "GM面板打开(重试)",
+   "passed": false,
+   "note": "openUI={r1:True, r2:False} 节点=[]"
+  },
+  {
+   "case_id": "B040",
+   "title": "战斗流程JS错误收集",
+   "passed": true,
+   "note": "共2485条, 分类={'D10_jump_id': 25, 'pageerror_null_x': 1207}"
+  }
+ ],
+ "gm": {
+  "award": "OK: ERR<0, OK> REPLY: <br/>实际发放1个",
+  "wear": {
+   "err": "TypeError: Cannot read properties of undefined (reading 'skill_list')"
+  },
+  "sysattr": {}
+ },
+ "js_errors": [
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')"
+ ],
+ "js_errors_classified": {
+  "D10_jump_id": 25,
+  "pageerror_null_x": 1207
+ },
+ "end_time": "2026-09-09T13:03:19",
+ "out_dir": "E:\\workproject\\reports\\e2e_fabao_battle_20260909_130228"
+}

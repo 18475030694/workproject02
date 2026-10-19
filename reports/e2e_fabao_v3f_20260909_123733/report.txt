@@ -1,0 +1,9 @@
+==== 汇总 ====
+[PASS] TC000 登录进主城
+[FAIL] TC055-tab 炼宝/法宝总览页签切换(UICommonTabView容器) — 点总览={'err': 'TypeError: (path || "").split is not a function'} atlas激活=0 点炼宝={'err': 'TypeError: (path || "").split is not a function'} draw激活=1
+[FAIL] TC000-ctrl 对照补丁生效性(quality表atlas_res改后外观应变化) — {"base": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1", "y": 815}, "ctrl": null, "detail": {"quality.1.atlas_res": "soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03"}}
+[FAIL] TC009 改quality外观应不变(解耦验证) — 对照组未生效 patch链路存疑 readback={'q': 7, 'g': 1}
+[FAIL] TC007 同quality不同group外观应不同(解耦验证) — 同quality不同group外观已不同 {"6001": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1", "y": 815}, "6002g5": null}
+[FAIL] TC008 同group不同quality外观应相同(解耦验证) — 同group不同quality外观相同(解耦成立) {"6002before": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1", "y": 815}, "6002q7": null}
+[FAIL] TC000-restore cfg内存patch已恢复(外观与基线一致) — {"base": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1", "y": 815}, "restored": null}
+报告: E:\workproject\reports\e2e_fabao_v3f_20260909_123733\report.txt

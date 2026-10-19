@@ -1,0 +1,303 @@
+{
+ "title": "cfg_sys_jump 29/43/46/181/182 跳转关闭修复验收",
+ "account": "4451",
+ "server": "S5",
+ "start_time": "2026-09-21T18:41:43",
+ "prep": {
+  "uuid": 8589937644,
+  "runtime_cfg": {
+   "fixed": [
+    {
+     "itemId": 5,
+     "idx": 4,
+     "title": "每日特惠",
+     "goWin": null
+    },
+    {
+     "itemId": 1000,
+     "idx": 4,
+     "title": "每日特惠",
+     "goWin": null
+    },
+    {
+     "itemId": 1006,
+     "idx": 5,
+     "title": "每日特惠",
+     "goWin": null
+    },
+    {
+     "itemId": 1007,
+     "idx": 4,
+     "title": "每日特惠",
+     "goWin": null
+    },
+    {
+     "itemId": 30005,
+     "idx": 2,
+     "title": "七天签到",
+     "goWin": null
+    }
+   ],
+   "jumps": {
+    "29": "UIRechargeDailyGift",
+    "43": "UISevenDaySign",
+    "46": "UISevenDailyTaskMain",
+    "181": "UIZeroPricePurchase",
+    "182": "UIMicroPayment"
+   },
+   "item5_sources": [
+    {
+     "title": "仙机-紫霄灵币",
+     "goWin": 30003
+    },
+    {
+     "title": "主线关卡",
+     "goWin": 14
+    },
+    {
+     "title": "挂机奖励",
+     "goWin": 10
+    },
+    {
+     "title": "每日特惠",
+     "goWin": null
+    }
+   ]
+  },
+  "items": {
+   "5": 1485167,
+   "30005": 1
+  }
+ },
+ "cases": [
+  {
+   "case_id": "P0",
+   "title": "运行时配置确认(修复已在测试客户端生效)",
+   "passed": true,
+   "note": "fixed goWin全空=True; jumps={'29': 'UIRechargeDailyGift', '43': 'UISevenDaySign', '46': 'UISevenDailyTaskMain', '181': 'UIZeroPricePurchase', '182': 'UIMicroPayment'}",
+   "time": "2026-09-21T18:42:15",
+   "detail": {
+    "fixed": [
+     {
+      "itemId": 5,
+      "idx": 4,
+      "title": "每日特惠",
+      "goWin": null
+     },
+     {
+      "itemId": 1000,
+      "idx": 4,
+      "title": "每日特惠",
+      "goWin": null
+     },
+     {
+      "itemId": 1006,
+      "idx": 5,
+      "title": "每日特惠",
+      "goWin": null
+     },
+     {
+      "itemId": 1007,
+      "idx": 4,
+      "title": "每日特惠",
+      "goWin": null
+     },
+     {
+      "itemId": 30005,
+      "idx": 2,
+      "title": "七天签到",
+      "goWin": null
+     }
+    ],
+    "jumps": {
+     "29": "UIRechargeDailyGift",
+     "43": "UISevenDaySign",
+     "46": "UISevenDailyTaskMain",
+     "181": "UIZeroPricePurchase",
+     "182": "UIMicroPayment"
+    },
+    "item5_sources": [
+     {
+      "title": "仙机-紫霄灵币",
+      "goWin": 30003
+     },
+     {
+      "title": "主线关卡",
+      "goWin": 14
+     },
+     {
+      "title": "挂机奖励",
+      "goWin": 10
+     },
+     {
+      "title": "每日特惠",
+      "goWin": null
+     }
+    ]
+   }
+  },
+  {
+   "case_id": "A1",
+   "title": "获取途径点「每日特惠」不再跳转(修复生效)",
+   "passed": true,
+   "note": "道具=凡灵召符 点击后UIRechargeDailyGift激活=False(预期False), tips仍在=True, 条目=['太虚塔', '基金', '限购礼包', '每日特惠', '商店']",
+   "time": "2026-09-21T18:42:22",
+   "detail": {
+    "entries": [
+     "太虚塔",
+     "基金",
+     "限购礼包",
+     "每日特惠",
+     "商店"
+    ],
+    "jumped": false,
+    "tips_alive": true
+   }
+  },
+  {
+   "case_id": "A2",
+   "title": "获取途径点「七天签到」不再跳转(修复生效)",
+   "passed": true,
+   "note": "点击后UISevenDaySign激活=False(预期False), tips仍在=True, 条目=['限时礼包', '七天签到', '限时礼包', '七天签到']",
+   "time": "2026-09-21T18:42:35",
+   "detail": {
+    "entries": [
+     "限时礼包",
+     "七天签到",
+     "限时礼包",
+     "七天签到"
+    ],
+    "jumped": false
+   }
+  },
+  {
+   "case_id": "A3",
+   "title": "回归: 其他获取途径跳转正常且可关闭",
+   "passed": false,
+   "note": "tips无「挂机奖励」条目: ['限时礼包', '七天签到', '太虚塔', '基金', '限购礼包', '每日特惠', '商店']",
+   "time": "2026-09-21T18:42:38"
+  },
+  {
+   "case_id": "B29",
+   "title": "直开每日特惠(UIRechargeDailyGift) 关闭行为留证",
+   "passed": null,
+   "note": "打开=是; 关闭候选=['BtnBg_']; 点击后关闭=False; 仍激活=True → 直开场景无法关闭(页签设计依赖父容器, 修复方案=移除入口)",
+   "time": "2026-09-21T18:42:43",
+   "detail": {
+    "jump_id": 29,
+    "candidates": [
+     {
+      "name": "BtnBg_",
+      "path": "UIRootCamera/Tip/UIRechargeDailyGift/BtnBg_"
+     }
+    ],
+    "tried": [
+     {
+      "node": "BtnBg_",
+      "path": "UIRootCamera/Tip/UIRechargeDailyGift/BtnBg_",
+      "closed_after": false
+     }
+    ],
+    "still_active": true
+   }
+  },
+  {
+   "case_id": "B43",
+   "title": "直开七天签到(UISevenDaySign) 关闭行为留证",
+   "passed": null,
+   "note": "打开=是; 关闭候选=['BtnClose_']; 点击后关闭=False; 仍激活=True → 直开场景无法关闭(页签设计依赖父容器, 修复方案=移除入口)",
+   "time": "2026-09-21T18:42:46",
+   "detail": {
+    "jump_id": 43,
+    "candidates": [
+     {
+      "name": "BtnClose_",
+      "path": "UIRootCamera/System/UISevenDaySign/UnSafeArea/BtnClose_"
+     }
+    ],
+    "tried": [
+     {
+      "node": "BtnClose_",
+      "path": "UIRootCamera/System/UISevenDaySign/UnSafeArea/BtnClose_",
+      "closed_after": false
+     }
+    ],
+    "still_active": true
+   }
+  },
+  {
+   "case_id": "B46",
+   "title": "直开精彩活动(UISevenDailyTaskMain) 关闭行为留证",
+   "passed": null,
+   "note": "打开=是; 关闭候选=['BtnBg']; 点击后关闭=False; 仍激活=True → 直开场景无法关闭(页签设计依赖父容器, 修复方案=移除入口)",
+   "time": "2026-09-21T18:42:50",
+   "detail": {
+    "jump_id": 46,
+    "candidates": [
+     {
+      "name": "BtnBg",
+      "path": "UIRootCamera/System/UISevenDailyTaskMain/BtnBg"
+     }
+    ],
+    "tried": [
+     {
+      "node": "BtnBg",
+      "path": "UIRootCamera/System/UISevenDailyTaskMain/BtnBg",
+      "closed_after": false
+     }
+    ],
+    "still_active": true
+   }
+  },
+  {
+   "case_id": "B181",
+   "title": "直开零元购(UIZeroPricePurchase) 关闭行为留证",
+   "passed": null,
+   "note": "打开=是; 关闭候选=['BtnBg']; 点击后关闭=False; 仍激活=True → 直开场景无法关闭(页签设计依赖父容器, 修复方案=移除入口)",
+   "time": "2026-09-21T18:42:53",
+   "detail": {
+    "jump_id": 181,
+    "candidates": [
+     {
+      "name": "BtnBg",
+      "path": "UIRootCamera/Tip/UIZeroPricePurchase/BtnBg"
+     }
+    ],
+    "tried": [
+     {
+      "node": "BtnBg",
+      "path": "UIRootCamera/Tip/UIZeroPricePurchase/BtnBg",
+      "closed_after": false
+     }
+    ],
+    "still_active": true
+   }
+  },
+  {
+   "case_id": "B182",
+   "title": "直开6元狂欢(UIMicroPayment) 关闭行为留证",
+   "passed": null,
+   "note": "打开=是; 关闭候选=['CloseBtn']; 点击后关闭=False; 仍激活=True → 直开场景无法关闭(页签设计依赖父容器, 修复方案=移除入口)",
+   "time": "2026-09-21T18:42:57",
+   "detail": {
+    "jump_id": 182,
+    "candidates": [
+     {
+      "name": "CloseBtn",
+      "path": "UIRootCamera/Tip/UIMicroPayment/UnSafeArea/CloseBtn"
+     }
+    ],
+    "tried": [
+     {
+      "node": "CloseBtn",
+      "path": "UIRootCamera/Tip/UIMicroPayment/UnSafeArea/CloseBtn",
+      "closed_after": false
+     }
+    ],
+    "still_active": true
+   }
+  }
+ ],
+ "out_dir": "E:\\workproject\\temp_case\\reports\\e2e_jump_close_20260921_184143",
+ "end_time": "2026-09-21T18:42:57"
+}

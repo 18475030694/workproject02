@@ -1,0 +1,55 @@
+{
+  "group": "compat",
+  "time": "2026-10-16T14:34:11",
+  "server_time": "2026-10-26 11:00:02",
+  "results": [
+    {
+      "tc": "TC-019#2581(登录无报错)",
+      "pass": true,
+      "note": "lv=9153 kicks=0",
+      "evidence": []
+    },
+    {
+      "tc": "TC-020#2581(不再弹购买)",
+      "pass": true,
+      "note": "auto_popped=False end_time=-1",
+      "evidence": []
+    },
+    {
+      "tc": "TC-021#2581(已领不补发)",
+      "pass": true,
+      "note": "recv_days=[(1, True), (2, False), (3, False)]（旧奖励=day1已领且仅1条无重复补发；服务器已跨日后 day2/3 正常追加不算失败）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-022#2581(新增奖励D2解锁)",
+      "pass": true,
+      "note": "days=[(1, True), (2, False), (3, False)] now=2026-10-26 10:57:24",
+      "evidence": []
+    },
+    {
+      "tc": "TC-022b#2581(D2领取)",
+      "pass": true,
+      "note": "diff={\"1007\": [10009, 10029], \"1\": [1000119, 1000359], \"1000\": [9999, 10009]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-022c#2581(D3解锁)",
+      "pass": false,
+      "note": "days=[] now=2026-10-26 10:58:08",
+      "evidence": []
+    },
+    {
+      "tc": "TC-023#2581(领完入口消失)",
+      "pass": true,
+      "note": "map=0",
+      "evidence": []
+    },
+    {
+      "tc": "TC-024#2581(重登无脏数据)",
+      "pass": true,
+      "note": "state={\"has_gift\": false, \"map_size\": 0}",
+      "evidence": []
+    }
+  ]
+}

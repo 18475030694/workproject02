@@ -1,0 +1,20 @@
+{
+  "group": "rejudge",
+  "time": "2026-10-16T15:20:00",
+  "server_time": "2026-10-29 00:05:00",
+  "note": "伪失败复判：TC-012b 与 TC-022c 均为探针盲区/一键全领合并导致的判定失真，非功能缺陷。证据链见各 note。",
+  "results": [
+    {
+      "tc": "TC-012b(D2数量:20109x1+1007x10+货币x120)",
+      "pass": true,
+      "note": "复判PASS。①2581 TC-022b(D2+D3合并领取) diff 精确匹配 cfg：1007 +20=D2(10)+D3(10)、货币(1) +240=120+120；②20109=[灵]冥刹套装(type=3,auto_use=1) 自动开启为魂骨 7121~7126×1（cfg_gift[20109].award），走 soulBoneMgr 容器——原探针只采集 knapsackMgr/soulRingMgr 属盲区；③全新号2209一键全领后 soulBoneMgr 实测 7121~7126 各×1 到账（bag 无残留，auto_use 消耗正确）。配置基准 cfg_fb_gift[530001].reward_list2={{20109,1},{1007,10},{1,120}}",
+      "evidence": ["soulBoneMgr: 7121~7126 各×1（2209）", "cfg_item[20109].auto_use=1", "cfg_gift[20109].award=7121~7126"]
+    },
+    {
+      "tc": "TC-022c#2581(D3解锁)",
+      "pass": true,
+      "note": "复判PASS（伪失败）。服务器已处 10-26（≥D3解锁日），首次 cross 后 D2/D3 同时解锁，BtnGet 一键全领合并领取 D2+D3 → 领完 gift 数据清空（gs2c_recharge_fb_gift_down → map=0），后续重登后 recv_record_list=[] 致 days=[] 判 FAIL。实际 D3 解锁+领取均正常：TC-022b diff 含 D3 组件（1007 +20=D3(10)+D2(10)、1000 +10=D3、货币 +240），与 cfg reward_list3={{1007,10},{1000,10},{1,120}} 精确一致；D3 解锁→领取→清除→重登链路由 8322 gc 组独立验证（TC-005/005b/009a/b/c 全PASS）",
+      "evidence": ["TC-022b#2581 diff 分解", "gc 组 TC-005/005b（8322 D3 独立验证）", "cfg_fb_gift[530001].reward_list3"]
+    }
+  ]
+}

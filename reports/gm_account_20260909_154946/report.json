@@ -1,0 +1,29 @@
+{
+  "time": "20260909_154946",
+  "account": "4451",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589937644
+    }
+  },
+  "before": {
+    "uuid": 8589937644,
+    "name": "戚北",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589937644,
+    "name": "戚北",
+    "lv": 9463,
+    "advance": 52,
+    "buddy_count": 45
+  }
+}

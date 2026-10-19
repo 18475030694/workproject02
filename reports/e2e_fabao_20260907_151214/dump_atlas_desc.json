@@ -1,0 +1,2558 @@
+[
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/NPC/Name",
+  "name": "Name",
+  "active": false,
+  "text": "我是NPC"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/NPC/RichTextDialogMap/L/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/NPC/RichTextDialogMap/R/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/ObjRoot/Role_50001/role_50001/anim/bubble/BUBBLE_HANG/RichTextDialogMap/L/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/ObjRoot/Role_50001/role_50001/anim/bubble/BUBBLE_HANG/RichTextDialogMap/R/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/RecoverValue",
+  "name": "RecoverValue",
+  "active": false,
+  "text": "+666"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/Damage/crit_damage/Value",
+  "name": "Value",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/Damage/parry_share_anger_support_electrocution_damage",
+  "name": "parry_share_anger_support_electrocution_damage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/Damage/firs_damage",
+  "name": "firs_damage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/Damage/poison_damage",
+  "name": "poison_damage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/Damage/blood_counter_damage",
+  "name": "blood_counter_damage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/Damage/shield_drown_damage",
+  "name": "shield_drown_damage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/Damage/miss_free_drive_invincible_damage",
+  "name": "miss_free_drive_invincible_damage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/DotBuffDamage",
+  "name": "DotBuffDamage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/BuffNotice",
+  "name": "BuffNotice",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/BaseDamage",
+  "name": "BaseDamage",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/EntityLayer/FlyLabels/FightFlyLab/SkillNotice/SkillLbl",
+  "name": "SkillLbl",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/NPC/Name",
+  "name": "Name",
+  "active": false,
+  "text": "我是NPC"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/NPC/RichTextDialogMap/L/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/NPC/RichTextDialogMap/R/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/ActorHero/Name",
+  "name": "Name",
+  "active": false,
+  "text": "我是NPC"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/ActorHero/RichTextDialogMap/L/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/ActorHero/RichTextDialogMap/R/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/ActorMonster/Name",
+  "name": "Name",
+  "active": false,
+  "text": "我是NPC"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/ActorMonster/RichTextDialogMap/L/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "MapCanvas/MapRoot/SceneMap_10001/OparaLayer/ActorMonster/RichTextDialogMap/R/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#847A71>我去上学校，花儿对我笑。小鸟说早早早，你为什么背着小书包。</color>"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Top/SafeArea/List_/HeadInfo_/BtnHead_/PowerBk/Sprite/PowerTxt_",
+  "name": "PowerTxt_",
+  "active": true,
+  "text": "0"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Top/SafeArea/List_/HeadInfo_/BtnHead_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": "庾灿"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Top/SafeArea/List_/HeadInfo_/Title_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "凡人"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Top/SafeArea/List_/AssetInfo_/Gold_/Icon/GoldNum_",
+  "name": "GoldNum_",
+  "active": true,
+  "text": "0"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Top/SafeArea/List_/AssetInfo_/ExpItem_/Icon/ExpNum_",
+  "name": "ExpNum_",
+  "active": true,
+  "text": "0"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/LBtnList_/Content/LFoldBtn_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/LBtnList_/Content/LMask_/LBtns_/MailBtn_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/LBtnList_/Content/LMask_/LBtns_/Friend_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/LBtnList_/Content/LMaskHor_/LBtnsHor_/Shop_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/LBtnList_/Content/LMaskHor_/LBtnsHor_/Knapsack_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/TaskTip_/TaskDesc_",
+  "name": "TaskDesc_",
+  "active": true,
+  "text": "临地府：遇猫妖"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/TaskTip_/TaskProgress_",
+  "name": "TaskProgress_",
+  "active": true,
+  "text": "(0/1)"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Left_/Layout/TaskTip_/Reward/MiniRewardItemNum_",
+  "name": "MiniRewardItemNum_",
+  "active": true,
+  "text": "10"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Right_/RBtnList_/RMask_/RBtns_/RightTopItem_/Btn_/RedPoint_/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Right_/RBtnList_/RMask_/RBtns_/RightTopItem_/Btn_/LbName_",
+  "name": "LbName_",
+  "active": false,
+  "text": "111"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Right_/RBtnList_/RMask_/RBtns_/RightTopItem_/Btn_/LbSubName_/LbTxt",
+  "name": "LbTxt",
+  "active": false,
+  "text": "即将开启"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Right_/RBtnList_/RMask_/RBtns_/RightTopItem_/Btn_/LbTime_",
+  "name": "LbTime_",
+  "active": false,
+  "text": "00:00:00"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/CenterLeft/PhaseTaskBtn_/bg/PhaseTaskPorgressLab_",
+  "name": "PhaseTaskPorgressLab_",
+  "active": false,
+  "text": "进度:10/10"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/CenterLeft/PhaseTaskBtn_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/CenterLeft/NewHeroBtn_/NewHeroTimeTxt_",
+  "name": "NewHeroTimeTxt_",
+  "active": false,
+  "text": "2025/09/07"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/CenterLeft/NewHeroBtn_/RedPoint_/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/LyRB/StormRoute_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/LyRB/WorldBoss_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/LyRB/BtnBigWorld_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/Layout/Box_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/Layout/GuaJiReward_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/Recruit_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/Recruit_/Bubble1/Label",
+  "name": "Label",
+  "active": false,
+  "text": "可十连"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/Recruit_/Bubble2/Label",
+  "name": "Label",
+  "active": false,
+  "text": "可十连"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/GodSoulRingDraw_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/GodSoulRingDraw_/Bubble1/Label",
+  "name": "Label",
+  "active": false,
+  "text": "可十连"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/GodSoulRingDraw_/Bubble2/Label",
+  "name": "Label",
+  "active": false,
+  "text": "可十连"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/SoulLottery_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/RightBottom_/RbBtnList_/DailyTask_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Center_/MainLevel_/CurStage/CurStageLbl_",
+  "name": "CurStageLbl_",
+  "active": true,
+  "text": "1-逃离地府"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Center_/Node/MainlineOneKeyBtn_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Center_/Node/MainlineOneKeyBtn_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "飞速"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Center_/Node/BtnSpeed_/BtnName",
+  "name": "BtnName",
+  "active": false,
+  "text": "2倍速"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Center_/Node/BtnSpeed_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/WxGameClub_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "社区"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/WxGameClub_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/WebShop_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "赚积分"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/WebShop_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnSubscribe_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "订阅"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnSubscribe_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/AliPayReturnVisit_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "复访任务"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/AliPayReturnVisit_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/AliPaySetHomePage_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "设首福利"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/AliPaySetHomePage_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/SideBarSign_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "侧栏好礼"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/SideBarSign_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnCustomer_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "客服"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnCustomer_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnAddDesktop_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "添加桌面"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnAddDesktop_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/HandselLottery_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "推关送千抽"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/HandselLottery_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/HandselLottery_/LbTarget",
+  "name": "LbTarget",
+  "active": false,
+  "text": "%s关卡领取"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/PrivCard_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "特权卡"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/PrivCard_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstCharge_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "新手礼包"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstCharge_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/WarOrder_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "基金"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/WarOrder_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/DailyDouro_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "每日仙宗"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/DailyDouro_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/MasterTournament_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "巅峰对决"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/MasterTournament_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/MasterTournament_/LbTournamentTime_",
+  "name": "LbTournamentTime_",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnLeagueWar_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "决战圣虚"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnLeagueWar_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnLeagueWar_/LbLeaguewarTime_",
+  "name": "LbLeaguewarTime_",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeGift_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "首充礼包"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeGift_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnRebate_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "公测返利"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnRebate_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnRebate_/Time",
+  "name": "Time",
+  "active": false,
+  "text": "00:00:00"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnPC_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "登录有礼"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnPC_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnMicroPayment_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "6元狂欢"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnMicroPayment_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnWuKong_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "大圣法宝"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/BtnWuKong_/Time",
+  "name": "Time",
+  "active": false,
+  "text": "00:00:00"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/LbName",
+  "name": "LbName",
+  "active": false,
+  "text": "新手礼包"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/FirstChargeNewBubble_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#8a3904>XXX关后可领取<color=#ff73f7>神话</color>-大圣</color>"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/FirstChargeNewBubble_/Label/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "XXX关后可领取"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/FirstChargeNewBubble_/Label/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "神话"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TopLeft_/Layout/Group/LeftBtnLayout_/FirstChargeNew_/FirstChargeNewBubble_/Label/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "-大圣"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/Boss/ChallangeBtn_/ChallangeTxt_",
+  "name": "ChallangeTxt_",
+  "active": false,
+  "text": "重新挑战"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/ChatBottom_/Bg/RedPoint_/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/ChatBottom_/NoneTxt_",
+  "name": "NoneTxt_",
+  "active": true,
+  "text": "暂无消息"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/ChatBottom_/Msg_/ChannelTxt_",
+  "name": "ChannelTxt_",
+  "active": false,
+  "text": "[传闻]："
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/ChatBottom_/Msg_/Node/Speaker_",
+  "name": "Speaker_",
+  "active": false,
+  "text": "[S1]玩家名字："
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/ChatBottom_/Msg_/Node/MsgTxt_",
+  "name": "MsgTxt_",
+  "active": false,
+  "text": "千锤百炼，方得..."
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/Buzhen_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/ComFrame1_/BgFrame1_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "融合技"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/ComFrame2_/BgFrame2_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "融合技"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/HeroList_/HeroItem1/Name",
+  "name": "Name",
+  "active": false,
+  "text": "九尾天狐"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/HeroList_/HeroItem2/Name",
+  "name": "Name",
+  "active": false,
+  "text": "九尾天狐"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/HeroList_/HeroItem3/Name",
+  "name": "Name",
+  "active": false,
+  "text": "九尾天狐"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/HeroList_/HeroItem4/Name",
+  "name": "Name",
+  "active": false,
+  "text": "九尾天狐"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/HeroList_/HeroItem5/Name",
+  "name": "Name",
+  "active": false,
+  "text": "九尾天狐"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/BuzhenRecommend_/ItemTemp_/TitleTxt_",
+  "name": "TitleTxt_",
+  "active": false,
+  "text": "雷电爆发流"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TeamHunt/TeamHuntTip_/UnSafeArea/Content_/Bubble_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "点击此处即可\n返回组队副本"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIMainView_Middle/SafeArea/TeamHunt/Btn/BtnApply_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdL_/RoleNameL_",
+  "name": "RoleNameL_",
+  "active": true,
+  "text": "我"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdL_/RTContentL_",
+  "name": "RTContentL_",
+  "active": true,
+  "text": "<color=#9f8268>（惊恐）这是哪儿！？</color>"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdL_/RTContentL_/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": true,
+  "text": "（惊恐）这是哪儿！？"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdL_/Layout/LbLTime_",
+  "name": "LbLTime_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdR_/RoleNameR_",
+  "name": "RoleNameR_",
+  "active": false,
+  "text": "玉兔精"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdR_/RTContentR_",
+  "name": "RTContentR_",
+  "active": false,
+  "text": "<color=#9f8268>剧情对话文本描述剧情对话文本描述剧情对话文本描述剧情对话文本描述剧情对话文本描述剧情对话文本描述剧情最多56个字</color>"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdR_/RTContentR_/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "剧情对话文本描述剧情对话文本描述剧情对"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdR_/RTContentR_/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "话文本描述剧情对话文本描述剧情对话文本"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdR_/RTContentR_/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "描述剧情对话文本描述剧情最多56个字"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideDialog/UnSafeArea/DialogBg_/NdR_/Layout/LbRTime_",
+  "name": "LbRTime_",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideEnvelope/CloseBg_/bottomClose_/LbDesc_",
+  "name": "LbDesc_",
+  "active": false,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideEnvelope/AniContent/Content/MaskMail4Small/SpMail4Small_/Lb1",
+  "name": "Lb1",
+  "active": false,
+  "text": "小三"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideEnvelope/AniContent/Content/MaskMail4Small/SpMail4Small_/Lb2",
+  "name": "Lb2",
+  "active": false,
+  "text": "        当你看到这封信的时候，我已经走了。不要去找我，你是不可能找到我的。\n        你虽然还小，但有自理能力。鹰只有自己展翼才能更早的高飞。\n        不用为我担心，你的性格中，继承了许多你妈妈的细腻。爸爸是一个无用的人。你渐渐的大了，爸爸需要去拿回一些本应该属于我的东西。总有一天，我们父子二人会再相见的。\n        我希望你变得强大，但又不希望你变得强大，自己的路，你自己选择。\n        如果有一天你觉得仙友这个职业不好，那就回到圣魂村，像我一样，做个铁匠吧。"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideEnvelope/AniContent/Content/MaskMail4Small/SpMail4Small_/Lb3",
+  "name": "Lb3",
+  "active": false,
+  "text": "勿念\n雷震子"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideEnvelope/AniContent/Content/NdBig_/SpMail4Big/Lb1",
+  "name": "Lb1",
+  "active": false,
+  "text": "小三"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideEnvelope/AniContent/Content/NdBig_/SpMail4Big/Lb2",
+  "name": "Lb2",
+  "active": false,
+  "text": "        当你看到这封信的时候，我已经走了。不要去找我，你是不可能找到我的。\n        你虽然还小，但有自理能力。鹰只有自己展翼才能更早的高飞。\n        不用为我担心，你的性格中，继承了许多你妈妈的细腻。爸爸是一个无用的人。你渐渐的大了，爸爸需要去拿回一些本应该属于我的东西。总有一天，我们父子二人会再相见的。\n        我希望你变得强大，但又不希望你变得强大，自己的路，你自己选择。\n        如果有一天你觉得仙友这个职业不好，那就回到圣魂村，像我一样，做个铁匠吧。"
+ },
+ {
+  "path": "UIRootCamera/MainViewDown/UIGuideEnvelope/AniContent/Content/NdBig_/SpMail4Big/Lb3",
+  "name": "Lb3",
+  "active": false,
+  "text": "勿念\n雷震子"
+ },
+ {
+  "path": "UIRootCamera/MainViewUp/UIMainView_Bottom/SafeArea/BtnList_/Lead_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewUp/UIMainView_Bottom/SafeArea/BtnList_/Heros_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewUp/UIMainView_Bottom/SafeArea/BtnList_/Raise_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewUp/UIMainView_Bottom/SafeArea/BtnList_/Home_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewUp/UIMainView_Bottom/SafeArea/BtnList_/Games_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/MainViewUp/UIMainView_Bottom/SafeArea/BtnList_/Guild_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/Head/Layout/AssetInfo/AssetNum1_",
+  "name": "AssetNum1_",
+  "active": true,
+  "text": "0"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/Head/Layout/AssetInfo/AssetNum2_",
+  "name": "AssetNum2_",
+  "active": true,
+  "text": "0"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/DetailBtn_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/BtnLv_/Num",
+  "name": "Num",
+  "active": true,
+  "text": "炼宝次数："
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/BtnLv_/Num/NumTxt_",
+  "name": "NumTxt_",
+  "active": true,
+  "text": "0/40"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/LvTxt_",
+  "name": "LvTxt_",
+  "active": true,
+  "text": "1"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": false,
+  "text": "300年"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": false,
+  "text": "蛟龙法宝"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "1000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "1000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "1000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "5000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "5000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "5000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "5000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "5000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "5000灵力"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "新加入奖池的法宝"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/RingLayout_/RingTemp_/Year_",
+  "name": "Year_",
+  "active": false,
+  "text": "300年"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/RingLayout_/RingTemp_/Fragment_/FragmentTxt_",
+  "name": "FragmentTxt_",
+  "active": false,
+  "text": "*30"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/RingLayout_/RingTemp_/Name_",
+  "name": "Name_",
+  "active": false,
+  "text": "蛟龙法宝"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/Node/Label",
+  "name": "Label",
+  "active": false,
+  "text": "限时炼宝赢随机仙品法宝！活动剩余："
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/Node/ActTime_",
+  "name": "ActTime_",
+  "active": false,
+  "text": "50天20时"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/Count/CountTxt_",
+  "name": "CountTxt_",
+  "active": false,
+  "text": "2400"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/Count/Label",
+  "name": "Label",
+  "active": false,
+  "text": "累计次数"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/ScrollView_/view/Content_/RewardLayout_/RewardTemp_/Free_/UIItem/UIItem_/ItemCount_",
+  "name": "ItemCount_",
+  "active": false,
+  "text": "88"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/ScrollView_/view/Content_/RewardLayout_/RewardTemp_/Free_/UIItem/UIItem_/ItemName_",
+  "name": "ItemName_",
+  "active": false,
+  "text": "水果拼盘"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/ScrollView_/view/Content_/RewardLayout_/RewardTemp_/CountReq_",
+  "name": "CountReq_",
+  "active": false,
+  "text": "2200"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/ScrollView_/view/Content_/RewardLayout_/RewardTemp_/Pay_/UIItem/UIItem_/ItemCount_",
+  "name": "ItemCount_",
+  "active": false,
+  "text": "88"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/ScrollView_/view/Content_/RewardLayout_/RewardTemp_/Pay_/UIItem/UIItem_/ItemName_",
+  "name": "ItemName_",
+  "active": false,
+  "text": "水果拼盘"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/BtnBuy_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "￥68"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/TimeTxt_",
+  "name": "TimeTxt_",
+  "active": false,
+  "text": "15:20:36后免费"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/BtnDrawOne_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "炼宝"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/BtnDrawTen_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "炼宝10次"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/BtnDrawTen_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/BtnAdd_/adNum_",
+  "name": "adNum_",
+  "active": true,
+  "text": "次数(1/1)"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/BtnAdd_/Num/NumTxtFree",
+  "name": "NumTxtFree",
+  "active": true,
+  "text": "免费炼宝1次"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/Cost1_/CostNum1_",
+  "name": "CostNum1_",
+  "active": true,
+  "text": "1"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/Cost2/CostNum2_",
+  "name": "CostNum2_",
+  "active": true,
+  "text": "10"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/SkipTog_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "跳过动画"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/BtnEquip_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "前往装配"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Middle_/BtnEquip_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Top_/AssetLayout_/Asset1/AssetTxt",
+  "name": "AssetTxt",
+  "active": false,
+  "text": "10086"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Top_/AssetLayout_/Asset2/AssetTxt",
+  "name": "AssetTxt",
+  "active": false,
+  "text": "10086"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Top_/AssetLayout_/Asset3/AssetTxt",
+  "name": "AssetTxt",
+  "active": false,
+  "text": "10086"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/TogItem_/UnSelect/Label",
+  "name": "Label",
+  "active": false,
+  "text": "培养"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/TogItem_/Select/Label",
+  "name": "Label",
+  "active": false,
+  "text": "培养"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/TogItem_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/ToggleScrollView_/view/ToggleList_/TogItem_/UnSelect/Label",
+  "name": "Label",
+  "active": true,
+  "text": "炼宝"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/ToggleScrollView_/view/ToggleList_/TogItem_/Select/Label",
+  "name": "Label",
+  "active": true,
+  "text": "炼宝"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/ToggleScrollView_/view/ToggleList_/TogItem_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/ToggleScrollView_/view/ToggleList_/TogItem_/UnSelect/Label",
+  "name": "Label",
+  "active": true,
+  "text": "法宝总览"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/ToggleScrollView_/view/ToggleList_/TogItem_/Select/Label",
+  "name": "Label",
+  "active": false,
+  "text": "法宝总览"
+ },
+ {
+  "path": "UIRootCamera/System/UICommonTabView/SafeArea/Bottom_/ToggleScrollView_/view/ToggleList_/TogItem_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/Title/Label",
+  "name": "Label",
+  "active": true,
+  "text": "已拥有法宝"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/Title/Label",
+  "name": "Label",
+  "active": true,
+  "text": "圣品法宝"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[玄]弑神枪"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[玄]避水佩"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[玄]水火琵琶"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[玄]纯阳斩妖剑"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[玄]伏羲琴"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[玄]筋斗云"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/Title/Label",
+  "name": "Label",
+  "active": true,
+  "text": "玄品法宝"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[灵]定海珠"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[灵]人种袋"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[灵]困龙桩"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[灵]离地焰光旗"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[灵]混元莲花"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/Title/Label",
+  "name": "Label",
+  "active": true,
+  "text": "灵品法宝"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[珍]五火七禽扇"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[珍]焚界古伞"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[珍]照妖镜"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[珍]芭蕉扇"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Label",
+  "name": "Label",
+  "active": true,
+  "text": "[珍]风云玉笛"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Middle/ScrollView_/view/content/RingAltasQuality/AtlasList/view/content/RingAtlasItem/Active/Year",
+  "name": "Year",
+  "active": false,
+  "text": "80万年"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Top/Attr",
+  "name": "Attr",
+  "active": true,
+  "text": "总拥有属性"
+ },
+ {
+  "path": "UIRootCamera/System/UISoulRingAtlas/UnSafeArea/Top/Attr/AttrName_",
+  "name": "AttrName_",
+  "active": true,
+  "text": "攻击&生命&防御+0%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UIConnectLogin/SafeArea/NoticeText_",
+  "name": "NoticeText_",
+  "active": false,
+  "text": "正在连接平行世界"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISysOpen/CloseBg_/bottomClose/Label",
+  "name": "Label",
+  "active": false,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISysOpen/Content_/SpNameDi_/LbName_",
+  "name": "LbName_",
+  "active": false,
+  "text": "缘起招募"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Label",
+  "name": "Label",
+  "active": true,
+  "text": "概率信息"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/LvLayout/LvTxt_",
+  "name": "LvTxt_",
+  "active": true,
+  "text": "LV.1"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/LvLayout/LvTxtNext_",
+  "name": "LvTxtNext_",
+  "active": true,
+  "text": "LV.2"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/Label",
+  "name": "Label",
+  "active": true,
+  "text": "重复获得转化碎片数"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/NumLayout/Num_",
+  "name": "Num_",
+  "active": true,
+  "text": "1"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/NumLayout/NumNext_",
+  "name": "NumNext_",
+  "active": true,
+  "text": "2"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/Label",
+  "name": "Label",
+  "active": false,
+  "text": "法宝年份"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": false,
+  "text": "1000-3000年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/Label",
+  "name": "Label",
+  "active": false,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": false,
+  "text": "68.5%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/Label",
+  "name": "Label",
+  "active": false,
+  "text": "法宝灵力"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": false,
+  "text": "1000-3000年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearNext",
+  "name": "YearNext",
+  "active": false,
+  "text": "1-99年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/Label",
+  "name": "Label",
+  "active": false,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": false,
+  "text": "68.5%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxtNext",
+  "name": "PbTxtNext",
+  "active": false,
+  "text": "65.5%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/Label",
+  "name": "Label",
+  "active": false,
+  "text": "法宝年份"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": false,
+  "text": "1000-3000年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/Label",
+  "name": "Label",
+  "active": false,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": false,
+  "text": "68.5%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/Label",
+  "name": "Label",
+  "active": true,
+  "text": "法宝灵力"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearNext",
+  "name": "YearNext",
+  "active": true,
+  "text": "精品"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/Label",
+  "name": "Label",
+  "active": true,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxtNext",
+  "name": "PbTxtNext",
+  "active": true,
+  "text": "0.0566"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/Label",
+  "name": "Label",
+  "active": false,
+  "text": "法宝年份"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": false,
+  "text": "1000-3000年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/Label",
+  "name": "Label",
+  "active": false,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": false,
+  "text": "68.5%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/Label",
+  "name": "Label",
+  "active": true,
+  "text": "法宝灵力"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": true,
+  "text": "良品"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearNext",
+  "name": "YearNext",
+  "active": true,
+  "text": "良品"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/Label",
+  "name": "Label",
+  "active": true,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": true,
+  "text": "0.1688"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxtNext",
+  "name": "PbTxtNext",
+  "active": true,
+  "text": "0.3774"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/Label",
+  "name": "Label",
+  "active": false,
+  "text": "法宝年份"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": false,
+  "text": "1000-3000年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/Label",
+  "name": "Label",
+  "active": false,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/FullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": false,
+  "text": "68.5%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/Label",
+  "name": "Label",
+  "active": true,
+  "text": "法宝灵力"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearTxt",
+  "name": "YearTxt",
+  "active": true,
+  "text": "凡品"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Year/YearNext",
+  "name": "YearNext",
+  "active": true,
+  "text": "凡品"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/Label",
+  "name": "Label",
+  "active": true,
+  "text": "概率"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxt",
+  "name": "PbTxt",
+  "active": true,
+  "text": "0.8312"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Probability/ScrollView/view/ItemLayout_/ItemTemp_/NotFullLv/Probability/PbTxtNext",
+  "name": "PbTxtNext",
+  "active": true,
+  "text": "0.566"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/NotFull_/Cond1/TimesTxt_",
+  "name": "TimesTxt_",
+  "active": true,
+  "text": "炼宝次数达到40"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/NotFull_/Cond2/ServerDayTxt_",
+  "name": "ServerDayTxt_",
+  "active": true,
+  "text": "开服天数达到1天"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/NotFull_/BtnUp_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "升级"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/NotFull_/BtnUp_/RedPoint/Red2/RedCount",
+  "name": "RedCount",
+  "active": false,
+  "text": "999"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/SafeArea/Full_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "已满级"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingDrawLvDesc/Close/Label",
+  "name": "Label",
+  "active": true,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Label-001",
+  "name": "Label-001",
+  "active": true,
+  "text": "法宝介绍"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Year_",
+  "name": "Year_",
+  "active": true,
+  "text": "50万年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Label",
+  "name": "Label",
+  "active": false,
+  "text": "满灵力，星级显示"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Name_",
+  "name": "Name_",
+  "active": true,
+  "text": "法宝名字_品质色"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/InitYear_",
+  "name": "InitYear_",
+  "active": true,
+  "text": "初始灵力：1000年"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Tip_",
+  "name": "Tip_",
+  "active": true,
+  "text": "根据当前炼宝等级，重复获得可分解为{1}个碎片"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Features/Label",
+  "name": "Label",
+  "active": true,
+  "text": "法宝特性"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Features/FeaturesLayout_/FeaturesTemp_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "<color=#6a9b67>·</color>"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Features/FeaturesLayout_/FeaturesTemp_/Label/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "·"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Features/FeaturesLayout_/FeaturesTemp_/FeaturesTxt",
+  "name": "FeaturesTxt",
+  "active": false,
+  "text": "<color=#6a9b67>100年解锁:  生命加成<color=#b3833e>+112%</color></color>"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Features/FeaturesLayout_/FeaturesTemp_/FeaturesTxt/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "100年解锁:  生命加成"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Features/FeaturesLayout_/FeaturesTemp_/FeaturesTxt/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "+112%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Attr/Label",
+  "name": "Label",
+  "active": true,
+  "text": "法宝基础属性"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Attr/AttrLayout_/AttrTemp_/AttrlVal",
+  "name": "AttrlVal",
+  "active": false,
+  "text": "+4159"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/AttrDesc/Label",
+  "name": "Label",
+  "active": true,
+  "text": "拥有属性："
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/AttrDesc/AttrDesc_",
+  "name": "AttrDesc_",
+  "active": true,
+  "text": "·攻击&生命&防御+90%"
+ },
+ {
+  "path": "UIRootCamera/Tip/UISoulRingAtlasDesc/UnSafeArea/AniContent/Node/Label",
+  "name": "Label",
+  "active": true,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/BtnList/BtnFix_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "修复"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/BtnList/BtnCustomer_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "客服"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/BtnList/BtnComplain_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "投诉"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/ProgressDesc_",
+  "name": "ProgressDesc_",
+  "active": false,
+  "text": "正在加载场景..."
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/Ver_",
+  "name": "Ver_",
+  "active": false,
+  "text": "vBUILD_VERSION"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/Bottom/Label",
+  "name": "Label",
+  "active": false,
+  "text": "抵制不良游戏，拒绝盗版游戏. 注意自我保护，谨防受骗上当.\n适度游戏益脑，沉迷游戏伤身. 合理安排时间，享受健康生活."
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/Bottom/RichTextPublish_",
+  "name": "RichTextPublish_",
+  "active": false,
+  "text": "<color=#FFFFFF>审批文号：国新出审[2026]461号  著作权人：上海扑炎网络科技有限公司  软著登记号：2025SR2274461\n出版单位：上海锦游网络技术有限公司  出版物号：ISBN 978-7-498-16472-8</color>"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/Bottom/RichTextPublish_/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "审批文号：国新出审[2026]461号  著作权人：上海扑炎网络科技有限公司  软著登记号：2025SR2274461"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/Bottom/RichTextPublish_/RICHTEXT_CHILD",
+  "name": "RICHTEXT_CHILD",
+  "active": false,
+  "text": "出版单位：上海锦游网络技术有限公司  出版物号：ISBN 978-7-498-16472-8"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/Bottom/Label",
+  "name": "Label",
+  "active": false,
+  "text": "健康游戏忠告"
+ },
+ {
+  "path": "UIRootCamera/Dialog/UILoading/Bottom/BtnICP_",
+  "name": "BtnICP_",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/Dialog/UIGuideLeftTip/UnSafeArea/Content_/SpQipao_/LbQiPao_",
+  "name": "LbQiPao_",
+  "active": false,
+  "text": "遇到剧情事件啦！可返回主界面查看(1s)"
+ },
+ {
+  "path": "UIRootCamera/Tutorial/UISplash/Content_/Txt",
+  "name": "Txt",
+  "active": false,
+  "text": "健康游戏忠告\n抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防受骗上当。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。"
+ },
+ {
+  "path": "UIRootCamera/Alert/UISimpleNotice/SafeArea/AniContent/Content/LbTitile_",
+  "name": "LbTitile_",
+  "active": false,
+  "text": "提示"
+ },
+ {
+  "path": "UIRootCamera/Alert/UISimpleNotice/SafeArea/AniContent/Content/LbMsg_",
+  "name": "LbMsg_",
+  "active": false,
+  "text": "公告"
+ },
+ {
+  "path": "UIRootCamera/Alert/UISimpleNotice/SafeArea/AniContent/Content/OperateBtns_/ConformBtn_/ConformLabel_",
+  "name": "ConformLabel_",
+  "active": false,
+  "text": "确定"
+ },
+ {
+  "path": "UIRootCamera/Alert/UISimpleNotice/SafeArea/AniContent/Content/OperateBtns_/WxPublicBtn_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "公众号"
+ },
+ {
+  "path": "UIRootCamera/Alert/UISimpleNotice/SafeArea/AniContent/Content/OperateBtns_/WxGameBtn_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "游戏圈"
+ },
+ {
+  "path": "UIRootCamera/Alert/UISimpleNotice/SafeArea/AniContent/bottomWidget_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Label-001",
+  "name": "Label-001",
+  "active": false,
+  "text": "提示"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/BtnSure_/ConformLabel_",
+  "name": "ConformLabel_",
+  "active": false,
+  "text": "确定"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Label",
+  "name": "Label",
+  "active": false,
+  "text": "您的账号当前已经被封禁！"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Svr",
+  "name": "Svr",
+  "active": false,
+  "text": "区        服："
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Svr/SvrTxt_",
+  "name": "SvrTxt_",
+  "active": false,
+  "text": "[S1]xxx"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Name",
+  "name": "Name",
+  "active": false,
+  "text": "角  色  名："
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Name/NameTxt_",
+  "name": "NameTxt_",
+  "active": false,
+  "text": "飞翔的荷兰人"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/UUID",
+  "name": "UUID",
+  "active": false,
+  "text": "角色编号："
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/UUID/UUIDTxt_",
+  "name": "UUIDTxt_",
+  "active": false,
+  "text": "21474854045"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Reason",
+  "name": "Reason",
+  "active": false,
+  "text": "封禁原因："
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Reason/ReasonTxt_",
+  "name": "ReasonTxt_",
+  "active": false,
+  "text": "<color=#685745>检测到数据异常，账号已被封禁<color=#c35b53>1</color>小时， 若再次违规，将会封禁更长时间，请不要使用第三方插件</color>"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Time",
+  "name": "Time",
+  "active": false,
+  "text": "解封时间："
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/Content/Time/TimeTxt_",
+  "name": "TimeTxt_",
+  "active": false,
+  "text": "2025-06-23 14:00:00"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIAccountBlocked/SafeArea/AniContent/bottomWidget_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIReconnecting/SafeArea/Waiting_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "与平行世界失去联系，重连中......"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIReconnecting/SafeArea/Waiting_/Label_",
+  "name": "Label_",
+  "active": false,
+  "text": "......"
+ },
+ {
+  "path": "UIRootCamera/Alert/UIManHuaPage2/CloseBg_/bottomClose/Label",
+  "name": "Label",
+  "active": false,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/CloseBtn_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "X"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/TagPanel/view/TagContent_/TagItem_/Text",
+  "name": "Text",
+  "active": false,
+  "text": "系统"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/TagPanel/view/TagContent_/TagItem_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "通用"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/TagPanel/view/TagContent_-001/TagItem_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "系统"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/TagPanel/view/TagContent_-002/TagItem_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "发fafa"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/TagPanel/view/TagContent_-003/TagItem_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "发888"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": false,
+  "text": "系统"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "Test"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "Common"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "???"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "加仙友"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "加道具"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "加指定仙友"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "引导gm测试"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "战斗打印"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "水果机测试"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "测试剧情"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "preloadUi"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "releaseUi"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "跳过剧情"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "长震动"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "短震动"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "暂停/恢复主线"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "Dump关卡资源"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "Dump所有资源"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "切换场景"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "演绎战斗"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "测试音乐音效"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "设置主线关卡"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "内存打印"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "内存池打印"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "修改广告卡"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "黄金矿工入口"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/CommoandList/view/ItemContnet_/ItemBtn_/Text",
+  "name": "Text",
+  "active": true,
+  "text": "拯救罗三炮入口"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/SpriteSplash/TipsTxt_",
+  "name": "TipsTxt_",
+  "active": true,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/SendPanel/InputPanel_/InputField_/TEXT_LABEL",
+  "name": "TEXT_LABEL",
+  "active": false,
+  "text": ""
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/SendPanel/InputPanel_/InputField_/PLACEHOLDER_LABEL",
+  "name": "PLACEHOLDER_LABEL",
+  "active": false,
+  "text": "Enter text here..."
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/SafeArea/GMPanel/SendPanel/SendBtn_/Label",
+  "name": "Label",
+  "active": true,
+  "text": "发送"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/ServerInfo/Label",
+  "name": "Label",
+  "active": true,
+  "text": "开服天数:"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/ServerInfo/ServerDay_",
+  "name": "ServerDay_",
+  "active": true,
+  "text": "81"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/ServerInfo/Label2",
+  "name": "Label2",
+  "active": true,
+  "text": "服务器时间时间:"
+ },
+ {
+  "path": "UIRootCamera/Special/uigm/ServerInfo/NowTime_",
+  "name": "NowTime_",
+  "active": true,
+  "text": "2026-09-07 15:05:48"
+ },
+ {
+  "path": "UIRootCamera/GMRoot/GM/GMBTN/txt",
+  "name": "txt",
+  "active": true,
+  "text": "GM"
+ },
+ {
+  "path": "UIRootCamera/GMRoot/TESTFight/BATTLE_TEST/txt",
+  "name": "txt",
+  "active": true,
+  "text": "战斗测试"
+ },
+ {
+  "path": "UIRootCamera/GMRoot/MAINTESTFight/MAIN_BATTLE_TEST/txt",
+  "name": "txt",
+  "active": true,
+  "text": "主线测试"
+ },
+ {
+  "path": "UIRootCamera/GMRoot/SOUNDTEST/SOUNDTEST/txt",
+  "name": "txt",
+  "active": true,
+  "text": "战斗音效"
+ },
+ {
+  "path": "UINotice/MaskBtn_/bottomClose_/Label",
+  "name": "Label",
+  "active": false,
+  "text": "点击空白处关闭"
+ },
+ {
+  "path": "UINotice/SafeArea/AniContent/Content/LbTitile_",
+  "name": "LbTitile_",
+  "active": false,
+  "text": "提示"
+ },
+ {
+  "path": "UINotice/SafeArea/AniContent/Content/LbMsg_",
+  "name": "LbMsg_",
+  "active": false,
+  "text": "<color=#685745></color>"
+ },
+ {
+  "path": "UINotice/SafeArea/AniContent/Content/OperateBtns_/CancleBtn_/CancleLabel_",
+  "name": "CancleLabel_",
+  "active": false,
+  "text": "取消"
+ },
+ {
+  "path": "UINotice/SafeArea/AniContent/Content/OperateBtns_/ConformBtn_/ConformLabel_",
+  "name": "ConformLabel_",
+  "active": false,
+  "text": "确定"
+ },
+ {
+  "path": "UINotice/SafeArea/AniContent/Content/NomoreTog_/NomoreLabel_",
+  "name": "NomoreLabel_",
+  "active": false,
+  "text": "今日不再提示"
+ }
+]

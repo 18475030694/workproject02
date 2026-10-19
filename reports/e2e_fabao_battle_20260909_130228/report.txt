@@ -1,0 +1,8 @@
+==== 汇总 ====
+[PASS] B000 登录进主城
+[FAIL] B010 GM发6001+sendWearOneKey装配 — owned=None sysattr={} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个
+[PASS] B020 打开主线关卡界面 — jump={"ok": false} 按钮69个
+[PASS] B030 进入主线战斗 — fight节点=['TESTFight', 'MAINTESTFight'] 关键文案=["特惠法宝", "法宝特性", "<color=#c4c4c4>20阶解锁：攻击加成<color=#ffd145>", "20阶解锁：攻击加成", "法宝基础属性", "1阶"]
+[PASS] TC024-note 战斗内无『灵力』残留 — 灵力命中=[]
+[FAIL] TC063 GM面板打开(重试) — openUI={r1:True, r2:False} 节点=[]
+[PASS] B040 战斗流程JS错误收集 — 共2485条, 分类={'D10_jump_id': 25, 'pageerror_null_x': 1207}

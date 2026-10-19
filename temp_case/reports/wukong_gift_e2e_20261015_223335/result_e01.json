@@ -1,0 +1,27 @@
+{
+  "group": "e01",
+  "time": "2026-10-15T22:35:41",
+  "server_time": "2026-10-23 23:48:28",
+  "results": [
+    {
+      "tc": "TC-E01a(23:59:30购买)",
+      "pass": true,
+      "note": "buy_click=True gift={\"goods_id\": 530001, \"end_time\": -1, \"recv_record_list\": [{\"day\": 1, \"status\": false}]}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-E03(0点前领取)",
+      "pass": false,
+      "note": "diff={}",
+      "evidence": []
+    },
+    {
+      "tc": "TC-E01b(0点后状态刷新)",
+      "pass": false,
+      "note": "days=[(1, True)] server=2026-10-23 23:47:47",
+      "evidence": []
+    }
+  ],
+  "account": "8330",
+  "uuid": 8589936609
+}

@@ -1,0 +1,192 @@
+{
+ "start": "2026-09-11T13:59:40",
+ "console": [
+  "[warning] [.WebGL-0x12cc001b3c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+  "[warning] [.WebGL-0x12cc001b3c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+  "[warning] [.WebGL-0x12cc001b3c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+  "[warning] [.WebGL-0x12cc001b3c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+  "[error] [2026/9/11 13:59:57 976] [350] server error: 前后台资源版本号不匹配错误, 2024/07/01 15:37:24(client) != 2023/08/09 21:02:14(server) []",
+  "[warning] [2026/9/11 13:59:58 9] [352] login server_enc_dhkey is undefined []",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7201",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7202",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7203",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7204",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7205",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7206",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7207",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7208",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7209",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7210",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7211",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7212",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7213",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7214",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7215",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7216",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7217",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7218",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7219",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7220",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7221",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7222",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7223",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7224",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7225",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7226",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7227",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7228",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7229",
+  "[error] 表中找不到此索引，表名为：cfg_soul_bone 索引为：7230",
+  "[error] 表中找不到此索引，表名为：cfg_guanka 索引为：0",
+  "[error] [2026/9/11 13:59:58 214] [362] 没有注册协议回调函数, proto.  [gs2c_tournament_buy_list]"
+ ],
+ "scenes": {
+  "open_main": true,
+  "click_ret": false,
+  "s1_click": {
+   "appeared_t": null,
+   "ticks": [
+    {
+     "t": 5.59,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启1个",
+     "last_ok": null,
+     "last_rate": null
+    },
+    {
+     "t": 6.01,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启1个",
+     "last_ok": null,
+     "last_rate": null
+    },
+    {
+     "t": 6.45,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启1个",
+     "last_ok": null,
+     "last_rate": null
+    },
+    {
+     "t": 6.87,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启1个",
+     "last_ok": null,
+     "last_rate": null
+    },
+    {
+     "t": 7.29,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启1个",
+     "last_ok": null,
+     "last_rate": null
+    },
+    {
+     "t": 7.72,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启1个",
+     "last_ok": null,
+     "last_rate": null
+    }
+   ]
+  },
+  "s2_netc": {
+   "appeared_t": null,
+   "ticks": [
+    {
+     "t": 5.54,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    },
+    {
+     "t": 5.97,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    },
+    {
+     "t": 6.4,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    },
+    {
+     "t": 6.82,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    },
+    {
+     "t": 7.24,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    },
+    {
+     "t": 7.68,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    }
+   ]
+  },
+  "s3_show_ret": "ok",
+  "s3_showui_paths": [
+   "UIRootCamera/Tip/UITreasureBoxRewardsNew",
+   "UIRootCamera/Tip/UITreasureBoxRewardsNew/BtnBg_",
+   "UIRootCamera/Tip/UITreasureBoxRewardsNew/SafeArea",
+   "UIRootCamera/Tip/UITreasureBoxRewardsNew/SafeArea/Reward_",
+   "UIRootCamera/Tip/UITreasureBoxRewardsNew/SafeArea/Reward_/RewardNd",
+   "UIRootCamera/Tip/UITreasureBoxRewardsNew/SafeArea/Reward_/RewardNd/RewardDescSp_"
+  ],
+  "s3_showui": {
+   "appeared_t": 0.87,
+   "ticks": [
+    {
+     "t": 0.02,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    },
+    {
+     "t": 0.45,
+     "nhits": 0,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    },
+    {
+     "t": 0.87,
+     "nhits": 10,
+     "center": true,
+     "btn": "开启200个",
+     "last_ok": true,
+     "last_rate": 1
+    }
+   ]
+  }
+ },
+ "end": "2026-09-11T14:00:31"
+}

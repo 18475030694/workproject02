@@ -1,0 +1,61 @@
+{
+  "group": "compat",
+  "time": "2026-10-15T22:06:14",
+  "server_time": "2026-10-23 23:19:09",
+  "results": [
+    {
+      "tc": "TC-019#2582(登录无报错)",
+      "pass": true,
+      "note": "lv=8310 kicks=0",
+      "evidence": []
+    },
+    {
+      "tc": "TC-020#2582(不再弹购买)",
+      "pass": true,
+      "note": "auto_popped=False end_time=-1",
+      "evidence": []
+    },
+    {
+      "tc": "TC-021#2582(已领不补发)",
+      "pass": true,
+      "note": "recv_days=[(1, True)]（旧奖励=day1已领，无重复到账）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-019#2583(登录无报错)",
+      "pass": true,
+      "note": "lv=9205 kicks=0",
+      "evidence": []
+    },
+    {
+      "tc": "TC-020#2583(不再弹购买)",
+      "pass": true,
+      "note": "auto_popped=False end_time=-1",
+      "evidence": []
+    },
+    {
+      "tc": "TC-021#2583(已领不补发)",
+      "pass": true,
+      "note": "recv_days=[(1, True)]（旧奖励=day1已领，无重复到账）",
+      "evidence": []
+    },
+    {
+      "tc": "TC-019#8017(登录无报错)",
+      "pass": true,
+      "note": "lv=9540 kicks=0",
+      "evidence": []
+    },
+    {
+      "tc": "TC-020#8017(不再弹购买)",
+      "pass": true,
+      "note": "auto_popped=False end_time=-1",
+      "evidence": []
+    },
+    {
+      "tc": "TC-021#8017(已领不补发)",
+      "pass": true,
+      "note": "recv_days=[(1, True)]（旧奖励=day1已领，无重复到账）",
+      "evidence": []
+    }
+  ]
+}

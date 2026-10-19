@@ -1,0 +1,273 @@
+{
+ "title": "法宝第二轮运行时(v3, 1353+GM解锁, 内存patch)",
+ "base_url": "http://localhost:7456",
+ "account": "1353",
+ "server": "s5服",
+ "start_time": "2026-09-08T23:56:36",
+ "cases": [
+  {
+   "case_id": "TC000",
+   "title": "登录进主城(1353@S5)",
+   "passed": true,
+   "note": "账号1353"
+  },
+  {
+   "case_id": "TC000-unlock",
+   "title": "GM主线40关解锁法宝(8)/炼宝(9)",
+   "passed": true,
+   "note": "uuid=8589937568 is8=True is9=True"
+  },
+  {
+   "case_id": "TC054",
+   "title": "法宝主界面打开(UISoulRingDraw)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC024",
+   "title": "主界面无『灵力/万灵力』残留(处理2)",
+   "passed": true,
+   "note": "未见灵力文案"
+  },
+  {
+   "case_id": "TC040",
+   "title": "概率信息弹窗打开(UISoulRingDrawLvDesc)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC037",
+   "title": "概率行底图=probability_res(处理6,19:15改动)",
+   "passed": false,
+   "note": "hero_panel08底图=[] 品质名文本=['凡人', '每日仙宗', '决战圣虚', '大圣法宝', '<color=#8a3904>购买基金即可获大量<color=#ff73f7>神话</color>-大圣</color>', '-大圣']"
+  },
+  {
+   "case_id": "TC055",
+   "title": "炼宝页签打开(UISoulRingDrawTabView)",
+   "passed": false,
+   "note": "openUI直开失败"
+  },
+  {
+   "case_id": "TC056",
+   "title": "图鉴打开(UISoulRingAtlas)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC020",
+   "title": "图鉴item阶数无年份残留(处理2)",
+   "passed": false,
+   "note": "年份样例=['300年', '80万年']"
+  },
+  {
+   "case_id": "TC044",
+   "title": "图鉴分类按钮数量与图标(处理8)",
+   "passed": false,
+   "note": "toggle数=None 图标=[]"
+  },
+  {
+   "case_id": "TC045",
+   "title": "分类栏ToggleContainer+可滚动(处理8,17:10增量)",
+   "passed": false,
+   "note": "容器=None"
+  },
+  {
+   "case_id": "TC046",
+   "title": "卡池未达标点仙品分类→提示+回弹(处理8/R2,cond=11)",
+   "passed": false,
+   "note": "pool_level=0 提示=[]"
+  },
+  {
+   "case_id": "TC014",
+   "title": "图鉴详情『初始阶数：X阶』(处理2,D1复核)",
+   "passed": false,
+   "note": "点击={'found': True, 'node': None} 文本=[未见]"
+  },
+  {
+   "case_id": "TC009",
+   "title": "改quality外观应不变(解耦验证)",
+   "passed": true,
+   "note": "外观未随quality变化(新代码?)"
+  },
+  {
+   "case_id": "TC007",
+   "title": "同quality不同group外观应不同(解耦验证)",
+   "passed": true,
+   "note": "同quality不同group外观已不同"
+  },
+  {
+   "case_id": "TC008",
+   "title": "同group不同quality外观应相同(解耦验证)",
+   "passed": true,
+   "note": "同group不同quality外观相同(新代码?)"
+  },
+  {
+   "case_id": "TC000-restore",
+   "title": "cfg内存patch已恢复(外观与基线一致)",
+   "passed": false,
+   "note": "{\"base\": null, \"restored\": null}"
+  },
+  {
+   "case_id": "TC057",
+   "title": "法宝装配界面打开(UIHeroSoulRing)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC041",
+   "title": "法宝列表显示基础属性(处理7)",
+   "passed": true,
+   "note": "见攻防血"
+  },
+  {
+   "case_id": "TC042",
+   "title": "装配面板属性与公式一致(处理7)",
+   "passed": false,
+   "note": "无法完成校验: err=None 需人工或GM造已装配数据"
+  },
+  {
+   "case_id": "TC043",
+   "title": "长名不遮挡(布局检查)",
+   "passed": false,
+   "note": "patch失败: {}"
+  },
+  {
+   "case_id": "TC042-note",
+   "title": "角色面板SOUL_RING系统加成读取",
+   "passed": false,
+   "note": "{}"
+  },
+  {
+   "case_id": "EX06",
+   "title": "全程JS错误收集(基线)",
+   "passed": true,
+   "note": "共4329条, 分类={'D9_pool_idx0': 2, 'D9_quality_idx-1': 51, 'D10_jump_id': 25, 'D9_bone': 30}"
+  }
+ ],
+ "login_passed": true,
+ "sys_unlocked": true,
+ "js_errors": [
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')"
+ ],
+ "js_errors_classified": {
+  "D9_pool_idx0": 2,
+  "D9_quality_idx-1": 51,
+  "D10_jump_id": 25,
+  "D9_bone": 30
+ },
+ "gm": {
+  "uuid": 8589937568,
+  "set_mainline_stage": "OK: ERR<0, OK> REPLY: nil"
+ },
+ "patches": {
+  "base": {
+   "6001": null,
+   "6002": null
+  },
+  "tc009": {
+   "before": null,
+   "after": null
+  },
+  "tc007": {
+   "6001": null,
+   "6002(g9)": null
+  },
+  "tc008": {
+   "6001": null,
+   "6002(q7)": null
+  },
+  "restored": {
+   "6001": null
+  }
+ },
+ "probe": {},
+ "mods": {},
+ "qa_caps": [
+  "_memberCountOverride",
+  "_origGetMemberList",
+  "_mockCalls",
+  "_origCall"
+ ],
+ "end_time": "2026-09-08T23:57:42",
+ "passed_count": 12,
+ "total_count": 23
+}

@@ -1,0 +1,29 @@
+{
+  "time": "20261013_185325",
+  "account": "9912",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589934665
+    }
+  },
+  "before": {
+    "uuid": 8589934665,
+    "name": "席晨曦",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589934665,
+    "name": "席晨曦",
+    "lv": 8129,
+    "advance": 45,
+    "buddy_count": 45
+  }
+}

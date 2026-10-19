@@ -1,0 +1,7 @@
+==== 汇总 ====
+[PASS] B000 登录进主城
+[FAIL] B010 GM发6001+UIHeroSoulRing一键穿戴 — ringMap={"owned": 1, "equipped": 0, "sys": true} wear={"err": "TypeError: Cannot read properties of undefined (reading 'skill_list')"} award=OK: ERR<0, OK> REPLY: <br/>实际发放1个
+[PASS] B020 GMRoot入口自检(GMBTN/BATTLE_TEST/MAIN_BATTLE_TEST) — {"gmRoot": {"active": true, "children": ["GM", "TESTFight", "MAINTESTFight", "SOUNDTEST"]}, "GMBTN": {"found": 1, "note": "UIRootCamera/GMRoot/GM/GMBTN"}, "BATTLE_TEST": {"found": 1, "note": "UIRootCa
+[FAIL] B030 进入战斗测试(BATTLE_TEST) — UIMainView仍在, tops=["Camera", "MapRoot", "SceneMap_10001", "SceneCamera", "SceneRoot", "Camera", "PureColor", "MainViewDown", "UIMainView", "UIMainView_Top", "UIMainView_Middle", "UIGuideDialog", "UIGuideEnvelope", "Mai（建议人工点战斗测试验证）
+[PASS] TC063 GM面板打开/关闭(GMBTN toggle) — open: visible=True active=False nodes=0; close后 visible=False
+[PASS] B040 战斗流程JS错误收集 — 共40条, 分类={'D10_jump_id': 7, 'D9_bone': 30}

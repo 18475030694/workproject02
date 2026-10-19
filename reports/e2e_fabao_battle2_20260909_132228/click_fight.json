@@ -1,0 +1,83 @@
+{
+ "click": {
+  "battle": true,
+  "main": true
+ },
+ "tops": {
+  "names": [
+   "Camera",
+   "MapRoot",
+   "SceneMap_10001",
+   "SceneCamera",
+   "SceneRoot",
+   "Camera",
+   "PureColor",
+   "MainViewDown",
+   "UIMainView",
+   "UIMainView_Top",
+   "UIMainView_Middle",
+   "UIGuideDialog",
+   "UIGuideEnvelope",
+   "MainView",
+   "MainViewUp",
+   "UIMainView_Bottom",
+   "System",
+   "UIHeroSoulRing",
+   "Tip",
+   "UIConnectLogin",
+   "UIRewards",
+   "UISoulRingShow",
+   "UITestFight",
+   "UIMainFightTest",
+   "Dialog",
+   "UILoading",
+   "UIGuideLeftTip",
+   "Tutorial",
+   "UISplash",
+   "Alert",
+   "UISimpleNotice",
+   "UIAccountBlocked",
+   "UIWaiting",
+   "UIReconnecting",
+   "UIManHuaPage2",
+   "UIMessage",
+   "Warn",
+   "Special",
+   "GMRoot",
+   "GM",
+   "TESTFight",
+   "MAINTESTFight",
+   "SOUNDTEST",
+   "Border",
+   "LeftBorder",
+   "RightBorder",
+   "EMPTY_NODE",
+   "ROLE",
+   "MONSTER",
+   "EFFECT",
+   "UI_ITEM_OBJ",
+   "CHAT_EMOJI",
+   "ROLE_BLODD",
+   "SBH_ROLE",
+   "ROLE_BUBBLE",
+   "ROLE_MAIN_BUBBLE",
+   "ROLE_RING",
+   "TITLE",
+   "SBH_EFFECT",
+   "MessageItem_"
+  ],
+  "fightHit": [
+   "UITestFight",
+   "UIMainFightTest",
+   "TESTFight",
+   "MAINTESTFight"
+  ],
+  "battleMgr": {
+   "fighting": false,
+   "keys": [
+    "battleMap",
+    "hideMap"
+   ]
+  }
+ }
+}

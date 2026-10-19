@@ -1,0 +1,95 @@
+{
+ "cases": [
+  {
+   "id": "EX000",
+   "title": "登录进主城(前置)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "id": "EX01",
+   "title": "图鉴(法宝列表)反复开关 无新增JS异常",
+   "passed": false,
+   "note": "open=334 nodes=562 newErr=1"
+  },
+  {
+   "id": "EX02",
+   "title": "炼宝TabView打开(子UI带出parent)",
+   "passed": true,
+   "note": "open=True tabNodes=331 炼宝文本=['炼宝次数：', '限时炼宝赢随机仙品法宝！活动剩余：']"
+  },
+  {
+   "id": "EX03",
+   "title": "图鉴筛选按钮连点3次 无新增JS异常",
+   "passed": false,
+   "note": "newErr=2"
+  },
+  {
+   "id": "EX04",
+   "title": "法宝详情打开 无新增JS异常",
+   "passed": false,
+   "note": "opened=False descNodes=0 newErr=2"
+  },
+  {
+   "id": "EX05",
+   "title": "详情关闭回图鉴 无新增JS异常",
+   "passed": false,
+   "note": "atlasNodes=562 newErr=2"
+  },
+  {
+   "id": "EX06",
+   "title": "全程无未捕获JS异常(排除环境噪声)",
+   "passed": false,
+   "note": "newErr=2 样例=['console.error: 表中找不到此索引，表名为：cfg_soul_ring_pool 索引为：0', 'console.error: 表中找不到此索引，表名为：cfg_soul_ring_pool 索引为：0'] 噪声31条已单独归档"
+  }
+ ],
+ "start": "20260907_114130",
+ "js_errors": [
+  "console.error: 表中找不到此索引，表名为：cfg_guanka 索引为：0",
+  "console.error: [2026/9/7 11:41:48 150] [281] 跳转配置读取失败，请检查jump_id=40 []",
+  "console.error: [2026/9/7 11:41:48 150] [281] 跳转配置读取失败，请检查jump_id=57 []",
+  "console.error: [2026/9/7 11:41:48 150] [281] 跳转配置读取失败，请检查jump_id=58 []",
+  "console.error: [2026/9/7 11:41:48 150] [281] 跳转配置读取失败，请检查jump_id=69 []",
+  "console.error: [2026/9/7 11:41:48 151] [281] 跳转配置读取失败，请检查jump_id=106 []",
+  "console.error: [2026/9/7 11:41:48 151] [281] 跳转配置读取失败，请检查jump_id=144 []",
+  "console.error: [2026/9/7 11:41:48 152] [281] 跳转配置读取失败，请检查jump_id=174 []",
+  "console.error: 表中找不到此索引，表名为：cfg_role_title 索引为：0",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_ring_pool 索引为：0",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_ring_pool 索引为：0"
+ ],
+ "noise_errors": [
+  "console.error: [2026/9/7 11:41:47 933] [269] server error: 前后台资源版本号不匹配错误, 2024/07/01 15:37:24(client) != 2023/08/09 21:02:14(server) []",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7201",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7202",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7203",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7204",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7205",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7206",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7207",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7208",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7209",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7210",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7211",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7212",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7213",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7214",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7215",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7216",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7217",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7218",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7219",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7220",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7221",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7222",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7223",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7224",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7225",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7226",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7227",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7228",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7229",
+  "console.error: 表中找不到此索引，表名为：cfg_soul_bone 索引为：7230"
+ ],
+ "noise_count": 31,
+ "end": "2026-09-07T11:42:08"
+}

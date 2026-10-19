@@ -1,0 +1,15 @@
+法宝第二轮v3e最终复测报告
+时间: 2026-09-09T12:27:25  账号: 1353
+用例: 5/11
+
+[PASS] TC000 登录进主城
+[PASS] TC042 装配面板属性与公式一致(处理7) — 法宝={"gift_id": 6001, "name": "[凡]御剑符", "ring_level": 1, "buddy_id": 5009, "rindLevel": 1, "addLv": 0, "addition": 0.6} 面板=['+18', '+18', '+225'] 校验=[{"attr": "common_icon08_attack", "expect": 18, "shown": "+18", "shown_num": 18.0, "match": true}, {"attr": "common_icon08_defense", "expect": 18, "shown": "+18", "shown_num": 18.0, "match": true}, {"attr": "common_icon08_health", "expect": 225, "shown": "+225", "shown_num": 225.0, "match": true}]
+[PASS] TC042-note 角色面板SOUL_RING系统加成 — {"soulRingAttr": [{"showVal": "0.2%"}, {"showVal": "0.2%"}, {"showVal": "0.2%"}]}
+[PASS] TC043 长名不遮挡(名称在icon上方,布局检查) — 视口内检测2项(长名项1), 相交0项: [] (截图人工复核)
+[FAIL] TC055-tab 炼宝/图鉴页签切换(UICommonTabView容器) — 点图鉴={'found': False, 'labels': ['炼宝', '法宝总览']} atlas激活=0 点炼宝={'err': 'TypeError: tg.emit is not a function'} draw激活=1
+[FAIL] TC000-ctrl 对照补丁生效性(quality表atlas_res改后外观应变化) — {"base": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1"}, "ctrl": null, "detail": {"quality.1.atlas_res": "soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03"}}
+[FAIL] TC009 改quality外观应不变(解耦验证) — 对照组未生效 patch链路存疑 readback={'q': 7}
+[FAIL] TC007 同quality不同group外观应不同(解耦验证) — 同quality不同group外观已不同 {"6001": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1"}, "6002g9": null}
+[FAIL] TC008 同group不同quality外观应相同(解耦验证) — 同group不同quality外观相同(解耦成立) {"6001": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1"}, "6002q7": null}
+[FAIL] TC000-restore cfg内存patch已恢复(外观与基线一致) — {"base": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1"}, "restored": null}
+[PASS] EX06 全程JS错误收集 — 共6922条, 分类={'D9_pool': 1, 'D9_quality_idx-1': 45, 'D10_jump_id': 25, 'D9_bone': 30, 'pageerror_null_x': 3409}, stack样本=["Cannot read properties of null (reading 'x')"]

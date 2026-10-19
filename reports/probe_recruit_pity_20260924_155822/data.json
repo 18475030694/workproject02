@@ -1,0 +1,601 @@
+{
+ "title": "招募保底机制专项探针(哪吒必出+200抽神卡保底)",
+ "server": "5/S5",
+ "start_time": "2026-09-24T15:58:22",
+ "static_evidence": "mod_recruit.lua r10649/79/80; cfg_recruit_must r10655: [200] 5203杨戬→5207哪吒, [300] 5204后羿→5201九尾天狐; cfg_recruit_global must_count2=200; stageCfg2 池12-16→卡包14/24/34/44/54 全quality=7",
+ "draws": [
+  {
+   "ok": true,
+   "id": 5222,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 1,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 2,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 3,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5113,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 4,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5114,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 5,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 6,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5113,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 7,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 8,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 9,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5225,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 10,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 11,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 12,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5108,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 13,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 14,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5101,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 15,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 16,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 17,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 18,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 19,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5216,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 20,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 21,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 22,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 23,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5106,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 24,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 25,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5110,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 26,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5002,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 27,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5110,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 28,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 1,
+   "total": 29,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5220,
+   "count": 1,
+   "new": null,
+   "mc": 10,
+   "total": 30,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 9,
+   "total": 31,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 8,
+   "total": 32,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5102,
+   "count": 1,
+   "new": null,
+   "mc": 7,
+   "total": 33,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 6,
+   "total": 34,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5012,
+   "count": 1,
+   "new": null,
+   "mc": 5,
+   "total": 35,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5011,
+   "count": 1,
+   "new": null,
+   "mc": 4,
+   "total": 36,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5009,
+   "count": 1,
+   "new": null,
+   "mc": 3,
+   "total": 37,
+   "m2": null
+  },
+  {
+   "ok": true,
+   "id": 5013,
+   "count": 1,
+   "new": null,
+   "mc": 2,
+   "total": 38,
+   "m2": null
+  },
+  {
+   "ok": false,
+   "err": "net_fail",
+   "raw": null
+  }
+ ],
+ "out_dir": "E:\\workproject\\reports\\probe_recruit_pity_20260924_155822",
+ "account": "3090",
+ "uuid": 8589938933,
+ "checks": [
+  {
+   "key": "LOGIN",
+   "passed": true,
+   "note": "uuid=8589938933 account=3090",
+   "time": "2026-09-24T16:00:00"
+  },
+  {
+   "key": "CFG_LIVE",
+   "passed": null,
+   "note": "客户端 cfg_recruit_global 下发={'must_count': None, 'must_count2': None, 'cost': 1000}（客户端可能不含该表, 以服务端为准）",
+   "time": "2026-09-24T16:00:00"
+  },
+  {
+   "key": "PREP_TICKET",
+   "passed": true,
+   "note": "凡灵召符 持有=9999 (需≥5700)",
+   "time": "2026-09-24T16:00:00"
+  },
+  {
+   "key": "NET_HARD_FAIL",
+   "passed": false,
+   "note": "连续失败≥5: {'ok': False, 'err': 'net_fail', 'raw': None}",
+   "time": "2026-09-24T16:00:10"
+  },
+  {
+   "key": "DRAW200_NEZHA",
+   "passed": false,
+   "note": "第200抽 id=None (期望5207哪吒) m2=None (期望200=金卡清零)",
+   "time": "2026-09-24T16:00:10"
+  },
+  {
+   "key": "NET_HARD_FAIL",
+   "passed": false,
+   "note": "连续失败≥5: {'ok': False, 'err': 'net_fail', 'raw': None}",
+   "time": "2026-09-24T16:00:10"
+  },
+  {
+   "key": "DRAW300_JIUWEI",
+   "passed": false,
+   "note": "第300抽 id=None (期望5201九尾天狐) m2=None",
+   "time": "2026-09-24T16:00:10"
+  },
+  {
+   "key": "MUST_1_10_SEQ",
+   "passed": true,
+   "note": "1-10抽序列=[5222, 5101, 5009, 5113, 5114, 5009, 5113, 5013, 5009, 5225] 期望=[5222, 5101, 5009, 5113, 5114, 5009, 5113, 5013, 5009, 5225]",
+   "time": "2026-09-24T16:00:10"
+  },
+  {
+   "key": "COUNTER_DYNAMICS",
+   "passed": false,
+   "note": "逐抽 must_count2 动力学校验异常数=38 [{'n': 1, 'err': 'no m2 field(服务端未更新?)'}, {'n': 2, 'err': 'no m2 field(服务端未更新?)'}, {'n': 3, 'err': 'no m2 field(服务端未更新?)'}]",
+   "time": "2026-09-24T16:00:10",
+   "detail": [
+    {
+     "n": 1,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 2,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 3,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 4,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 5,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 6,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 7,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 8,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 9,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 10,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 11,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 12,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 13,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 14,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 15,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 16,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 17,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 18,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 19,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 20,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 21,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 22,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 23,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 24,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 25,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 26,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 27,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 28,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 29,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 30,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 31,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 32,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 33,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 34,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 35,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 36,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 37,
+     "err": "no m2 field(服务端未更新?)"
+    },
+    {
+     "n": 38,
+     "err": "no m2 field(服务端未更新?)"
+    }
+   ]
+  },
+  {
+   "key": "EARLY_GOLD_1_199",
+   "passed": null,
+   "note": "1-199抽随机金卡=无（小保底池pack3金卡权重20/1340≈1.5%/次 → 首次金卡可能早于200抽且50%为九尾天狐, 口径分歧实证）",
+   "time": "2026-09-24T16:00:10",
+   "detail": []
+  },
+  {
+   "key": "PITY_TRIGGER_OBS",
+   "passed": null,
+   "note": "isMust2触发点(计数满200)=本次运行未观察到(提前出金持续清零计数时不会触发, 属机制正常)",
+   "time": "2026-09-24T16:00:10",
+   "detail": []
+  },
+  {
+   "key": "COST_CHECK",
+   "passed": null,
+   "note": "抽卡39次, 券消耗=9999 (理论≈39000, 差值=每日免费抽次数)",
+   "time": "2026-09-24T16:00:10"
+  },
+  {
+   "key": "EXCEPTION",
+   "passed": false,
+   "note": "KeyError: 'id'",
+   "time": "2026-09-24T16:00:10"
+  }
+ ],
+ "tickets_before": 9999,
+ "draw200": {
+  "ok": false,
+  "err": "net_fail",
+  "raw": null
+ },
+ "end_time": "2026-09-24T16:00:10"
+}

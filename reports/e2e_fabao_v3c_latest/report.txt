@@ -1,0 +1,18 @@
+法宝第二轮v3c聚焦复测报告
+时间: 2026-09-09T11:59:47  账号: 1353
+用例: 4/14
+
+[PASS] TC000 登录进主城
+[FAIL] TC055 炼宝页签容器打开(UISoulRingDrawTabView,含炼宝+图鉴两页签) — openUI=False active={'tab': 0, 'draw': 1, 'atlas': 0}
+[PASS] TC057 法宝装配界面打开(UIHeroSoulRing)
+[FAIL] TC042 装配面板属性与公式一致(处理7) — 选中={'found': True, 'noButton': True} 公式={'gift_id': 6001, 'name': '[凡]御剑符', 'ring_level': 1, 'rindLevel': 1, 'addLv': 0, 'addition': 0.6} 面板=['+4159', '+4159', '+4159'] 校验=[{'attr': 'common_icon08_attack', 'expect': 18, 'shown': '+4159', 'shown_num': 4159.0, 'match': False}, {'attr': 'common_icon08_defense', 'expect': 18, 'shown': '+4159', 'shown_num': 4159.0, 'match': False}, {'attr': 'common_icon08_health', 'expect': 225, 'shown': '+4159', 'shown_num': 4159.0, 'match': False}]
+[PASS] TC042-note 一键穿戴后角色面板SOUL_RING系统加成 — 点击={'found': True, 'node': 'BtnEquip_', 'active': True} sysattr={"soulRingAttr": [{"showVal": "0.2%"}, {"showVal": "0.2%"}, {"showVal": "0.2%"}]}
+[FAIL] TC043 长名不遮挡(名称在icon上方,布局检查) — 检测4项(长名项0), 相交1项, names=5 icons=6 (截图人工复核)
+[FAIL] TC020 图鉴item阶数无年份残留(处理2,范围=图鉴子树) — 图鉴内年份样例=['80万年']
+[FAIL] TC020-note 炼宝页模板默认『300年』残留取证(处理2遗留,D9关联) — [["UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Add_/ScrollView/view/AddContent_/AddItem_/Ring_/Year_", "300年"], ["UIRootCamera/System/UICommonTabView/SafeArea/Middle_/MountPoint_/UISoulRingDraw/SafeArea/Top_/Act_/RingLayout_/RingTemp_/Year_", "300年"]]
+[FAIL] TC000-ctrl 对照补丁生效性(quality表atlas_res→kuang03后外观应变化) — {"base": null, "ctrl": null}
+[FAIL] TC009 改quality外观应不变(解耦验证,重开图鉴) — 对照组未生效，patch链路存疑 readback={'q': 7, 'g': 1} before=None after=None
+[FAIL] TC007 同quality不同group外观应不同(解耦验证,重开图鉴) — 同quality不同group外观已不同 {"6001": null, "6002g9": null}
+[FAIL] TC008 同group不同quality外观应相同(解耦验证,重开图鉴) — 同group不同quality外观相同(解耦成立) {"6001": null, "6002q7": null}
+[FAIL] TC000-restore cfg内存patch已恢复(外观与基线一致) — {"base": null, "restored": {"sf": "soul_ring_atlas_panel01_kuang07", "color": "#8999a1"}}
+[PASS] EX06 全程JS错误收集 — 共9454条, 分类={'D9_pool_idx0': 2, 'D9_quality_idx-1': 46, 'D10_jump_id': 25, 'D9_bone': 30}

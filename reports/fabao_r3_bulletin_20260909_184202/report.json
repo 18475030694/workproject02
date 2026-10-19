@@ -1,0 +1,152 @@
+{
+  "time": "20260909_184202",
+  "account": "4451",
+  "phases": {
+    "day2": {
+      "day": 2,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x75b340f249c0"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok",
+          "items": "ok",
+          "award": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 2,
+        "pool_level": 1,
+        "draw_times": 0
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放25000个"
+      },
+      "first_draw": {
+        "ok": true,
+        "err": null
+      },
+      "stop": "max_calls=200",
+      "draws_total": 20000,
+      "drawn_q": {},
+      "bulletins": [],
+      "bulletin_q": {},
+      "chat_hits": 0,
+      "verdict": {
+        "神": "N/A(未抽中)",
+        "圣": "N/A(未抽中)",
+        "仙": "N/A(未抽中)"
+      },
+      "color_check": []
+    },
+    "day5": {
+      "day": 5,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x75b3443f35c0"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok",
+          "items": "ok",
+          "award": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 5,
+        "pool_level": 1,
+        "draw_times": 20000
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放25000个"
+      },
+      "first_draw": {
+        "ok": true,
+        "err": null
+      },
+      "stop": "max_calls=200",
+      "draws_total": 20000,
+      "drawn_q": {},
+      "bulletins": [],
+      "bulletin_q": {},
+      "chat_hits": 0,
+      "verdict": {
+        "神": "N/A(未抽中)",
+        "圣": "N/A(未抽中)",
+        "仙": "N/A(未抽中)"
+      },
+      "color_check": []
+    },
+    "day19": {
+      "day": 19,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x75b36006ee00"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok",
+          "items": "ok",
+          "award": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 19,
+        "pool_level": 1,
+        "draw_times": 40000
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放25000个"
+      },
+      "first_draw": {
+        "ok": true,
+        "err": null
+      },
+      "stop": "max_calls=200",
+      "draws_total": 20000,
+      "drawn_q": {},
+      "bulletins": [],
+      "bulletin_q": {},
+      "chat_hits": 0,
+      "verdict": {
+        "神": "N/A(未抽中)",
+        "圣": "N/A(未抽中)",
+        "仙": "N/A(未抽中)"
+      },
+      "color_check": []
+    }
+  },
+  "role": {
+    "uuid": 8589934615,
+    "name": "常宇",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "restore": {
+    "status": 200,
+    "body": "OK: ERR<0, OK> REPLY: table: 0x75b3600bd0c0",
+    "baseline": 101
+  },
+  "restore_check": {
+    "serverDay": 101,
+    "pool_level": 1,
+    "draw_times": 60000
+  }
+}

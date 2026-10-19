@@ -1,0 +1,30 @@
+{
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "headless": true,
+  "start_time": "2026-09-01T14:36:11.174165",
+  "steps": [
+    {
+      "name": "输入账号",
+      "status": "done"
+    },
+    {
+      "name": "打开游戏",
+      "status": "done"
+    },
+    {
+      "name": "选服",
+      "status": "done"
+    },
+    {
+      "name": "点击登录",
+      "status": "done"
+    },
+    {
+      "name": "等待进主城",
+      "status": "done"
+    }
+  ],
+  "passed": true,
+  "end_time": "2026-09-01T14:36:26.620636"
+}

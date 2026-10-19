@@ -1,0 +1,29 @@
+{
+  "time": "20261013_181128",
+  "account": "9502",
+  "server": "5/S5",
+  "advanced": true,
+  "via": "client",
+  "ok": true,
+  "steps": {
+    "trigger": {
+      "via": "client",
+      "ok": true,
+      "uuid": 8589934856
+    }
+  },
+  "before": {
+    "uuid": 8589934856,
+    "name": "雷皓",
+    "lv": 1,
+    "advance": 0,
+    "buddy_count": 0
+  },
+  "after": {
+    "uuid": 8589934856,
+    "name": "雷皓",
+    "lv": 9025,
+    "advance": 50,
+    "buddy_count": 45
+  }
+}

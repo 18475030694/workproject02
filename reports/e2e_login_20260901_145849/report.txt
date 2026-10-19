@@ -1,0 +1,41 @@
+============================================================
+登录流程 E2E 测试报告（文字版）
+============================================================
+用例编号   : TC_LOGIN_001
+用例标题   : 登录流程-选服s5服-账号1351
+目标地址   : http://localhost:7456
+测试账号   : 1351
+目标服务器 : s5服
+解析到的服 : svr_id=None svr_name=None（None）
+运行模式   : 无头
+开始时间   : 2026-09-01T14:58:49
+结束时间   : None
+最终结果   : ❌ FAIL
+
+------------------------------------------------------------
+步骤明细
+------------------------------------------------------------
+  1. 输入账号         状态=done   2026-09-01T14:58:50 -> 2026-09-01T14:58:50
+  2. 打开游戏         状态=failed 2026-09-01T14:58:50 -> 2026-09-01T14:58:54
+         备注: Page.wait_for_function: ReferenceError: Global is not defined
+    at eval (eval at predicate (eval at evaluate (:311:30)), <anonymous>:1:36)
+    at predicate (eval at evaluate (:311:30), <anonymous>:13:29)
+    at next (eval at evaluate (:311:30), <anonymous>:29:33)
+    at eval (eval at evaluate (:311:30), <anonymous>:42:13)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+
+错误信息   : Page.wait_for_function: ReferenceError: Global is not defined
+    at eval (eval at predicate (eval at evaluate (:311:30)), <anonymous>:1:36)
+    at predicate (eval at evaluate (:311:30), <anonymous>:13:29)
+    at next (eval at evaluate (:311:30), <anonymous>:29:33)
+    at eval (eval at evaluate (:311:30), <anonymous>:42:13)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+
+------------------------------------------------------------
+截图清单
+------------------------------------------------------------
+  opened           E:\workproject\reports\e2e_login_20260901_145849\screenshots\01_opened.png
+  error            E:\workproject\reports\e2e_login_20260901_145849\screenshots\99_error.png
+============================================================

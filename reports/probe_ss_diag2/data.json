@@ -1,0 +1,85 @@
+{
+  "uuid": 8589938214,
+  "set_mainline": "OK: ERR<0, OK> REPLY: nil",
+  "sys116": {
+    "is116": false,
+    "is118": true,
+    "mapSize": 113,
+    "has116": false
+  },
+  "draw": {
+    "ok": true
+  },
+  "elfs_after_draw": [
+    {
+      "key": "4",
+      "uuid": 4,
+      "id": 54001,
+      "lv": 1,
+      "ph": 0
+    },
+    {
+      "key": "5",
+      "uuid": 5,
+      "id": 54006,
+      "lv": 1,
+      "ph": 0
+    }
+  ],
+  "levelup": {
+    "ok": true,
+    "resp": {
+      "errcode": 0,
+      "elf_info": {
+        "soul_elf_uuid": 4,
+        "soul_elf_id": 54001,
+        "buddy_uuid": 0,
+        "buddy_id": 0,
+        "star": 0,
+        "level": 6,
+        "phase": 0,
+        "main_elf_uuid": 0,
+        "sub_elf_list": [],
+        "core_skill": {
+          "elf_skill_id": 30010,
+          "elf_skill_level": 1
+        },
+        "passive_skill_list": [],
+        "rand_attrs": [],
+        "is_lock": 0
+      }
+    },
+    "resp_elfs": [
+      {
+        "key": "4",
+        "uuid": 4,
+        "id": 54001,
+        "lv": 1,
+        "ph": 0
+      },
+      {
+        "key": "5",
+        "uuid": 5,
+        "id": 54006,
+        "lv": 1,
+        "ph": 0
+      }
+    ]
+  },
+  "elfs_final": [
+    {
+      "key": "4",
+      "uuid": 4,
+      "id": 54001,
+      "lv": 1,
+      "ph": 0
+    },
+    {
+      "key": "5",
+      "uuid": 5,
+      "id": 54006,
+      "lv": 1,
+      "ph": 0
+    }
+  ]
+}

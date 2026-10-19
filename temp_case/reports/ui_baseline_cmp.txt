@@ -1,0 +1,23 @@
+=== 旧秘宝基线比对 2026-09-28T15:34:32 ===
+UITreasureBox.ts                                         [有差异] trunk=fe662e93(19660B) | tag_new(上tag)=7b07f415(19627B) | tag(基准)=018cf2b6(19627B)
+UITreasureBoxRewards.ts                                  [全部一致] trunk=97da4eea(13220B) | tag_new(上tag)=97da4eea(13220B) | tag(基准)=97da4eea(13220B)
+UITreasureBoxTabView.ts                                  [有差异] trunk=c3af9399(855B) | tag_new(上tag)=34754c35(858B) | tag(基准)=d26c7a50(667B)
+UITreasureBox.prefab                                     [有差异] trunk=2c3d0e63(196077B) | tag_new(上tag)=1faa4808(196077B) | tag(基准)=cda10f56(196189B)
+UITreasureBoxRewards.prefab                              [全部一致] trunk=20f7b86d(103157B) | tag_new(上tag)=20f7b86d(103157B) | tag(基准)=20f7b86d(103157B)
+TreasureBoxMgr.ts                                        [有差异] trunk=aa303739(9180B) | tag_new(上tag)=c77bdd7f(9045B) | tag(基准)=3f4b2ca8(5170B)
+cfg_box_base.lua                                         [有差异] trunk=50de3896(1470B) | tag_new(上tag)=85e931d0(1374B) | tag(基准)=af873c2c(1303B)
+
+[trunk] images/treasurebox (存在)
+  共 42 个文件: auto-atlas.pac, font_img009_x.png, treasurebox_icon01_baoxiang01.png, treasurebox_icon01_baoxiang02.png, treasurebox_icon01_baoxiang03.png, treasurebox_icon01_baoxiang04.png, treasurebox_icon01_baoxiang05.png, treasurebox_icon01_kuangjingzhi.png, treasurebox_icon02_laohujituan01.png, treasurebox_icon02_laohujituan02.png, treasurebox_icon02_laohujituan03.png, treasurebox_icon02_laohujituan04.png, treasurebox_img01_dizuo01.png, treasurebox_img01_dizuo021.png, treasurebox_img01_suolian.png, treasurebox_img02_laohuji_gold00.png, treasurebox_img02_laohuji_lagan01.png, treasurebox_img03_1.png, treasurebox_img03_10.png, treasurebox_img03_10beijiangli.png, treasurebox_img03_1beijiangli.png, treasurebox_img03_2.png, treasurebox_img03_2beijiangli.png, treasurebox_img03_3.png, treasurebox_img03_3beijiangli.png, treasurebox_img03_4.png, treasurebox_img03_4beijiangli.png, treasurebox_img04_gongxihuode.png, treasurebox_img04_zuizhongjiangli.png, treasurebox_img05_light01.png, treasurebox_img05_light01_2.png, treasurebox_img05_light02.png, treasurebox_img05_light02_2.png, treasurebox_img05_light03.png, treasurebox_img05_light03_2.png, treasurebox_img05_light04.png, treasurebox_img05_light04_2.png, treasurebox_panel04_di01.png, treasurebox_panel04_di02.png, treasurebox_panel04_di03.png, treasurebox_progress01_di.png, treasurebox_progress01_kuangjingzhi.png
+
+[tag_new(上tag)] images/treasurebox (存在)
+  共 42 个文件: auto-atlas.pac, font_img009_x.png, treasurebox_icon01_baoxiang01.png, treasurebox_icon01_baoxiang02.png, treasurebox_icon01_baoxiang03.png, treasurebox_icon01_baoxiang04.png, treasurebox_icon01_baoxiang05.png, treasurebox_icon01_kuangjingzhi.png, treasurebox_icon02_laohujituan01.png, treasurebox_icon02_laohujituan02.png, treasurebox_icon02_laohujituan03.png, treasurebox_icon02_laohujituan04.png, treasurebox_img01_dizuo01.png, treasurebox_img01_dizuo021.png, treasurebox_img01_suolian.png, treasurebox_img02_laohuji_gold00.png, treasurebox_img02_laohuji_lagan01.png, treasurebox_img03_1.png, treasurebox_img03_10.png, treasurebox_img03_10beijiangli.png, treasurebox_img03_1beijiangli.png, treasurebox_img03_2.png, treasurebox_img03_2beijiangli.png, treasurebox_img03_3.png, treasurebox_img03_3beijiangli.png, treasurebox_img03_4.png, treasurebox_img03_4beijiangli.png, treasurebox_img04_gongxihuode.png, treasurebox_img04_zuizhongjiangli.png, treasurebox_img05_light01.png, treasurebox_img05_light01_2.png, treasurebox_img05_light02.png, treasurebox_img05_light02_2.png, treasurebox_img05_light03.png, treasurebox_img05_light03_2.png, treasurebox_img05_light04.png, treasurebox_img05_light04_2.png, treasurebox_panel04_di01.png, treasurebox_panel04_di02.png, treasurebox_panel04_di03.png, treasurebox_progress01_di.png, treasurebox_progress01_kuangjingzhi.png
+
+[tag(基准)] images/treasurebox (存在)
+  共 12 个文件: auto-atlas.pac, treasurebox_icon01_baoxiang01.png, treasurebox_icon01_baoxiang02.png, treasurebox_icon01_baoxiang03.png, treasurebox_icon01_baoxiang04.png, treasurebox_icon01_baoxiang05.png, treasurebox_icon01_kuangjingzhi.png, treasurebox_img01_dizuo01.png, treasurebox_img01_dizuo021.png, treasurebox_img01_suolian.png, treasurebox_progress01_di.png, treasurebox_progress01_kuangjingzhi.png
+
+[trunk] UITreasureBox.prefab 引用uuid数=27
+
+[tag_new(上tag)] UITreasureBox.prefab 引用uuid数=27
+
+[tag(基准)] UITreasureBox.prefab 引用uuid数=28

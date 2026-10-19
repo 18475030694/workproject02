@@ -1,0 +1,157 @@
+{
+  "case_id": "TC_GUAJI_001",
+  "title": "挂机奖励功能全流程测试（红点+领取+重置）",
+  "base_url": "http://localhost:7456",
+  "account": "1351",
+  "server": "s5服",
+  "create_mode": false,
+  "headless": false,
+  "start_time": "2026-09-02T17:11:38",
+  "steps": [
+    {
+      "name": "清空缓存并打开游戏",
+      "status": "done",
+      "start": "2026-09-02T17:11:38",
+      "end": "2026-09-02T17:11:49"
+    },
+    {
+      "name": "切换账号",
+      "status": "done",
+      "start": "2026-09-02T17:11:49",
+      "end": "2026-09-02T17:11:54",
+      "note": "账号已切换为 1351"
+    },
+    {
+      "name": "选服",
+      "status": "done",
+      "start": "2026-09-02T17:11:54",
+      "end": "2026-09-02T17:12:01",
+      "note": "兜底注入选服 svr_id=5（svr_name=s5）"
+    },
+    {
+      "name": "点击登录",
+      "status": "done",
+      "start": "2026-09-02T17:12:01",
+      "end": "2026-09-02T17:12:02"
+    },
+    {
+      "name": "校验plat_login响应",
+      "status": "done",
+      "start": "2026-09-02T17:12:02",
+      "end": "2026-09-02T17:12:03",
+      "note": "plat_login 成功 (errcode=0, serverId=5, serverName=S5)"
+    },
+    {
+      "name": "等待进主城并校验",
+      "status": "done",
+      "start": "2026-09-02T17:12:03",
+      "end": "2026-09-02T17:12:07",
+      "note": "已进入主城"
+    },
+    {
+      "name": "检查挂机系统开放状态",
+      "status": "done",
+      "start": "2026-09-02T17:12:07",
+      "end": "2026-09-02T17:12:07"
+    },
+    {
+      "name": "打开挂机奖励界面",
+      "status": "done",
+      "start": "2026-09-02T17:12:07",
+      "end": "2026-09-02T17:12:09"
+    },
+    {
+      "name": "获取初始状态记录",
+      "status": "done",
+      "start": "2026-09-02T17:12:09",
+      "end": "2026-09-02T17:12:10"
+    },
+    {
+      "name": "验证红点触发逻辑",
+      "status": "done",
+      "start": "2026-09-02T17:12:10",
+      "end": "2026-09-02T17:12:10"
+    },
+    {
+      "name": "验证领取按钮状态",
+      "status": "failed",
+      "start": "2026-09-02T17:12:10",
+      "end": "2026-09-02T17:12:10",
+      "note": "未找到 BtnGet 按钮"
+    }
+  ],
+  "selection_method": "injection",
+  "passed": false,
+  "screenshots": {
+    "opened": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\01_opened.png",
+    "account_switched": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\02_account_switched.png",
+    "server_selected": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\03_server_selected.png",
+    "login_clicked": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\04_login_clicked.png",
+    "in_main_city": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\05_in_main_city.png",
+    "sys_open": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\06_sys_open.png",
+    "uiguaji_opened": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\07_uiguaji_opened.png",
+    "error": "E:\\workproject\\reports\\e2e_guaji_reward_20260902_171138\\screenshots\\99_error.png"
+  },
+  "checkpoints": [
+    {
+      "name": "挂机系统开放",
+      "passed": true,
+      "note": "已开放",
+      "time": "2026-09-02T17:12:07"
+    },
+    {
+      "name": "打开界面",
+      "passed": true,
+      "note": "UIGuaJi 已打开",
+      "time": "2026-09-02T17:12:09"
+    },
+    {
+      "name": "初始状态获取",
+      "passed": true,
+      "note": "",
+      "time": "2026-09-02T17:12:10"
+    },
+    {
+      "name": "红点触发",
+      "passed": true,
+      "note": "elapsed=255s, maxTime=14400, 主红点=False, 奖励红点=False",
+      "time": "2026-09-02T17:12:10"
+    },
+    {
+      "name": "按钮状态",
+      "passed": false,
+      "note": "",
+      "time": "2026-09-02T17:12:10"
+    }
+  ],
+  "target_server": {
+    "found": false,
+    "svr_id": 5,
+    "svr_name": "s5",
+    "source": "命名约定推断(未在列表中匹配)"
+  },
+  "plat_login_response": {
+    "serverId": 5,
+    "serverName": "S5",
+    "ip": "192.168.*.*",
+    "port": "9021",
+    "roleIdx": 0,
+    "isBack": false,
+    "isNew": null
+  },
+  "login_state": {
+    "player_session": {
+      "has": true,
+      "uuid": null
+    }
+  },
+  "guaji_initial_state": {
+    "server_time": 1787976859,
+    "last_receive_time": 1787976604,
+    "elapsed": 255,
+    "red_main": false,
+    "red_reward": false,
+    "reward_count": 3
+  },
+  "error": "领取按钮不存在"
+}

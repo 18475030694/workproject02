@@ -1,0 +1,41 @@
+{
+ "select": {
+  "found": true,
+  "noButton": true
+ },
+ "panel": {
+  "attrVals": [
+   "+4159",
+   "+4159",
+   "+4159"
+  ],
+  "year": "",
+  "name": "蛟龙法宝",
+  "panelVisible": false
+ },
+ "data": {
+  "ring": {
+   "gift_id": 6001,
+   "name": "[凡]御剑符",
+   "ring_level": 1,
+   "rindLevel": 1,
+   "addLv": 0,
+   "addition": 0.6
+  },
+  "expect_raw": [
+   18,
+   18,
+   225
+  ],
+  "expect_fmt": [
+   18,
+   18,
+   225
+  ],
+  "attrs": [
+   "common_icon08_attack",
+   "common_icon08_defense",
+   "common_icon08_health"
+  ]
+ }
+}

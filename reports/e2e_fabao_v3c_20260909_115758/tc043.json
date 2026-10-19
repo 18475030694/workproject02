@@ -1,0 +1,78 @@
+{
+ "patch": {
+  "ok": true,
+  "detail": {
+   "base.6001.name": "[凡]御剑符->[极]超长名称测试一二三四五六七八"
+  }
+ },
+ "overlap": {
+  "pairs": [
+   {
+    "name": "[圣]昆吾人皇剑",
+    "nameRect": {
+     "x": 53,
+     "y": 838,
+     "w": 128,
+     "h": 60
+    },
+    "iconRect": {
+     "x": 53,
+     "y": 838,
+     "w": 208,
+     "h": 208
+    },
+    "overlap": true
+   },
+   {
+    "name": "[极]紧箍",
+    "nameRect": {
+     "x": 379,
+     "y": 557,
+     "w": 128,
+     "h": 60
+    },
+    "iconRect": {
+     "x": 150,
+     "y": 481,
+     "w": 208,
+     "h": 208
+    },
+    "overlap": false
+   },
+   {
+    "name": "[极]李广弓",
+    "nameRect": {
+     "x": 379,
+     "y": 306,
+     "w": 128,
+     "h": 60
+    },
+    "iconRect": {
+     "x": 150,
+     "y": 230,
+     "w": 208,
+     "h": 208
+    },
+    "overlap": false
+   },
+   {
+    "name": "[玄]水火琵琶",
+    "nameRect": {
+     "x": 379,
+     "y": 55,
+     "w": 128,
+     "h": 60
+    },
+    "iconRect": {
+     "x": 150,
+     "y": -21,
+     "w": 208,
+     "h": 208
+    },
+    "overlap": false
+   }
+  ],
+  "nameCount": 5,
+  "iconCount": 6
+ }
+}

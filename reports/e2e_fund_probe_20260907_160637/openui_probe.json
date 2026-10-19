@@ -1,0 +1,146 @@
+{
+ "UIPrivilegeMain": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIPrivPanel": {
+  "open_ret": true,
+  "uiActive": true,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIPrivCard": {
+  "open_ret": true,
+  "uiActive": true,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIFund": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIFundMain": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIFundPanel": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIPrivilegeFund": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIFundPrivilege": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIChongzhi": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIRecharge": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIWarOrder": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIFirstCharge": {
+  "open_ret": true,
+  "uiActive": true,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIYxActWuyiFund": {
+  "open_ret": true,
+  "uiActive": true,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIChargeFund": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIJijin": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ },
+ "UIFundList": {
+  "open_ret": false,
+  "uiActive": false,
+  "kw_hit": [
+   "基金",
+   "特权",
+   "任务"
+  ]
+ }
+}

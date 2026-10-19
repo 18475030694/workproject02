@@ -1,0 +1,244 @@
+{
+ "title": "新秘宝(仙机)-A组动画专项",
+ "account": "4451",
+ "server": "S5",
+ "start_time": "2026-09-11T21:54:29",
+ "prep": {
+  "uuid": 8589937644
+ },
+ "cases": [
+  {
+   "case_id": "LOGIN",
+   "title": "登录4451@S5",
+   "passed": true,
+   "note": "A组动画专项",
+   "time": "2026-09-11T21:54:59"
+  },
+  {
+   "case_id": "OPENUI",
+   "title": "打开仙机界面+安装句柄",
+   "passed": true,
+   "note": "__SLOT=True __RW=True",
+   "time": "2026-09-11T21:55:01"
+  },
+  {
+   "case_id": "RES-001",
+   "title": "转轮图案资源逐文件检查",
+   "passed": true,
+   "note": "4文件存在=True 运行时图案名集合=[] 异常名=无",
+   "time": "2026-09-11T21:55:09",
+   "screenshot": "screenshots/RES001_stop.png"
+  },
+  {
+   "case_id": "RES-005",
+   "title": "图案与道具实际对应关系检查",
+   "passed": true,
+   "note": "规则: 1倍三异/2倍两同/4倍三同非01/10倍三同全01 → rate=10:1异√ rate=2:2异√ rate=10:1异√ rate=1:3异√ rate=1:3异√ rate=10:1异√",
+   "time": "2026-09-11T21:56:01"
+  },
+  {
+   "case_id": "ANI-002",
+   "title": "转轮转动动画(时长约1秒)",
+   "passed": false,
+   "note": "S1滚动总时长=Nones(理论4.32 停点=[None, None, None]) rate=1",
+   "time": "2026-09-11T21:56:10",
+   "detail": {
+    "stops": [
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  {
+   "case_id": "ANI-003",
+   "title": "停止动画与节奏(左→中→右)",
+   "passed": false,
+   "note": "停点=[None, None, None] 间隔=[](理论0.96s)",
+   "time": "2026-09-11T21:56:10",
+   "screenshot": "screenshots/ANI003_seq.png"
+  },
+  {
+   "case_id": "ANI-001",
+   "title": "拉杆动画",
+   "passed": true,
+   "note": "LaGan采样 前={'x': 474.3, 'y': 431.48, 's': nan, 'ang': 0, 'active': True} 后={'x': 474.3, 'y': 431.48, 's': nan, 'ang': 0, 'active': True} → 位置有变化",
+   "time": "2026-09-11T21:56:10",
+   "screenshot": "screenshots/ANI001_lagan.png"
+  },
+  {
+   "case_id": "ANI-005",
+   "title": "结算弹窗动画",
+   "passed": true,
+   "note": "结算UI出现=5.08s 奖励淡入起=6.73s 特效段=1.65s(理论1.6) rateImg=treasurebox_img03_1beijiangli",
+   "time": "2026-09-11T21:56:10",
+   "screenshot": "screenshots/ANI005_settle.png"
+  },
+  {
+   "case_id": "ANI-004",
+   "title": "中奖发光特效+倍率标识",
+   "passed": true,
+   "note": "转轮宝典特效节点=[None, None, None] 结算倍率图=treasurebox_img03_1beijiangli (期望img03_1beijiangli)",
+   "time": "2026-09-11T21:56:10",
+   "screenshot": "screenshots/ANI004_effect.png"
+  },
+  {
+   "case_id": "GAM-004S",
+   "title": "转轮期间输入锁定完整验证",
+   "passed": false,
+   "note": "转轮期连点3次新增请求=有 扣币=-200(期望-1) isPlayAni锁生效=False",
+   "time": "2026-09-11T21:56:19"
+  },
+  {
+   "case_id": "GAM-002",
+   "title": "结果复位(转轮回默认随机三图案)",
+   "passed": true,
+   "note": "结算后可视=[None, None, None] 重开界面后可视=[None, None, None] 本轮结果=['laohujituan04', 'laohujituan01', 'laohujituan03'] → 重开界面保留上局结果（未复位）；差异：idle 无主动复位逻辑(UITreasureBoxNew.onShow 不重建窗口)",
+   "time": "2026-09-11T21:56:21",
+   "screenshot": "screenshots/GAM002_reset.png"
+  },
+  {
+   "case_id": "SPD-001S",
+   "title": "S2转动阶段耗时长短断言",
+   "passed": false,
+   "note": "S2滚动=Nones(理论1.44) vs S1=0s 加速比=?(理论3x)",
+   "time": "2026-09-11T21:56:27",
+   "screenshot": "screenshots/SPD001_s2.png"
+  },
+  {
+   "case_id": "ANI-008",
+   "title": "S2加速状态动画(转动加速,结算不加速)",
+   "passed": null,
+   "note": "转轮加速=√(Nones) 结算特效段 S2=0.87s vs S1=1.65s → 结算也被加速(0.5x)；代码 UITreasureBoxRewardsNew L122 speedUpRate=isSkipAni?2:1 → 与需求『结算不加速』不一致，待策划确认",
+   "time": "2026-09-11T21:56:27",
+   "screenshot": "screenshots/ANI008_s2.png"
+  },
+  {
+   "case_id": "MIB-G5",
+   "title": "S2 下结算不加速",
+   "passed": false,
+   "note": "S2结算特效段=0.87s S1=1.65s → 被加速×(实现 speedUpRate=2)",
+   "time": "2026-09-11T21:56:27",
+   "screenshot": "screenshots/MIBG5_s2.png"
+  },
+  {
+   "case_id": "ANI-007",
+   "title": "不同倍率特效差异",
+   "passed": true,
+   "note": "尝试18次捕获 rate=4 结算倍率图=treasurebox_img03_4beijiangli vs 1倍图 img03_1beijiangli（Spine特效同一套，差异=倍率图与数字）",
+   "time": "2026-09-11T21:58:02",
+   "screenshot": "screenshots/ANI007_high.png"
+  },
+  {
+   "case_id": "ANI-006",
+   "title": "惊喜奖励展示动画",
+   "passed": null,
+   "note": "rate=4 高倍率结算已截图；『惊喜展示』无独立代码路径（无专页/专动画，仅倍率图不同）→ 目检判定",
+   "time": "2026-09-11T21:58:02",
+   "screenshot": "screenshots/ANI006_surprise.png"
+  },
+  {
+   "case_id": "MIB-I8",
+   "title": "高倍率专页展示",
+   "passed": null,
+   "note": "实现=结算内嵌倍率图(img03_4beijiangli)+Spine，无独立专页 → 与『原4倍专页改写』口径核对转人工",
+   "time": "2026-09-11T21:58:02",
+   "screenshot": "screenshots/I8_high_page.png"
+  },
+  {
+   "case_id": "ANI-010",
+   "title": "批量开启动画循环",
+   "passed": null,
+   "note": "200档单轮动画=Nones(非200次循环) 扣=-200 结算条目=1 奖励总量核对=FAIL",
+   "time": "2026-09-11T21:58:13",
+   "screenshot": "screenshots/ANI010_batch.png"
+  },
+  {
+   "case_id": "ANI-011",
+   "title": "动画性能(中低端机型50连)",
+   "passed": true,
+   "note": "完成50/50 alive=True 总耗时446.2s 滚动时长 min/max=?/? 漂移=? rAF帧率区间=245~309(headless仅记录，低端机表现转人工)",
+   "time": "2026-09-11T22:05:39",
+   "screenshot": "screenshots/ANI011_perf.png",
+   "detail": {
+    "rounds": [
+     {
+      "i": 0,
+      "roll": null,
+      "fps": 283
+     },
+     {
+      "i": 1,
+      "roll": null,
+      "fps": 290
+     },
+     {
+      "i": 2,
+      "roll": null,
+      "fps": 278
+     },
+     {
+      "i": 3,
+      "roll": null,
+      "fps": 275
+     },
+     {
+      "i": 4,
+      "roll": null,
+      "fps": 256
+     },
+     {
+      "i": 5,
+      "roll": null,
+      "fps": 285
+     },
+     {
+      "i": 6,
+      "roll": null,
+      "fps": 306
+     },
+     {
+      "i": 7,
+      "roll": null,
+      "fps": 295
+     },
+     {
+      "i": 8,
+      "roll": null,
+      "fps": 300
+     },
+     {
+      "i": 9,
+      "roll": null,
+      "fps": 284
+     }
+    ]
+   }
+  },
+  {
+   "case_id": "ABN-008S",
+   "title": "转动中断网",
+   "passed": false,
+   "note": "转动中断网=True 结算照常展示=True 奖励与后端记录一致=FAIL 恢复网络后存活=True（转轮为纯客户端tween，断网不影响已下发结果）",
+   "time": "2026-09-11T22:05:50",
+   "screenshot": "screenshots/ABN008_offline.png"
+  },
+  {
+   "case_id": "ABN-010",
+   "title": "切后台恢复",
+   "passed": false,
+   "note": "visibilitychange模拟=False 结算完成=False 奖励一致=FAIL 转轮可视=[None, None, None]（近似：headless 无法真实切后台，仅模拟事件；真机表现转人工）",
+   "time": "2026-09-11T22:06:13",
+   "screenshot": "screenshots/ABN010_bg.png"
+  }
+ ],
+ "out_dir": "E:\\workproject\\reports\\e2e_mibao_ani_20260911_215429",
+ "s1_roll": null,
+ "s1_eff": 1.65,
+ "end_time": "2026-09-11T22:06:13",
+ "summary": {
+  "pass": 10,
+  "fail": 7,
+  "na": 4
+ }
+}

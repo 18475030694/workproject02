@@ -1,0 +1,358 @@
+=== tags 目录 === rc=0
+2026-04-30/
+2026-05-11/
+2026-05-19/
+2026-05-25/
+2026-06-01/
+2026-06-08/
+2026-06-18/
+2026-06-24/
+2026-06-30/
+2026-07-18/
+2026-07-21/
+2026-07-27/
+2026-08-03/
+2026-08-10/
+2026-09-11/
+2026-09-24/
+
+=== trunk 最近40条提交(带变更文件) rc=0 ===
+------------------------------------------------------------------------
+r10758 | qinglin | 2026-09-28 14:58:21 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/lua-server/service/lobby/draw_card/mod_open_box.lua
+
+[???]?? ????-part1
+------------------------------------------------------------------------
+r10757 | hengxin | 2026-09-28 14:47:13 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/guide/cfg_guide_step.json
+
+???json???????????
+------------------------------------------------------------------------
+r10756 | hengxin | 2026-09-28 14:46:36 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/Y-??.xlsx
+
+???excel???????????
+------------------------------------------------------------------------
+r10755 | qinglin | 2026-09-28 14:42:09 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/scripts/logic/treasurebox/TreasureBoxMgr.ts
+
+[???]?? ????-part1
+------------------------------------------------------------------------
+r10754 | hengxin | 2026-09-28 14:36:11 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/langs/cfg_langs.json
+
+???json???????????
+------------------------------------------------------------------------
+r10753 | hengxin | 2026-09-28 14:35:57 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/langs/cfg_langs.lua
+
+???lua???????????
+------------------------------------------------------------------------
+r10752 | hengxin | 2026-09-28 14:35:28 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/Y-???.xlsx
+
+???excel???????????
+------------------------------------------------------------------------
+r10751 | hengxin | 2026-09-28 14:34:43 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/guide/cfg_guide_step.json
+
+???json????????????
+------------------------------------------------------------------------
+r10750 | hengxin | 2026-09-28 14:34:06 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/Y-??.xlsx
+
+???excel????????????
+------------------------------------------------------------------------
+r10749 | hengxin | 2026-09-28 14:30:54 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/guide/cfg_guide_step.json
+
+???json???????????
+------------------------------------------------------------------------
+r10748 | hengxin | 2026-09-28 14:30:39 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/guide/cfg_guide_step.lua
+
+???lua???????????
+------------------------------------------------------------------------
+r10747 | hengxin | 2026-09-28 14:30:13 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/Y-??.xlsx
+
+???excel???????????
+------------------------------------------------------------------------
+r10746 | caisheng | 2026-09-28 14:28:59 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/recharge/cfg_new_first_recharge_reward.json
+
+??
+------------------------------------------------------------------------
+r10745 | caisheng | 2026-09-28 14:28:54 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/recharge/cfg_new_first_recharge_goods.lua
+   M /trunk/server/src/res/Config/recharge/cfg_new_first_recharge_reward.lua
+
+??
+------------------------------------------------------------------------
+r10744 | caisheng | 2026-09-28 14:28:48 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/S-????.xlsx
+
+??
+------------------------------------------------------------------------
+r10743 | hengxin | 2026-09-28 14:28:12 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/task/cfg_mainline_task.json
+
+???json????????????
+------------------------------------------------------------------------
+r10742 | hengxin | 2026-09-28 14:27:59 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/task/cfg_mainline_task.lua
+
+???lua????????????
+------------------------------------------------------------------------
+r10741 | caisheng | 2026-09-28 14:27:28 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/box/cfg_box_base.lua
+   M /trunk/server/src/res/Config/box/cfg_section_reward.lua
+
+?????
+------------------------------------------------------------------------
+r10740 | caisheng | 2026-09-28 14:27:21 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/K-???.xlsx
+
+?????
+------------------------------------------------------------------------
+r10739 | hengxin | 2026-09-28 14:27:14 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/Z-????.xlsx
+
+???excel????????????
+------------------------------------------------------------------------
+r10738 | hengxin | 2026-09-28 14:12:58 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/images/mainview/mainview_btn03_box.png
+   M /trunk/client/assets/resources/ui/images/mainview/mainview_btn03_box.png.meta
+
+????????
+------------------------------------------------------------------------
+r10737 | qinglin | 2026-09-28 12:20:31 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/prefab/treasurebox/UITreasureBox.prefab
+
+[???]?? ????-part1
+------------------------------------------------------------------------
+r10736 | hengxin | 2026-09-28 12:19:34 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/images/mainview/mainview_icon03_box.png
+   M /trunk/client/assets/resources/ui/images/mainview/mainview_icon03_box.png.meta
+
+????????
+------------------------------------------------------------------------
+r10735 | qinglin | 2026-09-28 12:17:18 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/scripts/ui/treasurebox/UITreasureBox.ts
+
+[???]?? ????-part1
+------------------------------------------------------------------------
+r10734 | hengxin | 2026-09-28 12:15:29 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/prefab/fuben/dailyfb/UIDailyFBMain.prefab
+   M /trunk/client/assets/resources/ui/prefab/treasurebox/UITreasureBox.prefab
+   M /trunk/client/assets/resources/ui/prefab/yxact/queuecar/UIYxActQueueCarMenu.prefab
+   M /trunk/client/assets/scripts/ui/treasurebox/UITreasureBox.ts
+
+???&prefab?�??�?�??�
+------------------------------------------------------------------------
+r10733 | hengxin | 2026-09-28 12:12:51 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/texture/push_gift_pack/push_gift_pack_img01_mibao.png
+
+????????
+------------------------------------------------------------------------
+r10732 | hengxin | 2026-09-28 12:11:19 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/box/cfg_box_base.json
+   M /trunk/client/assets/resources/cfg/charge/cfg_charge_limit_buy_gift.json
+   M /trunk/client/assets/resources/cfg/charge/cfg_charge_push_gift_pack.json
+   M /trunk/client/assets/resources/cfg/charge/cfg_charge_war_order.json
+   M /trunk/client/assets/resources/cfg/charge/cfg_charge_yxact_buy_gift.json
+   M /trunk/client/assets/resources/cfg/charge/cfg_charge_yxact_select_gift.json
+   M /trunk/client/assets/resources/cfg/daily_dun/cfg_daily_dun_base.json
+   M /trunk/client/assets/resources/cfg/item/cfg_item.json
+   M /trunk/client/assets/resources/cfg/item/cfg_item_source.json
+   M /trunk/client/assets/resources/cfg/langs/cfg_langs.json
+   M /trunk/client/assets/resources/cfg/langs/cfg_mainline_talking.json
+   M /trunk/client/assets/resources/cfg/privilege/cfg_privilege.json
+   M /trunk/client/assets/resources/cfg/recharge/cfg_limit_buy_gift.json
+   M /trunk/client/assets/resources/cfg/role/cfg_role_title.json
+   M /trunk/client/assets/resources/cfg/sysopen/cfg_sys_help.json
+   M /trunk/client/assets/resources/cfg/sysopen/cfg_sys_jump.json
+   M /trunk/client/assets/resources/cfg/sysopen/cfg_sys_open.json
+   M /trunk/client/assets/resources/cfg/task/cfg_daily_task.json
+   M /trunk/client/assets/resources/cfg/task/cfg_mainline_task.json
+   M /trunk/client/assets/resources/cfg/task/cfg_seven_daily_task.json
+   M /trunk/client/assets/resources/cfg/warorder/cfg_warorder_task.json
+   M /trunk/client/assets/resources/cfg/yxact/cfg_yxact_buy_gift.json
+   M /trunk/client/assets/resources/cfg/yxact/cfg_yxact_item_time.json
+   M /trunk/client/assets/resources/cfg/yxact/cfg_yxact_multi_daily_task.json
+   M /trunk/client/assets/resources/cfg/yxact/cfg_yxact_select_gift.json
+   M /trunk/client/assets/resources/cfg/yxact/cfg_yxact_task.json
+
+???json?�??�?�??�
+------------------------------------------------------------------------
+r10731 | hengxin | 2026-09-28 12:11:05 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/box/cfg_box_base.lua
+   M /trunk/server/src/res/Config/charge/cfg_charge_limit_buy_gift.lua
+   M /trunk/server/src/res/Config/charge/cfg_charge_push_gift_pack.lua
+   M /trunk/server/src/res/Config/charge/cfg_charge_war_order.lua
+   M /trunk/server/src/res/Config/charge/cfg_charge_yxact_buy_gift.lua
+   M /trunk/server/src/res/Config/charge/cfg_charge_yxact_select_gift.lua
+   M /trunk/server/src/res/Config/daily_dun/cfg_daily_dun_base.lua
+   M /trunk/server/src/res/Config/item/cfg_item.lua
+   M /trunk/server/src/res/Config/langs/cfg_langs.lua
+   M /trunk/server/src/res/Config/log/cfg_item_log_type.lua
+   M /trunk/server/src/res/Config/privilege/cfg_privilege.lua
+   M /trunk/server/src/res/Config/sysopen/cfg_sys_open.lua
+   M /trunk/server/src/res/Config/yxact/cfg_yxact_buy_gift.lua
+   M /trunk/server/src/res/Config/yxact/cfg_yxact_item_time.lua
+   M /trunk/server/src/res/Config/yxact/cfg_yxact_select_gift.lua
+
+???excel?�??�?�??�
+------------------------------------------------------------------------
+r10730 | hengxin | 2026-09-28 12:10:37 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/X-????.xlsx
+   M /trunk/export/Z-????.xlsx
+
+???excel?????????,??????5 6???
+------------------------------------------------------------------------
+r10729 | hengxin | 2026-09-28 12:02:58 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/export/C-??.xlsx
+   M /trunk/export/D-??.xlsx
+   M /trunk/export/F-??-????.xlsx
+   M /trunk/export/K-???.xlsx
+   M /trunk/export/Q-????.xlsx
+   M /trunk/export/R-????.xlsx
+   M /trunk/export/R-????.xlsx
+   M /trunk/export/T-????.xlsx
+   M /trunk/export/T-??.xlsx
+   M /trunk/export/W-??????.xlsx
+   M /trunk/export/X-????.xlsx
+   M /trunk/export/X-????-01????.xlsx
+   M /trunk/export/X-????-05????.xlsx
+   M /trunk/export/X-????-10??.xlsx
+   M /trunk/export/X-????-19????.xlsx
+   M /trunk/export/X-????-35????.xlsx
+   M /trunk/export/X-????.xlsx
+   M /trunk/export/X-????.xlsx
+   M /trunk/export/Y-???.xlsx
+   M /trunk/export/Z-????.xlsx
+   M /trunk/export/Z-????.xlsx
+   M /trunk/export/Z-??.xlsx
+
+???excel?�??�?�??�
+------------------------------------------------------------------------
+r10728 | qinglin | 2026-09-28 11:49:53 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/prefab/treasurebox/UITreasureBox.prefab
+
+[???]?? ????-part1
+------------------------------------------------------------------------
+r10727 | hengxin | 2026-09-28 11:33:52 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/texture/treasurebox/treasurebox_img01_dizuo_bg.png
+
+????????
+------------------------------------------------------------------------
+r10726 | qinglin | 2026-09-28 11:32:45 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/server/src/lua-server/service/lobby/draw_card/mod_open_box.lua
+
+[???]?? ????-part1
+------------------------------------------------------------------------
+r10725 | hengxin | 2026-09-28 11:31:33 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/images/item/item_1001.png
+   M /trunk/client/assets/resources/ui/images/item/item_1001.png.meta
+   M /trunk/client/assets/resources/ui/images/item/item_1002.png
+   M /trunk/client/assets/resources/ui/images/item/item_1002.png.meta
+   M /trunk/client/assets/resources/ui/images/item/item_1003.png
+   M /trunk/client/assets/resources/ui/images/item/item_1003.png.meta
+   M /trunk/client/assets/resources/ui/images/item/item_1004.png
+   M /trunk/client/assets/resources/ui/images/item/item_1004.png.meta
+   M /trunk/client/assets/resources/ui/images/item/item_1005.png
+   M /trunk/client/assets/resources/ui/images/item/item_1005.png.meta
+
+????????
+------------------------------------------------------------------------
+r10724 | hengxin | 2026-09-28 11:30:33 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang01.png
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang01.png.meta
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang02.png
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang02.png.meta
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang03.png
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang03.png.meta
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang04.png
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang04.png.meta
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang05.png
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_baoxiang05.png.meta
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_kuangjingzhi.png
+   M /trunk/client/assets/resources/ui/images/treasurebox/treasurebox_icon01_kuangjingzhi.png.meta
+
+????????
+------------------------------------------------------------------------
+r10723 | qinglin | 2026-09-28 11:28:52 +0800 (周一, 2026-09-28) | 1 ?
+?????: 
+   M /trunk/client/assets/scripts/battle/ReportBattleMgr.ts
+   M /trunk/client/assets/scripts/core/managers/res/UIPreloadMgr.ts
+   M /trunk/client/assets/scripts/ui/treasurebox/UITreasureBoxTabView.ts
+
+[???]?? ????-part1
+------------------------------------------------------------------------
+r10719 | fengsheng | 2026-09-24 22:48:12 +0800 (周四, 2026-09-24) | 1 ?
+?????: 
+   M /trunk/client/assets/product/anim/UIFirstChargeNew.anim
+   M /trunk/client/assets/resources/ui/prefab/firstcharge/UIFirstChargeNew.prefab
+   M /trunk/client/assets/scripts/battle/ReportBattleMgr.ts
+   M /trunk/client/assets/scripts/logic/GameEnum.ts
+   M /trunk/client/assets/scripts/logic/firstcharge/FirstChargeNewMgr.ts
+   M /trunk/client/assets/scripts/ui/firstcharge/UIFirstChargeNew.ts
+   M /trunk/client/assets/scripts/ui/mainview/UIMainViewMiddle.ts
+
+???????????
+------------------------------------------------------------------------
+r10717 | qinglin | 2026-09-24 22:31:14 +0800 (周四, 2026-09-24) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/charge/cfg_charge_new_first_recharge.lua
+
+[???]?? ??-??
+------------------------------------------------------------------------
+r10715 | qinglin | 2026-09-24 22:18:05 +0800 (周四, 2026-09-24) | 1 ?
+?????: 
+   M /trunk/server/src/res/Config/charge/cfg_charge_new_first_recharge.lua
+
+[???]?? ??-??
+------------------------------------------------------------------------
+r10714 | qinglin | 2026-09-24 22:17:44 +0800 (周四, 2026-09-24) | 1 ?
+?????: 
+   M /trunk/client/assets/resources/cfg/charge/cfg_charge_new_first_recharge.json
+   M /trunk/client/assets/resources/cfg/recharge/cfg_new_first_recharge_goods.json
+   M /trunk/client/assets/resources/cfg/recharge/cfg_new_first_recharge_reward.json
+
+[???]?? ??-??
+------------------------------------------------------------------------

@@ -1,0 +1,138 @@
+=== 环境一致性诊断 ===
+
+[e:/] 共 37 项
+  'p1-x'  cp=U+0070+U+0031+U+002D+U+0078
+  'work'  cp=U+0077+U+006F+U+0072+U+006B
+  'workbuddy'  cp=U+0077+U+006F+U+0072+U+006B+U+0062+U+0075+U+0064+U+0064+U+0079
+  'workproject'  cp=U+0077+U+006F+U+0072+U+006B+U+0070+U+0072+U+006F+U+006A+U+0065+U+0063+U+0074
+
+[e:/] 共 37 项
+  'p1-x'  cp=U+0070+U+0031+U+002D+U+0078
+  'work'  cp=U+0077+U+006F+U+0072+U+006B
+  'workbuddy'  cp=U+0077+U+006F+U+0072+U+006B+U+0062+U+0075+U+0064+U+0064+U+0079
+  'workproject'  cp=U+0077+U+006F+U+0072+U+006B+U+0070+U+0072+U+006F+U+006A+U+0065+U+0063+U+0074
+
+=== 拼写变体探测 ===
+'e:/workproject'             isdir=True realpath=E:\workproject
+'e:/workproject'             isdir=True realpath=E:\workproject
+'e:/workproject'             isdir=True realpath=E:\workproject
+'e:/workproject'             isdir=True realpath=E:\workproject
+'e:/p1-x'                    isdir=True realpath=E:\p1-x
+'e:/p1-x'                    isdir=True realpath=E:\p1-x
+'e:/p1-x'                    isdir=True realpath=E:\p1-x
+
+=== 关键文件 md5（按拼写） ===
+temp_case/reports/rollback_state_probe.txt     e:/workproject=eec3de81da(12594B) | e:/workproject=eec3de81da(12594B) | e:/workproject=eec3de81da(12594B)
+temp_case/reports/svn_audit.txt                e:/workproject=c00f18e22e(16633B) | e:/workproject=c00f18e22e(16633B) | e:/workproject=c00f18e22e(16633B)
+temp_case/scripts/rollback_state_probe.py      e:/workproject=aca3a8e177(5853B) | e:/workproject=aca3a8e177(5853B) | e:/workproject=aca3a8e177(5853B)
+temp_case/scripts/svn_audit.py                 e:/workproject=67e40b3c95(1575B) | e:/workproject=67e40b3c95(1575B) | e:/workproject=67e40b3c95(1575B)
+temp_case/scripts/env_probe.py                 e:/workproject=01ea050da6(1567B) | e:/workproject=01ea050da6(1567B) | e:/workproject=01ea050da6(1567B)
+trunk/server/src/res/Config/box/cfg_box_base.lua e:/p1-x=50de38967f(1470B) | e:/p1-x=50de38967f(1470B) | e:/p1-x=50de38967f(1470B)
+trunk/client/assets/scripts/ui/treasurebox/UITreasureBoxNew.ts e:/p1-x=07d20d5db0(24604B) | e:/p1-x=07d20d5db0(24604B) | e:/p1-x=07d20d5db0(24604B)
+
+=== scripts 目录实际内容 ===
+[e:/workproject\temp_case\scripts]
+   '__pycache__'
+   '_append_lingchong_md.py'
+   '_check_v3_snippets.py'
+   '_check_v3c.py'
+   '_probe_atlas_dump.py'
+   'backfill_fabao_20260908.py'
+   'backfill_fabao_trae.py'
+   'backfill_fund_cases.py'
+   'backfill_lingchong_e2e.py'
+   'backfill_mibao_ani.py'
+   'backfill_mibao_e2e.py'
+   'backfill_pack_r3_20260909.py'
+   'diag2_fabao_v3.py'
+   'diag_fabao_v3.py'
+   'dump_mibao_cases.py'
+   'e2e_jump_close.py'
+   'env_diag.py'
+   'env_probe.py'
+   'extract_fb_issue_imgs.py'
+   'fabao_config_check.py'
+   'gen_fabao_cases.py'
+   'gen_lingchong_cases.py'
+   'gen_mibao_cases.py'
+   'gen_yueka_cases.py'
+   'login_fixed_13531.py'
+   'probe_1353_fabao.py'
+   'probe_1353_gm2.py'
+   'probe_1353_gm_unlock.py'
+   'probe_bag_dump.py'
+   'probe_fabao_atlas2.py'
+   'probe_fabao_current.py'
+   'probe_fund_entry.py'
+   'probe_fund_mainview.py'
+   'probe_fund_open.py'
+   'probe_fund_open2.py'
+   'probe_guaji_source.py'
+   'probe_item_names.py'
+   'probe_jump_svn_log.py'
+   'probe_login2_13531.py'
+   'probe_login3_13531.py'
+   'probe_login_13531.py'
+   'probe_mibao_page.py'
+   'probe_mibao_rate.py'
+   'probe_recruit_pity.py'
+   'probe_toggle_active.py'
+   'rollback_state_probe.py'
+   'svn_audit.py'
+   'update_fabao_battle.py'
+   'update_fabao_round2.py'
+[e:/workproject\temp_case\scripts]
+   '__pycache__'
+   '_append_lingchong_md.py'
+   '_check_v3_snippets.py'
+   '_check_v3c.py'
+   '_probe_atlas_dump.py'
+   'backfill_fabao_20260908.py'
+   'backfill_fabao_trae.py'
+   'backfill_fund_cases.py'
+   'backfill_lingchong_e2e.py'
+   'backfill_mibao_ani.py'
+   'backfill_mibao_e2e.py'
+   'backfill_pack_r3_20260909.py'
+   'diag2_fabao_v3.py'
+   'diag_fabao_v3.py'
+   'dump_mibao_cases.py'
+   'e2e_jump_close.py'
+   'env_diag.py'
+   'env_probe.py'
+   'extract_fb_issue_imgs.py'
+   'fabao_config_check.py'
+   'gen_fabao_cases.py'
+   'gen_lingchong_cases.py'
+   'gen_mibao_cases.py'
+   'gen_yueka_cases.py'
+   'login_fixed_13531.py'
+   'probe_1353_fabao.py'
+   'probe_1353_gm2.py'
+   'probe_1353_gm_unlock.py'
+   'probe_bag_dump.py'
+   'probe_fabao_atlas2.py'
+   'probe_fabao_current.py'
+   'probe_fund_entry.py'
+   'probe_fund_mainview.py'
+   'probe_fund_open.py'
+   'probe_fund_open2.py'
+   'probe_guaji_source.py'
+   'probe_item_names.py'
+   'probe_jump_svn_log.py'
+   'probe_login2_13531.py'
+   'probe_login3_13531.py'
+   'probe_login_13531.py'
+   'probe_mibao_page.py'
+   'probe_mibao_rate.py'
+   'probe_recruit_pity.py'
+   'probe_toggle_active.py'
+   'rollback_state_probe.py'
+   'svn_audit.py'
+   'update_fabao_battle.py'
+   'update_fabao_round2.py'
+
+=== NFC/NFD 归一化检查 ===
+'e:/workproject' NFC相同=True
+'e:/workproject' NFC相同=True
+'e:/p1-x' NFC相同=True

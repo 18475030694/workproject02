@@ -1,0 +1,300 @@
+{
+ "title": "法宝第二轮运行时(v3b, 1353+GM解锁, 内存patch)",
+ "base_url": "http://localhost:7456",
+ "account": "1353",
+ "server": "s5服",
+ "start_time": "2026-09-09T11:32:17",
+ "cases": [
+  {
+   "case_id": "TC000",
+   "title": "登录进主城(1353@S5)",
+   "passed": true,
+   "note": "账号1353"
+  },
+  {
+   "case_id": "TC000-unlock",
+   "title": "GM主线40关解锁法宝(8)/炼宝(9)",
+   "passed": true,
+   "note": "uuid=8589937358 is8=True is9=True"
+  },
+  {
+   "case_id": "TC054",
+   "title": "法宝主界面打开(UISoulRingDraw)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC024",
+   "title": "主界面无『灵力/万灵力』残留(处理2)",
+   "passed": true,
+   "note": "未见灵力文案"
+  },
+  {
+   "case_id": "TC040",
+   "title": "概率信息弹窗打开(UISoulRingDrawLvDesc)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC037",
+   "title": "概率行底图=probability_res(处理6,19:15改动)",
+   "passed": true,
+   "note": "hero_panel08底图=['hero_panel08_01', 'hero_panel08_02', 'hero_panel08_03', 'hero_panel08_04', 'hero_panel08_05'] 品质名文本=['每日仙宗', '决战圣虚', '大圣法宝', '<color=#8a3904>购买基金即可获大量<color=#ff73f7>神话</color>-大圣</color>', '-大圣', '凡人'] err=None"
+  },
+  {
+   "case_id": "TC055",
+   "title": "炼宝页签打开(UISoulRingDrawTabView)",
+   "passed": false,
+   "note": "openUI直开失败"
+  },
+  {
+   "case_id": "TC056",
+   "title": "图鉴打开(UISoulRingAtlas)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC020",
+   "title": "图鉴item阶数无年份残留(处理2)",
+   "passed": false,
+   "note": "年份样例=['300年', '80万年']"
+  },
+  {
+   "case_id": "TC044",
+   "title": "图鉴分类按钮数量与图标(处理8)",
+   "passed": true,
+   "note": "容器={'name': 'TogContent_', 'children': 11, 'childNames': ['TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_', 'TogTemp_']} 图标=['common_icon04_shaixuan_all', 'common_icon04_select', 'common_icon04_shaixuan02_fanpin', 'common_icon04_shaixuan02_liangpin', 'common_icon04_shaixuan02_jinpin', 'common_icon04_shaixuan02_zhenpin'] err=None"
+  },
+  {
+   "case_id": "TC045",
+   "title": "分类栏Toggle容器+toggle态(处理8,17:10增量)",
+   "passed": true,
+   "note": "toggleStates=[{'name': 'TogTemp_', 'checked': True}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}]"
+  },
+  {
+   "case_id": "TC046",
+   "title": "卡池未达标点仙品分类→提示+回弹(处理8/R2,cond=11)",
+   "passed": true,
+   "note": "pool_level=1 提示=[炼宝等级达到11级可查阅] 点击={'err': 'TypeError: last.emit is not a function'} 回弹后states=[{'name': 'TogTemp_', 'checked': True}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}, {'name': 'TogTemp_', 'checked': False}]"
+  },
+  {
+   "case_id": "TC014",
+   "title": "图鉴详情『初始阶数：X阶』(处理2,D1复核)",
+   "passed": true,
+   "note": "点击={'found': True, 'btnNode': 'RingAtlasItem'} desc开=True 文本=[初始阶数：1阶]"
+  },
+  {
+   "case_id": "TC009",
+   "title": "改quality外观应不变(解耦验证)",
+   "passed": true,
+   "note": "外观未随quality变化(需复核patch是否生效)"
+  },
+  {
+   "case_id": "TC007",
+   "title": "同quality不同group外观应不同(解耦验证)",
+   "passed": false,
+   "note": "FAIL证据: group1vs9外观相同 {\"6001\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\"}, \"6002g9\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\"}}"
+  },
+  {
+   "case_id": "TC008",
+   "title": "同group不同quality外观应相同(解耦验证)",
+   "passed": true,
+   "note": "同group不同quality外观相同(需复核patch是否生效)"
+  },
+  {
+   "case_id": "TC000-restore",
+   "title": "cfg内存patch已恢复(外观与基线一致)",
+   "passed": true,
+   "note": "{\"base\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\"}, \"restored\": {\"sf\": \"soul_ring_atlas_panel01_kuang07\", \"color\": \"#8999a1\"}}"
+  },
+  {
+   "case_id": "TC057",
+   "title": "法宝装配界面打开(UIHeroSoulRing)",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC041",
+   "title": "法宝列表显示基础属性(处理7)",
+   "passed": true,
+   "note": "见攻防血"
+  },
+  {
+   "case_id": "TC042",
+   "title": "装配面板属性与公式一致(处理7)",
+   "passed": false,
+   "note": "无法完成校验: err=no equipped ring 需GM造已装配数据后人工复核"
+  },
+  {
+   "case_id": "TC043",
+   "title": "长名不遮挡(名称在icon上方,布局检查)",
+   "passed": false,
+   "note": "未检测到名称+icon对: names=0 icons=0 err=None"
+  },
+  {
+   "case_id": "TC042-note",
+   "title": "角色面板SOUL_RING系统加成读取",
+   "passed": false,
+   "note": "{\"soulRingAttr\": []}"
+  },
+  {
+   "case_id": "EX06",
+   "title": "全程JS错误收集(基线)",
+   "passed": true,
+   "note": "共3837条, 分类={'D9_pool_idx0': 2, 'D9_quality_idx-1': 1, 'D10_jump_id': 25, 'D9_bone': 30}"
+  }
+ ],
+ "login_passed": true,
+ "sys_unlocked": true,
+ "js_errors": [
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')"
+ ],
+ "js_errors_classified": {
+  "D9_pool_idx0": 2,
+  "D9_quality_idx-1": 1,
+  "D10_jump_id": 25,
+  "D9_bone": 30
+ },
+ "gm": {
+  "uuid": 8589937358,
+  "set_mainline_stage": "OK: ERR<0, OK> REPLY: nil"
+ },
+ "patches": {
+  "base": {
+   "6001": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   },
+   "6002": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   }
+  },
+  "tc009": {
+   "before": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   },
+   "after": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   }
+  },
+  "tc007": {
+   "6001": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   },
+   "6002(g9)": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   }
+  },
+  "tc008": {
+   "6001": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   },
+   "6002(q7)": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   }
+  },
+  "restored": {
+   "6001": {
+    "sf": "soul_ring_atlas_panel01_kuang07",
+    "color": "#8999a1"
+   }
+  }
+ },
+ "probe": {
+  "fmtLevel_50": "50阶",
+  "pool_level": 1,
+  "ringMap_n": 0,
+  "skillIdSelected": 0,
+  "atlas_cond": 11,
+  "base_n": 72
+ },
+ "end_time": "2026-09-09T11:33:19",
+ "passed_count": 17,
+ "total_count": 23
+}

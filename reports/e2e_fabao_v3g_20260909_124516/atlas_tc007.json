@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "reset": {
+   "nToggles": 0,
+   "sfs": []
+  },
+  "scroll": {
+   "scrolled": true,
+   "n": 4
+  },
+  "count": 6,
+  "visCount": 3,
+  "err": null
+ },
+ "appearance": {
+  "items": [
+   {
+    "sf": "soul_ring_atlas_panel01_kuang08",
+    "x": 192,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[极]伏龙鼎",
+      "color": "#ee8545"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang08",
+    "x": 524,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[极]遁甲罗盘",
+      "color": "#ee8545"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang08",
+    "x": 856,
+    "y": 815,
+    "visY": false,
+    "labels": [
+     {
+      "text": "[极]紧箍",
+      "color": "#ee8545"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang08",
+    "x": 192,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[极]李广弓",
+      "color": "#ee8545"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang08",
+    "x": 524,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[极]混元伞",
+      "color": "#ee8545"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang08",
+    "x": 856,
+    "y": 396,
+    "visY": true,
+    "labels": [
+     {
+      "text": "[极]锁子黄金甲",
+      "color": "#ee8545"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   }
+  ],
+  "count": 6,
+  "visCount": 3
+ }
+}

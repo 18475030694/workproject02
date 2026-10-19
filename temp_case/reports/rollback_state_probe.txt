@@ -1,0 +1,255 @@
+=== 回退状态盘点 2026-09-28T15:17:28 ===
+
+[trunk] E:\p1-x\trunk exists=True
+  cfg_box_base.lua exists=True
+    md5=50de38967f939dbbe3f1ab04a2ae461c size=1470
+  ui_scripts (10): UITreasureBox.ts, UITreasureBox.ts.meta, UITreasureBoxNew.ts, UITreasureBoxNew.ts.meta, UITreasureBoxRewards.ts, UITreasureBoxRewards.ts.meta, UITreasureBoxRewardsNew.ts, UITreasureBoxRewardsNew.ts.meta, UITreasureBoxTabView.ts, UITreasureBoxTabView.ts.meta
+  prefabs (8): UITreasureBox.prefab, UITreasureBox.prefab.meta, UITreasureBoxNew.prefab, UITreasureBoxNew.prefab.meta, UITreasureBoxRewards.prefab, UITreasureBoxRewards.prefab.meta, UITreasureBoxRewardsNew.prefab, UITreasureBoxRewardsNew.prefab.meta
+
+[tag_new] E:\p1-x\tag_new exists=True
+  cfg_box_base.lua exists=True
+    md5=85e931d04c0f058d24707bf1169846a8 size=1374
+  ui_scripts (10): UITreasureBox.ts, UITreasureBox.ts.meta, UITreasureBoxNew.ts, UITreasureBoxNew.ts.meta, UITreasureBoxRewards.ts, UITreasureBoxRewards.ts.meta, UITreasureBoxRewardsNew.ts, UITreasureBoxRewardsNew.ts.meta, UITreasureBoxTabView.ts, UITreasureBoxTabView.ts.meta
+  prefabs (8): UITreasureBox.prefab, UITreasureBox.prefab.meta, UITreasureBoxNew.prefab, UITreasureBoxNew.prefab.meta, UITreasureBoxRewards.prefab, UITreasureBoxRewards.prefab.meta, UITreasureBoxRewardsNew.prefab, UITreasureBoxRewardsNew.prefab.meta
+
+[tag] E:\p1-x\tag exists=True
+  cfg_box_base.lua exists=True
+    md5=af873c2cdede2f56b931d52f7a3d66d2 size=1303
+  ui_scripts (6): UITreasureBox.ts, UITreasureBox.ts.meta, UITreasureBoxRewards.ts, UITreasureBoxRewards.ts.meta, UITreasureBoxTabView.ts, UITreasureBoxTabView.ts.meta
+  prefabs (4): UITreasureBox.prefab, UITreasureBox.prefab.meta, UITreasureBoxRewards.prefab, UITreasureBoxRewards.prefab.meta
+
+--- diff trunk vs tag_new (cfg_box_base.lua) ---
+  变更行数=22
+--- +++ @@ -1,55 +1,55 @@ return {
+ [6000] = {
+ 	box_id = 6000,
+-	box_name = [[<color=#6cc656>绿莹砂石</color>]],
++	box_name = [[<color=#6cc656>青纹灵钱</color>]],
+ 	record_type = 6,
+ 	score = 1,
+ 	cost = 1001,
+ 	is_section = 1,
+-	first_reward = {{5009,1},{2,50}},
++	first_reward = {},
+ 	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+ 	noticeDrawTimes = 30,
+ 	pack_pool = {},
+ },
+ [6001] = {
+ 	box_id = 6001,
+-	box_name = [[<color=#56aff3>蓝翡精石</color>]],
++	box_name = [[<color=#56aff3>澜海通宝</color>]],
+ 	record_type = 7,
+ 	score = 10,
+ 	cost = 1002,
+ 	is_section = 1,
+-	first_reward = {{5113,1},{3,5}},
++	first_reward = {},
+ 	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+ 	noticeDrawTimes = 30,
+ 	pack_pool = {},
+ },
+ [6002] = {
+ 	box_id = 6002,
+-	box_name = [[<color=#cd8dff>紫罗矿晶</color>]],
++	box_name = [[<color=#cd8dff>紫霄灵币</color>]],
+ 	record_type = 8,
+ 	score = 20,
+ 	cost = 1003,
+ 	is_section = 1,
+-	first_reward = {{5223,1},{5,5}},
++	first_reward = {},
+ 	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+ 	noticeDrawTimes = 30,
+ 	pack_pool = {},
+ },
+ [6003] = {
+ 	box_id = 6003,
+-	box_name = [[<color=#f0c03f>玄黄矿玉</color>]],
++	box_name = [[<color=#f0c03f>炎煌玄币</color>]],
+ 	record_type = 9,
+ 	score = 30,
+ 	cost = 1004,
+ 	is_section = 1,
+-	first_reward = {{5102,1},{9,5}},
++	first_reward = {},
+ 	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+ 	noticeDrawTimes = 30,
+-	pack_pool = {{{1,100}}},
++	pack_pool = {},
+ },
+ [6004] = {
+ 	box_id = 6004,
+-	box_name = [[<color=#ff5c5c>绯红灵玉</color>]],
++	box_name = [[<color=#ff5c5c>赤霄神币</color>]],
+ 	record_type = 10,
+ 	score = 0,
+ 	cost = 1005,
+@@ -57,6 +57,6 @@ 	first_reward = {},
+ 	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+ 	noticeDrawTimes = 10,
+-	pack_pool = {{{2,100}},{{2,100}},{{2,100}},{{2,100}}},
++	pack_pool = {{{2,100}}},
+ },
+ }
+
+--- diff trunk vs tag (cfg_box_base.lua) ---
+  变更行数=22
+--- +++ @@ -6,10 +6,8 @@ 	score = 1,
+ 	cost = 1001,
+ 	is_section = 1,
+-	first_reward = {{5009,1},{2,50}},
+-	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+-	noticeDrawTimes = 30,
+-	pack_pool = {},
++	first_reward = {{5222,1},{2,50}},
++	pack_pool = {{{6,500},{9,100},{12,9400}},{},{},{},{}},
+ },
+ [6001] = {
+ 	box_id = 6001,
+@@ -19,9 +17,7 @@ 	cost = 1002,
+ 	is_section = 1,
+ 	first_reward = {{5113,1},{3,5}},
+-	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+-	noticeDrawTimes = 30,
+-	pack_pool = {},
++	pack_pool = {{{6,500},{7,350},{9,100},{10,50},{12,9000}},{},{},{},{}},
+ },
+ [6002] = {
+ 	box_id = 6002,
+@@ -31,9 +27,7 @@ 	cost = 1003,
+ 	is_section = 1,
+ 	first_reward = {{5223,1},{5,5}},
+-	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+-	noticeDrawTimes = 30,
+-	pack_pool = {},
++	pack_pool = {{{6,600},{7,400},{9,400},{10,100},{12,8500}},{},{},{},{}},
+ },
+ [6003] = {
+ 	box_id = 6003,
+@@ -43,9 +37,7 @@ 	cost = 1004,
+ 	is_section = 1,
+ 	first_reward = {{5102,1},{9,5}},
+-	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+-	noticeDrawTimes = 30,
+-	pack_pool = {{{1,100}}},
++	pack_pool = {{{7,8000},{8,900},{10,1000},{11,100}},{{1,100}},{},{},{}},
+ },
+ [6004] = {
+ 	box_id = 6004,
+@@ -55,8 +47,6 @@ 	cost = 1005,
+ 	is_section = 0,
+ 	first_reward = {},
+-	rate = {{1,5200},{2,3000},{3,800},{4,600},{10,400}},
+-	noticeDrawTimes = 10,
+-	pack_pool = {{{2,100}},{{2,100}},{{2,100}},{{2,100}}},
++	pack_pool = {{{9,6000},{10,3000},{11,1000}},{{2,100}},{{2,100}},{{2,100}},{{2,100}}},
+ },
+ }
+
+=== 残留词扫描 [trunk] ===
+  扫描文件数=6844
+  [laohujituan] 命中文件=3 总次数=16
+       8  E:\p1-x\trunk\client\assets\resources\cfg\img_collection.json
+       4  E:\p1-x\trunk\client\assets\scripts\core\component\SlotMachineBox.ts
+       4  E:\p1-x\trunk\client\assets\scripts\logic\treasurebox\TreasureBoxMgr.ts
+  [仙机] 命中文件=10 总次数=10
+       1  E:\p1-x\trunk\client\assets\resources\cfg\bulletin\cfg_bulletin_msg.json
+       1  E:\p1-x\trunk\client\assets\resources\cfg\intelligence\cfg_intelligence_info.json
+       1  E:\p1-x\trunk\client\assets\resources\ui\prefab\treasurebox\UITreasureBoxNew.prefab
+       1  E:\p1-x\trunk\client\assets\scripts\battle\ReportBattleMgr.ts
+       1  E:\p1-x\trunk\client\assets\scripts\logic\GameEnum.ts
+       1  E:\p1-x\trunk\client\assets\scripts\ui\fight\UIMainlineFail.ts
+       1  E:\p1-x\trunk\client\assets\scripts\ui\treasurebox\UITreasureBoxTabView.ts
+       1  E:\p1-x\trunk\server\src\res\Config\bulletin\cfg_bulletin_msg.lua
+       1  E:\p1-x\trunk\server\src\res\Config\chat\cfg_sys_msg.lua
+       1  E:\p1-x\trunk\server\src\res\Config\intelligence\cfg_intelligence_info.lua
+  [老虎机] 命中文件=4 总次数=12
+       6  E:\p1-x\trunk\server\src\sensitive\words.txt
+       4  E:\p1-x\trunk\client\assets\scripts\logic\GameEnum.ts
+       1  E:\p1-x\trunk\client\assets\scripts\SensitiveWords.ts
+       1  E:\p1-x\trunk\client\assets\scripts\ui\soulbeasthurt\UISoulBeastHurtScene.ts
+
+=== 残留词扫描 [tag_new] ===
+  扫描文件数=6747
+  [laohujituan] 命中文件=3 总次数=16
+       8  E:\p1-x\tag_new\client\assets\resources\cfg\img_collection.json
+       4  E:\p1-x\tag_new\client\assets\scripts\core\component\SlotMachineBox.ts
+       4  E:\p1-x\tag_new\client\assets\scripts\logic\treasurebox\TreasureBoxMgr.ts
+  [仙机] 命中文件=54 总次数=537
+      98  E:\p1-x\tag_new\client\assets\resources\cfg\charge\cfg_charge_push_gift_pack.json
+      98  E:\p1-x\tag_new\server\src\res\Config\charge\cfg_charge_push_gift_pack.lua
+      70  E:\p1-x\tag_new\client\assets\resources\cfg\item\cfg_item_source.json
+      54  E:\p1-x\tag_new\client\assets\resources\cfg\yxact\cfg_yxact_multi_daily_task.json
+      48  E:\p1-x\tag_new\client\assets\resources\cfg\role\cfg_role_title.json
+      28  E:\p1-x\tag_new\client\assets\resources\cfg\task\cfg_mainline_task.json
+      24  E:\p1-x\tag_new\client\assets\resources\cfg\yxact\cfg_yxact_task.json
+      15  E:\p1-x\tag_new\client\assets\resources\cfg\warorder\cfg_warorder_task.json
+      14  E:\p1-x\tag_new\server\src\res\Config\log\cfg_item_log_type.lua
+       8  E:\p1-x\tag_new\client\assets\resources\cfg\item\cfg_item.json
+       8  E:\p1-x\tag_new\client\assets\resources\cfg\task\cfg_seven_daily_task.json
+       4  E:\p1-x\tag_new\client\assets\resources\cfg\yxact\cfg_yxact_buy_gift.json
+       3  E:\p1-x\tag_new\client\assets\resources\cfg\charge\cfg_charge_yxact_buy_gift.json
+       3  E:\p1-x\tag_new\client\assets\resources\cfg\langs\cfg_mainline_talking.json
+       3  E:\p1-x\tag_new\client\assets\resources\cfg\sysopen\cfg_sys_help.json
+  [老虎机] 命中文件=3 总次数=6
+       4  E:\p1-x\tag_new\client\assets\scripts\logic\GameEnum.ts
+       1  E:\p1-x\tag_new\client\assets\scripts\SensitiveWords.ts
+       1  E:\p1-x\tag_new\client\assets\scripts\ui\soulbeasthurt\UISoulBeastHurtScene.ts
+
+=== 残留词扫描 [tag] ===
+  扫描文件数=6695
+  [老虎机] 命中文件=3 总次数=4
+       2  E:\p1-x\tag\client\assets\scripts\logic\GameEnum.ts
+       1  E:\p1-x\tag\client\assets\scripts\SensitiveWords.ts
+       1  E:\p1-x\tag\client\assets\scripts\ui\soulbeasthurt\UISoulBeastHurtScene.ts
+
+=== trunk UITreasureBoxNew.ts 头部 3000 字 ===
+import { Animation, Button, Color, Label, Node, RichText, Sprite, Toggle, ToggleContainer, Tween, UIOpacity, UITransform, Vec3, macro, sp, tween } from 'cc';
+import { Const } from '../../Const';
+import RedPoint from '../../core/component/RedPoint';
+import { SlotMachineBox } from '../../core/component/SlotMachineBox';
+import { UIBase } from '../../core/ui/UIBase';
+import { RoleAnimType } from '../../fight/FightDefine';
+import { Global } from '../../Global';
+import { AdvertType } from '../../logic/advert/AdvertDef';
+import { RATE_TYPE, RedPointEnum, SoundEnum, TOGGLE_STATUS_TYPE } from '../../logic/GameEnum';
+import { SystemModules } from '../../logic/SystemConfig';
+import { TreasureBoxMgr } from '../../logic/treasurebox/TreasureBoxMgr';
+import { ICfgBoxBase } from '../../utils/ConfigDefine';
+import { eventEmit } from '../../utils/EventTarget';
+import { ShareRes } from '../../utils/ShareRes';
+import { Util } from '../../utils/Util';
+
+interface IUIModel {
+    LaGan_rect?: UITransform,LaGan_img?: Sprite,SlotMachineBox_rect?: UITransform,SlotPaoMaDengNd_rect?: UITransform,SlotSaoGuangEff_rect?: UITransform,Drop_rect?: UITransform,Drop_img?: Sprite,Bar_rect?: UITransform,Bar_img?: Sprite,ScoreValueTxt_rect?: UITransform,ScoreValueTxt_txt?: Label,ItemIcon_rect?: UITransform,ItemIcon_img?: Sprite,ExchangeBtn_rect?: UITransform,ExchangeBtn_img?: Sprite,ExchangeBtn_btn?: Button,ExchangeGrayBtn_rect?: UITransform,ExchangeGrayBtn_img?: Sprite,ExchangeGrayBtn_btn?: Button,BoxName_rect?: UITransform,BoxName_rich?: RichText,ItemDesc_rect?: UITransform,ItemDesc_rich?: RichText,BtnDetail_rect?: UITransform,BtnDetail_img?: Sprite,BtnDetail_btn?: Button,Center_rect?: UITransform,CheckSp_rect?: UITransform,CheckSp_img?: Sprite,BoxLayout_rect?: UITransform,BoxLayout_toglist?: ToggleContainer,NumLayout_rect?: UITransform,NumLayout_toglist?: ToggleContainer,OpenBtn_rect?: UITransform,OpenBtn_img?: Sprite,OpenBtn_btn?: Button,BtnName_rect?: UITransform,BtnName_txt?: Label,SkipTog_rect?: UITransform,SkipTog_img?: Sprite,SkipTog_btn?: Button,SkipTog_tog?: Toggle,BtnAdd_rect?: UITransform,BtnAdd_img?: Sprite,BtnAdd_btn?: Button,NumTxt_rect?: UITransform,NumTxt_txt?: Label,BtnClose_rect?: UITransform,BtnClose_btn?: Button,
+}
+
+export class UITreasureBoxNew extends UIBase {
+    private uiComponents: IUIModel = {};
+    private slotSaoGuangSp: sp.Skeleton = null;
+    private curIndex: number = 0;
+    private curNumIndex: number = 0;
+    private curOpenCount: number = 0;
+    private boxItemMap: { [key: number]: Node; } = {};
+    private numItemMap: { [key: number]: Node; } = {};
+    private cnfBoxBaseList: ICfgBoxBase[] = [];
+    private timerArr: any[] = [];
+    private boxPosXArr = [-330, -165, 0, 165, 330];
+    private numToggleStatusArr: TOGGLE_STATUS_TYPE[] = [];
+    private boxPosY = -133;
+    private laGanOriginScale: Vec3 = null;
+    /** 拉杆拉到底时压到的 Y 轴缩放比例（配合 anchor(0.5, 0.1) 的底部支点） */
+    private laGanPullScaleY = -1;
+    private timer1: any;
+    private startIndex: numb
+  kw[SlotMachineBox]=5
+  kw[isRolling]=0
+  kw[resultArray]=1
+  kw[slotMachine]=5
+  kw[LaGan]=5
+  kw[转轮]=0
+  kw[老虎]=0
+
+=== trunk 中引用 UITreasureBoxNew 的文件（除自身）：1 ===
+  E:\p1-x\trunk\client\assets\scripts\core\ui\UIConfig.ts lines=[831, 1349, 1350, 1351, 1352]

@@ -1,0 +1,172 @@
+{
+ "meta": {
+  "reset": {
+   "nToggles": 0,
+   "sfs": []
+  },
+  "scroll": {
+   "scrolled": true,
+   "n": 4
+  },
+  "appearance": {
+   "count": 10,
+   "err": null,
+   "open": null
+  }
+ },
+ "appearance": {
+  "items": [
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[圣]七宝妙树",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 524,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[圣]番天印",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 856,
+    "y": 815,
+    "labels": [
+     {
+      "text": "[圣]补天石",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[圣]虚天鼎",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 524,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[圣]斩仙飞刀",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 856,
+    "y": 396,
+    "labels": [
+     {
+      "text": "[圣]崆峒印",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": -23,
+    "labels": [
+     {
+      "text": "[圣]昆吾人皇剑",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 524,
+    "y": -23,
+    "labels": [
+     {
+      "text": "[圣]昆仑镜",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 856,
+    "y": -23,
+    "labels": [
+     {
+      "text": "[圣]无始钟",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   },
+   {
+    "sf": "soul_ring_atlas_panel01_kuang05",
+    "x": 192,
+    "y": -442,
+    "labels": [
+     {
+      "text": "[圣]创世鼎",
+      "color": "#de645d"
+     },
+     {
+      "text": "80万年",
+      "color": "#ffffff"
+     }
+    ]
+   }
+  ],
+  "count": 10
+ }
+}

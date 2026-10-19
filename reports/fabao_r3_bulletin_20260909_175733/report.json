@@ -1,0 +1,101 @@
+{
+  "time": "20260909_175733",
+  "account": "4451",
+  "phases": {
+    "day2": {
+      "error": "'神'",
+      "tb": "Traceback (most recent call last):\n  File \"E:\\workproject\\harness\\fabao_r3_bulletin.py\", line 275, in main\n    r = run_phase(page, day, log)\n  File \"E:\\workproject\\harness\\fabao_r3_bulletin.py\", line 241, in run_phase\n    r[\"color_check\"] = [\n  File \"E:\\workproject\\harness\\fabao_r3_bulletin.py\", line 242, in <listcomp>\n    {\"q\": b[\"q\"], \"color\": b[\"color\"], \"expect\": QCOLOR[b[\"q\"]],\nKeyError: '神'\n"
+    },
+    "day5": {
+      "day": 5,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x7d128c5d5d00"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 5,
+        "pool_level": 12,
+        "draw_times": 30290
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放2000个"
+      },
+      "stop": "stale @call7",
+      "draws_total": 160,
+      "drawn_q": {},
+      "bulletins": [],
+      "bulletin_q": {},
+      "chat_hits": 0,
+      "verdict": {
+        "神": "N/A(未抽中)",
+        "圣": "N/A(未抽中)",
+        "仙": "N/A(未抽中)"
+      },
+      "color_check": []
+    },
+    "day19": {
+      "day": 19,
+      "set_day": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: table: 0x7d1288adf100"
+      },
+      "hooks": {
+        "ok": true,
+        "hooks": {
+          "bulletin": "ok",
+          "chat": "ok",
+          "tips": "ok"
+        }
+      },
+      "qmap_size": 72,
+      "state": {
+        "serverDay": 19,
+        "pool_level": 12,
+        "draw_times": 30290
+      },
+      "award": {
+        "status": 200,
+        "body": "OK: ERR<0, OK> REPLY: <br/>实际发放2000个"
+      },
+      "stop": "stale @call7",
+      "draws_total": 160,
+      "drawn_q": {},
+      "bulletins": [],
+      "bulletin_q": {},
+      "chat_hits": 0,
+      "verdict": {
+        "神": "N/A(未抽中)",
+        "圣": "N/A(未抽中)",
+        "仙": "N/A(未抽中)"
+      },
+      "color_check": []
+    }
+  },
+  "role": {
+    "uuid": 8589937644,
+    "name": "戚北",
+    "lv": 9463,
+    "advance": 52,
+    "buddy_count": 45
+  },
+  "restore": {
+    "status": 200,
+    "body": "OK: ERR<0, OK> REPLY: table: 0x7d129d81a840",
+    "baseline": 101
+  },
+  "restore_check": {
+    "serverDay": 101,
+    "pool_level": 12,
+    "draw_times": 30290
+  }
+}

@@ -1,0 +1,65 @@
+======================================================================
+挂机奖励 E2E 测试报告（文字版）
+======================================================================
+用例编号   : TC_GUAJI_001
+用例标题   : 挂机奖励功能全流程测试（红点+领取+重置）
+目标地址   : http://localhost:7456
+测试账号   : 1351
+目标服务器 : s5服
+选服方式   : 兜底注入(localStorage)
+解析到的服 : svr_id=5 svr_name=s5
+运行模式   : 有头
+开始时间   : 2026-09-02T17:09:41
+结束时间   : None
+最终结果   : ❌ FAIL
+
+----------------------------------------------------------------------
+检查点明细
+----------------------------------------------------------------------
+  1. 挂机系统开放               ✅ PASS 已开放
+  2. 打开界面                 ✅ PASS UIGuaJi 已打开
+  3. 初始状态获取               ✅ PASS 
+  4. 红点触发                 ✅ PASS elapsed=138s, maxTime=14400, 主红点=False, 奖励红点=False
+  5. 按钮状态                 ❌ FAIL 
+
+----------------------------------------------------------------------
+步骤明细
+----------------------------------------------------------------------
+  1. 清空缓存并打开游戏            状态=done   2026-09-02T17:09:41 -> 2026-09-02T17:09:52
+  2. 切换账号                 状态=done   2026-09-02T17:09:52 -> 2026-09-02T17:09:57
+         备注: 账号已切换为 1351
+  3. 选服                   状态=done   2026-09-02T17:09:57 -> 2026-09-02T17:10:04
+         备注: 兜底注入选服 svr_id=5（svr_name=s5）
+  4. 点击登录                 状态=done   2026-09-02T17:10:04 -> 2026-09-02T17:10:05
+  5. 校验plat_login响应       状态=done   2026-09-02T17:10:05 -> 2026-09-02T17:10:06
+         备注: plat_login 成功 (errcode=0, serverId=5, serverName=S5)
+  6. 等待进主城并校验             状态=done   2026-09-02T17:10:06 -> 2026-09-02T17:10:10
+         备注: 已进入主城
+  7. 检查挂机系统开放状态           状态=done   2026-09-02T17:10:10 -> 2026-09-02T17:10:10
+  8. 打开挂机奖励界面             状态=done   2026-09-02T17:10:10 -> 2026-09-02T17:10:12
+  9. 获取初始状态记录             状态=done   2026-09-02T17:10:12 -> 2026-09-02T17:10:13
+  10. 验证红点触发逻辑             状态=done   2026-09-02T17:10:13 -> 2026-09-02T17:10:13
+  11. 验证领取按钮状态             状态=failed 2026-09-02T17:10:13 -> 2026-09-02T17:10:13
+         备注: 未找到 BtnGet 按钮
+
+初始状态:
+  服务器时间   : 1787976742
+  上次领取时间 : 1787976604
+  已累计秒数   : 138
+  主红点状态   : False
+  奖励红点状态 : False
+  奖励数量     : 3
+
+错误信息: 领取按钮不存在
+
+----------------------------------------------------------------------
+截图清单
+  opened           E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\01_opened.png
+  account_switched E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\02_account_switched.png
+  server_selected  E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\03_server_selected.png
+  login_clicked    E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\04_login_clicked.png
+  in_main_city     E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\05_in_main_city.png
+  sys_open         E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\06_sys_open.png
+  uiguaji_opened   E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\07_uiguaji_opened.png
+  error            E:\workproject\reports\e2e_guaji_reward_20260902_170941\screenshots\99_error.png
+======================================================================

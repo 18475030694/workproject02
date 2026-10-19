@@ -1,0 +1,222 @@
+{
+  "time": "20261015_194019",
+  "server": "5/S5",
+  "purpose": "大圣礼包(530001)改版前已购账号",
+  "accounts": [
+    {
+      "idx": 1,
+      "account": "2402",
+      "server": "5/S5",
+      "start": "2026-10-15T19:40:19",
+      "ok": false,
+      "before": {
+        "uuid": 8589935613,
+        "name": "崔曲",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "after_upgrade": {
+        "uuid": 8589935613,
+        "name": "崔曲",
+        "lv": 9557,
+        "advance": 52,
+        "buddy_count": 2
+      },
+      "uuid": 8589935613,
+      "popup": {
+        "popped": true,
+        "via": "openUI-fallback"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:58:27"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": false,
+        "err": "BtnBuy not found under UIWuKongGift"
+      },
+      "error": "点击购买失败: {'ok': False, 'err': 'BtnBuy not found under UIWuKongGift'}",
+      "note": "FAIL",
+      "end": "2026-10-15T19:42:18"
+    },
+    {
+      "idx": 2,
+      "account": "7968",
+      "server": "5/S5",
+      "start": "2026-10-15T19:42:18",
+      "ok": false,
+      "before": {
+        "uuid": 8589935684,
+        "name": "杨逸",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "after_upgrade": {
+        "uuid": 8589935684,
+        "name": "杨逸",
+        "lv": 9807,
+        "advance": 54,
+        "buddy_count": 0
+      },
+      "uuid": 8589935684,
+      "popup": {
+        "popped": true,
+        "via": "openUI-fallback"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:58:26"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": false,
+        "err": "BtnBuy not found under UIWuKongGift"
+      },
+      "error": "点击购买失败: {'ok': False, 'err': 'BtnBuy not found under UIWuKongGift'}",
+      "note": "FAIL",
+      "end": "2026-10-15T19:44:15"
+    },
+    {
+      "idx": 3,
+      "account": "2414",
+      "server": "5/S5",
+      "start": "2026-10-15T19:44:15",
+      "ok": false,
+      "before": {
+        "uuid": 8589935623,
+        "name": "微生天硕",
+        "lv": 1,
+        "advance": 0,
+        "buddy_count": 0
+      },
+      "after_upgrade": {
+        "uuid": 8589935623,
+        "name": "微生天硕",
+        "lv": 9006,
+        "advance": 50,
+        "buddy_count": 3
+      },
+      "uuid": 8589935623,
+      "popup": {
+        "popped": true,
+        "via": "openUI-fallback"
+      },
+      "popup_texts": [
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "1"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/ScrollView/view/Layout_/UIItem_/UIItem_/ItemCount_",
+          "name": "ItemCount_",
+          "active": true,
+          "text": "120"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/BtnBuy_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "￥12"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/TimeTxt_",
+          "name": "TimeTxt_",
+          "active": true,
+          "text": "23:58:27"
+        },
+        {
+          "path": "UIRootCamera/Tip/UIWuKongGift/SafeArea/AniContent/Time_/Label",
+          "name": "Label",
+          "active": true,
+          "text": "后礼包消失"
+        }
+      ],
+      "buy_click": {
+        "ok": false,
+        "err": "BtnBuy not found under UIWuKongGift"
+      },
+      "error": "点击购买失败: {'ok': False, 'err': 'BtnBuy not found under UIWuKongGift'}",
+      "note": "FAIL",
+      "end": "2026-10-15T19:46:12"
+    }
+  ],
+  "ok_count": 0,
+  "partial_count": 0
+}

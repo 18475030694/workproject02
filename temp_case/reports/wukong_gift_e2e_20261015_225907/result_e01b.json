@@ -1,0 +1,13 @@
+{
+ "group": "e01",
+ "time": "2026-10-16T00:11:26",
+ "server_time": "2026-10-24 00:11:26",
+ "results": [
+  {
+   "tc": "TC-E01b(0点后状态刷新)",
+   "pass": true,
+   "note": "复验（原FAIL为小步进拨时无效导致的时序伪失败）：8330于10-23 23:47购买（E01a通过），自然跨0点后重登读取 recv=[{day1:true},{day2:false}] cur_day=2 can_reward=true day_can=[false,true,false]——0点后正确刷新到第2天、无重复到账；且自然0点机制自动触发每日重置（player_daily_reset当时因离线未调用仍正确解锁）",
+   "evidence": []
+  }
+ ]
+}

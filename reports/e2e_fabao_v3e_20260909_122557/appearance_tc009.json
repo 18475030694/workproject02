@@ -1,0 +1,103 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang08",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[凡]御剑符",
+     "color": "#ee8545"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang08",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[极]伏龙鼎",
+     "color": "#ee8545"
+    },
+    {
+     "ring": "[极]遁甲罗盘",
+     "color": "#ee8545"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang08",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[极]遁甲罗盘",
+     "color": "#ee8545"
+    },
+    {
+     "ring": "[极]伏龙鼎",
+     "color": "#ee8545"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang08",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[极]紧箍",
+     "color": "#ee8545"
+    },
+    {
+     "ring": "[极]伏龙鼎",
+     "color": "#ee8545"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang08",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[极]李广弓",
+     "color": "#ee8545"
+    },
+    {
+     "ring": "[极]伏龙鼎",
+     "color": "#ee8545"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang08",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[极]混元伞",
+     "color": "#ee8545"
+    },
+    {
+     "ring": "[极]伏龙鼎",
+     "color": "#ee8545"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang08",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[极]锁子黄金甲",
+     "color": "#ee8545"
+    },
+    {
+     "ring": "[极]伏龙鼎",
+     "color": "#ee8545"
+    }
+   ]
+  }
+ ],
+ "count": 7,
+ "reset": {
+  "scrolled": true,
+  "nToggles": 0
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "items": [
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]九环锡杖",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]九环锡杖",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]九环锡杖",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]九环锡杖",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]九环锡杖",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]九环锡杖",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]化血神刀",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]化血神刀",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]幌金绳",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]幌金绳",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]玄重尺",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]玄重尺",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]玄火鉴",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]玄火鉴",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]如来金钵盂",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]如来金钵盂",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]三宝玉如意",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]三宝玉如意",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang10",
+   "node": "RingAtlasItem",
+   "rings": [
+    {
+     "ring": "[神]混元锤",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  },
+  {
+   "sf": "soul_ring_atlas_panel01_kuang_mask",
+   "node": "Mask",
+   "rings": [
+    {
+     "ring": "[神]混元锤",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]镇魂铃",
+     "color": "#de74cc"
+    },
+    {
+     "ring": "[神]凤翅紫金冠",
+     "color": "#de74cc"
+    }
+   ]
+  }
+ ],
+ "count": 20
+}

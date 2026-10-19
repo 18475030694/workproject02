@@ -1,0 +1,20 @@
+{
+ "state": {
+  "owned": 0,
+  "equipped": 0,
+  "skillIdSelected": 500910
+ },
+ "data": {
+  "err": "无已穿戴法宝",
+  "owned": 0
+ },
+ "panel": {
+  "panelVisible": false,
+  "attrVals": [
+   "+4159",
+   "+4159",
+   "+4159"
+  ],
+  "name": "蛟龙法宝"
+ }
+}

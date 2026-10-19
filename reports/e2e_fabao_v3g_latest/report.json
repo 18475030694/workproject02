@@ -1,0 +1,174 @@
+{
+ "title": "法宝第二轮v3g收尾复测",
+ "account": "1353",
+ "start_time": "2026-09-09T12:45:16",
+ "cases": [
+  {
+   "case_id": "TC000",
+   "title": "登录进主城",
+   "passed": true,
+   "note": ""
+  },
+  {
+   "case_id": "TC055-tab",
+   "title": "炼宝/法宝总览页签切换(UICommonTabView容器)",
+   "passed": true,
+   "note": "点总览={'ok': True, 'label': '法宝总览', 'nToggles': 2} atlas激活=1 点炼宝={'ok': True, 'label': '炼宝', 'nToggles': 2} draw激活=1"
+  },
+  {
+   "case_id": "TC000-ctrl",
+   "title": "对照补丁生效性(quality表atlas_res改后外观应变化)",
+   "passed": false,
+   "note": "{\"base\": null, \"ctrl\": null, \"detail\": {\"quality.1.atlas_res\": \"soul_ring_atlas_panel01_kuang07->soul_ring_atlas_panel01_kuang03\"}}"
+  },
+  {
+   "case_id": "TC009",
+   "title": "改quality外观应不变(解耦验证)",
+   "passed": false,
+   "note": "对照组未生效 patch链路存疑 readback={'q': 7, 'g': 1}"
+  },
+  {
+   "case_id": "TC007",
+   "title": "同quality不同group外观应不同(解耦验证)",
+   "passed": false,
+   "note": "同quality不同group外观已不同 {\"6001\": null, \"6002g5\": null}"
+  },
+  {
+   "case_id": "TC008",
+   "title": "同group不同quality外观应相同(解耦验证)",
+   "passed": false,
+   "note": "同group不同quality外观相同(解耦成立) {\"6002before\": null, \"6002q7\": null}"
+  },
+  {
+   "case_id": "TC000-restore",
+   "title": "cfg内存patch已恢复(外观与基线一致)",
+   "passed": false,
+   "note": "{\"base\": null, \"restored\": null}"
+  },
+  {
+   "case_id": "EX06",
+   "title": "全程JS错误收集(含pageerror源定位)",
+   "passed": true,
+   "note": "console错误5743条, 分类={'D9_pool': 2, 'D9_quality_idx-1': 37, 'D10_jump_id': 25, 'D9_bone': 30, 'pageerror_null_x': 2823}, 阶段分布={'main_city': 0, 'draw_open': 113, 'after_atlas': 400}, pageerror_stack样本=[\"TypeError: Cannot read properties of null (reading 'x')\\n    at Vec3.copy (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:142388:21)\\n    at Node.setPosition (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:53954:18)\\n    at Node.set (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:54631:18)\\n    at SceneMap.playSceneEff (http://localhost:7456/scripting/x/chunks/46/46697d83f93f2874f752cf63cead6e452e3e04d8.js:3800:31)\\n    at UIManHuaPage1.hideCallBack (http://localhost:7456/scripting/x/chunks/a3/a38de4c42ea57d376358495913f5e67e91276cbf.js:264:63)\\n    at http://localhost:7456/scripting/x/chunks/47/47288066d34505505a04ad05396611d8b110551e.js:229:39\\n    at CallFunc.execute (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:279344:28)\\n    at CallFunc.update (http://localhost:\"]"
+  }
+ ],
+ "gm": {},
+ "err_phases": {
+  "main_city": 0,
+  "draw_open": 113,
+  "after_atlas": 400
+ },
+ "err_stacks": [
+  "TypeError: Cannot read properties of null (reading 'x')\n    at Vec3.copy (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:142388:21)\n    at Node.setPosition (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:53954:18)\n    at Node.set (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:54631:18)\n    at SceneMap.playSceneEff (http://localhost:7456/scripting/x/chunks/46/46697d83f93f2874f752cf63cead6e452e3e04d8.js:3800:31)\n    at UIManHuaPage1.hideCallBack (http://localhost:7456/scripting/x/chunks/a3/a38de4c42ea57d376358495913f5e67e91276cbf.js:264:63)\n    at http://localhost:7456/scripting/x/chunks/47/47288066d34505505a04ad05396611d8b110551e.js:229:39\n    at CallFunc.execute (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:279344:28)\n    at CallFunc.update (http://localhost:",
+  "TypeError: Cannot read properties of null (reading 'x')\n    at Vec3.copy (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:142388:21)\n    at Node.setPosition (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:53954:18)\n    at Node.set (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:54631:18)\n    at SceneMap.playSceneEff (http://localhost:7456/scripting/x/chunks/46/46697d83f93f2874f752cf63cead6e452e3e04d8.js:3800:31)\n    at UIManHuaPage1.hideCallBack (http://localhost:7456/scripting/x/chunks/a3/a38de4c42ea57d376358495913f5e67e91276cbf.js:264:63)\n    at http://localhost:7456/scripting/x/chunks/47/47288066d34505505a04ad05396611d8b110551e.js:229:39\n    at CallFunc.execute (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:279344:28)\n    at CallFunc.update (http://localhost:",
+  "TypeError: Cannot read properties of null (reading 'x')\n    at Vec3.copy (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:142388:21)\n    at Node.setPosition (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:53954:18)\n    at Node.set (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:54631:18)\n    at SceneMap.playSceneEff (http://localhost:7456/scripting/x/chunks/46/46697d83f93f2874f752cf63cead6e452e3e04d8.js:3800:31)\n    at UIManHuaPage1.hideCallBack (http://localhost:7456/scripting/x/chunks/a3/a38de4c42ea57d376358495913f5e67e91276cbf.js:264:63)\n    at http://localhost:7456/scripting/x/chunks/47/47288066d34505505a04ad05396611d8b110551e.js:229:39\n    at CallFunc.execute (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:279344:28)\n    at CallFunc.update (http://localhost:",
+  "TypeError: Cannot read properties of null (reading 'x')\n    at Vec3.copy (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:142388:21)\n    at Node.setPosition (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:53954:18)\n    at Node.set (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:54631:18)\n    at SceneMap.playSceneEff (http://localhost:7456/scripting/x/chunks/46/46697d83f93f2874f752cf63cead6e452e3e04d8.js:3800:31)\n    at UIManHuaPage1.hideCallBack (http://localhost:7456/scripting/x/chunks/a3/a38de4c42ea57d376358495913f5e67e91276cbf.js:264:63)\n    at http://localhost:7456/scripting/x/chunks/47/47288066d34505505a04ad05396611d8b110551e.js:229:39\n    at CallFunc.execute (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:279344:28)\n    at CallFunc.update (http://localhost:"
+ ],
+ "js_errors_classified": {
+  "D9_pool": 2,
+  "D9_quality_idx-1": 37,
+  "D10_jump_id": 25,
+  "D9_bone": 30,
+  "pageerror_null_x": 2823
+ },
+ "patches": {
+  "base": {
+   "6001": null,
+   "6002": null,
+   "meta": {
+    "reset": {
+     "nToggles": 11,
+     "sfs": [
+      "common_icon04_shaixuan_all",
+      "common_icon04_shaixuan02_fanpin",
+      "common_icon04_shaixuan02_liangpin",
+      "common_icon04_shaixuan02_jinpin",
+      "common_icon04_shaixuan02_zhenpin",
+      "common_icon04_shaixuan02_lingpin",
+      "common_icon04_shaixuan02_xuanpin",
+      "common_icon04_shaixuan02_jipin",
+      "common_icon04_shaixuan02_shenpin",
+      "common_icon04_shaixuan02_shengpin",
+      "common_icon04_shaixuan02_xianpin"
+     ],
+     "clicked": true,
+     "node": "TogTemp_"
+    },
+    "scroll": {
+     "scrolled": true,
+     "n": 7
+    },
+    "count": 20,
+    "visCount": 6,
+    "err": null
+   },
+   "visible_sf": [
+    "soul_ring_atlas_panel01_kuang01"
+   ]
+  }
+ },
+ "js_errors": [
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')",
+  "ErrorEvent",
+  "pageerror: Cannot read properties of null (reading 'x')"
+ ],
+ "end_time": "2026-09-09T12:46:34",
+ "out_dir": "E:\\workproject\\reports\\e2e_fabao_v3g_20260909_124516"
+}

@@ -1,0 +1,13 @@
+{
+  "group": "state",
+  "time": "2026-10-15T22:59:36",
+  "server_time": "2026-10-24 00:11:56",
+  "results": [
+    {
+      "tc": "STATE",
+      "pass": true,
+      "note": "{\"has_gift\": true, \"map_size\": 1, \"gift\": {\"goods_id\": 530001, \"end_time\": -1, \"recv_record_list\": [{\"day\": 1, \"status\": true}, {\"day\": 2, \"status\": false}]}, \"cur_day\": 2, \"can_reward\": true, \"day_can\": [false, true, false]}",
+      "evidence": []
+    }
+  ]
+}

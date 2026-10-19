@@ -1,0 +1,79 @@
+{
+ "content": {
+  "name": "TogContent_",
+  "children": 11,
+  "childNames": [
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_",
+   "TogTemp_"
+  ]
+ },
+ "sprites": [
+  "common_icon04_shaixuan_all",
+  "common_icon04_select",
+  "common_icon04_shaixuan02_fanpin",
+  "common_icon04_shaixuan02_liangpin",
+  "common_icon04_shaixuan02_jinpin",
+  "common_icon04_shaixuan02_zhenpin",
+  "common_icon04_shaixuan02_lingpin",
+  "common_icon04_shaixuan02_xuanpin",
+  "common_icon04_shaixuan02_jipin",
+  "common_icon04_shaixuan02_shenpin",
+  "common_icon04_shaixuan02_shengpin",
+  "common_icon04_shaixuan02_xianpin"
+ ],
+ "toggleStates": [
+  {
+   "name": "TogTemp_",
+   "checked": true
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  },
+  {
+   "name": "TogTemp_",
+   "checked": false
+  }
+ ]
+}
